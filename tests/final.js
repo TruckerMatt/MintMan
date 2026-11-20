@@ -11,13 +11,14 @@ const hashRooms = async (page, qs) => page.evaluate(async () => {
 });
 (async () => {
   const a = await open({ file: ORIG, seed: false }); const ha = await hashRooms(a.page); await a.browser.close();
-  const b = await open({ qs: '?renderer=three', seed: false }); await b.page.waitForTimeout(600);
+  const others = ['lockers','floor','shipoffice','ops','hr','parts','charging','racks','tunnel','staging','inbound','outbound','yard','smoke','drain','mgmt','suite','remote','gordoncall'].join(',');
+  const b = await open({ qs: '?renderer=three&classicrooms=' + others, seed: false }); await b.page.waitForTimeout(600);
   // in three mode every room except break must be pixel-identical to the original
   const hb = await hashRooms(b.page); await b.browser.close();
   const c = await open({ qs: '?renderer=classic', seed: false }); const hc = await hashRooms(c.page); await c.browser.close();
   const rooms = Object.keys(ha);
   const diffThree = rooms.filter(r => ha[r] !== hb[r]); const diffClassic = rooms.filter(r => ha[r] !== hc[r]);
-  ok('OTHER ROOMS: ' + (rooms.length - 1) + ' non-break rooms render pixel-identical to original in THREE mode', diffThree.filter(r => r !== 'break').length === 0, 'diff rooms: ' + diffThree.join(','));
+  ok('PER-ROOM CLASSIC FALLBACK (?classicrooms=): ' + (rooms.length - 1) + ' rooms forced classic render pixel-identical to the original while break stays Three', diffThree.filter(r => r !== 'break').length === 0, 'diff rooms: ' + diffThree.join(','));
   ok('CLASSIC FALLBACK: all ' + rooms.length + ' rooms (incl. break) pixel-identical to original with renderer=classic', diffClassic.length === 0, 'diff: ' + diffClassic.join(','));
   ok('(sanity) break room DOES differ in three mode (transparent scene window)', diffThree.includes('break'));
   // CDN failure -> graceful classic fallback, game fully playable

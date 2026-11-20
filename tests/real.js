@@ -19,7 +19,7 @@ const SH = require('path').join(__dirname,'shots')+'/';
   let s = await st();
   ok('TEST 1: new game opens in break room, Three active, canvas shown', s.room === 'break' && s.active && s.shown === 'block' && n >= 0, 'dialogue pages advanced=' + n);
   await page.screenshot({ path: SH + 't1_newgame_three.png' });
-  ok('TEST 1: three-state flags at start (flyer, battery, bowl, label, radio blink all shown)', s.mm.flyer && s.mm.battery && s.mm.bowl && s.mm.label && s.mm.blink);
+  ok('TEST 1: three-state flags at start (flyer, battery, bowl, label, radio blink all shown)', s.mm.dyn.flyer && s.mm.dyn.battery && s.mm.dyn.bowl && s.mm.dyn.label && s.mm.dyn.blink);
 
   // ---- TEST 2: movement via real clicks on the floor
   for (const [x, y] of [[200, 125], [60, 130], [150, 100], [240, 120]]) {
@@ -39,13 +39,13 @@ const SH = require('path').join(__dirname,'shots')+'/';
 
   // ---- TEST 5a/4: clock battery then scanner; radio via Juno at the gap
   await verb('TAKE'); let c = await center('clock'); await click(c[0], c[1]); await advance(); s = await st();
-  ok('TEST 5: TAKE clock gives scanner battery (3D battery pack hidden)', s.inv.includes('sbat') && !s.mm.battery);
+  ok('TEST 5: TAKE clock gives scanner battery (3D battery pack hidden)', s.inv.includes('sbat') && !s.mm.dyn.battery);
   await verb('USE'); await invSlot('sbat'); await invSlot('scanner'); await advance(); s = await st();
   ok('TEST 5: USE battery on scanner -> scanner_live', s.f.scanner_live && !s.inv.includes('sbat'));
   await verb('JUNO'); c = await center('gap'); await click(c[0], c[1]);
   for (let i = 0; i < 100; i++) { await advance(2); const done = await page.evaluate(() => G.S.f.radio_found && !G.busy); if (done) break; await page.waitForTimeout(150); }
   await advance(); s = await st();
-  ok('TEST 4: Juno fetches radio from the gap (radio in inventory, blink hidden in 3D)', s.inv.includes('radio') && s.f.radio_found && !s.mm.blink);
+  ok('TEST 4: Juno fetches radio from the gap (radio in inventory, blink hidden in 3D)', s.inv.includes('radio') && s.f.radio_found && !s.mm.dyn.blink);
   await page.screenshot({ path: SH + 't4_after_radio.png' });
 
   // ---- TEST 6: vending machine (quarters from couch, buy crackers via menu)
@@ -89,7 +89,7 @@ const SH = require('path').join(__dirname,'shots')+'/';
   await page.evaluate(() => { startGame(true); }); await page.waitForTimeout(700); await advance(60); await page.waitForTimeout(500); s = await st();
   const same = await page.evaluate((a) => { const b = JSON.parse(a), g = G.S; return b.room === g.room && JSON.stringify(b.inv) === JSON.stringify(g.inv) && JSON.stringify(b.f) === JSON.stringify(g.f); }, savedState);
   ok('TEST 10: save/load restores room, inventory, flags', same);
-  ok('TEST 10: 3D visuals match loaded game flags (flyer/battery/bowl/label/radio-blink)', s.active && s.mm.flyer === !s.f.took_flyer && s.mm.battery === !s.f.clock_battery && s.mm.bowl === !s.f.bowl1_taken && s.mm.label === !s.f.took_label && s.mm.blink === !s.f.radio_found && s.f.clock_battery && s.f.radio_found && !s.mm.battery && !s.mm.blink, JSON.stringify(s.mm));
+  ok('TEST 10: 3D visuals match loaded game flags (flyer/battery/bowl/label/radio-blink)', s.active && s.mm.dyn.flyer === !s.f.took_flyer && s.mm.dyn.battery === !s.f.clock_battery && s.mm.dyn.bowl === !s.f.bowl1_taken && s.mm.dyn.label === !s.f.took_label && s.mm.dyn.blink === !s.f.radio_found && s.f.clock_battery && s.f.radio_found && !s.mm.dyn.battery && !s.mm.dyn.blink, JSON.stringify(s.mm));
   await page.screenshot({ path: SH + 't10_after_load.png' });
 
   // ---- TEST 11: Mint Mode (test-state setup; real 'M' key)
