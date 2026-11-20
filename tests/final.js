@@ -1,6 +1,6 @@
 const { open } = require('./lib');
 const R = []; const ok = (n, c, d) => { R.push([n, !!c, d || '']); console.log((c ? 'PASS ' : 'FAIL ') + n + (d ? '  — ' + d : '')); };
-const ORIG = '/root/.claude/uploads/686959aa-f363-523b-bc81-bfa66f84208e/60512b86-MINT_MAN_TUESDAY_LOGIC_REBUILD.html';
+const ORIG = require('path').join(require('./lib').ROOT, 'legacy', 'MINT_MAN_TUESDAY_LOGIC_REBUILD.html');
 const hashRooms = async (page, qs) => page.evaluate(async () => {
   await G.newGameFast(); G.fast = false; const out = {};
   for (const id of Object.keys(G.rooms)) {

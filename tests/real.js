@@ -1,7 +1,7 @@
 const { open } = require('./lib');
 const R = []; const ok = (n, c, d) => { R.push([n, !!c, d || '']); console.log((c ? 'PASS ' : 'FAIL ') + n + (d ? '  — ' + d : '')); };
 const noise = l => /GPU stall|useLegacyLights|ReadPixels|\[MM3\] Three/.test(l);
-const SH = '/tmp/w/t/shots/';
+const SH = require('path').join(__dirname,'shots')+'/';
 (async () => {
   let { browser, page, logs } = await open({ seed: false });
   const rect = async () => page.evaluate(() => { const r = document.getElementById('game').getBoundingClientRect(); return { x: r.left, y: r.top, w: r.width, h: r.height }; });
