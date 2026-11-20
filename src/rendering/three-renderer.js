@@ -69,7 +69,7 @@ window.MM3 = window.MM3 || { rooms: {} };
   MM3.loadThreeRoom = function (id) {
     MM3.disposeThreeRoom();
     const group = new T.Group(); X.scene.add(group);
-    const def = MM3.rooms[id] || MM3.autoRoom(id);
+    let def = MM3.rooms[id]; if (typeof def === 'function') def = def(); else if (!def) def = MM3.autoRoom(id);   // rooms[id] may be a hand-built module or a factory
     applyLights(def.lights);
     def.build(K, group, X);
     cur = { id, group, def }; perf.rooms++;

@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "description": "Looping room ambience beds, cross-faded on room change. Room -> id mapping lives in MMAudio.ROOM_AMBIENCE (src/audio.js).",
+  "schema": {
+    "id": "ambience id (see ROOM_AMBIENCE)",
+    "file": "path or null (null = silence)",
+    "volume": "0..1 loop gain",
+    "rooms": "informational list of room ids that use it"
+  },
+  "entries": [
+    {
+      "id": "breakroom_hum",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "break"
+      ]
+    },
+    {
+      "id": "warehouse_floor",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "floor"
+      ]
+    },
+    {
+      "id": "locker_room",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "lockers"
+      ]
+    },
+    {
+      "id": "shipping_office",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "shipoffice"
+      ]
+    },
+    {
+      "id": "operations_office",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "ops"
+      ]
+    },
+    {
+      "id": "hr_office",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "hr"
+      ]
+    },
+    {
+      "id": "warehouse_parts",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "parts"
+      ]
+    },
+    {
+      "id": "charging_bay",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "charging"
+      ]
+    },
+    {
+      "id": "warehouse_racks",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "racks"
+      ]
+    },
+    {
+      "id": "tunnel_drone",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "tunnel"
+      ]
+    },
+    {
+      "id": "warehouse_staging",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "staging"
+      ]
+    },
+    {
+      "id": "loading_dock",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "inbound",
+        "outbound"
+      ]
+    },
+    {
+      "id": "yard_exterior",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "yard",
+        "smoke",
+        "drain",
+        "remote"
+      ]
+    },
+    {
+      "id": "regional_lobby",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "mgmt"
+      ]
+    },
+    {
+      "id": "regional_suite",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "suite"
+      ]
+    },
+    {
+      "id": "phone_line",
+      "file": null,
+      "volume": 0.6,
+      "rooms": [
+        "gordoncall"
+      ]
+    }
+  ]
+}

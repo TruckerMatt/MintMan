@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "description": "External sound effects. Each id equals the name the engine already passes to Snd.play(); when `file` is set and loaded it replaces the synth effect, otherwise the synth plays. Replace one entry at a time.",
+  "schema": {
+    "id": "Snd.play name",
+    "file": "path or null (null = keep synth)",
+    "volume": "optional 0..1",
+    "notes": "optional"
+  },
+  "entries": [
+    {
+      "id": "click",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "beep",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "scan",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "scanfail",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "pickup",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "reverse",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "dock",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "bump",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "pallet",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "printer",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "radio",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "buzz",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "vend",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "bark",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "meow",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "meows",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "card",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "mint",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "fail",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "win",
+      "file": null,
+      "volume": 1
+    },
+    {
+      "id": "kpi",
+      "file": null,
+      "volume": 1
+    }
+  ]
+}

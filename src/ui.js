@@ -24,7 +24,8 @@ async function sayImpl(line) {
   const lines = wrap(text, 292, '7px "Courier New", monospace'); ctx.restore();
   const pages = []; for (let i = 0; i < lines.length; i += 4) pages.push(lines.slice(i, i + 4));
   for (const p of pages) {
-    await new Promise(res => { G.say = { who, lines: p, res, t: G.t }; });
+    await new Promise(res => { G.say = { who, lines: p, res, t: G.t }; if (typeof MMAudio !== 'undefined') { try { MMAudio.onSayPage(who, text, pages.indexOf(p)); } catch (e) { } } });   // audio seam: subtitle shows regardless; VO (if any) is fire-and-forget
+    if (typeof MMAudio !== 'undefined') { try { MMAudio.stopVoice(); } catch (e) { } }   // advancing interrupts the clip
     G.say = null;
   }
 }

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "description": "Voice-over records. Dialogue lines are matched at runtime by (speaker, exact text) so no engine ids are needed; `id` is for humans/tools. Empty until the ElevenLabs phase.",
+  "schema": {
+    "id": "string, unique, e.g. hollis_act6_warehouse_right",
+    "speaker": "HOLLIS | NARRATOR | INGRID ... (the speaker tag used in dialogue; NARRATOR for untagged lines)",
+    "text": "the exact dialogue text as shown on screen (without the 'SPEAKER: ' prefix)",
+    "file": "relative path under the project root, e.g. assets/audio/voice/hollis/vo_hollis_act6_warehouse_right.mp3",
+    "volume": "optional 0..1 gain",
+    "notes": "optional free text (direction, take number, ...)"
+  },
+  "entries": []
+}

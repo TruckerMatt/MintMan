@@ -77,11 +77,11 @@ const SH = require('path').join(__dirname,'shots')+'/';
 
   // ---- TEST 8: exits (leave -> classic, return -> three)
   await click(305, 70); await page.waitForTimeout(2500); await advance(); s = await st();
-  ok('TEST 8: exit to lockers: room=lockers, Three canvas hidden (classic renderer)', s.room === 'lockers' && !s.active && s.shown === 'none');
+  ok('TEST 8: exit to lockers: room=lockers, rendered by Three (built room == lockers)', s.room === 'lockers' && s.active && s.shown === 'block' && s.mm.room === 'lockers');
   await page.screenshot({ path: SH + 't8_lockers_classic.png' });
   const ex = await page.evaluate(() => { const e = G.rooms.lockers.exits.find(e => e.to === 'break'); return [e.r[0] + e.r[2] / 2, e.r[1] + 4]; });   // top of the exit rect (Juno stands over its middle on arrival; same in classic)
   await click(ex[0], ex[1]); for (let i = 0; i < 120; i++) { await page.waitForTimeout(100); if ((await page.evaluate(() => G.S.room)) === 'break') break; } await page.waitForTimeout(600); await advance(); s = await st();
-  ok('TEST 8: returned to break room, Three renderer resumed (' + s.room + ')', s.room === 'break' && s.active && s.shown === 'block');
+  ok('TEST 8: returned to break room, 3D break room rebuilt (' + s.room + ')', s.room === 'break' && s.active && s.shown === 'block');
 
   // ---- TEST 10: save / reload / continue
   await page.evaluate(() => { G.pendingSave = false; return saveGame(); }); const savedState = await page.evaluate(() => JSON.stringify(G.S)); const sbefore = await st();
