@@ -68,6 +68,7 @@ MM3.THEMES = {
           if (p.mintTag) this.addCage(p);
         }
         for (const q of rec0.persons) this.persons.push({ x: q.x, y: q.y, o: q.o, prop: 'bg' }); for (const q of rec0.cats) this.extraCats.push(q);
+        if (spec && spec.extra) { try { const m = spec.extra(K, S, this.ctx, this); if (m) this.props.add(m); } catch (e) { console.warn('[MM3] extra failed', id, e && e.message); } }   // state-dependent room geometry (rebuilt with the props)
         if (spec && spec.shell) K.mergeStatic(this.props);
         this.buildRigs();
       },
