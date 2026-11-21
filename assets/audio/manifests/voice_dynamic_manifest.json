@@ -906,37 +906,6 @@
  ],
  "blocked_fragments": [
   {
-   "id": "vo_ingrid_525c70e1bb",
-   "speaker": "INGRID",
-   "channel": "normal",
-   "tier": "D_blocked_dynamic",
-   "generate": false,
-   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
-   "text": "Every request creates work. That's the rule. You want the manifests? I want:",
-   "tts_text": "Every request creates work. That's the rule. You want the manifests? I want:",
-   "tts_notes": [],
-   "chars": 76,
-   "scene": "shipoffice",
-   "category": "direct_say",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_525c70e1bb.mp3",
-   "source": [
-    {
-     "file": "src/story.js",
-     "line": 384
-    }
-   ],
-   "legacy_lines": [
-    1723
-   ],
-   "review_reasons": [
-    "dynamic_fragment_not_asset_ready"
-   ]
-  },
-  {
    "id": "vo_ingrid_8b1645a9be",
    "speaker": "INGRID",
    "channel": "normal",

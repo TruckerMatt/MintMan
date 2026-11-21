@@ -5,12 +5,12 @@
   {
    "speaker": "NARRATOR",
    "role": "Omniscient narrator (most lines)",
-   "lines": 533,
-   "lines_ready": 445,
-   "characters": 51902,
-   "characters_ready": 39981,
+   "lines": 679,
+   "lines_ready": 591,
+   "characters": 64555,
+   "characters_ready": 52634,
    "channels": {
-    "normal": 533
+    "normal": 679
    },
    "scenes": [
     "break",
@@ -29,8 +29,8 @@
    "voice_status": "locked",
    "audition_lines": [
     {
-     "id": "vo_narrator_966368e222",
-     "text": "Gus is bigger than the door he guards. Hollis leaves him where he is.",
+     "id": "vo_narrator_7b2fa0660d",
+     "text": "Hollis slides the pallet jack under A1. It groans with mechanical trust.",
      "line_direction": ""
     },
     {
@@ -49,12 +49,12 @@
   {
    "speaker": "SCANNER",
    "role": "Handheld scanner device",
-   "lines": 58,
-   "lines_ready": 26,
-   "characters": 5762,
-   "characters_ready": 2441,
+   "lines": 113,
+   "lines_ready": 81,
+   "characters": 10447,
+   "characters_ready": 7126,
    "channels": {
-    "normal": 58
+    "normal": 113
    },
    "scenes": [
     "break",
@@ -73,17 +73,72 @@
    "voice_status": "locked",
    "audition_lines": [
     {
-     "id": "vo_scanner_3415fd7e3d",
-     "text": "BIN H-17 — HYDRAULIC SEAL KIT x1 (last one). Donut: unclassified.",
+     "id": "vo_scanner_45bd55ee1a",
+     "text": "PARTS KEY — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
      "line_direction": ""
     },
     {
      "id": "vo_scanner_22f79e3b2c",
      "text": "SEAL 88112 — Status: BROKEN. Trailer: T-4417. Time cut: Friday, 4:07 AM. Wait... that's the time the label printer was also printing. Coincidence: rated 3%.",
      "line_direction": ""
+    },
+    {
+     "id": "vo_scanner_fb6354a2b9",
+     "text": "PALLET B6 — LABEL: \"TIRES — dest KESTREL (?)\".",
+     "line_direction": ""
     }
    ],
    "voice_name": "Vector - Tec Voice"
+  },
+  {
+   "speaker": "INGRID",
+   "role": "Shipping office clerk",
+   "lines": 58,
+   "lines_ready": 58,
+   "characters": 5928,
+   "characters_ready": 5928,
+   "channels": {
+    "normal": 55,
+    "radio": 3
+   },
+   "scenes": [
+    "multiple",
+    "outbound",
+    "shipoffice"
+   ],
+   "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "post_fx": "radio/phone filtering applied in-game, not baked in",
+   "device_voice": false,
+   "elevenlabs_voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "voice_status": "locked",
+   "audition_lines": [
+    {
+     "id": "vo_ingrid_1a2c36ac78",
+     "text": "That's the first piece of paperwork I have printed this month that I am proud of.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_bab70d6882",
+     "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; page 2 of the 4417 manifest; the manifest's corrupted lines decoded (I can't read them either; you may have a way); the staging lanes sorted.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_9f33b43b3f",
+     "text": "...Is this the last decent coffee?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_0e277c6fbb",
+     "text": "It says nothing is wrong yet. Scan something that is wrong and come back.",
+     "line_direction": "glances at the screen."
+    },
+    {
+     "id": "vo_ingrid_c3b222f546",
+     "text": "The WMS just released the reconciliation hold on staging. Every pallet is now movable. It's the first thing the WMS has done all week.",
+     "line_direction": ""
+    }
+   ],
+   "voice_name": "Matilda"
   },
   {
    "speaker": "HOLLIS",
@@ -137,12 +192,12 @@
   {
    "speaker": "PRUDENCE",
    "role": "Terminated employee who never left",
-   "lines": 36,
-   "lines_ready": 32,
-   "characters": 3148,
-   "characters_ready": 2747,
+   "lines": 37,
+   "lines_ready": 33,
+   "characters": 3173,
+   "characters_ready": 2772,
    "channels": {
-    "normal": 36
+    "normal": 37
    },
    "scenes": [
     "drain",
@@ -182,13 +237,13 @@
   {
    "speaker": "BRUNO",
    "role": "Lead loader, outbound docks",
-   "lines": 32,
-   "lines_ready": 31,
-   "characters": 2945,
-   "characters_ready": 2850,
+   "lines": 35,
+   "lines_ready": 34,
+   "characters": 3014,
+   "characters_ready": 2919,
    "channels": {
     "radio": 6,
-    "normal": 26
+    "normal": 29
    },
    "scenes": [
     "multiple",
@@ -224,63 +279,14 @@
    "voice_name": "Rich - Southern US"
   },
   {
-   "speaker": "INGRID",
-   "role": "Shipping office clerk",
-   "lines": 33,
-   "lines_ready": 33,
-   "characters": 2559,
-   "characters_ready": 2559,
-   "channels": {
-    "normal": 31,
-    "radio": 2
-   },
-   "scenes": [
-    "multiple",
-    "shipoffice"
-   ],
-   "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
-   "post_fx": "radio/phone filtering applied in-game, not baked in",
-   "device_voice": false,
-   "elevenlabs_voice_id": "XrExE9yKIg1WjnnlVkGX",
-   "voice_status": "locked",
-   "audition_lines": [
-    {
-     "id": "vo_ingrid_245aa68ef2",
-     "text": "The WMS also says F-2231 is in Tennessee. I've stopped reading the WMS aloud.",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_ingrid_66990fe60d",
-     "text": "Also, here. Guest login for the WMS terminal: read-only. Don't break it. And here are the phone numbers: Gordon at Kestrel. Ozzie at the remote site. They're both very... available.",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_ingrid_9f33b43b3f",
-     "text": "...Is this the last decent coffee?",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_ingrid_0e277c6fbb",
-     "text": "It says nothing is wrong yet. Scan something that is wrong and come back.",
-     "line_direction": "glances at the screen."
-    },
-    {
-     "id": "vo_ingrid_c3b222f546",
-     "text": "The WMS just released the reconciliation hold on staging. Every pallet is now movable. It's the first thing the WMS has done all week.",
-     "line_direction": ""
-    }
-   ],
-   "voice_name": "Matilda"
-  },
-  {
    "speaker": "TUCKER",
    "role": "Eager floor associate",
-   "lines": 28,
-   "lines_ready": 27,
-   "characters": 2416,
-   "characters_ready": 2236,
+   "lines": 29,
+   "lines_ready": 28,
+   "characters": 2440,
+   "characters_ready": 2260,
    "channels": {
-    "normal": 25,
+    "normal": 26,
     "radio": 3
    },
    "scenes": [
@@ -327,13 +333,13 @@
   {
    "speaker": "HALVORSEN",
    "role": "Operations manager",
-   "lines": 25,
-   "lines_ready": 24,
-   "characters": 2250,
-   "characters_ready": 2080,
+   "lines": 26,
+   "lines_ready": 25,
+   "characters": 2373,
+   "characters_ready": 2203,
    "channels": {
     "normal": 19,
-    "radio": 5,
+    "radio": 6,
     "phone": 1
    },
    "scenes": [
@@ -367,6 +373,11 @@
      "id": "vo_halvorsen_4b4318d450",
      "text": "There's no cat problem, I'm told. Please disregard the cat on the forklift.",
      "line_direction": "faintly. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
+    },
+    {
+     "id": "vo_halvorsen_6bac8d4c3c",
+     "text": "Also, Hollis, it's come to my attention there may be a few cats. There is no approved metric for cats. So there aren't any.",
+     "line_direction": ""
     }
    ],
    "voice_name": "Will"
@@ -425,12 +436,12 @@
   {
    "speaker": "TORVALD",
    "role": "Spotter / smoker",
-   "lines": 29,
-   "lines_ready": 26,
-   "characters": 2055,
-   "characters_ready": 1734,
+   "lines": 30,
+   "lines_ready": 27,
+   "characters": 2069,
+   "characters_ready": 1748,
    "channels": {
-    "normal": 26,
+    "normal": 27,
     "radio": 3
    },
    "scenes": [
@@ -508,6 +519,84 @@
    "voice_name": "Lily"
   },
   {
+   "speaker": "SYSTEM",
+   "role": "Corporate system voice",
+   "lines": 27,
+   "lines_ready": 23,
+   "characters": 1626,
+   "characters_ready": 1284,
+   "channels": {
+    "normal": 27
+   },
+   "scenes": [
+    "inventory/interaction",
+    "multiple",
+    "shipoffice",
+    "staging"
+   ],
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "post_fx": null,
+   "device_voice": true,
+   "elevenlabs_voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+   "voice_status": "locked",
+   "audition_lines": [
+    {
+     "id": "vo_system_ad91b268c6",
+     "text": "PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_system_5b443afe90",
+     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
+     "line_direction": ""
+    }
+   ],
+   "voice_name": "The Curator"
+  },
+  {
+   "speaker": "TABITHA",
+   "role": "HR",
+   "lines": 20,
+   "lines_ready": 17,
+   "characters": 1520,
+   "characters_ready": 1121,
+   "channels": {
+    "normal": 20
+   },
+   "scenes": [
+    "hr",
+    "multiple"
+   ],
+   "voice_direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
+   "post_fx": null,
+   "device_voice": false,
+   "elevenlabs_voice_id": "QgAHZCKeKxsZTcp84rgh",
+   "voice_status": "locked",
+   "audition_lines": [
+    {
+     "id": "vo_tabitha_cf1e3a0770",
+     "text": "I am always open. My door is open. My mind is... in policy.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tabitha_1ab2063e13",
+     "text": "It's brand-new. I wrote it this morning. I'm very proud. It's the first time I've made a policy on the spot. It feels... powerful.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tabitha_77c517ae85",
+     "text": "It's always 9:02 in PolicyPilot. (She taps.) Can you just breathe on the sensor?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tabitha_ce2e25b831",
+     "text": "That's... that's new.",
+     "line_direction": "deep breath."
+    }
+   ],
+   "voice_name": "Hollie Sue"
+  },
+  {
    "speaker": "GORDON",
    "role": "Customer (Kestrel Motor Works)",
    "lines": 18,
@@ -550,49 +639,6 @@
     }
    ],
    "voice_name": "Adam"
-  },
-  {
-   "speaker": "TABITHA",
-   "role": "HR",
-   "lines": 19,
-   "lines_ready": 16,
-   "characters": 1435,
-   "characters_ready": 1036,
-   "channels": {
-    "normal": 19
-   },
-   "scenes": [
-    "hr",
-    "multiple"
-   ],
-   "voice_direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
-   "post_fx": null,
-   "device_voice": false,
-   "elevenlabs_voice_id": "QgAHZCKeKxsZTcp84rgh",
-   "voice_status": "locked",
-   "audition_lines": [
-    {
-     "id": "vo_tabitha_cf1e3a0770",
-     "text": "I am always open. My door is open. My mind is... in policy.",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_tabitha_1ab2063e13",
-     "text": "It's brand-new. I wrote it this morning. I'm very proud. It's the first time I've made a policy on the spot. It feels... powerful.",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_tabitha_77c517ae85",
-     "text": "It's always 9:02 in PolicyPilot. (She taps.) Can you just breathe on the sensor?",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_tabitha_ce2e25b831",
-     "text": "That's... that's new.",
-     "line_direction": "deep breath."
-    }
-   ],
-   "voice_name": "Hollie Sue"
   },
   {
    "speaker": "OZZIE",
@@ -676,50 +722,17 @@
    "voice_name": "Hollie - Kind, Enthusiastic"
   },
   {
-   "speaker": "SYSTEM",
-   "role": "Corporate system voice",
-   "lines": 16,
-   "lines_ready": 12,
-   "characters": 1023,
-   "characters_ready": 681,
-   "channels": {
-    "normal": 16
-   },
-   "scenes": [
-    "inventory/interaction",
-    "multiple",
-    "shipoffice"
-   ],
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "device_voice": true,
-   "elevenlabs_voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_status": "locked",
-   "audition_lines": [
-    {
-     "id": "vo_system_2fc181409e",
-     "text": "F-2231 — PROPANE SIT-DOWN — location: TENNESSEE.",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_system_5b443afe90",
-     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
-     "line_direction": ""
-    }
-   ],
-   "voice_name": "The Curator"
-  },
-  {
    "speaker": "RADIO",
    "role": "Anonymous radio voice (Operations)",
-   "lines": 4,
-   "lines_ready": 4,
-   "characters": 1007,
-   "characters_ready": 1007,
+   "lines": 5,
+   "lines_ready": 5,
+   "characters": 1045,
+   "characters_ready": 1045,
    "channels": {
-    "radio": 4
+    "radio": 5
    },
    "scenes": [
+    "break",
     "multiple"
    ],
    "voice_direction": "Radio channel voice; use named speaker when known.",
@@ -729,13 +742,18 @@
    "voice_status": "locked",
    "audition_lines": [
     {
+     "id": "vo_radio_45d08f4b1a",
+     "text": "Hollis, Operations. HR just called. Your mandatory drug screening is scheduled for 9:02. It is now— (a long pause) — it's always 9:02 in HR. Report to HR immediately.",
+     "line_direction": ""
+    },
+    {
      "id": "vo_radio_bd20c42f1c",
      "text": "Hollis? It's Halvorsen, Operations Manager. Where are you. We have a HOT shipment. That means a customer is losing money by the minute. Kestrel Motor Works, their assembly line is stalled waiting on parts. Eight loads, out the door by NOON.",
      "line_direction": ""
     },
     {
-     "id": "vo_radio_45d08f4b1a",
-     "text": "Hollis, Operations. HR just called. Your mandatory drug screening is scheduled for 9:02. It is now— (a long pause) — it's always 9:02 in HR. Report to HR immediately.",
+     "id": "vo_radio_6531c84a25",
+     "text": "...Hollis? Anyone have eyes on Hollis?",
      "line_direction": ""
     }
    ],

@@ -1,0 +1,280 @@
+{
+ "PAL": [
+  {
+   "code": "A1",
+   "real": "CUSHION-TIRE FORKLIFT CT-118",
+   "sys": "PROPANE SIT-DOWN LIFT — dest TENNESSEE",
+   "dest": "ship",
+   "dot": "o",
+   "bad": true,
+   "nice": "the cushion-tire forklift CT-118"
+  },
+  {
+   "code": "A2",
+   "real": "CUSHION-TIRE FORKLIFT CT-119",
+   "sys": "PROPANE SIT-DOWN LIFT — dest TENNESSEE",
+   "dest": "ship",
+   "dot": "o",
+   "bad": true,
+   "nice": "the cushion-tire forklift CT-119"
+  },
+  {
+   "code": "A3",
+   "real": "REACH TRUCK RT-79 (Tennessee order)",
+   "sys": "REACH TRUCK — dest NEBRASKA",
+   "dest": "store",
+   "dot": "b",
+   "bad": true,
+   "nice": "the reach truck RT-79 (Tennessee order)"
+  },
+  {
+   "code": "A4",
+   "real": "REACH TRUCK RT-80 (Tennessee order)",
+   "sys": "REACH TRUCK — dest NEBRASKA",
+   "dest": "store",
+   "dot": "b",
+   "bad": true,
+   "nice": "the reach truck RT-80 (Tennessee order)"
+  },
+  {
+   "code": "A5",
+   "real": "MAST ASSEMBLIES (3-stage)",
+   "sys": "MAST ASSY — dest KESTREL",
+   "dest": "ship",
+   "dot": "o",
+   "bad": false,
+   "nice": "the mast assemblies (3-stage)"
+  },
+  {
+   "code": "A6",
+   "real": "FELINE KIBBLE, bulk totes (Pawsome Foods)",
+   "sys": "COUNTERWEIGHT BLOCKS — dest KESTREL",
+   "dest": "store",
+   "dot": null,
+   "bad": true,
+   "nice": "the feline kibble, bulk totes (pawsome foods)"
+  },
+  {
+   "code": "A7",
+   "real": "FELINE KIBBLE, bulk totes (Pawsome Foods)",
+   "sys": "COUNTERWEIGHT BLOCKS — dest KESTREL",
+   "dest": "store",
+   "dot": null,
+   "bad": true,
+   "nice": "the feline kibble, bulk totes (pawsome foods)"
+  },
+  {
+   "code": "A8",
+   "real": "OVERHEAD GUARD KITS",
+   "sys": "O/H GUARD — dest KESTREL",
+   "dest": "ship",
+   "dot": "o",
+   "bad": false,
+   "nice": "the overhead guard kits"
+  },
+  {
+   "code": "B1",
+   "real": "48V BATTERY PACK (Kestrel PO line)",
+   "sys": "BATTERY 48V — dest KESTREL",
+   "dest": "ship",
+   "dot": "o",
+   "bad": false,
+   "nice": "the 48V battery pack (Kestrel PO line)"
+  },
+  {
+   "code": "B2",
+   "real": "HYDRAULIC HOSE KITS",
+   "sys": "HOSE KIT — dest KESTREL",
+   "dest": "ship",
+   "dot": "o",
+   "bad": false,
+   "nice": "the hydraulic hose kits"
+  },
+  {
+   "code": "B3",
+   "real": "CONTROL HARNESS CRATES",
+   "sys": "HARNESS — dest KESTREL",
+   "dest": "ship",
+   "dot": "o",
+   "bad": false,
+   "nice": "the control harness crates"
+  },
+  {
+   "code": "B4",
+   "real": "COUNTERWEIGHT BLOCKS (actual iron)",
+   "sys": "COUNTERWEIGHT — dest KESTREL",
+   "dest": "ship",
+   "dot": "o",
+   "bad": false,
+   "nice": "the counterweight blocks (actual iron)"
+  },
+  {
+   "code": "B5",
+   "real": "REACH TRUCK CHARGERS",
+   "sys": "CHARGERS — dest NEBRASKA",
+   "dest": "store",
+   "dot": "b",
+   "bad": true,
+   "nice": "the reach truck chargers"
+  },
+  {
+   "code": "B6",
+   "real": "SPARE CUSHION TIRES (not on PO)",
+   "sys": "TIRES — dest KESTREL (?)",
+   "dest": "store",
+   "dot": "b",
+   "bad": true,
+   "nice": "the spare cushion tires (not on PO)"
+  },
+  {
+   "code": "B7",
+   "real": "SPARE FORK SETS",
+   "sys": "FORKS — (no destination)",
+   "dest": "store",
+   "dot": "b",
+   "bad": false,
+   "nice": "the spare fork sets"
+  },
+  {
+   "code": "B8",
+   "real": "HALO KIOSK HARDWARE (unopened return)",
+   "sys": "HALO KIOSK — status INSTALLED",
+   "dest": "store",
+   "dot": null,
+   "bad": true,
+   "nice": "the halo kiosk hardware (unopened return)"
+  }
+ ],
+ "ITEMS": [
+  {
+   "id": "label",
+   "name": "Label"
+  },
+  {
+   "id": "scanner",
+   "name": "Scanner"
+  },
+  {
+   "id": "sbat",
+   "name": "Scanner bat"
+  },
+  {
+   "id": "radio",
+   "name": "Radio"
+  },
+  {
+   "id": "phone",
+   "name": "Phone"
+  },
+  {
+   "id": "quarter",
+   "name": "Quarters"
+  },
+  {
+   "id": "coffee",
+   "name": "Coffee"
+  },
+  {
+   "id": "pen",
+   "name": "Pen"
+  },
+  {
+   "id": "form7q",
+   "name": "Form 7-Q"
+  },
+  {
+   "id": "crackers",
+   "name": "Fish crackers"
+  },
+  {
+   "id": "dglove",
+   "name": "Torvald glove"
+  },
+  {
+   "id": "tally",
+   "name": "Tally counter"
+  },
+  {
+   "id": "blanket",
+   "name": "Blanket"
+  },
+  {
+   "id": "flyer",
+   "name": "Rescue flyer"
+  },
+  {
+   "id": "bowl",
+   "name": "Cat bowls x0"
+  },
+  {
+   "id": "seal",
+   "name": "Hydraulic seal"
+  },
+  {
+   "id": "key_parts",
+   "name": "Parts key"
+  },
+  {
+   "id": "key_cage",
+   "name": "Cage key"
+  },
+  {
+   "id": "jack",
+   "name": "Pallet jack"
+  },
+  {
+   "id": "tuckerbook",
+   "name": "Tucker's book"
+  },
+  {
+   "id": "page2",
+   "name": "Manifest p.2"
+  },
+  {
+   "id": "man1",
+   "name": "Manifest p.1"
+  },
+  {
+   "id": "po",
+   "name": "Kestrel PO"
+  },
+  {
+   "id": "kibble",
+   "name": "Kibble"
+  },
+  {
+   "id": "armband",
+   "name": "Safety armband"
+  },
+  {
+   "id": "exempt",
+   "name": "Form 9-M"
+  },
+  {
+   "id": "mint",
+   "name": "Mint"
+  },
+  {
+   "id": "trailmap",
+   "name": "Rufus map"
+  },
+  {
+   "id": "sightlog",
+   "name": "Torvald log"
+  },
+  {
+   "id": "receipt",
+   "name": "Rescue receipt"
+  },
+  {
+   "id": "bol",
+   "name": "Bill of lading"
+  }
+ ],
+ "DOCS": [
+  "the swapped forklift/reach truck records fixed",
+  "page 2 of the 4417 manifest",
+  "the manifest's corrupted lines decoded (I can't read them either; you may have a way)",
+  "the staging lanes sorted"
+ ]
+}

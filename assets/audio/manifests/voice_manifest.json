@@ -17754,12 +17754,10 @@
    "scene": "shipoffice",
    "category": "direct_say",
    "priority": "core_or_triggered_dialogue",
-   "status": "blocked_dynamic",
+   "status": "active",
    "review": {
-    "manual": true,
-    "reasons": [
-     "dynamic_fragment_not_asset_ready"
-    ]
+    "manual": false,
+    "reasons": []
    },
    "file": null,
    "planned_file": "assets/audio/voice/ingrid/vo_ingrid_525c70e1bb.mp3",
@@ -32834,6 +32832,5892 @@
     "split"
    ],
    "parent": "vo_narrator_dae21285a6"
+  },
+  {
+   "id": "vo_narrator_c2c237fbfb",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A1, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c2c237fbfb.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_7cd77cc305",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET A1 — LABEL: \"PROPANE SIT-DOWN LIFT — dest TENNESSEE\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_7cd77cc305.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_1c71334177",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_1c71334177.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_7b2fa0660d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under A1. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_7b2fa0660d.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_f3d6c68242",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A1: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_f3d6c68242.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_6f7dbb96cc",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A2, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6f7dbb96cc.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_13a37d4777",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET A2 — LABEL: \"PROPANE SIT-DOWN LIFT — dest TENNESSEE\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_13a37d4777.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_a7465822b8",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_a7465822b8.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_2a66e8fa36",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under A2. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2a66e8fa36.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_5670125dd2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A2: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_5670125dd2.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_703e560651",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A3, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_703e560651.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_25a1123ba7",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET A3 — LABEL: \"REACH TRUCK — dest NEBRASKA\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_25a1123ba7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_ad91b268c6",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_ad91b268c6.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_485d5dc9f1",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under A3. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_485d5dc9f1.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_927413d135",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A3: STORAGE. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_927413d135.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_72614bbc52",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A4, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_72614bbc52.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_335d572515",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET A4 — LABEL: \"REACH TRUCK — dest NEBRASKA\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_335d572515.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_e33de778a6",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "PHYSICAL TRUTH — REACH TRUCK RT-80 (Tennessee order).",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_e33de778a6.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_2bc01f2650",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under A4. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2bc01f2650.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_ff76c7adbb",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A4: STORAGE. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ff76c7adbb.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_5245a1a1d9",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A5, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_5245a1a1d9.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_dbd49039d7",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET A5 — MAST ASSEMBLIES (3-stage). Label: \"MAST ASSY — dest KESTREL\". Label matches freight. On the Kestrel PO.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_dbd49039d7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_1880d60fed",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under A5. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1880d60fed.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_02954b0bb1",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A5: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_02954b0bb1.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_a1e4ad5466",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A6, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is no dot from Bruno.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a1e4ad5466.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_6b10ccaec3",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET A6 — LABEL: \"COUNTERWEIGHT BLOCKS — dest KESTREL\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_6b10ccaec3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_c063182c35",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "PHYSICAL TRUTH — FELINE KIBBLE, bulk totes (Pawsome Foods).",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_c063182c35.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_5785ea5ba7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under A6. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_5785ea5ba7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_726ad70c0d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A6: STORAGE. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_726ad70c0d.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_cbd3aed112",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A7, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is no dot from Bruno.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_cbd3aed112.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_d75858955e",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET A7 — LABEL: \"COUNTERWEIGHT BLOCKS — dest KESTREL\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_d75858955e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_921571a920",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under A7. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_921571a920.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_b9ba5a5dbe",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A7: STORAGE. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_b9ba5a5dbe.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_5db5deea2e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A8, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_5db5deea2e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_7810a9639d",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET A8 — OVERHEAD GUARD KITS. Label: \"O/H GUARD — dest KESTREL\". Label matches freight. On the Kestrel PO.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_7810a9639d.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_41cd863bfd",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under A8. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_41cd863bfd.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_f495231c0a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet A8: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_f495231c0a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_257986e0b7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B1, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_257986e0b7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_3d5a266c58",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET B1 — 48V BATTERY PACK (Kestrel PO line). Label: \"BATTERY 48V — dest KESTREL\". Label matches freight. On the Kestrel PO.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_3d5a266c58.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_27040da3f3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under B1. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_27040da3f3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_caaf64717a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B1: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_caaf64717a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_a85fbe9afc",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B2, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a85fbe9afc.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_6750e5dc2c",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET B2 — HYDRAULIC HOSE KITS. Label: \"HOSE KIT — dest KESTREL\". Label matches freight. On the Kestrel PO.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_6750e5dc2c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_1fdf1d8489",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under B2. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1fdf1d8489.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_d35f7a583a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B2: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d35f7a583a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_6a00adf4ad",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B3, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6a00adf4ad.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_399201ac30",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET B3 — CONTROL HARNESS CRATES. Label: \"HARNESS — dest KESTREL\". Label matches freight. On the Kestrel PO.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_399201ac30.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_008cf96d04",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under B3. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_008cf96d04.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_f83d93a124",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B3: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_f83d93a124.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_0abf82fa2f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B4, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0abf82fa2f.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_224fc8b774",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET B4 — COUNTERWEIGHT BLOCKS (actual iron). Label: \"COUNTERWEIGHT — dest KESTREL\". Label matches freight. On the Kestrel PO.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_224fc8b774.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_86279b1b75",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under B4. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_86279b1b75.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_07fdbe70fa",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B4: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_07fdbe70fa.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_bdc2c04178",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B5, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_bdc2c04178.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_34e49edc0e",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET B5 — LABEL: \"CHARGERS — dest NEBRASKA\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_34e49edc0e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_fc32b54d48",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_fc32b54d48.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_9d3118e245",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under B5. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9d3118e245.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_bff2e0ccb2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B5: STORAGE. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_bff2e0ccb2.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_95ee2bdfcb",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B6, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_95ee2bdfcb.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_fb6354a2b9",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET B6 — LABEL: \"TIRES — dest KESTREL (?)\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_fb6354a2b9.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_ebcf8a4273",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "PHYSICAL TRUTH — SPARE CUSHION TIRES (not on PO).",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_ebcf8a4273.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_c2f81bdef5",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under B6. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c2f81bdef5.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_ad51ec43c9",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B6: STORAGE. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ad51ec43c9.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_8948e0f882",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B7, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8948e0f882.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_db3c63382f",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET B7 — SPARE FORK SETS. Label: \"FORKS — (no destination)\". Label matches freight. Not on the Kestrel PO.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_db3c63382f.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_c163fc5a76",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under B7. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c163fc5a76.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_828fef85f3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B7: STORAGE. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_828fef85f3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_65a19ea093",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B8, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is no dot from Bruno.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_65a19ea093.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_f757ef78ac",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET B8 — LABEL: \"HALO KIOSK — status INSTALLED\".",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f757ef78ac.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_2bcb9f99f8",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "PHYSICAL TRUTH — HALO KIOSK HARDWARE (unopened return).",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_2bcb9f99f8.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_0d2c3782f9",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis slides the pallet jack under B8. It groans with mechanical trust.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0d2c3782f9.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_63b197eed0",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Pallet B8: STORAGE. Correct. The scanner chirps a note of professional respect.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_63b197eed0.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_c28773f2f5",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "The label and the freight have never met. Something on the Kestrel order matches this.",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_c28773f2f5.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_system_0be803691e",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "The label and the freight have never met. Nothing on the Kestrel order matches this.",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/system/vo_system_0be803691e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_f0ac8dd398",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Eight slots are designated for tonight's storage. Right now 1 of them contain the correct freight, each one scanned into the right rack location.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_f0ac8dd398.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_eb3e5f97f3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Eight slots are designated for tonight's storage. Right now 2 of them contain the correct freight, each one scanned into the right rack location.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_eb3e5f97f3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_2cae73336b",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Eight slots are designated for tonight's storage. Right now 3 of them contain the correct freight, each one scanned into the right rack location.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2cae73336b.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_0bcbd5dce9",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Eight slots are designated for tonight's storage. Right now 4 of them contain the correct freight, each one scanned into the right rack location.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0bcbd5dce9.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_15b7693b64",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Eight slots are designated for tonight's storage. Right now 5 of them contain the correct freight, each one scanned into the right rack location.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_15b7693b64.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_0de2ad9874",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Eight slots are designated for tonight's storage. Right now 6 of them contain the correct freight, each one scanned into the right rack location.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0de2ad9874.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_2cea6f3cdf",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Eight slots are designated for tonight's storage. Right now 7 of them contain the correct freight, each one scanned into the right rack location.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2cea6f3cdf.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_8e346744e2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Eight slots are designated for tonight's storage. Right now 8 of them contain the correct freight, each one scanned into the right rack location.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8e346744e2.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_472c34b262",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 0/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_472c34b262.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_a2907f5ae4",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 1/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_a2907f5ae4.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_67e2a692af",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 2/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_67e2a692af.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_e14f579fb9",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 3/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_e14f579fb9.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_b55bebbf28",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 4/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_b55bebbf28.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_9e86c4168c",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 5/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_9e86c4168c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_17e58edfc1",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 6/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_17e58edfc1.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_1f565f7bfc",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 7/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_1f565f7bfc.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_4ec1582275",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RACK STORAGE — 8/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "racks",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_4ec1582275.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_9ac30b171d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The outbound queue, at Door 3. 1 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9ac30b171d.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_4b997e757c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The outbound queue, at Door 3. 2 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_4b997e757c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_f4ad6f7c8f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The outbound queue, at Door 3. 3 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_f4ad6f7c8f.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_ef1308cc75",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The outbound queue, at Door 3. 4 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ef1308cc75.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_699920602f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The outbound queue, at Door 3. 5 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_699920602f.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_06c03a26c4",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The outbound queue, at Door 3. 6 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_06c03a26c4.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_044aea1169",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The outbound queue, at Door 3. 7 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_044aea1169.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_1a3bfbadc7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The outbound queue, at Door 3. 8 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1a3bfbadc7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_b2eb2ac730",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Juno sniffs, lifts her head, and looks pointedly toward the yard. She has the scent. It is not here.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_b2eb2ac730.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_bc573c34f3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Juno sniffs, lifts her head, and looks pointedly toward the drainage area. She has the scent. It is not here.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_bc573c34f3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_e76d3605d0",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Juno sniffs, lifts her head, and looks pointedly toward the smoking area. She has the scent. It is not here.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_e76d3605d0.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_afce0f14c3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Reality integrity: 75%.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "suite",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_afce0f14c3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_fc13d88e16",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Reality integrity: 50%.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "suite",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_fc13d88e16.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_080e55ac6f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Reality integrity: 25%.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "suite",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_080e55ac6f.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_20cd42ac1a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Reality integrity: 0%.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "suite",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_20cd42ac1a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_78e9de88ce",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "coffee (a real one, not the pot).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_78e9de88ce.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_15b4c93a76",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "a Form 7-Q (blank ones are in the Operations printer), filled out and signed by Operations.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_15b4c93a76.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_1320df7c38",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "a reason, meaning proof the records are wrong (scan the forklift Halvorsen mentioned, then show me the scanner).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_1320df7c38.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_ada6b1ca38",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "coffee (a real one, not the pot); a Form 7-Q (blank ones are in the Operations printer), filled out and signed by Operations.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_ada6b1ca38.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_7694ec0b9c",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "coffee (a real one, not the pot); a reason, meaning proof the records are wrong (scan the forklift Halvorsen mentioned, then show me the scanner).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_7694ec0b9c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_ea97564979",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "a Form 7-Q (blank ones are in the Operations printer), filled out and signed by Operations; a reason, meaning proof the records are wrong (scan the forklift Halvorsen mentioned, then show me the scanner).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_ea97564979.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_fd87256712",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "coffee (a real one, not the pot); a Form 7-Q (blank ones are in the Operations printer), filled out and signed by Operations; a reason, meaning proof the records are wrong (scan the forklift Halvorsen mentioned, then show me the scanner).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_fd87256712.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_04f5d22832",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_04f5d22832.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_9bb77cdc50",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: page 2 of the 4417 manifest.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_9bb77cdc50.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_dda8fb8d04",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the manifest's corrupted lines decoded (I can't read them either; you may have a way).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_dda8fb8d04.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_b0ead498f5",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the staging lanes sorted.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_b0ead498f5.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_9dfe302a3a",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; page 2 of the 4417 manifest.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_9dfe302a3a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_cc8781d2be",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; the manifest's corrupted lines decoded (I can't read them either; you may have a way).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_cc8781d2be.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_26ba44082d",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; the staging lanes sorted.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_26ba44082d.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_9f766a6e59",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: page 2 of the 4417 manifest; the manifest's corrupted lines decoded (I can't read them either; you may have a way).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_9f766a6e59.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_8e9865fce9",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: page 2 of the 4417 manifest; the staging lanes sorted.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_8e9865fce9.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_d10099262a",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the manifest's corrupted lines decoded (I can't read them either; you may have a way); the staging lanes sorted.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_d10099262a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_6d62951b32",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; page 2 of the 4417 manifest; the manifest's corrupted lines decoded (I can't read them either; you may have a way).",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_6d62951b32.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_64a63beca1",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; page 2 of the 4417 manifest; the staging lanes sorted.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_64a63beca1.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_64f70d0d3c",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; the manifest's corrupted lines decoded (I can't read them either; you may have a way); the staging lanes sorted.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_64f70d0d3c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_8784e37444",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: page 2 of the 4417 manifest; the manifest's corrupted lines decoded (I can't read them either; you may have a way); the staging lanes sorted.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_8784e37444.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_ingrid_bab70d6882",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; page 2 of the 4417 manifest; the manifest's corrupted lines decoded (I can't read them either; you may have a way); the staging lanes sorted.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "shipoffice",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_bab70d6882.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_5027032e59",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "LABEL — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_5027032e59.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_e0dfcb0288",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the label by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_e0dfcb0288.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_863e962a4d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the label. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_863e962a4d.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_b3dc1a341e",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "SCANNER — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_b3dc1a341e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_7ebb895993",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the scanner by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_7ebb895993.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_361411e380",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the scanner. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_361411e380.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_3c9552b005",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "SCANNER BAT — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_3c9552b005.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_ce1e2997ee",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the scanner bat by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ce1e2997ee.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_9fbb10dc52",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the scanner bat. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9fbb10dc52.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_12838f21fe",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RADIO — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_12838f21fe.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_64f7f184f7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the radio by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_64f7f184f7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_ce0ff4d5f5",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the radio. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ce0ff4d5f5.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_8d1e2fc810",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PHONE — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_8d1e2fc810.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_5110ce9b9b",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the phone by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_5110ce9b9b.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_17e4144ed1",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the phone. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_17e4144ed1.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_5efd5884cf",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "QUARTERS — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_5efd5884cf.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_e0c56c60e7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the quarters by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_e0c56c60e7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_c1011b13f3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the quarters. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c1011b13f3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_3abdbcabe0",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "COFFEE — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_3abdbcabe0.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_4ee55ae122",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the coffee by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_4ee55ae122.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_be6ba3a0cd",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the coffee. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_be6ba3a0cd.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_c31270da0b",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PEN — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_c31270da0b.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_340bdb186d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the pen by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_340bdb186d.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_de129a93b9",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the pen. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_de129a93b9.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_5313539ee5",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "FORM 7-Q — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_5313539ee5.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_2dddacb672",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the form 7-q by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2dddacb672.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_06f95b062b",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the form 7-q. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_06f95b062b.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_06c90f899e",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "FISH CRACKERS — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_06c90f899e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_7274a46789",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the fish crackers by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_7274a46789.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_8501533f5e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the fish crackers. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8501533f5e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_86c08982b5",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "TORVALD GLOVE — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_86c08982b5.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_607db2cf1e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the torvald glove by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_607db2cf1e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_edcc5c46a8",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the torvald glove. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_edcc5c46a8.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_f0a1d57381",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "TALLY COUNTER — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f0a1d57381.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_eb698bd6dc",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the tally counter by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_eb698bd6dc.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_27b2e819dc",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the tally counter. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_27b2e819dc.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_28bb9def49",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "BLANKET — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_28bb9def49.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_7a449b6bb2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the blanket by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_7a449b6bb2.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_bc6664c701",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the blanket. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_bc6664c701.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_8771031a21",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RESCUE FLYER — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_8771031a21.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_6f90b29462",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the rescue flyer by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6f90b29462.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_0a48e3cb43",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the rescue flyer. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0a48e3cb43.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_012993bfde",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "HYDRAULIC SEAL — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_012993bfde.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_7139da0452",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the hydraulic seal by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_7139da0452.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_6afc10411c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the hydraulic seal. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6afc10411c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_45bd55ee1a",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PARTS KEY — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_45bd55ee1a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_85456747f3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the parts key by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_85456747f3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_393ac29da8",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the parts key. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_393ac29da8.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_d8b9017c92",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "CAGE KEY — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_d8b9017c92.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_a20033c250",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the cage key by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a20033c250.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_642f475ef3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the cage key. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_642f475ef3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_594ff09e9c",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "PALLET JACK — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_594ff09e9c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_2e7e67ee6a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the pallet jack by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2e7e67ee6a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_3eac672b3a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the pallet jack. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3eac672b3a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_9da28bc983",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "TUCKER'S BOOK — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_9da28bc983.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_46cbd8d9d5",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the tucker's book by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_46cbd8d9d5.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_b768ea41d1",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the tucker's book. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_b768ea41d1.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_bd69316329",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "MANIFEST P.2 — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_bd69316329.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_3a1b643f67",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the manifest p.2 by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3a1b643f67.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_2f2529b5d2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the manifest p.2. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2f2529b5d2.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_4096206046",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "MANIFEST P.1 — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_4096206046.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_697bb587c2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the manifest p.1 by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_697bb587c2.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_3359b0a9ab",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the manifest p.1. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3359b0a9ab.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_d8449c36ab",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "KESTREL PO — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_d8449c36ab.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_a1c6831236",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the kestrel po by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a1c6831236.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_4d49748018",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the kestrel po. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_4d49748018.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_a86c648f89",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "KIBBLE — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_a86c648f89.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_ffd253ce61",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the kibble by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ffd253ce61.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_b0d384c7b4",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the kibble. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_b0d384c7b4.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_171fc151eb",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "SAFETY ARMBAND — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_171fc151eb.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_57d51125b3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the safety armband by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_57d51125b3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_e7650d5bea",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the safety armband. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_e7650d5bea.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_3b750560f3",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "FORM 9-M — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_3b750560f3.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_72e33c772c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the form 9-m by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_72e33c772c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_3e754107db",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the form 9-m. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3e754107db.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_ff0f4d5e59",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "MINT — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_ff0f4d5e59.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_0347738171",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the mint by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0347738171.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_ea67a7d8f5",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the mint. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ea67a7d8f5.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_331662fb09",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RUFUS MAP — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_331662fb09.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_9bc93ce19e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the rufus map by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9bc93ce19e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_28f3ef8c00",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the rufus map. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_28f3ef8c00.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_6caa4e84d0",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "TORVALD LOG — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_6caa4e84d0.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_1238cad3ca",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the torvald log by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1238cad3ca.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_1457475c8c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the torvald log. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1457475c8c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_f8d636af6f",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "RESCUE RECEIPT — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f8d636af6f.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_e8f7a84f44",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the rescue receipt by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_e8f7a84f44.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_bc818aa1f7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the rescue receipt. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_bc818aa1f7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_scanner_44d4e50650",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "text": "BILL OF LADING — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_44d4e50650.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_064aa3741a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis can't think of a way to USE the bill of lading by itself. Try USE ... ON something.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_064aa3741a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
+  },
+  {
+   "id": "vo_narrator_3380a94518",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis mutters something at the bill of lading. It does not answer. Fine.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3380a94518.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "package_files": [
+    "dynamic_expansion"
+   ]
   }
  ]
 }

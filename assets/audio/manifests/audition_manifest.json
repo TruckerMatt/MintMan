@@ -8,8 +8,8 @@
    "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
    "lines": [
     {
-     "id": "vo_narrator_966368e222",
-     "text": "Gus is bigger than the door he guards. Hollis leaves him where he is.",
+     "id": "vo_narrator_7b2fa0660d",
+     "text": "Hollis slides the pallet jack under A1. It groans with mechanical trust.",
      "line_direction": ""
     },
     {
@@ -29,13 +29,49 @@
    "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
    "lines": [
     {
-     "id": "vo_scanner_3415fd7e3d",
-     "text": "BIN H-17 — HYDRAULIC SEAL KIT x1 (last one). Donut: unclassified.",
+     "id": "vo_scanner_45bd55ee1a",
+     "text": "PARTS KEY — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
      "line_direction": ""
     },
     {
      "id": "vo_scanner_22f79e3b2c",
      "text": "SEAL 88112 — Status: BROKEN. Trailer: T-4417. Time cut: Friday, 4:07 AM. Wait... that's the time the label printer was also printing. Coincidence: rated 3%.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_scanner_fb6354a2b9",
+     "text": "PALLET B6 — LABEL: \"TIRES — dest KESTREL (?)\".",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "INGRID",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "lines": [
+    {
+     "id": "vo_ingrid_1a2c36ac78",
+     "text": "That's the first piece of paperwork I have printed this month that I am proud of.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_bab70d6882",
+     "text": "I can print a bill of lading that's true. But I need: the swapped forklift/reach truck records fixed; page 2 of the 4417 manifest; the manifest's corrupted lines decoded (I can't read them either; you may have a way); the staging lanes sorted.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_9f33b43b3f",
+     "text": "...Is this the last decent coffee?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_0e277c6fbb",
+     "text": "It says nothing is wrong yet. Scan something that is wrong and come back.",
+     "line_direction": "glances at the screen."
+    },
+    {
+     "id": "vo_ingrid_c3b222f546",
+     "text": "The WMS just released the reconciliation hold on staging. Every pallet is now movable. It's the first thing the WMS has done all week.",
      "line_direction": ""
     }
    ]
@@ -119,37 +155,6 @@
    ]
   },
   {
-   "speaker": "INGRID",
-   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
-   "lines": [
-    {
-     "id": "vo_ingrid_245aa68ef2",
-     "text": "The WMS also says F-2231 is in Tennessee. I've stopped reading the WMS aloud.",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_ingrid_66990fe60d",
-     "text": "Also, here. Guest login for the WMS terminal: read-only. Don't break it. And here are the phone numbers: Gordon at Kestrel. Ozzie at the remote site. They're both very... available.",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_ingrid_9f33b43b3f",
-     "text": "...Is this the last decent coffee?",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_ingrid_0e277c6fbb",
-     "text": "It says nothing is wrong yet. Scan something that is wrong and come back.",
-     "line_direction": "glances at the screen."
-    },
-    {
-     "id": "vo_ingrid_c3b222f546",
-     "text": "The WMS just released the reconciliation hold on staging. Every pallet is now movable. It's the first thing the WMS has done all week.",
-     "line_direction": ""
-    }
-   ]
-  },
-  {
    "speaker": "TUCKER",
    "direction": "Eager, enthusiastic, extremely willing to help; accidentally chaotic.",
    "lines": [
@@ -203,6 +208,11 @@
      "id": "vo_halvorsen_4b4318d450",
      "text": "There's no cat problem, I'm told. Please disregard the cat on the forklift.",
      "line_direction": "faintly. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
+    },
+    {
+     "id": "vo_halvorsen_6bac8d4c3c",
+     "text": "Also, Hollis, it's come to my attention there may be a few cats. There is no approved metric for cats. So there aren't any.",
+     "line_direction": ""
     }
    ]
   },
@@ -285,28 +295,18 @@
    ]
   },
   {
-   "speaker": "GORDON",
-   "direction": "Customer production contact; urgent, stressed, relieved when things finally work.",
+   "speaker": "SYSTEM",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
    "lines": [
     {
-     "id": "vo_gordon_820a5a3b73",
-     "text": "THE HOT SHIPMENT IS OUT. HOLLIS. IT'S 11:59. I HAVE NEVER BEEN SO HAPPY TO HEAR A TRAILER.",
+     "id": "vo_system_ad91b268c6",
+     "text": "PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
      "line_direction": ""
     },
     {
-     "id": "vo_gordon_e887c77f5f",
-     "text": "Fine. Here's what we ordered. PO 55-1187. Cushion-tire forklifts ×2. Mast assembly. Overhead guard. 48-volt battery. Hydraulic hose kit. Control harness crate. Counterweight blocks. Eight lines. That's it. I don't care about anything else.",
+     "id": "vo_system_5b443afe90",
+     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
      "line_direction": ""
-    },
-    {
-     "id": "vo_gordon_4e0705cb8f",
-     "text": "What does that mean, in shipping language?",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_gordon_76f22c4e53",
-     "text": "Hollis! Gordon, Kestrel Motor Works, production manager. Your customer. Finally. Are we shipping? Line three has been down since 7. I have forty guys standing around holding air.",
-     "line_direction": "video, frustrated."
     }
    ]
   },
@@ -333,6 +333,32 @@
      "id": "vo_tabitha_ce2e25b831",
      "text": "That's... that's new.",
      "line_direction": "deep breath."
+    }
+   ]
+  },
+  {
+   "speaker": "GORDON",
+   "direction": "Customer production contact; urgent, stressed, relieved when things finally work.",
+   "lines": [
+    {
+     "id": "vo_gordon_820a5a3b73",
+     "text": "THE HOT SHIPMENT IS OUT. HOLLIS. IT'S 11:59. I HAVE NEVER BEEN SO HAPPY TO HEAR A TRAILER.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gordon_e887c77f5f",
+     "text": "Fine. Here's what we ordered. PO 55-1187. Cushion-tire forklifts ×2. Mast assembly. Overhead guard. 48-volt battery. Hydraulic hose kit. Control harness crate. Counterweight blocks. Eight lines. That's it. I don't care about anything else.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gordon_4e0705cb8f",
+     "text": "What does that mean, in shipping language?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gordon_76f22c4e53",
+     "text": "Hollis! Gordon, Kestrel Motor Works, production manager. Your customer. Finally. Are we shipping? Line three has been down since 7. I have forty guys standing around holding air.",
+     "line_direction": "video, frustrated."
     }
    ]
   },
@@ -384,33 +410,22 @@
    ]
   },
   {
-   "speaker": "SYSTEM",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "lines": [
-    {
-     "id": "vo_system_2fc181409e",
-     "text": "F-2231 — PROPANE SIT-DOWN — location: TENNESSEE.",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_system_5b443afe90",
-     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
-     "line_direction": ""
-    }
-   ]
-  },
-  {
    "speaker": "RADIO",
    "direction": "Radio channel voice; use named speaker when known.",
    "lines": [
+    {
+     "id": "vo_radio_45d08f4b1a",
+     "text": "Hollis, Operations. HR just called. Your mandatory drug screening is scheduled for 9:02. It is now— (a long pause) — it's always 9:02 in HR. Report to HR immediately.",
+     "line_direction": ""
+    },
     {
      "id": "vo_radio_bd20c42f1c",
      "text": "Hollis? It's Halvorsen, Operations Manager. Where are you. We have a HOT shipment. That means a customer is losing money by the minute. Kestrel Motor Works, their assembly line is stalled waiting on parts. Eight loads, out the door by NOON.",
      "line_direction": ""
     },
     {
-     "id": "vo_radio_45d08f4b1a",
-     "text": "Hollis, Operations. HR just called. Your mandatory drug screening is scheduled for 9:02. It is now— (a long pause) — it's always 9:02 in HR. Report to HR immediately.",
+     "id": "vo_radio_6531c84a25",
+     "text": "...Hollis? Anyone have eyes on Hollis?",
      "line_direction": ""
     }
    ]
