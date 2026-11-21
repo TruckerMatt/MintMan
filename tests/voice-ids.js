@@ -10,7 +10,7 @@ const R = []; const ok = (n, c, d) => { R.push([n, !!c, d || '']); console.log((
   ok('IDS: every manifest id is in the permanent registry', E.every(e => reg.ids[e.id]));
   ok('IDS: no duplicate (speaker,text) keys', new Set(E.map(e => e.speaker + '|' + e.text.toLowerCase())).size === E.length);
   ok('IDS: planned files follow assets/audio/voice/<speaker>/<id>.mp3 and the speaker folder exists', E.every(e => e.planned_file === `assets/audio/voice/${e.speaker.toLowerCase()}/${e.id}.mp3` && fs.existsSync(path.join(ROOT, 'assets/audio/voice', e.speaker.toLowerCase()))));
-  ok('IDS: no audio linked yet and no blocked entry has a file', E.every(e => !e.file));
+  ok('IDS: held/blocked entries never have audio linked', E.every(e => !e.file || e.status === 'active'));
   const { browser, page, logs } = await open({ seed: false });
   const res = await page.evaluate((man) => {
     const m = JSON.parse(JSON.stringify(man)); for (const e of m.entries) e.file = 'x/' + e.id + '.mp3';          // pretend every clip exists so the matcher indexes everything

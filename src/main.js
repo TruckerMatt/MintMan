@@ -17,6 +17,7 @@ G.itemName = (id) => { const n = G.items[id].name; return typeof n === 'function
 // ---------- start ----------
 // clears every run-scoped global so a new game after completion (or a CONTINUE) starts from a clean slate
 function resetRun() {
+  if (typeof MMAudio !== 'undefined') { try { MMAudio.stopVoice(); } catch (e) { } }   // a new run never inherits a playing voice clip
   G.overlay = null; G.postcredit = false; G.endCat = null; G.endMint = false; G.gameComplete = false; G.dockLight = null; G.vignetteNpc = null; G.hideHollis = false; G.bossTimer = null; G.menuState = null; G.say = null; G.cardText = null; G.walkTarget = null; G.junoTarget = null; G.junoScript = null; G.nextChoices = []; G.hintN = 0; G.catCache = {}; G.pendingSave = false; G.callWho = null; G.inCall = false; G.inProgress = false; G.invariantErrors = [];
 }
 async function startGame(cont) {
