@@ -74,3 +74,47 @@ Shared: time-based ramp (frame-rate independent), cyan-green multiply grade (hue
 Last full run: **82/82** checks (regress 11, real 26, rooms-suite 13, final 5, audio 12, states 15). Equivalence of the restructure was verified *before* any room work (regress 11/11, real 26/26, final 5/5 on the multi-file build).
 
 Performance counters (software GL, so only draw-call/triangle budgets are meaningful): Act-1 break room ≈ 260 calls; worst case 879 calls (floor, Mint 3, 40 cats); room rebuild on a state change is a few ms of canvas capture; no GPU memory growth across room tours.
+
+---
+
+## 13. Remaining-rooms graphics upgrade (hand-modelled environments)
+
+Baseline commit before this pass: `27d9b2d`. All 19 non-break rooms are now hand-modelled; the generic extruded-cutout builder is kept as a fallback (`?generic=1` forces it for every room except `break`, `?classicrooms=` / F8 still force the classic renderer). Gameplay, hotspots, save data, dialogue and audio are untouched.
+
+### Room inventory
+| Room | Module | Renderer |
+|---|---|---|
+| break | `rooms/break-room.js` (benchmark) | hand-modelled |
+| floor | `rooms/floor.js` | hand-modelled |
+| shipoffice, ops, hr, mgmt | `rooms/offices.js` | hand-modelled |
+| staging, parts, charging, racks, tunnel | `rooms/warehouse.js` | hand-modelled |
+| inbound, outbound | `rooms/docks.js` | hand-modelled |
+| yard, smoke, drain | `rooms/outdoor.js` | hand-modelled |
+| lockers, remote, gordoncall (+ suite shell) | `rooms/misc.js` | hand-modelled |
+| suite | `rooms/suite.js` (HALO effects) over `MM3.suiteSpec` | hand-modelled + HALO effects |
+
+### How a hand room is declared
+`MM3.autoRoom(id, spec)` (auto-room.js) accepts a spec: `shell(K, group, ctx)` (built once per visit: floor, walls, fixed fixtures, doors), `props[propId](K, prop, ctx, S)` (one model per hotspot prop, rebuilt when state changes), `extra(K, S, ctx)` (state-dependent room geometry), `hide[]` (props that are part of the shell), `sync`, `catPlace`, `lights`. NPC props are always skipped: their rigs come from the engine, so NPC desks/vehicles are modelled by the room. Unlisted non-NPC props fall back to the generic standee/decal (used for floor route decals). Shell animations (blinkers, LED rows, flicker, bar charts) live in `ctx.anim/flicker` and survive prop rebuilds. Every room module owns disposal through the generic path (`K.disposeGroup`), so the leak test covers them.
+
+### Environment kit (`three-kit.js`, `MM3.envKit(K)`)
+Textures: floor (tile/joints/stripes/blots/scanlines), wall (panels/blocks/wainscot). Shell: floor, wall, fixture (flickering tube), truss, sign (canvas text, optional glow). Freight: pallet, cartons, wrapped, loadedPallet, rack (blue uprights / orange beams / loads). Equipment: forklift (cushion/propane/reach, blinking beacon), pallet jack, bollard. Docks: dockDoor, trailer. Office: desk, chair, monitor, cabinet, printer, plant, shelf, window, clock. Employee/utility: lockerBank, bench, door, table, crate, pipe, cableTray. Palette `E.C`.
+
+### State mappings read by the models (read-only, from `G.S.f` etc.)
+floor: `swap_fixed` (F-2231 OK plate), `departed` (whiteboard), `tucker_cleared`/`bowl2_taken` (prop visibility). staging: sorted pallets (`S.pal`), `staging_empty` board, `bowl3_taken`. racks: `tunnel_found` (rack 14 gap vs rack with service opening), stored pallets. outbound/inbound: `t9022_at_dock`, `departed`, `G.dockLight`, `loaded8`, queue of shipped pallets, `door9_closed`, `labels_stopped`. yard: `t9022_found`, `t31_placed/bowls/blanket`. charging: `took_cagekey`. lockers: `locker_open`, `dlocker_open`, `lf_taken`. ops: `took_form`. mgmt: `suite_open` (reader LED). gordoncall: `callWho`, `departed` banner. suite: HALO ghosts/bars from `boss_started/boss_done`, `boss.integrity`, `mintOn`.
+
+### Mint additions
+Every prop with `mintTag` still gets its neon cage (generic). Room-specific hooks: floor HALO screen bars turn red in Mint Mode; global grade/scanlines/rainbow level 3 unchanged. HALO suite effects unchanged. No new information is revealed.
+
+### Performance (draw calls, `tests/perf-compare.js`, hand-modelled vs the generic builder; low = cat 1/Mint off, high = cat 4/Mint 3/act 6)
+Optimisations in this pass: (1) `mergeStatic` now folds every plain-colour material into shared vertex-coloured buckets (colours baked into vertices); (2) cat head (skull+ears+nose) merged into one mesh at styling time; (3) cat LOD: only the 8 nearest cats keep eyes, lids and stripes; (4) blinkers toggle `scale` instead of `visible` so GPU resource counts stay stable (leak test).
+Worst case: 879 draw calls (floor, cat 4 / Mint 3) before → 538 after (generic builder with the same optimisations: 532). Per-room worst case now 17 (remote) to 538 (floor). Triangles in the worst room ≈ 15k. These are SwiftShader counts: **frame-rate on real phones/tablets still has to be profiled on devices**; nothing here claims 60 fps on hardware.
+
+### Simplified / honest limitations
+- Sign text is canvas-rendered and small at 1× on a phone (hotspot labels and dialogue remain the reading path).
+- Smoking shelter roof, tunnel pipes, yard fence and the video-call rooms (remote, gordoncall) are intentionally simple; the call rooms use scanline textures on surfaces rather than a full-screen overlay.
+- Far cats (index ≥ 8) lose eyes/stripes/lids; sleeping far cats show no closed-eye lids.
+- Hand rooms are built from the room's own prop list; story-changed art for NPC vignettes (e.g. Gordon/Renata call portrait) still comes from the engine rigs.
+- Scripted full fresh-game-to-credits playthrough was NOT run (no scripted solution exists in the repo); the ending/credits/post-credit sequence was run directly via `ending()` in fast mode.
+
+### Validation added (`tests/graphics-validation.js`, `tests/perf-compare.js`, `tests/room-shot.js`, `tests/leak-diff.js`)
+Alternate-order tours through real exits (3 orders), save→reload per act in hand rooms (act 1–6), high-cat Mint in five rooms, HALO integrity 100/60/20/0, ending→credits→post-credit, new game after completion. Screenshots of every room (normal + F9 hotspot overlay) are in `docs/screenshots/graphics/`.

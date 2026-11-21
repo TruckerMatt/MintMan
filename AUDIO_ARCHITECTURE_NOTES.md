@@ -70,3 +70,5 @@ Tiers: **A ready 911** (generate=true) · **B quoted narration 118** (pending ap
 * **Ambience:** all 16 looping beds generated (20 s, `loop=true`, clean steady room tone; `assets/audio/ambience/*.mp3`, originals in `_raw/`), level-matched to about -34 dB mean with a gain-only pass and played at 0.55 x the ambience bus. Room -> bed map: `MMAudio.ROOM_AMBIENCE`; rooms cross-fade over 1.5 s. Five beds (hr_office, operations_office, regional_lobby, locker_room, warehouse_racks) came out of the generator very quiet and were boosted 16-40 dB: audition for hiss. Prompts `tools/audio/ambience_prompts.json`, ledger `ambience_generation_log.json`, tests `tests/ambience.js`.
 * **PARKED:** the 28 `HOLD_DYNAMIC` lines (item names, counts, joined lists) - decision pending; see `docs/audio/dynamic_resolution.csv`.
 * Audition everything in `listen.html` (voices + SFX).
+
+> Note: the 2025 graphics pass (GRAPHICS_MIGRATION_NOTES.md §13) did not touch the audio system, assets, manifests or ledgers.
