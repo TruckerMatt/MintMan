@@ -19,7 +19,8 @@ for (const kind of ['voice', 'sfx', 'ambience']) {
       const sha = require('crypto').createHash('sha1').update(`${e.speaker}|${e.channel || 'normal'}|${e.text}`).digest('hex').slice(0, 10);
       if (m.version >= 2) { if (e.id !== `vo_${String(e.speaker).toLowerCase()}_${sha}` && !(registry.ids[e.id])) err('voice: ' + e.id + ' is neither hash-derived nor in the permanent registry'); if (!registry.ids[e.id]) err('voice: ' + e.id + ' missing from tools/audio/id_registry.json'); if (!/^assets\/audio\/voice\//.test(e.planned_file || '')) err('voice: ' + e.id + ' needs planned_file'); if (e.status === 'blocked_dynamic' && e.file) err('voice: blocked_dynamic entry ' + e.id + ' must not have audio'); if (e.status === 'stale_text') warn('voice: ' + e.id + ' is stale_text (regenerate audio)'); const k = `${e.speaker}|${norm(e.text)}`; if (keys.has(k)) err('voice: duplicate speaker+text ' + e.id + ' / ' + keys.get(k)); keys.set(k, e.id); }
       if (!e.speaker || !e.text) err('voice: ' + e.id + ' needs speaker and text'); else { if (!speakers.has(String(e.speaker).toUpperCase()) && e.speaker !== 'NARRATOR') warn('voice: ' + e.id + ' speaker ' + e.speaker + ' has no assets/audio/voice/<speaker>/ folder');
-        if (!hay.includes(norm(e.text))) { textMiss++; warn('voice: ' + e.id + ' text not found in current dialogue source: "' + String(e.text).slice(0, 60) + '"'); } }
+        if (e.category !== 'dynamic_expansion' && !hay.includes(norm(e.text))) {   // expanded runtime-assembled lines are generated, not literal source text
+           textMiss++; warn('voice: ' + e.id + ' text not found in current dialogue source: "' + String(e.text).slice(0, 60) + '"'); } }
     }
   }
   console.log(`${kind}: ${m.entries.length} entries, ${withFile} with files${kind === 'voice' ? ', ' + textMiss + ' not matching current dialogue' : ''}`);

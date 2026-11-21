@@ -11666,14 +11666,6 @@
    "origin": "dynamic_expansion",
    "status": "registered"
   },
-  "vo_system_1c71334177": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "fb1770f3f80bc8718023bb85c9a0810d2f2a5f37",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
   "vo_narrator_7b2fa0660d": {
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -11702,14 +11694,6 @@
    "speaker": "SCANNER",
    "channel": "normal",
    "text_sha1": "67ccd9eba4e2d5017ae46b549d88fb89d8590998",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
-  "vo_system_a7465822b8": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "af3504b15b9bd1fe1256b0841a6b1bcceab961eb",
    "first_seen": "2026-11-21",
    "origin": "dynamic_expansion",
    "status": "registered"
@@ -11746,14 +11730,6 @@
    "origin": "dynamic_expansion",
    "status": "registered"
   },
-  "vo_system_ad91b268c6": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "c9d17e3bf07b815b4bc7ffd3c3347077bf0c20ff",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
   "vo_narrator_485d5dc9f1": {
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -11782,14 +11758,6 @@
    "speaker": "SCANNER",
    "channel": "normal",
    "text_sha1": "35bf406d49f9abe2a9fe51954f35470f2d2c92b0",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
-  "vo_system_e33de778a6": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "fcd32efe16462f77081649d1970cde1ac4b0f42c",
    "first_seen": "2026-11-21",
    "origin": "dynamic_expansion",
    "status": "registered"
@@ -11854,14 +11822,6 @@
    "speaker": "SCANNER",
    "channel": "normal",
    "text_sha1": "6540dae5e63af932e807afee39585cf8d4922ab3",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
-  "vo_system_c063182c35": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "a9ccfc2441e66268c14c9d2183a5a3b8e67733f9",
    "first_seen": "2026-11-21",
    "origin": "dynamic_expansion",
    "status": "registered"
@@ -12090,14 +12050,6 @@
    "origin": "dynamic_expansion",
    "status": "registered"
   },
-  "vo_system_fc32b54d48": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "c6d276aee20ad11f1e30819b0e6bac76702092d8",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
   "vo_narrator_9d3118e245": {
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -12126,14 +12078,6 @@
    "speaker": "SCANNER",
    "channel": "normal",
    "text_sha1": "29722445b583c3431fa361d04c614a92c7dae395",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
-  "vo_system_ebcf8a4273": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "d8b2090c7d0ba64c65723a83f8f88f8ead5ef217",
    "first_seen": "2026-11-21",
    "origin": "dynamic_expansion",
    "status": "registered"
@@ -12202,14 +12146,6 @@
    "origin": "dynamic_expansion",
    "status": "registered"
   },
-  "vo_system_2bcb9f99f8": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "1194536006017cbd0e42fe10f659eba92612b12e",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
   "vo_narrator_0d2c3782f9": {
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -12222,22 +12158,6 @@
    "speaker": "NARRATOR",
    "channel": "normal",
    "text_sha1": "c56f951d362aebc45a5ca34792ffc342d61cc3fc",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
-  "vo_system_c28773f2f5": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "620446a7d2aae058b3238ccfa6db96dadc169337",
-   "first_seen": "2026-11-21",
-   "origin": "dynamic_expansion",
-   "status": "registered"
-  },
-  "vo_system_0be803691e": {
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "text_sha1": "0dc82b4a55742a8031f5df82e7722d9c589fd33c",
    "first_seen": "2026-11-21",
    "origin": "dynamic_expansion",
    "status": "registered"
@@ -13390,6 +13310,86 @@
    "speaker": "NARRATOR",
    "channel": "normal",
    "text_sha1": "2ff5464724526b324855ac9ac41b7db760aa64b8",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_9ef7d525d7": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "0cd003c6e31e3d2e909c36a74ba776437855e0f2",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_64a7017a27": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "73bffb7d2a56961434976e24fd7853b06cc08c68",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_d389119363": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "53eb79d016b40a72ab97845102f57b4a0cc25b30",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_03d1d33522": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "57b0577d78d7c68a54be2f7b3eb9634c6f94aad5",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_6d6048f713": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "f5026f1bd47ef0f720083d349cd8fe7c73034c4d",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_c9a8ebb39e": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "5e2d2d08694f635d15ccca06f042f3ab4923b3c1",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_186e7b6856": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "5efde754b9e1b56b28631817b34a483825514dd0",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_5d6c8c76ba": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "af58c0a86f9398673bb32f345ce1b91c8306c361",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_238bceda8a": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "99f87d45ebc7db7cebf95f3033ad14226a2c539b",
+   "first_seen": "2026-11-21",
+   "origin": "dynamic_expansion",
+   "status": "registered"
+  },
+  "vo_narrator_d287d65c0c": {
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text_sha1": "a3b04549af2bae64858a513561f95d4afbb0cd47",
    "first_seen": "2026-11-21",
    "origin": "dynamic_expansion",
    "status": "registered"

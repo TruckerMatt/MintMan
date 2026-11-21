@@ -21,8 +21,8 @@
    "voice_name": "Daniel - Steady Broadcaster",
    "status": "locked",
    "settings_override": null,
-   "jobs": 591,
-   "chars": 52634
+   "jobs": 601,
+   "chars": 53333
   },
   "SCANNER": {
    "voice_id": "NoiYxL9g25M4orC8Q0ls",
@@ -104,14 +104,6 @@
    "jobs": 22,
    "chars": 1786
   },
-  "SYSTEM": {
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "status": "locked",
-   "settings_override": null,
-   "jobs": 23,
-   "chars": 1284
-  },
   "TABITHA": {
    "voice_id": "QgAHZCKeKxsZTcp84rgh",
    "voice_name": "Hollie Sue",
@@ -144,6 +136,14 @@
    "jobs": 16,
    "chars": 1255
   },
+  "SYSTEM": {
+   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+   "voice_name": "The Curator",
+   "status": "locked",
+   "settings_override": null,
+   "jobs": 13,
+   "chars": 715
+  },
   "RADIO": {
    "voice_id": "cjVigY5qzO86Huf0OWal",
    "voice_name": "Eric",
@@ -171,7 +171,7 @@
  },
  "totals": {
   "jobs": 1142,
-  "characters": 92377
+  "characters": 92507
  },
  "jobs": [
   {
@@ -3633,6 +3633,19 @@
    "status": "pending"
   },
   {
+   "id": "vo_narrator_03d1d33522",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_03d1d33522.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 59,
+   "status": "pending"
+  },
+  {
    "id": "vo_narrator_044aea1169",
    "speaker": "NARRATOR",
    "text": "The outbound queue, at Door 3. 7 of 8 Kestrel loads are lined up and waiting for a trailer to land.",
@@ -3828,6 +3841,19 @@
    "status": "pending"
   },
   {
+   "id": "vo_narrator_186e7b6856",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: PHYSICAL TRUTH — FELINE KIBBLE, bulk totes (Pawsome Foods).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — FELINE KIBBLE, bulk totes, Pawsome Foods.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_186e7b6856.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 71,
+   "status": "pending"
+  },
+  {
    "id": "vo_narrator_1880d60fed",
    "speaker": "NARRATOR",
    "text": "Hollis slides the pallet jack under A5. It groans with mechanical trust.",
@@ -3877,6 +3903,19 @@
    "post_fx": null,
    "priority": "core_or_triggered_dialogue",
    "chars": 22,
+   "status": "pending"
+  },
+  {
+   "id": "vo_narrator_238bceda8a",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: PHYSICAL TRUTH — SPARE CUSHION TIRES (not on PO).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — SPARE CUSHION TIRES, not on PO.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_238bceda8a.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 61,
    "status": "pending"
   },
   {
@@ -4270,6 +4309,19 @@
    "status": "pending"
   },
   {
+   "id": "vo_narrator_5d6c8c76ba",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_5d6c8c76ba.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 51,
+   "status": "pending"
+  },
+  {
    "id": "vo_narrator_5db5deea2e",
    "speaker": "NARRATOR",
    "text": "Pallet A8, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
@@ -4319,6 +4371,19 @@
    "post_fx": null,
    "priority": "core_or_triggered_dialogue",
    "chars": 67,
+   "status": "pending"
+  },
+  {
+   "id": "vo_narrator_64a7017a27",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: The label and the freight have never met. Nothing on the Kestrel order matches this.",
+   "tts_text": "MINT VISION: The label and the freight have never met. Nothing on the Kestrel order matches this.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_64a7017a27.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 97,
    "status": "pending"
   },
   {
@@ -4397,6 +4462,19 @@
    "post_fx": null,
    "priority": "core_or_triggered_dialogue",
    "chars": 73,
+   "status": "pending"
+  },
+  {
+   "id": "vo_narrator_6d6048f713",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-79, Tennessee order.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_6d6048f713.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 65,
    "status": "pending"
   },
   {
@@ -4712,6 +4790,19 @@
    "status": "pending"
   },
   {
+   "id": "vo_narrator_9ef7d525d7",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: The label and the freight have never met. Something on the Kestrel order matches this.",
+   "tts_text": "MINT VISION: The label and the freight have never met. Something on the Kestrel order matches this.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_9ef7d525d7.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 99,
+   "status": "pending"
+  },
+  {
    "id": "vo_narrator_9fbb10dc52",
    "speaker": "NARRATOR",
    "text": "Hollis mutters something at the scanner bat. It does not answer. Fine.",
@@ -4985,6 +5076,19 @@
    "status": "pending"
   },
   {
+   "id": "vo_narrator_c9a8ebb39e",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-80 (Tennessee order).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-80, Tennessee order.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_c9a8ebb39e.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 65,
+   "status": "pending"
+  },
+  {
    "id": "vo_narrator_caaf64717a",
    "speaker": "NARRATOR",
    "text": "Pallet B1: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
@@ -5037,6 +5141,19 @@
    "status": "pending"
   },
   {
+   "id": "vo_narrator_d287d65c0c",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: PHYSICAL TRUTH — HALO KIOSK HARDWARE (unopened return).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — HALO KIOSK HARDWARE, unopened return.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_d287d65c0c.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 67,
+   "status": "pending"
+  },
+  {
    "id": "vo_narrator_d35f7a583a",
    "speaker": "NARRATOR",
    "text": "Pallet B2: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
@@ -5047,6 +5164,19 @@
    "post_fx": null,
    "priority": "core_or_triggered_dialogue",
    "chars": 80,
+   "status": "pending"
+  },
+  {
+   "id": "vo_narrator_d389119363",
+   "speaker": "NARRATOR",
+   "text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
+   "voice_slot": "NARRATOR",
+   "output_file": "assets/audio/voice/narrator/vo_narrator_d389119363.mp3",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "post_fx": null,
+   "priority": "core_or_triggered_dialogue",
+   "chars": 59,
    "status": "pending"
   },
   {
@@ -11833,136 +11963,6 @@
    "post_fx": null,
    "priority": "core_or_triggered_dialogue",
    "chars": 57,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_0be803691e",
-   "speaker": "SYSTEM",
-   "text": "The label and the freight have never met. Nothing on the Kestrel order matches this.",
-   "tts_text": "The label and the freight have never met. Nothing on the Kestrel order matches this.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_0be803691e.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 84,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_1c71334177",
-   "speaker": "SYSTEM",
-   "text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
-   "tts_text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_1c71334177.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 46,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_2bcb9f99f8",
-   "speaker": "SYSTEM",
-   "text": "PHYSICAL TRUTH — HALO KIOSK HARDWARE (unopened return).",
-   "tts_text": "PHYSICAL TRUTH — HALO KIOSK HARDWARE, unopened return.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_2bcb9f99f8.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 54,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_a7465822b8",
-   "speaker": "SYSTEM",
-   "text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
-   "tts_text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_a7465822b8.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 46,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_ad91b268c6",
-   "speaker": "SYSTEM",
-   "text": "PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK RT-79, Tennessee order.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_ad91b268c6.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 52,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_c063182c35",
-   "speaker": "SYSTEM",
-   "text": "PHYSICAL TRUTH — FELINE KIBBLE, bulk totes (Pawsome Foods).",
-   "tts_text": "PHYSICAL TRUTH — FELINE KIBBLE, bulk totes, Pawsome Foods.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_c063182c35.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 58,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_c28773f2f5",
-   "speaker": "SYSTEM",
-   "text": "The label and the freight have never met. Something on the Kestrel order matches this.",
-   "tts_text": "The label and the freight have never met. Something on the Kestrel order matches this.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_c28773f2f5.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 86,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_e33de778a6",
-   "speaker": "SYSTEM",
-   "text": "PHYSICAL TRUTH — REACH TRUCK RT-80 (Tennessee order).",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK RT-80, Tennessee order.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_e33de778a6.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 52,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_ebcf8a4273",
-   "speaker": "SYSTEM",
-   "text": "PHYSICAL TRUTH — SPARE CUSHION TIRES (not on PO).",
-   "tts_text": "PHYSICAL TRUTH — SPARE CUSHION TIRES, not on PO.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_ebcf8a4273.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 48,
-   "status": "pending"
-  },
-  {
-   "id": "vo_system_fc32b54d48",
-   "speaker": "SYSTEM",
-   "text": "PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
-   "voice_slot": "SYSTEM",
-   "output_file": "assets/audio/voice/system/vo_system_fc32b54d48.mp3",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "priority": "core_or_triggered_dialogue",
-   "chars": 38,
    "status": "pending"
   },
   {

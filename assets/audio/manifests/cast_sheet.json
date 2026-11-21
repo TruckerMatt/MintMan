@@ -5,12 +5,12 @@
   {
    "speaker": "NARRATOR",
    "role": "Omniscient narrator (most lines)",
-   "lines": 679,
-   "lines_ready": 591,
-   "characters": 64555,
-   "characters_ready": 52634,
+   "lines": 689,
+   "lines_ready": 601,
+   "characters": 65254,
+   "characters_ready": 53333,
    "channels": {
-    "normal": 679
+    "normal": 689
    },
    "scenes": [
     "break",
@@ -29,8 +29,8 @@
    "voice_status": "locked",
    "audition_lines": [
     {
-     "id": "vo_narrator_7b2fa0660d",
-     "text": "Hollis slides the pallet jack under A1. It groans with mechanical trust.",
+     "id": "vo_narrator_41cd863bfd",
+     "text": "Hollis slides the pallet jack under A8. It groans with mechanical trust.",
      "line_direction": ""
     },
     {
@@ -519,41 +519,6 @@
    "voice_name": "Lily"
   },
   {
-   "speaker": "SYSTEM",
-   "role": "Corporate system voice",
-   "lines": 27,
-   "lines_ready": 23,
-   "characters": 1626,
-   "characters_ready": 1284,
-   "channels": {
-    "normal": 27
-   },
-   "scenes": [
-    "inventory/interaction",
-    "multiple",
-    "shipoffice",
-    "staging"
-   ],
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "post_fx": null,
-   "device_voice": true,
-   "elevenlabs_voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_status": "locked",
-   "audition_lines": [
-    {
-     "id": "vo_system_ad91b268c6",
-     "text": "PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_system_5b443afe90",
-     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
-     "line_direction": ""
-    }
-   ],
-   "voice_name": "The Curator"
-  },
-  {
    "speaker": "TABITHA",
    "role": "HR",
    "lines": 20,
@@ -720,6 +685,40 @@
     }
    ],
    "voice_name": "Hollie - Kind, Enthusiastic"
+  },
+  {
+   "speaker": "SYSTEM",
+   "role": "Corporate system voice",
+   "lines": 17,
+   "lines_ready": 13,
+   "characters": 1057,
+   "characters_ready": 715,
+   "channels": {
+    "normal": 17
+   },
+   "scenes": [
+    "inventory/interaction",
+    "multiple",
+    "shipoffice"
+   ],
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "post_fx": null,
+   "device_voice": true,
+   "elevenlabs_voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+   "voice_status": "locked",
+   "audition_lines": [
+    {
+     "id": "vo_system_2fc181409e",
+     "text": "F-2231 — PROPANE SIT-DOWN — location: TENNESSEE.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_system_5b443afe90",
+     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
+     "line_direction": ""
+    }
+   ],
+   "voice_name": "The Curator"
   },
   {
    "speaker": "RADIO",

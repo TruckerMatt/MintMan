@@ -3376,6 +3376,18 @@
    "tier": "A_ready"
   },
   {
+   "id": "vo_narrator_03d1d33522",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
+   "chars": 59,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_03d1d33522.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
    "id": "vo_narrator_07fdbe70fa",
    "speaker": "NARRATOR",
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
@@ -3412,6 +3424,18 @@
    "tier": "A_ready"
   },
   {
+   "id": "vo_narrator_186e7b6856",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — FELINE KIBBLE, bulk totes, Pawsome Foods.",
+   "chars": 71,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_186e7b6856.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
    "id": "vo_narrator_1880d60fed",
    "speaker": "NARRATOR",
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
@@ -3430,6 +3454,18 @@
    "tts_text": "Hollis slides the pallet jack under B2. It groans with mechanical trust.",
    "chars": 72,
    "output_path": "assets/audio/voice/narrator/vo_narrator_1fdf1d8489.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
+   "id": "vo_narrator_238bceda8a",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — SPARE CUSHION TIRES, not on PO.",
+   "chars": 61,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_238bceda8a.mp3",
    "scene": "staging",
    "priority": "core_or_triggered_dialogue",
    "post_fx": null,
@@ -3544,6 +3580,18 @@
    "tier": "A_ready"
   },
   {
+   "id": "vo_narrator_5d6c8c76ba",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
+   "chars": 51,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_5d6c8c76ba.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
    "id": "vo_narrator_5db5deea2e",
    "speaker": "NARRATOR",
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
@@ -3568,6 +3616,18 @@
    "tier": "A_ready"
   },
   {
+   "id": "vo_narrator_64a7017a27",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: The label and the freight have never met. Nothing on the Kestrel order matches this.",
+   "chars": 97,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_64a7017a27.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
    "id": "vo_narrator_65a19ea093",
    "speaker": "NARRATOR",
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
@@ -3586,6 +3646,18 @@
    "tts_text": "Pallet B3, wrapped and labeled. The label says one thing. The pallet looks like it might mean another. There is a chalk dot on the corner in Bruno's handwriting.",
    "chars": 161,
    "output_path": "assets/audio/voice/narrator/vo_narrator_6a00adf4ad.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
+   "id": "vo_narrator_6d6048f713",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-79, Tennessee order.",
+   "chars": 65,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_6d6048f713.mp3",
    "scene": "staging",
    "priority": "core_or_triggered_dialogue",
    "post_fx": null,
@@ -3736,6 +3808,18 @@
    "tier": "A_ready"
   },
   {
+   "id": "vo_narrator_9ef7d525d7",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: The label and the freight have never met. Something on the Kestrel order matches this.",
+   "chars": 99,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_9ef7d525d7.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
    "id": "vo_narrator_a1e4ad5466",
    "speaker": "NARRATOR",
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
@@ -3844,6 +3928,18 @@
    "tier": "A_ready"
   },
   {
+   "id": "vo_narrator_c9a8ebb39e",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-80, Tennessee order.",
+   "chars": 65,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_c9a8ebb39e.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
    "id": "vo_narrator_caaf64717a",
    "speaker": "NARRATOR",
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
@@ -3868,12 +3964,36 @@
    "tier": "A_ready"
   },
   {
+   "id": "vo_narrator_d287d65c0c",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — HALO KIOSK HARDWARE, unopened return.",
+   "chars": 67,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_d287d65c0c.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
    "id": "vo_narrator_d35f7a583a",
    "speaker": "NARRATOR",
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
    "tts_text": "Pallet B2: OUTBOUND. Correct. The scanner chirps a note of professional respect.",
    "chars": 80,
    "output_path": "assets/audio/voice/narrator/vo_narrator_d35f7a583a.mp3",
+   "scene": "staging",
+   "priority": "core_or_triggered_dialogue",
+   "post_fx": null,
+   "tier": "A_ready"
+  },
+  {
+   "id": "vo_narrator_d389119363",
+   "speaker": "NARRATOR",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
+   "chars": 59,
+   "output_path": "assets/audio/voice/narrator/vo_narrator_d389119363.mp3",
    "scene": "staging",
    "priority": "core_or_triggered_dialogue",
    "post_fx": null,
@@ -4114,126 +4234,6 @@
    "tts_text": "PALLET B6 — LABEL: \"TIRES — dest KESTREL,?\".",
    "chars": 44,
    "output_path": "assets/audio/voice/scanner/vo_scanner_fb6354a2b9.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_0be803691e",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "The label and the freight have never met. Nothing on the Kestrel order matches this.",
-   "chars": 84,
-   "output_path": "assets/audio/voice/system/vo_system_0be803691e.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_1c71334177",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
-   "chars": 46,
-   "output_path": "assets/audio/voice/system/vo_system_1c71334177.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_2bcb9f99f8",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "PHYSICAL TRUTH — HALO KIOSK HARDWARE, unopened return.",
-   "chars": 54,
-   "output_path": "assets/audio/voice/system/vo_system_2bcb9f99f8.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_a7465822b8",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
-   "chars": 46,
-   "output_path": "assets/audio/voice/system/vo_system_a7465822b8.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_ad91b268c6",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK RT-79, Tennessee order.",
-   "chars": 52,
-   "output_path": "assets/audio/voice/system/vo_system_ad91b268c6.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_c063182c35",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "PHYSICAL TRUTH — FELINE KIBBLE, bulk totes, Pawsome Foods.",
-   "chars": 58,
-   "output_path": "assets/audio/voice/system/vo_system_c063182c35.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_c28773f2f5",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "The label and the freight have never met. Something on the Kestrel order matches this.",
-   "chars": 86,
-   "output_path": "assets/audio/voice/system/vo_system_c28773f2f5.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_e33de778a6",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK RT-80, Tennessee order.",
-   "chars": 52,
-   "output_path": "assets/audio/voice/system/vo_system_e33de778a6.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_ebcf8a4273",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "PHYSICAL TRUTH — SPARE CUSHION TIRES, not on PO.",
-   "chars": 48,
-   "output_path": "assets/audio/voice/system/vo_system_ebcf8a4273.mp3",
-   "scene": "staging",
-   "priority": "core_or_triggered_dialogue",
-   "post_fx": null,
-   "tier": "A_ready"
-  },
-  {
-   "id": "vo_system_fc32b54d48",
-   "speaker": "SYSTEM",
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
-   "chars": 38,
-   "output_path": "assets/audio/voice/system/vo_system_fc32b54d48.mp3",
    "scene": "staging",
    "priority": "core_or_triggered_dialogue",
    "post_fx": null,

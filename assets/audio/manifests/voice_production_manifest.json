@@ -16,7 +16,7 @@
   "C_speaker_change": 28
  },
  "characters": {
-  "A_ready": 93466,
+  "A_ready": 93596,
   "B_quoted_narration": 14241,
   "D_blocked_dynamic": 1757,
   "C_speaker_change": 3533
@@ -11370,6 +11370,43 @@
    ]
   },
   {
+   "id": "vo_narrator_03d1d33522",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
+   "tts_notes": [],
+   "chars": 59,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_03d1d33522.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_03d1d33522.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
    "id": "vo_narrator_07fdbe70fa",
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -11481,6 +11518,45 @@
    ]
   },
   {
+   "id": "vo_narrator_186e7b6856",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: PHYSICAL TRUTH — FELINE KIBBLE, bulk totes (Pawsome Foods).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — FELINE KIBBLE, bulk totes, Pawsome Foods.",
+   "tts_notes": [
+    "aside spoken:pawsome foods"
+   ],
+   "chars": 72,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_186e7b6856.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_186e7b6856.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
    "id": "vo_narrator_1880d60fed",
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -11548,6 +11624,45 @@
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
    "voice_name": "Daniel - Steady Broadcaster",
    "output_path": "assets/audio/voice/narrator/vo_narrator_1fdf1d8489.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
+   "id": "vo_narrator_238bceda8a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: PHYSICAL TRUTH — SPARE CUSHION TIRES (not on PO).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — SPARE CUSHION TIRES, not on PO.",
+   "tts_notes": [
+    "aside spoken:not on po"
+   ],
+   "chars": 62,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_238bceda8a.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_238bceda8a.mp3",
    "order_key": [
     0,
     10,
@@ -11888,6 +12003,43 @@
    ]
   },
   {
+   "id": "vo_narrator_5d6c8c76ba",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
+   "tts_notes": [],
+   "chars": 51,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_5d6c8c76ba.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_5d6c8c76ba.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
    "id": "vo_narrator_5db5deea2e",
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -11962,6 +12114,43 @@
    ]
   },
   {
+   "id": "vo_narrator_64a7017a27",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: The label and the freight have never met. Nothing on the Kestrel order matches this.",
+   "tts_text": "MINT VISION: The label and the freight have never met. Nothing on the Kestrel order matches this.",
+   "tts_notes": [],
+   "chars": 97,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_64a7017a27.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_64a7017a27.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
    "id": "vo_narrator_65a19ea093",
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -12029,6 +12218,45 @@
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
    "voice_name": "Daniel - Steady Broadcaster",
    "output_path": "assets/audio/voice/narrator/vo_narrator_6a00adf4ad.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
+   "id": "vo_narrator_6d6048f713",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-79, Tennessee order.",
+   "tts_notes": [
+    "aside spoken:tennessee order"
+   ],
+   "chars": 66,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6d6048f713.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_6d6048f713.mp3",
    "order_key": [
     0,
     10,
@@ -12480,6 +12708,43 @@
    ]
   },
   {
+   "id": "vo_narrator_9ef7d525d7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: The label and the freight have never met. Something on the Kestrel order matches this.",
+   "tts_text": "MINT VISION: The label and the freight have never met. Something on the Kestrel order matches this.",
+   "tts_notes": [],
+   "chars": 99,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9ef7d525d7.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_9ef7d525d7.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
    "id": "vo_narrator_a1e4ad5466",
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -12813,6 +13078,45 @@
    ]
   },
   {
+   "id": "vo_narrator_c9a8ebb39e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-80 (Tennessee order).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — REACH TRUCK RT-80, Tennessee order.",
+   "tts_notes": [
+    "aside spoken:tennessee order"
+   ],
+   "chars": 66,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c9a8ebb39e.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_c9a8ebb39e.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
    "id": "vo_narrator_caaf64717a",
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -12887,6 +13191,45 @@
    ]
   },
   {
+   "id": "vo_narrator_d287d65c0c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: PHYSICAL TRUTH — HALO KIOSK HARDWARE (unopened return).",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — HALO KIOSK HARDWARE, unopened return.",
+   "tts_notes": [
+    "aside spoken:unopened return"
+   ],
+   "chars": 68,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d287d65c0c.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_d287d65c0c.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
    "id": "vo_narrator_d35f7a583a",
    "speaker": "NARRATOR",
    "channel": "normal",
@@ -12917,6 +13260,43 @@
    "voice_id": "onwK4e9ZLuTAKqWW03F9",
    "voice_name": "Daniel - Steady Broadcaster",
    "output_path": "assets/audio/voice/narrator/vo_narrator_d35f7a583a.mp3",
+   "order_key": [
+    0,
+    10,
+    0
+   ]
+  },
+  {
+   "id": "vo_narrator_d389119363",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "A_ready",
+   "generate": true,
+   "hold_reason": null,
+   "text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
+   "tts_text": "MINT VISION: PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
+   "tts_notes": [],
+   "chars": 59,
+   "scene": "staging",
+   "category": "dynamic_expansion",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d389119363.mp3",
+   "source": [
+    {
+     "file": "tools/audio/expand_dynamic.py",
+     "line": 0
+    }
+   ],
+   "legacy_lines": [],
+   "review_reasons": [],
+   "production_status": "READY",
+   "status_reason": null,
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "output_path": "assets/audio/voice/narrator/vo_narrator_d389119363.mp3",
    "order_key": [
     0,
     10,
@@ -13667,386 +14047,6 @@
    "voice_id": "NoiYxL9g25M4orC8Q0ls",
    "voice_name": "Vector - Tec Voice",
    "output_path": "assets/audio/voice/scanner/vo_scanner_fb6354a2b9.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_0be803691e",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "The label and the freight have never met. Nothing on the Kestrel order matches this.",
-   "tts_text": "The label and the freight have never met. Nothing on the Kestrel order matches this.",
-   "tts_notes": [],
-   "chars": 84,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_0be803691e.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_0be803691e.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_1c71334177",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
-   "tts_text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-118.",
-   "tts_notes": [],
-   "chars": 46,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_1c71334177.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_1c71334177.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_2bcb9f99f8",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "PHYSICAL TRUTH — HALO KIOSK HARDWARE (unopened return).",
-   "tts_text": "PHYSICAL TRUTH — HALO KIOSK HARDWARE, unopened return.",
-   "tts_notes": [
-    "aside spoken:unopened return"
-   ],
-   "chars": 55,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_2bcb9f99f8.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_2bcb9f99f8.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_a7465822b8",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
-   "tts_text": "PHYSICAL TRUTH — CUSHION-TIRE FORKLIFT CT-119.",
-   "tts_notes": [],
-   "chars": 46,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_a7465822b8.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_a7465822b8.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_ad91b268c6",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK RT-79, Tennessee order.",
-   "tts_notes": [
-    "aside spoken:tennessee order"
-   ],
-   "chars": 53,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_ad91b268c6.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_ad91b268c6.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_c063182c35",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "PHYSICAL TRUTH — FELINE KIBBLE, bulk totes (Pawsome Foods).",
-   "tts_text": "PHYSICAL TRUTH — FELINE KIBBLE, bulk totes, Pawsome Foods.",
-   "tts_notes": [
-    "aside spoken:pawsome foods"
-   ],
-   "chars": 59,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_c063182c35.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_c063182c35.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_c28773f2f5",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "The label and the freight have never met. Something on the Kestrel order matches this.",
-   "tts_text": "The label and the freight have never met. Something on the Kestrel order matches this.",
-   "tts_notes": [],
-   "chars": 86,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_c28773f2f5.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_c28773f2f5.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_e33de778a6",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "PHYSICAL TRUTH — REACH TRUCK RT-80 (Tennessee order).",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK RT-80, Tennessee order.",
-   "tts_notes": [
-    "aside spoken:tennessee order"
-   ],
-   "chars": 53,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_e33de778a6.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_e33de778a6.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_ebcf8a4273",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "PHYSICAL TRUTH — SPARE CUSHION TIRES (not on PO).",
-   "tts_text": "PHYSICAL TRUTH — SPARE CUSHION TIRES, not on PO.",
-   "tts_notes": [
-    "aside spoken:not on po"
-   ],
-   "chars": 49,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_ebcf8a4273.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_ebcf8a4273.mp3",
-   "order_key": [
-    0,
-    10,
-    0
-   ]
-  },
-  {
-   "id": "vo_system_fc32b54d48",
-   "speaker": "SYSTEM",
-   "channel": "normal",
-   "tier": "A_ready",
-   "generate": true,
-   "hold_reason": null,
-   "text": "PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
-   "tts_text": "PHYSICAL TRUTH — REACH TRUCK CHARGERS.",
-   "tts_notes": [],
-   "chars": 38,
-   "scene": "staging",
-   "category": "dynamic_expansion",
-   "priority": "core_or_triggered_dialogue",
-   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
-   "line_direction": "",
-   "post_fx": null,
-   "planned_file": "assets/audio/voice/system/vo_system_fc32b54d48.mp3",
-   "source": [
-    {
-     "file": "tools/audio/expand_dynamic.py",
-     "line": 0
-    }
-   ],
-   "legacy_lines": [],
-   "review_reasons": [],
-   "production_status": "READY",
-   "status_reason": null,
-   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
-   "voice_name": "The Curator",
-   "output_path": "assets/audio/voice/system/vo_system_fc32b54d48.mp3",
    "order_key": [
     0,
     10,

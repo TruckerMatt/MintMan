@@ -5,14 +5,14 @@ Generated 2026-11-21 by `tools/audio/report_vo.py` from the ledger `assets/audio
 ## Counts
 
 * Manifest entries at generation start: **1068** (frozen in `voice_manifest_pre_generation.json`).
-* Eligible/READY at preflight: **1063** (tts_text characters at preflight: 89,183).
-* **Generated this pass: 1053** (QA_REQUIRED 1063, GENERATED 0); characters generated **87,911**; credits reported by the API headers **36,813**.
+* Eligible/READY at preflight: **1309** (tts_text characters at preflight: 110,810).
+* **Generated this pass: 1299** (QA_REQUIRED 1309, GENERATED 0); characters generated **109,538**; credits reported by the API headers **46,335**.
 * Failed: **0**. Still READY but not generated: **0** (0 chars).
 * TEXT_ONLY (tutorial/control/hint, no credits spent): **4**.
-* HOLD_DYNAMIC (runtime-assembled): **28**.
+* HOLD_DYNAMIC (runtime-assembled): **27**.
 * HOLD_SPLIT_REQUIRED (embedded speaker / unclear quoted speech): **0**.
 * APPROVED_EXISTING: **0** (the audition clips were never saved to the repo, so none are reused).
-* Manual QA required: **1053** (every generated clip: listening QA not yet performed).
+* Manual QA required: **1299** (every generated clip: listening QA not yet performed).
 
 ## Settings
 
@@ -22,33 +22,33 @@ Model `eleven_v4`, `mp3_44100_128`, voice default settings (no overrides), one t
 
 | speaker | voice | entries | generated | chars generated | credits |
 |---|---|---|---|---|---|
-| NARRATOR | Daniel - Steady Broadcaster | 568 | 544 | 50,726 | 21,224 |
+| NARRATOR | Daniel - Steady Broadcaster | 714 | 690 | 63,349 | 26,790 |
+| SCANNER | Vector - Tec Voice | 117 | 113 | 10,365 | 4,481 |
 | HOLLIS | James (cloned) | 109 | 109 | 3,802 | 1,572 |
-| SCANNER | Vector - Tec Voice | 62 | 58 | 5,686 | 2,427 |
-| PRUDENCE | Jessica | 37 | 37 | 3,036 | 1,319 |
-| INGRID | Matilda | 37 | 35 | 2,478 | 1,005 |
-| BRUNO | Rich - Southern US | 35 | 35 | 2,849 | 1,168 |
+| INGRID | Matilda | 61 | 60 | 5,827 | 2,477 |
+| PRUDENCE | Jessica | 38 | 38 | 3,061 | 1,330 |
+| BRUNO | Rich - Southern US | 38 | 38 | 2,918 | 1,198 |
 | RUFUS | Callum | 32 | 32 | 2,166 | 908 |
-| TORVALD | Brian | 30 | 30 | 2,069 | 891 |
-| TUCKER | Jordan - Warm & Gritty | 29 | 29 | 2,338 | 1,004 |
-| HALVORSEN | Will | 26 | 26 | 2,261 | 931 |
+| TORVALD | Brian | 31 | 31 | 2,083 | 897 |
+| TUCKER | Jordan - Warm & Gritty | 30 | 30 | 2,362 | 1,015 |
+| SYSTEM | The Curator | 30 | 28 | 1,651 | 697 |
+| HALVORSEN | Will | 27 | 27 | 2,384 | 985 |
 | HARROW | Lily | 23 | 23 | 1,884 | 770 |
-| TABITHA | Hollie Sue | 20 | 20 | 1,476 | 625 |
-| SYSTEM | The Curator | 19 | 17 | 1,053 | 433 |
+| TABITHA | Hollie Sue | 21 | 21 | 1,561 | 662 |
 | GORDON | Adam | 18 | 18 | 1,456 | 583 |
 | RENATA | Hollie - Kind, Enthusiastic | 17 | 17 | 1,271 | 539 |
 | OZZIE | Topher | 14 | 14 | 1,294 | 521 |
 | GUS | Bill | 13 | 13 | 881 | 377 |
-| RADIO | Eric | 5 | 5 | 1,036 | 450 |
+| RADIO | Eric | 6 | 6 | 1,074 | 467 |
 | TABLET | AGEIS-7 4/10 | 1 | 1 | 149 | 66 |
 
 ## Generated clips by room/scene (act numbers are not present in the data; order = priority, room progression, source order)
 
-multiple: 443, inventory: 83, phone: 63, shipoffice: 62, finale: 59, outbound: 52, ops: 49, break: 44, yard: 40, lockers: 26, hr: 24, inbound: 21, floor: 19, parts: 14, suite: 14, mgmt: 10, racks: 7, drain: 7, staging: 6, charging: 5, tunnel: 3, smoke: 2
+multiple: 550, shipoffice: 85, inventory: 83, staging: 80, outbound: 65, phone: 63, finale: 62, ops: 49, break: 47, yard: 40, lockers: 26, hr: 26, racks: 24, inbound: 21, floor: 19, suite: 18, parts: 14, mgmt: 10, drain: 7, charging: 5, tunnel: 3, smoke: 2
 
 ## Unresolved
 
-* Dynamic lines held: 28 — see `docs/audio/dynamic_resolution.csv` (finite variants / restructure / text-only decision still needed).
+* Dynamic lines held: 27 — see `docs/audio/dynamic_resolution.csv` (finite variants / restructure / text-only decision still needed).
 * Quoted narration with embedded speech or speaker change held for splitting: 0 — needs multi-segment voice entries (new ids) before generation.
 * Failed: []
 

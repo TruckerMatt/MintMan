@@ -8,8 +8,8 @@
    "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
    "lines": [
     {
-     "id": "vo_narrator_7b2fa0660d",
-     "text": "Hollis slides the pallet jack under A1. It groans with mechanical trust.",
+     "id": "vo_narrator_41cd863bfd",
+     "text": "Hollis slides the pallet jack under A8. It groans with mechanical trust.",
      "line_direction": ""
     },
     {
@@ -295,22 +295,6 @@
    ]
   },
   {
-   "speaker": "SYSTEM",
-   "direction": "Neutral corporate system voice; precise, impersonal.",
-   "lines": [
-    {
-     "id": "vo_system_ad91b268c6",
-     "text": "PHYSICAL TRUTH — REACH TRUCK RT-79 (Tennessee order).",
-     "line_direction": ""
-    },
-    {
-     "id": "vo_system_5b443afe90",
-     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
-     "line_direction": ""
-    }
-   ]
-  },
-  {
    "speaker": "TABITHA",
    "direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
    "lines": [
@@ -405,6 +389,22 @@
     {
      "id": "vo_renata_7ee802033c",
      "text": "Still coming. I'll be at the yard gate when you're ready. Text me when they're moving. Or don't. I'll know.",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "SYSTEM",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "lines": [
+    {
+     "id": "vo_system_2fc181409e",
+     "text": "F-2231 — PROPANE SIT-DOWN — location: TENNESSEE.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_system_5b443afe90",
+     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
      "line_direction": ""
     }
    ]

@@ -25,12 +25,12 @@ for p in PAL:
     c = p['code']
     add('NARRATOR', f"Pallet {c}, wrapped and labeled. The label says one thing. The pallet looks like it might mean another." + (" There is a chalk dot on the corner in Bruno's handwriting." if p['dot'] else ' There is no dot from Bruno.'), 'staging')
     if p['bad']:
-        add('SCANNER', f'PALLET {c} — LABEL: "{p["sys"]}".', 'staging'); add('SYSTEM', f'PHYSICAL TRUTH — {p["real"]}.', 'staging')
+        add('SCANNER', f'PALLET {c} — LABEL: "{p["sys"]}".', 'staging'); add('NARRATOR', f'MINT VISION: PHYSICAL TRUTH — {p["real"]}.', 'staging')
     else:
         add('SCANNER', f'PALLET {c} — {p["real"]}. Label: "{p["sys"]}". Label matches freight. ' + ('On the Kestrel PO.' if p['dest'] == 'ship' else 'Not on the Kestrel PO.'), 'staging')
     add('NARRATOR', f'Hollis slides the pallet jack under {c}. It groans with mechanical trust.', 'staging')
     add('NARRATOR', f"Pallet {c}: {'OUTBOUND' if p['dest'] == 'ship' else 'STORAGE'}. Correct. The scanner chirps a note of professional respect.", 'staging')
-add('SYSTEM', 'The label and the freight have never met. Something on the Kestrel order matches this.', 'staging'); add('SYSTEM', 'The label and the freight have never met. Nothing on the Kestrel order matches this.', 'staging')
+add('NARRATOR', 'MINT VISION: The label and the freight have never met. Something on the Kestrel order matches this.', 'staging'); add('NARRATOR', 'MINT VISION: The label and the freight have never met. Nothing on the Kestrel order matches this.', 'staging')
 # --- counts
 for n in range(1, 9): add('NARRATOR', f"Eight slots are designated for tonight's storage. Right now {n} of them contain the correct freight, each one scanned into the right rack location.", 'racks')
 for n in range(0, 9): add('SCANNER', f'RACK STORAGE — {n}/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.', 'racks')
@@ -53,6 +53,12 @@ for it in D['ITEMS']:
     add('NARRATOR', f"Hollis can't think of a way to USE the {nm.lower()} by itself. Try USE ... ON something.", 'multiple')
     add('NARRATOR', f'Hollis mutters something at the {nm.lower()}. It does not answer. Fine.', 'multiple')
 new = 0
+# retire an earlier mis-keyed batch (MINT VISION lines are parsed by the game as NARRATOR text, not SYSTEM)
+import os
+for e in [e for e in E if e.get('category') == 'dynamic_expansion' and e['speaker'] == 'SYSTEM']:
+    E.remove(e); byid.pop(e['id'], None); REG['ids'].pop(e['id'], None)
+    f = ROOT / e['planned_file']
+    if f.exists(): os.remove(f)
 for sp, ch, text, scene in L:
     i = vid(sp, ch, text)
     if i in byid: continue
