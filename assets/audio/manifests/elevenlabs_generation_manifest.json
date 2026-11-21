@@ -3,7 +3,7 @@
  "generated": "2026-11-21",
  "description": "ElevenLabs generation job list. NOT executed. Assign `voices[<speaker>].voice_id` after auditioning, then run the generator against `jobs`. Tier B/C/D lines are excluded (see voice_manual_review_manifest.json).",
  "defaults": {
-  "model_id": "DECIDE_AT_AUDITION",
+  "model_id": "eleven_v4 (auditioned; confirm)",
   "output_format": "mp3_44100_128",
   "voice_settings": {
    "stability": null,
@@ -33,9 +33,9 @@
    "chars": 2573
   },
   "HOLLIS": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "EOuQOMUPQiYCUjY028Ro",
+   "voice_name": "James (cloned)",
+   "status": "locked",
    "settings_override": null,
    "jobs": 108,
    "chars": 3695

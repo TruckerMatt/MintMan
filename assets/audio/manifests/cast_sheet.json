@@ -26,7 +26,7 @@
    "post_fx": null,
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_narrator_a6814eb32c",
@@ -42,6 +42,18 @@
      "id": "vo_narrator_614bff3581",
      "text": "Click! The numbers on the back of that label were right.",
      "line_direction": ""
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "onwK4e9ZLuTAKqWW03F9",
+     "name": "Daniel - Steady Broadcaster",
+     "verdict": null
+    },
+    {
+     "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+     "name": "George - Warm, Captivating Storyteller",
+     "verdict": null
     }
    ]
   },
@@ -69,7 +81,7 @@
    "post_fx": null,
    "device_voice": true,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_scanner_3415fd7e3d",
@@ -80,6 +92,18 @@
      "id": "vo_scanner_22f79e3b2c",
      "text": "SEAL 88112 — Status: BROKEN. Trailer: T-4417. Time cut: Friday, 4:07 AM. Wait... that's the time the label printer was also printing. Coincidence: rated 3%.",
      "line_direction": ""
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "NoiYxL9g25M4orC8Q0ls",
+     "name": "Vector - Tec Voice",
+     "verdict": null
+    },
+    {
+     "voice_id": "ZEcx3Wdpj4EvM8PltzHY",
+     "name": "Retro Robot",
+     "verdict": null
     }
    ]
   },
@@ -106,8 +130,8 @@
    "voice_direction": "Dry, tired, restrained; understated warehouse lead. Rarely matches the absurdity around him.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "EOuQOMUPQiYCUjY028Ro",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_hollis_571e81b2f5",
@@ -129,7 +153,8 @@
      "text": "Don't start.",
      "line_direction": "to the scanner."
     }
-   ]
+   ],
+   "voice_name": "James (cloned)"
   },
   {
    "speaker": "PRUDENCE",
@@ -151,7 +176,7 @@
    "post_fx": null,
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_prudence_e3f2e1d642",
@@ -172,6 +197,18 @@
      "id": "vo_prudence_14daaeb9eb",
      "text": "Technicality.",
      "line_direction": "a breezy wave."
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+     "name": "Laura",
+     "verdict": null
+    },
+    {
+     "voice_id": "cgSgspJ2msm6clMCkdW9",
+     "name": "Jessica",
+     "verdict": null
     }
    ]
   },
@@ -194,7 +231,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_bruno_4fbc82c5da",
@@ -215,6 +252,18 @@
      "id": "vo_bruno_0ea41d6abe",
      "text": "Everyone needs the hot shipment. I need a jack that works. It leaks. Ask me about it, then we'll talk.",
      "line_direction": "folding arms."
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+     "name": "Roger",
+     "verdict": null
+    },
+    {
+     "voice_id": "hT1MsRBLaHSXGeWzW6xF",
+     "name": "Rich - Southern US",
+     "verdict": null
     }
    ]
   },
@@ -237,7 +286,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_ingrid_245aa68ef2",
@@ -264,6 +313,18 @@
      "text": "The WMS just released the reconciliation hold on staging. Every pallet is now movable. It's the first thing the WMS has done all week.",
      "line_direction": ""
     }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "XrExE9yKIg1WjnnlVkGX",
+     "name": "Matilda",
+     "verdict": null
+    },
+    {
+     "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+     "name": "Lily",
+     "verdict": null
+    }
    ]
   },
   {
@@ -288,7 +349,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_tucker_96f5cb8f77",
@@ -315,6 +376,18 @@
      "text": "Hollis! You're calling ME? I'm great! What can I help with? I'm holding a pallet. A different one. I'm fine.",
      "line_direction": "radio, delighted. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
     }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+     "name": "Liam",
+     "verdict": null
+    },
+    {
+     "voice_id": "IKne3meq5aSn9XLyUdCD",
+     "name": "Charlie",
+     "verdict": null
+    }
    ]
   },
   {
@@ -339,7 +412,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_halvorsen_2c573dc194",
@@ -360,6 +433,18 @@
      "id": "vo_halvorsen_4b4318d450",
      "text": "There's no cat problem, I'm told. Please disregard the cat on the forklift.",
      "line_direction": "faintly. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "cjVigY5qzO86Huf0OWal",
+     "name": "Eric",
+     "verdict": null
+    },
+    {
+     "voice_id": "bIHbv24MWmeRgasZH58o",
+     "name": "Will",
+     "verdict": null
     }
    ]
   },
@@ -384,7 +469,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_rufus_590b61b5f6",
@@ -411,6 +496,18 @@
      "text": "I'd love to talk, but I'm off count without my clicker. It's... somewhere lost.",
      "line_direction": ""
     }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "iP95p4xoKVk53GoZ742B",
+     "name": "Chris",
+     "verdict": null
+    },
+    {
+     "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+     "name": "Callum",
+     "verdict": null
+    }
    ]
   },
   {
@@ -433,7 +530,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_torvald_ba722687b8",
@@ -460,6 +557,18 @@
      "text": "I'll be there. I'll be the guy standing exactly where I'm supposed to be. Don't make it weird.",
      "line_direction": "sighs; puts out cigarette; picks up a radio he has apparently had this whole time. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
     }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "nPczCjzI2devNBz1zQrb",
+     "name": "Brian",
+     "verdict": null
+    },
+    {
+     "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+     "name": "Harry",
+     "verdict": null
+    }
    ]
   },
   {
@@ -482,7 +591,7 @@
    "post_fx": null,
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_harrow_8d6cd17045",
@@ -493,6 +602,18 @@
      "id": "vo_harrow_bb21108ab1",
      "text": "This is a Regional Operational Review. I'd like to begin by saying: everything is functioning at a hundred percent. The dashboard tells me so. I would ask you to demonstrate otherwise. Take your time. (glances at the clock) Not too much.",
      "line_direction": "flatly."
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "EXAVITQu4vr4xnSDxMaL",
+     "name": "Sarah",
+     "verdict": null
+    },
+    {
+     "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+     "name": "Lily",
+     "verdict": null
     }
    ]
   },
@@ -515,7 +636,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_gordon_820a5a3b73",
@@ -537,6 +658,18 @@
      "text": "Hollis! Gordon, Kestrel Motor Works, production manager. Your customer. Finally. Are we shipping? Line three has been down since 7. I have forty guys standing around holding air.",
      "line_direction": "video, frustrated."
     }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "pNInz6obpgDQGcFmaJgB",
+     "name": "Adam",
+     "verdict": null
+    },
+    {
+     "voice_id": "UyJOqAprTUHy4l76Cgmz",
+     "name": "Patrick - Clear & Engaging",
+     "verdict": null
+    }
    ]
   },
   {
@@ -557,7 +690,7 @@
    "post_fx": null,
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_tabitha_cf1e3a0770",
@@ -579,6 +712,18 @@
      "text": "That's... that's new.",
      "line_direction": "deep breath."
     }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "QgAHZCKeKxsZTcp84rgh",
+     "name": "Hollie Sue",
+     "verdict": null
+    },
+    {
+     "voice_id": "hpp4J3VqNfWAUOO0d1Us",
+     "name": "Bella",
+     "verdict": null
+    }
    ]
   },
   {
@@ -598,7 +743,7 @@
    "post_fx": null,
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_ozzie_b2139fe401",
@@ -614,6 +759,18 @@
      "id": "vo_ozzie_409a24a575",
      "text": "Hollis! It's Ozzie, remote site. That is the little overflow yard we lease, two hundred miles from anything. What do you need?",
      "line_direction": "scanner message, then voice."
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "ExKxkRpZWnl4ImIPkTZL",
+     "name": "Joe - Cool Presenter",
+     "verdict": null
+    },
+    {
+     "voice_id": "4ekZwrbiRoxmeg5thP3K",
+     "name": "Topher",
+     "verdict": null
     }
    ]
   },
@@ -636,7 +793,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_renata_37948788ce",
@@ -657,6 +814,18 @@
      "id": "vo_renata_7ee802033c",
      "text": "Still coming. I'll be at the yard gate when you're ready. Text me when they're moving. Or don't. I'll know.",
      "line_direction": ""
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+     "name": "Alice",
+     "verdict": null
+    },
+    {
+     "voice_id": "mjQhGi3uUtUVynWMuscb",
+     "name": "Hollie - Kind, Enthusiastic",
+     "verdict": null
     }
    ]
   },
@@ -679,7 +848,7 @@
    "post_fx": null,
    "device_voice": true,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_system_2fc181409e",
@@ -690,6 +859,18 @@
      "id": "vo_system_6b4e33295b",
      "text": "The label and the freight have never met. ${p.dest === 'ship' ? 'It matches the Kestrel order.' : 'It is not on the Kestrel order.'}",
      "line_direction": ""
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+     "name": "The Curator",
+     "verdict": null
+    },
+    {
+     "voice_id": "SAz9YHcvj6GT2YYXdXww",
+     "name": "River",
+     "verdict": null
     }
    ]
   },
@@ -710,7 +891,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": true,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_radio_bd20c42f1c",
@@ -721,6 +902,18 @@
      "id": "vo_radio_45d08f4b1a",
      "text": "Hollis, Operations. HR just called. Your mandatory drug screening is scheduled for 9:02. It is now— (a long pause) — it's always 9:02 in HR. Report to HR immediately.",
      "line_direction": ""
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "cjVigY5qzO86Huf0OWal",
+     "name": "Eric",
+     "verdict": null
+    },
+    {
+     "voice_id": "lB9K9mKVhRzwTiRZXQ3b",
+     "name": "Paul",
+     "verdict": null
     }
    ]
   },
@@ -742,7 +935,7 @@
    "post_fx": null,
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_gus_636cb68f22",
@@ -764,6 +957,18 @@
      "text": "Badge.",
      "line_direction": "without looking up."
     }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "pqHfZKP75CvOlQylNhV4",
+     "name": "Bill",
+     "verdict": null
+    },
+    {
+     "voice_id": "1gcivRWlUUhp7wLqy7GB",
+     "name": "Timber",
+     "verdict": null
+    }
    ]
   },
   {
@@ -783,12 +988,24 @@
    "post_fx": null,
    "device_voice": true,
    "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "voice_status": "auditioning (round 1 generated)",
    "audition_lines": [
     {
      "id": "vo_tablet_1ce8c789f1",
      "text": "ERROR 4-0-9:02 — SUBSTANCE NOT FOUND IN DATABASE. RECLASSIFYING AS: \"BREATH (NON-STANDARD)\". RECLASSIFYING AS: \"WEATHER\". RECLASSIFYING AS: \"TUESDAY\".",
      "line_direction": ""
+    }
+   ],
+   "audition_candidates": [
+    {
+     "voice_id": "Q8ZbQAANLFvLw8uPBR8d",
+     "name": "AGEIS-7 4/10",
+     "verdict": null
+    },
+    {
+     "voice_id": "ZEcx3Wdpj4EvM8PltzHY",
+     "name": "Retro Robot",
+     "verdict": null
     }
    ]
   }
