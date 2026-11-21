@@ -26,6 +26,29 @@
 
   const active = () => status === 'ready' && window.MM_RENDERER === 'three' && G.started && G.S && G.S.room && !window.MM_CLASSIC_ROOMS.has(G.S.room);
 
+  // ---- title screen: live 3D night scene (privately swapped title state; G.S is restored immediately). Menu / logo stay Canvas2D.
+  let TS = null; const titleOK = () => status === 'ready' && window.MM_RENDERER === 'three' && !G.started && G.title && G.title.mode === 'main';
+  const _drawTitle = drawTitle, _drawHowTo = drawHowTo;
+  drawTitle = function () {
+    if (!titleOK()) { if (threeCv.style.display !== 'none') threeCv.style.display = 'none'; return _drawTitle(); }
+    const real = G.S, rc = G.catCache, rp = G.junoPose, rf = G.junoFace; let ok = true;
+    try {
+      if (!TS) { TS = newState(); Object.assign(TS, { room: '__title', jx: 214, jy: 134, face: -1, ax: 238, ay: 136, junoWith: true, cat: 2 }); }
+      G.S = TS; G.catCache = G.__titleCats || {}; G.junoPose = 'sit'; G.junoFace = -1; MM3.render(TS, G.rooms.__title, G.t); G.__titleCats = G.catCache;
+    } catch (e) { console.error('[MM3] 3D title failed; classic title', e); status = 'failed'; ok = false; }
+    finally { G.S = real; G.catCache = rc; G.junoPose = rp; G.junoFace = rf; }
+    if (!ok) { threeCv.style.display = 'none'; return _drawTitle(); }
+    if (threeCv.style.display !== 'block') threeCv.style.display = 'block';
+    ctx.clearRect(0, 0, SW, SCENE_H); R(0, SCENE_H, SW, SH - SCENE_H, '#080814');
+    ctx.fillStyle = 'rgba(2,4,16,.5)'; ctx.fillRect(0, 12, SW, 70);
+    txt('MINT MAN', 160, 44, C.G, 26, 'center'); txt('MINT MAN', 161, 45, '#004030', 26, 'center'); txt('MINT MAN', 160, 44, C.G, 26, 'center');
+    txt('TUESDAY AT THE DOCK', 160, 62, C.y, 11, 'center'); txt('a warehouse adventure in six acts', 160, 74, C.g1, 6.5, 'center');
+    const opts = G.title.opts(); opts.forEach((o, i) => { const y = 166 + i * 13; if (G.title.sel === i) R(90, y - 9, 140, 12, '#2a3a8a'); txt(o, 160, y, G.title.sel === i ? C.y : C.w, 8, 'center'); });
+    txt('Click, or arrow keys + Enter.  This is a work of fiction. Characters, companies, events and', 160, 214, '#ccd', 5, 'center'); txt('situations are fictional; any resemblance to actual persons or organizations is coincidental.', 160, 222, '#ccd', 5, 'center');
+    txt('Original pixel art & sound. No cats were harmed.', 160, 232, '#667', 4.6, 'center');
+  };
+  drawHowTo = function () { if (threeCv.style.display !== 'none') threeCv.style.display = 'none'; return _drawHowTo(); };
+
   // ---- hook into the engine's drawScene (called once per engine frame from frame()); classic drawScene is kept intact as fallback
   const _drawScene = drawScene;
   drawScene = function () {
