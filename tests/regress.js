@@ -3,7 +3,7 @@ const R = []; const ok = (n, c, d) => { R.push([n, !!c, d || '']); console.log((
 const noise = l => /GPU stall|useLegacyLights|ReadPixels|\[MM3\] Three/.test(l);
 async function chain(page) {   // scripted break-room puzzle chain via the engine's test API (identical for both renderers)
   return page.evaluate(async () => {
-    { let a = 999; Math.random = () => { if (/drawScene|renderThree/.test(new Error().stack)) return .5; a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; } G.testInvariants = true; await G.newGameFast(); G.strict = true; const out = [];
+    { let a = 999; Math.random = () => { if (/drawScene|renderThree|audio\.js|three\.module|src\/rendering\//.test(new Error().stack)) return .5; a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; } G.testInvariants = true; await G.newGameFast(); G.strict = true; const out = [];
     const step = async (name, fn) => { try { await fn(); out.push(name + ':ok'); } catch (e) { out.push(name + ':ERR ' + e.message); } };
     await step('look clock', () => G.do('LOOK', 'clock'));
     await step('take clock', () => G.do('TAKE', 'clock'));
@@ -55,7 +55,7 @@ async function chain(page) {   // scripted break-room puzzle chain via the engin
     await browser.close();
   }
   ok('TEST 12: final G.S identical classic vs three', JSON.stringify(res.classic.S) === JSON.stringify(res.three.S));
-  ok('TEST 12: dialogue log identical classic vs three', JSON.stringify(res.classic.log) === JSON.stringify(res.three.log));
+  { const a = res.classic.log, b = res.three.log; let d = ''; for (let i = 0; i < Math.max(a.length, b.length); i++) if (JSON.stringify(a[i]) !== JSON.stringify(b[i])) { d = i + ': ' + JSON.stringify(a[i]).slice(0, 160) + ' VS ' + JSON.stringify(b[i]).slice(0, 160); break; } ok('TEST 12: dialogue log identical classic vs three', !d, d); }
   ok('TEST 12: step results identical', JSON.stringify(res.classic.out) === JSON.stringify(res.three.out), res.three.out.join(','));
   console.log('S.f keys after chain:', Object.keys(res.three.S.f).join(','), 'inv:', res.three.S.inv.join(','));
   const failed = R.filter(r => !r[1]); console.log('\n' + (R.length - failed.length) + '/' + R.length + ' passed'); process.exit(failed.length ? 1 : 0);

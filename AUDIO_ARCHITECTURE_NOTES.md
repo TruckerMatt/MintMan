@@ -71,4 +71,4 @@ Tiers: **A ready 911** (generate=true) · **B quoted narration 118** (pending ap
 * **PARKED:** the 28 `HOLD_DYNAMIC` lines (item names, counts, joined lists) - decision pending; see `docs/audio/dynamic_resolution.csv`.
 * Audition everything in `listen.html` (voices + SFX).
 
-> Note: the 2025 graphics pass (GRAPHICS_MIGRATION_NOTES.md §13) did not touch the audio system, assets, manifests or ledgers.
+> Note: the remaining-rooms graphics pass (GRAPHICS_MIGRATION_NOTES.md §13) did not touch the audio system, assets, manifests or ledgers.
