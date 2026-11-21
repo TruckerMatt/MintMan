@@ -1,0 +1,1201 @@
+{
+ "version": 1,
+ "generated": "2026-11-21",
+ "description": "Dynamic (runtime-assembled / conditional) dialogue. finite_* classes are fixed full strings: record each variant. runtime_assembled needs a refactor first. `blocked_fragments` are package rows that must not be recorded.",
+ "expressions": [
+  {
+   "dyn_id": "dyn_38d7af99bf",
+   "class": "finite_other",
+   "function": "doVerb",
+   "scene": "inventory/interaction",
+   "legacy_line": "271",
+   "literal_strings": "0",
+   "covered_by_package": "0",
+   "coverage": "not_covered",
+   "uncovered_literals": "",
+   "action": "Review manually."
+  },
+  {
+   "dyn_id": "dyn_9f1563d3fe",
+   "class": "finite_other",
+   "function": "doVerb",
+   "scene": "inventory/interaction",
+   "legacy_line": "282",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Review manually."
+  },
+  {
+   "dyn_id": "dyn_d432fa7996",
+   "class": "finite_other",
+   "function": "J",
+   "scene": "multiple",
+   "legacy_line": "775",
+   "literal_strings": "0",
+   "covered_by_package": "0",
+   "coverage": "not_covered",
+   "uncovered_literals": "",
+   "action": "Review manually."
+  },
+  {
+   "dyn_id": "dyn_4b713dd97e",
+   "class": "finite_conditional",
+   "function": "person",
+   "scene": "break",
+   "legacy_line": "815",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_87b9940696",
+   "class": "finite_conditional",
+   "function": "vendMenu",
+   "scene": "lockers",
+   "legacy_line": "862",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_880788a03a",
+   "class": "finite_conditional",
+   "function": "vendMenu",
+   "scene": "lockers",
+   "legacy_line": "870",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_ea874eeae3",
+   "class": "finite_conditional",
+   "function": "vendMenu",
+   "scene": "lockers",
+   "legacy_line": "872",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_8eb37e84c4",
+   "class": "finite_conditional",
+   "function": "vendMenu",
+   "scene": "floor",
+   "legacy_line": "901",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_ee52edbd34",
+   "class": "finite_conditional",
+   "function": "vendMenu",
+   "scene": "shipoffice",
+   "legacy_line": "929",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_fbde75bff0",
+   "class": "finite_conditional",
+   "function": "terminalMenu",
+   "scene": "shipoffice",
+   "legacy_line": "953",
+   "literal_strings": "8",
+   "covered_by_package": "8",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_418e19df39",
+   "class": "finite_conditional",
+   "function": "terminalMenu",
+   "scene": "shipoffice",
+   "legacy_line": "954",
+   "literal_strings": "7",
+   "covered_by_package": "7",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_1d60a0a66a",
+   "class": "finite_conditional",
+   "function": "terminalSwap",
+   "scene": "ops",
+   "legacy_line": "975",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_03762bb8bf",
+   "class": "finite_conditional",
+   "function": "terminalSwap",
+   "scene": "ops",
+   "legacy_line": "980",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_851b749cc0",
+   "class": "finite_conditional",
+   "function": "sortedCount",
+   "scene": "parts",
+   "legacy_line": "1040",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_fdf2d631f1",
+   "class": "runtime_assembled",
+   "function": "freeTucker",
+   "scene": "racks",
+   "legacy_line": "1083",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_b191cb0da7",
+   "class": "runtime_assembled",
+   "function": "freeTucker",
+   "scene": "racks",
+   "legacy_line": "1083",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_8e12d4ba5a",
+   "class": "runtime_assembled",
+   "function": "freeTucker",
+   "scene": "tunnel",
+   "legacy_line": "1103",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_a72b526660",
+   "class": "runtime_assembled",
+   "function": "freeTucker",
+   "scene": "staging",
+   "legacy_line": "1117",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_0867180e6f",
+   "class": "finite_conditional",
+   "function": "freeTucker",
+   "scene": "staging",
+   "legacy_line": "1122",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_7f4b91b02a",
+   "class": "runtime_assembled",
+   "function": "scanPallet",
+   "scene": "multiple",
+   "legacy_line": "1133",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_941fd7905d",
+   "class": "runtime_assembled",
+   "function": "scanPallet",
+   "scene": "multiple",
+   "legacy_line": "1134",
+   "literal_strings": "5",
+   "covered_by_package": "5",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_92134e613b",
+   "class": "runtime_assembled",
+   "function": "scanPallet",
+   "scene": "multiple",
+   "legacy_line": "1135",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_0e51f1a9d5",
+   "class": "runtime_assembled",
+   "function": "sortPallet",
+   "scene": "multiple",
+   "legacy_line": "1142",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_d33cbd40ab",
+   "class": "runtime_assembled",
+   "function": "sortResult",
+   "scene": "multiple",
+   "legacy_line": "1154",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_a0c17dee6b",
+   "class": "runtime_assembled",
+   "function": "sortResult",
+   "scene": "inbound",
+   "legacy_line": "1165",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_959aca1bf8",
+   "class": "finite_conditional",
+   "function": "sortResult",
+   "scene": "inbound",
+   "legacy_line": "1165",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_361b99a644",
+   "class": "runtime_assembled",
+   "function": "junoSearchTorvald",
+   "scene": "multiple",
+   "legacy_line": "1205",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_39c2b05463",
+   "class": "finite_conditional",
+   "function": "reachTruck",
+   "scene": "outbound",
+   "legacy_line": "1220",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_567e3c6828",
+   "class": "runtime_assembled",
+   "function": "reachTruck",
+   "scene": "outbound",
+   "legacy_line": "1221",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_b57f4bb883",
+   "class": "runtime_assembled",
+   "function": "reachTruck",
+   "scene": "outbound",
+   "legacy_line": "1222",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_ff12f9ab3b",
+   "class": "finite_conditional",
+   "function": "repairJack",
+   "scene": "yard",
+   "legacy_line": "1256",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_1e92e48e98",
+   "class": "runtime_assembled",
+   "function": "repairJack",
+   "scene": "yard",
+   "legacy_line": "1256",
+   "literal_strings": "0",
+   "covered_by_package": "0",
+   "coverage": "not_covered",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_15133fd9ac",
+   "class": "finite_conditional",
+   "function": "repairJack",
+   "scene": "yard",
+   "legacy_line": "1258",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_9443083905",
+   "class": "finite_conditional",
+   "function": "repairJack",
+   "scene": "drain",
+   "legacy_line": "1292",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_931785d781",
+   "class": "finite_conditional",
+   "function": "fail",
+   "scene": "inventory/interaction",
+   "legacy_line": "1353",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_752eeeb431",
+   "class": "runtime_assembled",
+   "function": "fail",
+   "scene": "inventory/interaction",
+   "legacy_line": "1401",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_4dbe633375",
+   "class": "finite_random",
+   "function": "fail",
+   "scene": "inventory/interaction",
+   "legacy_line": "1411",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_10291f6370",
+   "class": "runtime_assembled",
+   "function": "fail",
+   "scene": "inventory/interaction",
+   "legacy_line": "1414",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_d6cfebedf7",
+   "class": "runtime_assembled",
+   "function": "fail",
+   "scene": "inventory/interaction",
+   "legacy_line": "1418",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_a30fca5079",
+   "class": "finite_random",
+   "function": "fail",
+   "scene": "inventory/interaction",
+   "legacy_line": "1427",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_977c486e6f",
+   "class": "finite_random",
+   "function": "fail",
+   "scene": "multiple",
+   "legacy_line": "1475",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_7854c06758",
+   "class": "finite_random",
+   "function": "fail",
+   "scene": "multiple",
+   "legacy_line": "1477",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_e8ddff985b",
+   "class": "finite_random",
+   "function": "fail",
+   "scene": "multiple",
+   "legacy_line": "1483",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_9d7cea02e7",
+   "class": "runtime_assembled",
+   "function": "fail",
+   "scene": "multiple",
+   "legacy_line": "1493",
+   "literal_strings": "0",
+   "covered_by_package": "0",
+   "coverage": "not_covered",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_3a985be816",
+   "class": "finite_other",
+   "function": "nf",
+   "scene": "multiple",
+   "legacy_line": "1584",
+   "literal_strings": "0",
+   "covered_by_package": "0",
+   "coverage": "not_covered",
+   "uncovered_literals": "",
+   "action": "Review manually."
+  },
+  {
+   "dyn_id": "dyn_d5ab9943f3",
+   "class": "finite_conditional",
+   "function": "nf",
+   "scene": "multiple",
+   "legacy_line": "1584",
+   "literal_strings": "1",
+   "covered_by_package": "0",
+   "coverage": "not_covered",
+   "uncovered_literals": "(Press H again for more.)",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_a57c9fa7d1",
+   "class": "runtime_assembled",
+   "function": "nf",
+   "scene": "multiple",
+   "legacy_line": "1591",
+   "literal_strings": "1",
+   "covered_by_package": "0",
+   "coverage": "not_covered",
+   "uncovered_literals": "(Press H for hints on the rest.)",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_d4350f082c",
+   "class": "finite_random",
+   "function": "talkPrudence",
+   "scene": "multiple",
+   "legacy_line": "1606",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_40278802a6",
+   "class": "finite_conditional",
+   "function": "talkTucker",
+   "scene": "multiple",
+   "legacy_line": "1635",
+   "literal_strings": "5",
+   "covered_by_package": "5",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_4539253374",
+   "class": "runtime_assembled",
+   "function": "talkRufus",
+   "scene": "yard",
+   "legacy_line": "1674",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_0f8bcd22b0",
+   "class": "finite_random",
+   "function": "talkRufus",
+   "scene": "yard",
+   "legacy_line": "1678",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_a37ed5bcda",
+   "class": "runtime_assembled",
+   "function": "brunoLoad",
+   "scene": "multiple",
+   "legacy_line": "1707",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_10b874c7f0",
+   "class": "finite_conditional",
+   "function": "talkIngrid",
+   "scene": "shipoffice",
+   "legacy_line": "1720",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_a1b571767d",
+   "class": "runtime_assembled",
+   "function": "talkIngrid",
+   "scene": "shipoffice",
+   "legacy_line": "1723",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_3f4e25eefe",
+   "class": "finite_random",
+   "function": "talkIngrid",
+   "scene": "shipoffice",
+   "legacy_line": "1728",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_9c9bd1d7f6",
+   "class": "runtime_assembled",
+   "function": "talkIngrid",
+   "scene": "shipoffice",
+   "legacy_line": "1731",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_1c03de6e43",
+   "class": "finite_conditional",
+   "function": "talkHalvorsen",
+   "scene": "ops",
+   "legacy_line": "1740",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_d990b0ed21",
+   "class": "finite_random",
+   "function": "talkTabitha",
+   "scene": "multiple",
+   "legacy_line": "1764",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_3e5428f896",
+   "class": "finite_random",
+   "function": "talkRenata",
+   "scene": "multiple",
+   "legacy_line": "1803",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_8029a0f8e4",
+   "class": "finite_conditional",
+   "function": "talkRenata",
+   "scene": "multiple",
+   "legacy_line": "1807",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_449f39b145",
+   "class": "finite_conditional",
+   "function": "talkGordon",
+   "scene": "phone",
+   "legacy_line": "1814",
+   "literal_strings": "8",
+   "covered_by_package": "8",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_5035e50404",
+   "class": "runtime_assembled",
+   "function": "talkGordon",
+   "scene": "phone",
+   "legacy_line": "1821",
+   "literal_strings": "3",
+   "covered_by_package": "3",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_314e4b38c6",
+   "class": "finite_conditional",
+   "function": "hit",
+   "scene": "finale/multiple",
+   "legacy_line": "1875",
+   "literal_strings": "4",
+   "covered_by_package": "4",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_1ed0fada36",
+   "class": "runtime_assembled",
+   "function": "sealAndDepart",
+   "scene": "outbound",
+   "legacy_line": "1886",
+   "literal_strings": "1",
+   "covered_by_package": "1",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_e9322e13f8",
+   "class": "runtime_assembled",
+   "function": "bossRound",
+   "scene": "finale/multiple",
+   "legacy_line": "1911",
+   "literal_strings": "0",
+   "covered_by_package": "0",
+   "coverage": "not_covered",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_4d2fecb00f",
+   "class": "runtime_assembled",
+   "function": "bossRound",
+   "scene": "finale/multiple",
+   "legacy_line": "1926",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_dafe347134",
+   "class": "finite_conditional",
+   "function": "check",
+   "scene": "finale/multiple",
+   "legacy_line": "1970",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_c0e555c84d",
+   "class": "finite_conditional",
+   "function": "check",
+   "scene": "finale/multiple",
+   "legacy_line": "1976",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_48413693c6",
+   "class": "finite_other",
+   "function": "_text",
+   "scene": "multiple",
+   "legacy_line": "2128",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Review manually."
+  },
+  {
+   "dyn_id": "dyn_04f0f387ad",
+   "class": "runtime_assembled",
+   "function": "niceItem",
+   "scene": "multiple",
+   "legacy_line": "2270",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_4ff7847abe",
+   "class": "finite_conditional",
+   "function": "niceItem",
+   "scene": "multiple",
+   "legacy_line": "2278",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_42d2625de5",
+   "class": "finite_conditional",
+   "function": "niceItem",
+   "scene": "multiple",
+   "legacy_line": "2279",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string."
+  },
+  {
+   "dyn_id": "dyn_b66fa14801",
+   "class": "runtime_assembled",
+   "function": "runCommand",
+   "scene": "multiple",
+   "legacy_line": "2326",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string."
+  },
+  {
+   "dyn_id": "dyn_8487b82b34",
+   "class": "finite_random",
+   "function": "runCommand",
+   "scene": "multiple",
+   "legacy_line": "2327",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  },
+  {
+   "dyn_id": "dyn_e27511386d",
+   "class": "finite_random",
+   "function": "runCommand",
+   "scene": "multiple",
+   "legacy_line": "2337",
+   "literal_strings": "2",
+   "covered_by_package": "2",
+   "coverage": "ok",
+   "uncovered_literals": "",
+   "action": "Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown)."
+  }
+ ],
+ "blocked_fragments": [
+  {
+   "id": "vo_ingrid_525c70e1bb",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "Every request creates work. That's the rule. You want the manifests? I want:",
+   "chars": 76,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_525c70e1bb.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 384
+    }
+   ],
+   "legacy_lines": [
+    1723
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  },
+  {
+   "id": "vo_ingrid_8b1645a9be",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "I can print a bill of lading that's true. But I need:",
+   "chars": 53,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_8b1645a9be.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 392
+    }
+   ],
+   "legacy_lines": [
+    1731
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  },
+  {
+   "id": "vo_narrator_2d3a8e5c8f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "Still missing:",
+   "chars": 14,
+   "scene": "tunnel",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2d3a8e5c8f.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 329
+    }
+   ],
+   "legacy_lines": [
+    1103
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  },
+  {
+   "id": "vo_narrator_68565f32aa",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "It could use:",
+   "chars": 13,
+   "scene": "yard",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_68565f32aa.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 480
+    }
+   ],
+   "legacy_lines": [
+    1256
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  },
+  {
+   "id": "vo_narrator_67432496cf",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "(Still needed:",
+   "chars": 14,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_67432496cf.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 158
+    }
+   ],
+   "legacy_lines": [
+    1493
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  },
+  {
+   "id": "vo_narrator_c97e1b57fa",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "):",
+   "chars": 2,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c97e1b57fa.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 252
+    }
+   ],
+   "legacy_lines": [
+    1591
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  },
+  {
+   "id": "vo_narrator_1cb5877100",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "Reality integrity:",
+   "chars": 18,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1cb5877100.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 585
+    }
+   ],
+   "legacy_lines": [
+    1926
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  },
+  {
+   "id": "vo_narrator_bc2bb1ff91",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "There is nothing specific you need right now. Try talking to people again, or moving to a new location.",
+   "chars": 103,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_bc2bb1ff91.mp3",
+   "source": [
+    {
+     "file": "src/logic.js",
+     "line": 92
+    }
+   ],
+   "legacy_lines": [
+    2126
+   ],
+   "review_reasons": [
+    "prefix_needs_review",
+    "unknown_speaker_label"
+   ]
+  },
+  {
+   "id": "vo_narrator_cb875267be",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "(Other open objectives:",
+   "chars": 23,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_cb875267be.mp3",
+   "source": [
+    {
+     "file": "src/logic.js",
+     "line": 94
+    }
+   ],
+   "legacy_lines": [
+    2128
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  },
+  {
+   "id": "vo_narrator_ed5d01fb86",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "text": "Hollis checks his pockets:",
+   "chars": 26,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ed5d01fb86.mp3",
+   "source": [
+    {
+     "file": "src/parser.js",
+     "line": 20
+    }
+   ],
+   "legacy_lines": [
+    2326
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ]
+  }
+ ],
+ "candidates_file": "docs/audio/uncovered_candidates.csv"
+}

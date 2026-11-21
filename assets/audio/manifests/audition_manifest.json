@@ -1,0 +1,456 @@
+{
+ "version": 1,
+ "generated": "2026-11-21",
+ "description": "Audition set: a few lines per speaker. Use with the cast sheet; assign the chosen voice ids in cast_sheet.json / elevenlabs_generation_manifest.json.",
+ "speakers": [
+  {
+   "speaker": "NARRATOR",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "lines": [
+    {
+     "id": "vo_narrator_a6814eb32c",
+     "text": "The trailer is seated. Pushing it would be a strange way to celebrate.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_narrator_656b9de08d",
+     "text": "The dashboard begins to change. 100% becomes 8 of 8 shipped. 100% becomes 8 of 8 stored. Staging: 0. Cats: 214 (fed, safe, judgmental). T-9022: departed 11:59. F-2231: cushion-tire, here. RT-77: reach truck, remote. Every number is small, specific, and true.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_narrator_614bff3581",
+     "text": "Click! The numbers on the back of that label were right.",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "SCANNER",
+   "direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "lines": [
+    {
+     "id": "vo_scanner_3415fd7e3d",
+     "text": "BIN H-17 — HYDRAULIC SEAL KIT x1 (last one). Donut: unclassified.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_scanner_22f79e3b2c",
+     "text": "SEAL 88112 — Status: BROKEN. Trailer: T-4417. Time cut: Friday, 4:07 AM. Wait... that's the time the label printer was also printing. Coincidence: rated 3%.",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "HOLLIS",
+   "direction": "Dry, tired, restrained; understated warehouse lead. Rarely matches the absurdity around him.",
+   "lines": [
+    {
+     "id": "vo_hollis_571e81b2f5",
+     "text": "Dale. I need to understand where the directives came from.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_hollis_a5a2866264",
+     "text": "There's a mislabeled pallet of bulk kibble. Cats from a colony by the drain came in through a dock door. If you can spare a trailer at the yard gate, I can put bowls and a blanket in it.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_hollis_6cd4e86b9d",
+     "text": "Does the Safety Committee have any openings?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_hollis_5ebfdaff0b",
+     "text": "Don't start.",
+     "line_direction": "to the scanner."
+    }
+   ]
+  },
+  {
+   "speaker": "PRUDENCE",
+   "direction": "Sharp, defiant, comfortable where she should not be; amused by rules she no longer follows.",
+   "lines": [
+    {
+     "id": "vo_prudence_e3f2e1d642",
+     "text": "Parts? Oh, that's locked. It's restricted. Only Parts staff have the key.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_prudence_0fae9631a7",
+     "text": "You'll want to go up. The stairs are Gus's. He won't let you through. But the cats have been using Conveyor 9 since Friday. It goes to a server closet. Regional never checks the server closet.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_prudence_b85ecf7481",
+     "text": "Oh! Hollis. Hi. I was just finishing something. Eleven years in Inventory Control, you know. They never did make a form for my exit.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_prudence_14daaeb9eb",
+     "text": "Technicality.",
+     "line_direction": "a breezy wave."
+    }
+   ]
+  },
+  {
+   "speaker": "BRUNO",
+   "direction": "Competent loader; practical, grounded, low-key, mildly exasperated.",
+   "lines": [
+    {
+     "id": "vo_bruno_4fbc82c5da",
+     "text": "I don't load pallets with a cat on it. Or twelve. I have a policy.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_bruno_634f5660c4",
+     "text": "Nothing. That's the problem. Friday, the dashboard told me to load two reach trucks to Nebraska. There's no Nebraska on my dock. I didn't load them. Then it told me the trailer was ready. It wasn't here.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_bruno_5410f7c5a3",
+     "text": "Not a loader thing. What do you need?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_bruno_0ea41d6abe",
+     "text": "Everyone needs the hot shipment. I need a jack that works. It leaks. Ask me about it, then we'll talk.",
+     "line_direction": "folding arms."
+    }
+   ]
+  },
+  {
+   "speaker": "INGRID",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "lines": [
+    {
+     "id": "vo_ingrid_245aa68ef2",
+     "text": "The WMS also says F-2231 is in Tennessee. I've stopped reading the WMS aloud.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_66990fe60d",
+     "text": "Also, here. Guest login for the WMS terminal: read-only. Don't break it. And here are the phone numbers: Gordon at Kestrel. Ozzie at the remote site. They're both very... available.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_9f33b43b3f",
+     "text": "...Is this the last decent coffee?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ingrid_0e277c6fbb",
+     "text": "It says nothing is wrong yet. Scan something that is wrong and come back.",
+     "line_direction": "glances at the screen."
+    },
+    {
+     "id": "vo_ingrid_c3b222f546",
+     "text": "The WMS just released the reconciliation hold on staging. Every pallet is now movable. It's the first thing the WMS has done all week.",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "TUCKER",
+   "direction": "Eager, enthusiastic, extremely willing to help; accidentally chaotic.",
+   "lines": [
+    {
+     "id": "vo_tucker_96f5cb8f77",
+     "text": "It won't stop! (beat) Also I've been standing here for eleven minutes.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tucker_9236d91136",
+     "text": "HOLLIS! You're awake! I've been so worried! I'm on Inbound, three weeks in, remember? I unload the trailers and put them in the computer! I tried to wake you but Prudence said you needed the sleep.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tucker_273bd5f145",
+     "text": "Oh! Is this for me?! I mean, I'll hold it! I'll... hold it! [he holds it, then hands it back with great ceremony]",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tucker_dd6db1ae13",
+     "text": "HI HOLLIS! I'M FINE! I JUST HAD TO LET THE CATS OUT OF THE SECURED AREA AND THEN THE DOOR LOCKED! BUT THEY'RE OUT! ALL OF THEM! (a pause) ...THEY'RE ALL IN HERE NOW ACTUALLY.",
+     "line_direction": "muffled."
+    },
+    {
+     "id": "vo_tucker_4b66bca0e8",
+     "text": "Hollis! You're calling ME? I'm great! What can I help with? I'm holding a pallet. A different one. I'm fine.",
+     "line_direction": "radio, delighted. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
+    }
+   ]
+  },
+  {
+   "speaker": "HALVORSEN",
+   "direction": "Operations manager; pressured, anxious, trying to sound managerial while barely holding it together.",
+   "lines": [
+    {
+     "id": "vo_halvorsen_2c573dc194",
+     "text": "Yes? Is it the shipment? Fine. Also, if you see cats: they aren't there.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_halvorsen_41baa45d64",
+     "text": "I've been doing what it says for two years. Every directive. Every shortfall. It moved things. I moved things. Regional wanted the numbers to match. So I made the warehouse match the numbers. (a breath) Hollis... I'm sorry. I didn't know the cats were real.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_halvorsen_a12cfcc71f",
+     "text": "A 7-Q? For Ingrid? ...Fine. What's the reason?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_halvorsen_4b4318d450",
+     "text": "There's no cat problem, I'm told. Please disregard the cat on the forklift.",
+     "line_direction": "faintly. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
+    }
+   ]
+  },
+  {
+   "speaker": "RUFUS",
+   "direction": "Yard driver; distracted but capable, conversational, matter-of-fact.",
+   "lines": [
+    {
+     "id": "vo_rufus_590b61b5f6",
+     "text": "If you can count them, tell me the number. Nobody's been able to.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_rufus_08c6fe63c4",
+     "text": "The WMS has T-9022 on a hold. If I bring it in without an override, the dock kiosk will lock the door on me. Someone needs to clear it. Maybe someone who's not technically here.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_rufus_e6a13bc915",
+     "text": "I've been counting cats by memory. Do you know how hard that is? I'm at 143. Or 147. It depends when I look.",
+     "line_direction": "a long breath."
+    },
+    {
+     "id": "vo_rufus_96553e7fad",
+     "text": "Not now. I'm counting.",
+     "line_direction": "not looking."
+    },
+    {
+     "id": "vo_rufus_6109bb342e",
+     "text": "I'd love to talk, but I'm off count without my clicker. It's... somewhere lost.",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "TORVALD",
+   "direction": "Large, laconic, bored, low-energy confidence; says little unless necessary.",
+   "lines": [
+    {
+     "id": "vo_torvald_ba722687b8",
+     "text": "Halvorsen is always asking where people are. Where's that ever gotten him?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_torvald_0522bdcdc9",
+     "text": "My smoke log. Friday, 4:07 AM, inbound kiosk: HALO printed a directive, approved it, and thanked itself. Nobody there but me and a cat. If anyone asks, I was on break.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_torvald_adb7696237",
+     "text": "The cats? They've been camping by the drain since spring. Ask Prudence. She'll say she doesn't know. She's lying beautifully.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_torvald_75e6e24ada",
+     "text": "No.",
+     "line_direction": "taking it, turning it over, handing it back."
+    },
+    {
+     "id": "vo_torvald_630bc42ac4",
+     "text": "I'll be there. I'll be the guy standing exactly where I'm supposed to be. Don't make it weird.",
+     "line_direction": "sighs; puts out cigarette; picks up a radio he has apparently had this whole time. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
+    }
+   ]
+  },
+  {
+   "speaker": "HARROW",
+   "direction": "Regional director; polished, controlled, corporate authority; composure erodes only slightly.",
+   "lines": [
+    {
+     "id": "vo_harrow_8d6cd17045",
+     "text": "The system is now ensuring that reality matches its projections.",
+     "line_direction": "over the noise, with a strained smile."
+    },
+    {
+     "id": "vo_harrow_bb21108ab1",
+     "text": "This is a Regional Operational Review. I'd like to begin by saying: everything is functioning at a hundred percent. The dashboard tells me so. I would ask you to demonstrate otherwise. Take your time. (glances at the clock) Not too much.",
+     "line_direction": "flatly."
+    }
+   ]
+  },
+  {
+   "speaker": "GORDON",
+   "direction": "Customer production contact; urgent, stressed, relieved when things finally work.",
+   "lines": [
+    {
+     "id": "vo_gordon_820a5a3b73",
+     "text": "THE HOT SHIPMENT IS OUT. HOLLIS. IT'S 11:59. I HAVE NEVER BEEN SO HAPPY TO HEAR A TRAILER.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gordon_e887c77f5f",
+     "text": "Fine. Here's what we ordered. PO 55-1187. Cushion-tire forklifts ×2. Mast assembly. Overhead guard. 48-volt battery. Hydraulic hose kit. Control harness crate. Counterweight blocks. Eight lines. That's it. I don't care about anything else.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gordon_4e0705cb8f",
+     "text": "What does that mean, in shipping language?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gordon_76f22c4e53",
+     "text": "Hollis! Gordon, Kestrel Motor Works, production manager. Your customer. Finally. Are we shipping? Line three has been down since 7. I have forty guys standing around holding air.",
+     "line_direction": "video, frustrated."
+    }
+   ]
+  },
+  {
+   "speaker": "TABITHA",
+   "direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
+   "lines": [
+    {
+     "id": "vo_tabitha_cf1e3a0770",
+     "text": "I am always open. My door is open. My mind is... in policy.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tabitha_1ab2063e13",
+     "text": "It's brand-new. I wrote it this morning. I'm very proud. It's the first time I've made a policy on the spot. It feels... powerful.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tabitha_77c517ae85",
+     "text": "It's always 9:02 in PolicyPilot. (She taps.) Can you just breathe on the sensor?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_tabitha_ce2e25b831",
+     "text": "That's... that's new.",
+     "line_direction": "deep breath."
+    }
+   ]
+  },
+  {
+   "speaker": "OZZIE",
+   "direction": "Remote-site contact; calm, factual, lightly bemused.",
+   "lines": [
+    {
+     "id": "vo_ozzie_b2139fe401",
+     "text": "Still none. A crow looked at the reach truck for a while. I think it was auditing.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_ozzie_c62dcbda5e",
+     "text": "RT-77: REACH TRUCK. REMOTE SITE. Confirmed. Nothing else here. Nothing missing. Nothing extra. It's the most boring inventory I've ever done and I love it.",
+     "line_direction": "scanner beep."
+    },
+    {
+     "id": "vo_ozzie_409a24a575",
+     "text": "Hollis! It's Ozzie, remote site. That is the little overflow yard we lease, two hundred miles from anything. What do you need?",
+     "line_direction": "scanner message, then voice."
+    }
+   ]
+  },
+  {
+   "speaker": "RENATA",
+   "direction": "Cat rescue worker; calm, practical, humane, unsurprised by strange animal logistics.",
+   "lines": [
+    {
+     "id": "vo_renata_37948788ce",
+     "text": "Okay. Where are they living? What are they eating? And is there a safe place we can take them?",
+     "line_direction": "a soft laugh."
+    },
+    {
+     "id": "vo_renata_168b1d8e55",
+     "text": "Two hundred and fourteen. Fed, healthy, mostly judgmental. The colony leader, an orange one, walked in like he was reviewing the accommodations. Somebody named them all. Prudence, I'm told. (A pause.) Is she... employed here?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_renata_ba36fd85ca",
+     "text": "You must be Hollis. I'm Renata. This is the largest colony I've ever been called to. And the best-organized.",
+     "line_direction": "smiling, warm, clipboard in hand."
+    },
+    {
+     "id": "vo_renata_7ee802033c",
+     "text": "Still coming. I'll be at the yard gate when you're ready. Text me when they're moving. Or don't. I'll know.",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "SYSTEM",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "lines": [
+    {
+     "id": "vo_system_2fc181409e",
+     "text": "F-2231 — PROPANE SIT-DOWN — location: TENNESSEE.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_system_6b4e33295b",
+     "text": "The label and the freight have never met. ${p.dest === 'ship' ? 'It matches the Kestrel order.' : 'It is not on the Kestrel order.'}",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "RADIO",
+   "direction": "Radio channel voice; use named speaker when known.",
+   "lines": [
+    {
+     "id": "vo_radio_bd20c42f1c",
+     "text": "Hollis? It's Halvorsen, Operations Manager. Where are you. We have a HOT shipment. That means a customer is losing money by the minute. Kestrel Motor Works, their assembly line is stalled waiting on parts. Eight loads, out the door by NOON.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_radio_45d08f4b1a",
+     "text": "Hollis, Operations. HR just called. Your mandatory drug screening is scheduled for 9:02. It is now— (a long pause) — it's always 9:02 in HR. Report to HR immediately.",
+     "line_direction": ""
+    }
+   ]
+  },
+  {
+   "speaker": "GUS",
+   "direction": "Straightforward coworker; natural workplace delivery.",
+   "lines": [
+    {
+     "id": "vo_gus_636cb68f22",
+     "text": "I have eight monitors. Six of them have cats on them. I've made my peace.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gus_fbed812b6c",
+     "text": "I didn't say anything about Conveyor 9. I'm not saying anything about the server closet either. (He stares at the ceiling.) That's the sort of thing that wouldn't appear on a monitor I'm watching.",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gus_f85bdc7ab0",
+     "text": "An HR Exemption 9-M? For Non-Standard Breath?",
+     "line_direction": ""
+    },
+    {
+     "id": "vo_gus_7343ce0452",
+     "text": "Badge.",
+     "line_direction": "without looking up."
+    }
+   ]
+  },
+  {
+   "speaker": "TABLET",
+   "direction": "Clinical HR device voice; synthetic, procedural, calmly wrong.",
+   "lines": [
+    {
+     "id": "vo_tablet_1ce8c789f1",
+     "text": "ERROR 4-0-9:02 — SUBSTANCE NOT FOUND IN DATABASE. RECLASSIFYING AS: \"BREATH (NON-STANDARD)\". RECLASSIFYING AS: \"WEATHER\". RECLASSIFYING AS: \"TUESDAY\".",
+     "line_direction": ""
+    }
+   ]
+  }
+ ]
+}
