@@ -38,20 +38,26 @@ MM3.THEMES = {
     return JSON.stringify(o) + '|' + [G.dockLight, G.endMint, G.callWho, G.hideHollis, G.vignetteNpc && G.vignetteNpc.who].join(',');
   }
 
-  MM3.autoRoom = function (id) {
+  MM3.autoRoom = function (id, spec) {
+    spec = spec || null;
     const cfg = MM3.ROOM_CFG[id] || { wallY: 80, theme: 'warehouse' }; const theme = MM3.THEMES[cfg.theme] || MM3.THEMES.warehouse;
     const def = {
-      id, wallY: cfg.wallY, lights: theme, persons: [], extraCats: [], dyn: {}, stateKey: '', npcProps: [],
+      id, spec, wallY: (spec && spec.wallY) || cfg.wallY, lights: (spec && spec.lights) || theme, persons: [], extraCats: [], dyn: {}, stateKey: '', npcProps: [],
       build(K, group) { this.K = K; this.group = group; this.T = K.T; this.bg = new K.T.Group(); this.props = new K.T.Group(); group.add(this.bg, this.props);
-        this.sideMat = new K.T.MeshStandardMaterial({ color: 0xffffff, vertexColors: true, side: K.T.DoubleSide, roughness: .9 }); this.rebuild(); },
+        this.sideMat = new K.T.MeshStandardMaterial({ color: 0xffffff, vertexColors: true, side: K.T.DoubleSide, roughness: .9 });
+        this.ctx = { anim: [], flicker: [], dyn: {}, perch: [] };
+        if (spec && spec.shell) { spec.shell(K, this.bg, this.ctx, this); K.mergeStatic(this.bg); }   // hand-modelled room shell: built ONCE per room visit
+        this.rebuild(); },
       dispose(K) { for (const p of this.persons) p.rig = null; if (this.sideMat) this.sideMat.dispose(); },
       rebuild() {
         const K = this.K, T = this.T, r = G.rooms[id], S = G.S;
-        K.disposeGroup(this.bg); K.disposeGroup(this.props); this.bg = new T.Group(); this.props = new T.Group(); this.group.add(this.bg, this.props);
+        const shell = spec && spec.shell; K.disposeGroup(this.props); this.props = new T.Group(); this.group.add(this.props);
+        if (!shell) { K.disposeGroup(this.bg); this.bg = new T.Group(); this.group.add(this.bg); }
+        this.ctx.anim.length = 0; this.ctx.flicker.length = 0; if (spec && spec.shell) { this.ctx.anim = this.shellAnim || this.ctx.anim; }
         MM3_clearCages();
         this.stateKey = stateKey(); this.persons = []; this.extraCats = []; this.npcProps = [];
         // background
-        const rec0 = { persons: [], cats: [] }; const c0 = capture(() => r.bg(0), rec0); this.addBackdrop(c0);
+        const rec0 = { persons: [], cats: [] }; const c0 = capture(() => r.bg(0), rec0); if (!shell) this.addBackdrop(c0);
         // props
         for (const p of propsNow()) {
           if (!p.draw || !p.r || p.r[0] < -5) continue;
@@ -62,6 +68,7 @@ MM3.THEMES = {
           if (p.mintTag) this.addCage(p);
         }
         for (const q of rec0.persons) this.persons.push({ x: q.x, y: q.y, o: q.o, prop: 'bg' }); for (const q of rec0.cats) this.extraCats.push(q);
+        if (spec && spec.shell) K.mergeStatic(this.props);
         this.buildRigs();
       },
       buildRigs() { for (const p of this.persons) { const key = JSON.stringify(p.o); if (!p.rig || p.rigKey !== key) { if (p.rig) this.K.disposeGroup(p.rig.root); p.rig = this.K.buildPerson(p.o); p.rigKey = key; this.group.add(p.rig.root); } } },
@@ -75,7 +82,13 @@ MM3.THEMES = {
         const floor = new T.Mesh(new T.PlaneGeometry(SW, fh), new T.MeshStandardMaterial({ map: floorTex, color: 0xe6e6e6, roughness: .9 })); floor.rotation.x = -Math.PI / 2; floor.position.set(160, 0, wy + fh / 2); floor.receiveShadow = true; this.bg.add(floor);
       },
       addProp(p, c) {
-        const K = this.K, T = this.T, SCx = SC; if (!c) return; const wy = this.wallY;
+        const K = this.K, T = this.T, SCx = SC; const wy = this.wallY;
+        if (spec && spec.props && spec.props[p.id]) {                                     // hand-modelled prop: owns its geometry
+          try { const m = spec.props[p.id](K, p, this.ctx, G.S, this); if (m) this.props.add(m); } catch (e) { console.warn('[MM3] prop model failed', id, p.id, e && e.message); }
+          return;
+        }
+        if (spec && ((spec.hide && spec.hide.includes(p.id)) || p.npc || spec.generic === false)) return;   // part of the shell / NPC (rig is separate) / fallback disabled
+        if (!c) return;
         const bb = bboxMask(c); if (!bb) return;
         const flat = p.z === 0 || /^route_|^ground$/.test(p.id);
         const crop = document.createElement('canvas'); crop.width = bb.w * SCx; crop.height = bb.h * SCx; crop.getContext('2d').drawImage(c, bb.x0 * SCx, bb.y0 * SCx, bb.w * SCx, bb.h * SCx, 0, 0, bb.w * SCx, bb.h * SCx);
@@ -97,6 +110,7 @@ MM3.THEMES = {
       },
       sync(K, S, t) {
         const key = stateKey(); if (key !== this.stateKey) { this.rebuild(); return; }
+        if (spec) { if (spec.sync) spec.sync(K, S, t, this.ctx, this); for (const f of this.ctx.anim) f(t, S); const fl = !(S.f && S.f.lights_calm) && Math.sin(t * 22) > .7; for (const m of this.ctx.flicker) m.material.emissiveIntensity = fl ? 1.8 : 1.15; }
         // cheap per-frame refresh of NPC positions: replay only NPC props' draw code into a null context
         let n = 0; for (const p of this.npcProps) {
           const rec = { persons: [], cats: [], noPixels: true }; capture(() => p.draw(G.t, S), rec);
@@ -108,6 +122,7 @@ MM3.THEMES = {
       },
       catPlace(cd) {
         const wy = this.wallY; if (cd.y >= wy + 2) return { z: cd.y, h: 0 };
+        if (spec && spec.catPlace) { const r = spec.catPlace(cd, this); if (r) return r; }
         for (const p of propsNow()) if (p.r && cd.x >= p.r[0] && cd.x <= p.r[0] + p.r[2] && cd.y + 4 >= p.r[1] && cd.y + 4 <= p.r[1] + p.r[3] + 2) { const zb = Math.max(p.r[1] + p.r[3], wy + 1.5) + .5; return { z: zb, h: zb - cd.y }; }
         return { z: wy + 2, h: wy + 2 - cd.y };
       }
