@@ -1,0 +1,21 @@
+{
+  "description": "Human decisions for the lines held as HOLD_SPLIT_REQUIRED. Keys are id suffixes (last 6 hex of the parent id). `approve_single`: quoted words are signs/labels/scare quotes/readouts or a character reading text => one clip by the line's own speaker (Type A). `splits`: a different character really speaks inside the line => separate clips per speaker (Type B); segment text is verbatim from the parent minus quote marks and stage-direction parentheticals. `tts_overrides`: tutorial/instruction sentences dropped from what is SENT (on-screen text untouched).",
+  "splits": {
+    "7139b3": [["NARRATOR","normal","The radio crackles:"],["RADIO","radio","...Hollis? Anyone have eyes on Hollis?"],["NARRATOR","normal","It sounds like Operations. It sounds tired."]],
+    "12b23b": [["NARRATOR","normal","Tabitha looks up."],["TABITHA","normal","Hollis! Great. It's 9:02! Your mandatory screening. I'm just going to run the tablet."]],
+    "6d421a": [["BRUNO","normal","Ingrid, we're sealed."],["INGRID","radio","I know. I just printed it."],["BRUNO","normal","Rufus, take her out."]],
+    "76ba9a": [["NARRATOR","normal","Hollis hands the bill of lading to Bruno. Bruno reads it top to bottom, nods once the way people nod at a good weld, and tears off the yellow carbon copy."],["BRUNO","normal","File copy. You will want it."]],
+    "9df26c": [["NARRATOR","normal","Rufus eases the trailer forward."],["TORVALD","normal","NO, THE LIGHT."],["NARRATOR","normal","Rufus brakes. Torvald scoops a cat out of the path of the front tire and sets it, with dignity, somewhere safer."]],
+    "2e44e7": [["NARRATOR","normal","Prudence's voice carries across the floor:"],["PRUDENCE","normal","SERGEANT BISCUIT! Report!"],["NARRATOR","normal","A large orange cat rises from the racks and begins to walk, and behind him, the entire warehouse follows."]],
+    "fd67e4": [["NARRATOR","normal","Halvorsen on the radio:"],["HALVORSEN","radio","Also, Hollis, it's come to my attention there may be a few cats. There is no approved metric for cats. So there aren't any."]],
+    "4d8a60": [["NARRATOR","normal","She types. The kiosk beeps. The kiosk says, in a gentle voice,"],["SYSTEM","normal","Hold cleared. Thank you, Prudence."],["NARRATOR","normal","It has known her the whole time."]],
+    "1bacbf": [["NARRATOR","normal","Hollis tugs Tucker's vest. Tucker says"],["TUCKER","normal","Yes! Where are we going?"],["NARRATOR","normal","with no fear at all."]],
+    "1285a6": [["NARRATOR","normal","Hollis opens his mouth to ask something. Ingrid says"],["INGRID","normal","No."],["NARRATOR","normal","before he does."]]
+  },
+  "segment_tts_overrides": {"No.": "No."},
+  "tts_overrides": {
+    "2e1dc3": "The dock light cycles. Rufus needs the word GO at exactly the right time: not before, not after.",
+    "da7f5a": "Juno looks at Hollis like you have to tell me what to do first.",
+    "fd383e": "Juno buries her nose in the glove. She sneezes, snuffles, and then looks up with the expression of a hound who has decided who she is going to find."
+  }
+}

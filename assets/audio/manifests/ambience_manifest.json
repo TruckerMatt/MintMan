@@ -1,0 +1,144 @@
+{
+ "version": 2,
+ "description": "Looping room ambience beds, cross-faded on room change. Room -> id mapping lives in MMAudio.ROOM_AMBIENCE (src/audio.js). v2: 16 looping beds generated (20 s, loop=true, clean), level-matched to about -34 dB mean (gain only; originals in _raw/).",
+ "schema": {
+  "id": "ambience id (see ROOM_AMBIENCE)",
+  "file": "path or null (null = silence)",
+  "volume": "0..1 loop gain",
+  "rooms": "informational list of room ids that use it"
+ },
+ "entries": [
+  {
+   "id": "breakroom_hum",
+   "file": "assets/audio/ambience/breakroom_hum.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "break"
+   ]
+  },
+  {
+   "id": "warehouse_floor",
+   "file": "assets/audio/ambience/warehouse_floor.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "floor"
+   ]
+  },
+  {
+   "id": "locker_room",
+   "file": "assets/audio/ambience/locker_room.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "lockers"
+   ]
+  },
+  {
+   "id": "shipping_office",
+   "file": "assets/audio/ambience/shipping_office.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "shipoffice"
+   ]
+  },
+  {
+   "id": "operations_office",
+   "file": "assets/audio/ambience/operations_office.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "ops"
+   ]
+  },
+  {
+   "id": "hr_office",
+   "file": "assets/audio/ambience/hr_office.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "hr"
+   ]
+  },
+  {
+   "id": "warehouse_parts",
+   "file": "assets/audio/ambience/warehouse_parts.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "parts"
+   ]
+  },
+  {
+   "id": "charging_bay",
+   "file": "assets/audio/ambience/charging_bay.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "charging"
+   ]
+  },
+  {
+   "id": "warehouse_racks",
+   "file": "assets/audio/ambience/warehouse_racks.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "racks"
+   ]
+  },
+  {
+   "id": "tunnel_drone",
+   "file": "assets/audio/ambience/tunnel_drone.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "tunnel"
+   ]
+  },
+  {
+   "id": "warehouse_staging",
+   "file": "assets/audio/ambience/warehouse_staging.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "staging"
+   ]
+  },
+  {
+   "id": "loading_dock",
+   "file": "assets/audio/ambience/loading_dock.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "inbound",
+    "outbound"
+   ]
+  },
+  {
+   "id": "yard_exterior",
+   "file": "assets/audio/ambience/yard_exterior.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "yard",
+    "smoke",
+    "drain",
+    "remote"
+   ]
+  },
+  {
+   "id": "regional_lobby",
+   "file": "assets/audio/ambience/regional_lobby.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "mgmt"
+   ]
+  },
+  {
+   "id": "regional_suite",
+   "file": "assets/audio/ambience/regional_suite.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "suite"
+   ]
+  },
+  {
+   "id": "phone_line",
+   "file": "assets/audio/ambience/phone_line.mp3",
+   "volume": 0.55,
+   "rooms": [
+    "gordoncall"
+   ]
+  }
+ ]
+}

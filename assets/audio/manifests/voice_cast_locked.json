@@ -1,0 +1,121 @@
+{
+ "version": 1,
+ "description": "APPROVED cast (round 1+2 auditions). Source of truth for voice assignment; build_production.py applies it. Do not change without user approval.",
+ "model_id": "eleven_v4",
+ "voices": {
+  "HOLLIS": {
+   "voice_id": "EOuQOMUPQiYCUjY028Ro",
+   "voice_name": "James (cloned)",
+   "status": "locked",
+   "settings": null
+  },
+  "NARRATOR": {
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "status": "locked",
+   "settings": null
+  },
+  "SCANNER": {
+   "voice_id": "NoiYxL9g25M4orC8Q0ls",
+   "voice_name": "Vector - Tec Voice",
+   "status": "locked",
+   "settings": null
+  },
+  "PRUDENCE": {
+   "voice_id": "cgSgspJ2msm6clMCkdW9",
+   "voice_name": "Jessica",
+   "status": "locked",
+   "settings": null
+  },
+  "BRUNO": {
+   "voice_id": "hT1MsRBLaHSXGeWzW6xF",
+   "voice_name": "Rich - Southern US",
+   "status": "locked",
+   "settings": null
+  },
+  "INGRID": {
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "voice_name": "Matilda",
+   "status": "locked",
+   "settings": null
+  },
+  "TUCKER": {
+   "voice_id": "OwEAPhTFInN6VSRT9QXm",
+   "voice_name": "Jordan - Warm & Gritty",
+   "status": "locked",
+   "settings": null
+  },
+  "HALVORSEN": {
+   "voice_id": "bIHbv24MWmeRgasZH58o",
+   "voice_name": "Will",
+   "status": "locked",
+   "settings": null
+  },
+  "RUFUS": {
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "voice_name": "Callum",
+   "status": "locked",
+   "settings": null
+  },
+  "TORVALD": {
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "voice_name": "Brian",
+   "status": "locked",
+   "settings": null
+  },
+  "HARROW": {
+   "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+   "voice_name": "Lily",
+   "status": "locked",
+   "settings": null
+  },
+  "GORDON": {
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "voice_name": "Adam",
+   "status": "locked",
+   "settings": null
+  },
+  "TABITHA": {
+   "voice_id": "QgAHZCKeKxsZTcp84rgh",
+   "voice_name": "Hollie Sue",
+   "status": "locked",
+   "settings": null
+  },
+  "OZZIE": {
+   "voice_id": "4ekZwrbiRoxmeg5thP3K",
+   "voice_name": "Topher",
+   "status": "locked",
+   "settings": null
+  },
+  "RENATA": {
+   "voice_id": "mjQhGi3uUtUVynWMuscb",
+   "voice_name": "Hollie - Kind, Enthusiastic",
+   "status": "locked",
+   "settings": null
+  },
+  "SYSTEM": {
+   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+   "voice_name": "The Curator",
+   "status": "locked",
+   "settings": null
+  },
+  "TABLET": {
+   "voice_id": "Q8ZbQAANLFvLw8uPBR8d",
+   "voice_name": "AGEIS-7 4/10",
+   "status": "locked",
+   "settings": null
+  },
+  "RADIO": {
+   "voice_id": "cjVigY5qzO86Huf0OWal",
+   "voice_name": "Eric",
+   "status": "locked",
+   "settings": null
+  },
+  "GUS": {
+   "voice_id": "pqHfZKP75CvOlQylNhV4",
+   "voice_name": "Bill",
+   "status": "locked",
+   "settings": null
+  }
+ }
+}

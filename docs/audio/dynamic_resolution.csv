@@ -1,0 +1,76 @@
+dyn_id,class,function,scene,legacy_line,literal_strings,covered_by_package,coverage,uncovered_literals,action
+dyn_38d7af99bf,finite_other,doVerb,inventory/interaction,271,0,0,not_covered,,Review manually.
+dyn_9f1563d3fe,finite_other,doVerb,inventory/interaction,282,1,1,ok,,Review manually.
+dyn_d432fa7996,finite_other,J,multiple,775,0,0,not_covered,,Review manually.
+dyn_4b713dd97e,finite_conditional,person,break,815,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_87b9940696,finite_conditional,vendMenu,lockers,862,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_880788a03a,finite_conditional,vendMenu,lockers,870,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_ea874eeae3,finite_conditional,vendMenu,lockers,872,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_8eb37e84c4,finite_conditional,vendMenu,floor,901,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_ee52edbd34,finite_conditional,vendMenu,shipoffice,929,3,3,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_fbde75bff0,finite_conditional,terminalMenu,shipoffice,953,8,8,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_418e19df39,finite_conditional,terminalMenu,shipoffice,954,7,7,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_1d60a0a66a,finite_conditional,terminalSwap,ops,975,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_03762bb8bf,finite_conditional,terminalSwap,ops,980,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_851b749cc0,finite_conditional,sortedCount,parts,1040,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_fdf2d631f1,runtime_assembled,freeTucker,racks,1083,2,2,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_b191cb0da7,runtime_assembled,freeTucker,racks,1083,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_8e12d4ba5a,runtime_assembled,freeTucker,tunnel,1103,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_a72b526660,runtime_assembled,freeTucker,staging,1117,3,3,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_0867180e6f,finite_conditional,freeTucker,staging,1122,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_7f4b91b02a,runtime_assembled,scanPallet,multiple,1133,2,2,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_941fd7905d,runtime_assembled,scanPallet,multiple,1134,5,5,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_92134e613b,runtime_assembled,scanPallet,multiple,1135,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_0e51f1a9d5,runtime_assembled,sortPallet,multiple,1142,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_d33cbd40ab,runtime_assembled,sortResult,multiple,1154,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_a0c17dee6b,runtime_assembled,sortResult,inbound,1165,3,3,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_959aca1bf8,finite_conditional,sortResult,inbound,1165,3,3,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_361b99a644,runtime_assembled,junoSearchTorvald,multiple,1205,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_39c2b05463,finite_conditional,reachTruck,outbound,1220,3,3,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_567e3c6828,runtime_assembled,reachTruck,outbound,1221,2,2,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_b57f4bb883,runtime_assembled,reachTruck,outbound,1222,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_ff12f9ab3b,finite_conditional,repairJack,yard,1256,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_1e92e48e98,runtime_assembled,repairJack,yard,1256,0,0,not_covered,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_15133fd9ac,finite_conditional,repairJack,yard,1258,3,3,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_9443083905,finite_conditional,repairJack,drain,1292,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_931785d781,finite_conditional,fail,inventory/interaction,1353,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_752eeeb431,runtime_assembled,fail,inventory/interaction,1401,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_4dbe633375,finite_random,fail,inventory/interaction,1411,3,3,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_10291f6370,runtime_assembled,fail,inventory/interaction,1414,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_d6cfebedf7,runtime_assembled,fail,inventory/interaction,1418,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_a30fca5079,finite_random,fail,inventory/interaction,1427,3,3,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_977c486e6f,finite_random,fail,multiple,1475,3,3,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_7854c06758,finite_random,fail,multiple,1477,3,3,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_e8ddff985b,finite_random,fail,multiple,1483,2,2,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_9d7cea02e7,runtime_assembled,fail,multiple,1493,0,0,not_covered,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_3a985be816,finite_other,nf,multiple,1584,0,0,not_covered,,Review manually.
+dyn_d5ab9943f3,finite_conditional,nf,multiple,1584,1,0,not_covered,(Press H again for more.),Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_a57c9fa7d1,runtime_assembled,nf,multiple,1591,1,0,not_covered,(Press H for hints on the rest.),Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_d4350f082c,finite_random,talkPrudence,multiple,1606,3,3,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_40278802a6,finite_conditional,talkTucker,multiple,1635,5,5,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_4539253374,runtime_assembled,talkRufus,yard,1674,3,3,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_0f8bcd22b0,finite_random,talkRufus,yard,1678,3,3,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_a37ed5bcda,runtime_assembled,brunoLoad,multiple,1707,2,2,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_10b874c7f0,finite_conditional,talkIngrid,shipoffice,1720,3,3,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_a1b571767d,runtime_assembled,talkIngrid,shipoffice,1723,2,2,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_3f4e25eefe,finite_random,talkIngrid,shipoffice,1728,2,2,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_9c9bd1d7f6,runtime_assembled,talkIngrid,shipoffice,1731,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_1c03de6e43,finite_conditional,talkHalvorsen,ops,1740,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_d990b0ed21,finite_random,talkTabitha,multiple,1764,2,2,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_3e5428f896,finite_random,talkRenata,multiple,1803,2,2,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_8029a0f8e4,finite_conditional,talkRenata,multiple,1807,3,3,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_449f39b145,finite_conditional,talkGordon,phone,1814,8,8,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_5035e50404,runtime_assembled,talkGordon,phone,1821,3,3,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_314e4b38c6,finite_conditional,hit,finale/multiple,1875,4,4,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_1ed0fada36,runtime_assembled,sealAndDepart,outbound,1886,1,1,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_e9322e13f8,runtime_assembled,bossRound,finale/multiple,1911,0,0,not_covered,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_4d2fecb00f,runtime_assembled,bossRound,finale/multiple,1926,2,2,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_dafe347134,finite_conditional,check,finale/multiple,1970,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_c0e555c84d,finite_conditional,check,finale/multiple,1976,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_48413693c6,finite_other,_text,multiple,2128,2,2,ok,,Review manually.
+dyn_04f0f387ad,runtime_assembled,niceItem,multiple,2270,2,2,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_4ff7847abe,finite_conditional,niceItem,multiple,2278,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_42d2625de5,finite_conditional,niceItem,multiple,2279,2,2,ok,,Each branch is a fixed line (or base+suffix combo): record every full variant; the runtime matches the displayed full string.
+dyn_b66fa14801,runtime_assembled,runCommand,multiple,2326,2,2,ok,,Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.
+dyn_8487b82b34,finite_random,runCommand,multiple,2327,2,2,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).
+dyn_e27511386d,finite_random,runCommand,multiple,2337,2,2,ok,,Each RAND alternative is a fixed line: ensure every alternative has its own id (covered/uncovered shown).

@@ -1,0 +1,122 @@
+{
+ "version": 2,
+ "description": "External sound effects. Each id equals the name the engine already passes to Snd.play(); when `file` is set and loaded it replaces the synth effect, otherwise the synth plays. Replace one entry at a time. v2: files generated (clean style); entries with `files` pick a random variant. Loudness-matched with a gain-only pass (originals in assets/audio/sfx/_raw/).",
+ "schema": {
+  "id": "Snd.play name",
+  "file": "path or null (null = keep synth)",
+  "volume": "optional 0..1",
+  "notes": "optional"
+ },
+ "entries": [
+  {
+   "id": "click",
+   "file": "assets/audio/sfx/click.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "beep",
+   "file": "assets/audio/sfx/beep.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "scan",
+   "file": "assets/audio/sfx/scan.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "scanfail",
+   "file": "assets/audio/sfx/scanfail.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "pickup",
+   "file": "assets/audio/sfx/pickup.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "reverse",
+   "file": "assets/audio/sfx/reverse.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "dock",
+   "file": "assets/audio/sfx/dock.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "bump",
+   "file": "assets/audio/sfx/bump.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "pallet",
+   "file": "assets/audio/sfx/pallet.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "printer",
+   "file": "assets/audio/sfx/printer.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "radio",
+   "file": "assets/audio/sfx/radio.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "buzz",
+   "file": "assets/audio/sfx/buzz.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "vend",
+   "file": "assets/audio/sfx/vend.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "bark",
+   "file": "assets/audio/sfx/bark.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "meow",
+   "file": "assets/audio/sfx/meow_1.mp3",
+   "volume": 0.9,
+   "files": [
+    "assets/audio/sfx/meow_1.mp3",
+    "assets/audio/sfx/meow_2.mp3",
+    "assets/audio/sfx/meow_3.mp3"
+   ]
+  },
+  {
+   "id": "meows",
+   "file": "assets/audio/sfx/meows.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "card",
+   "file": "assets/audio/sfx/card.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "mint",
+   "file": "assets/audio/sfx/mint.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "fail",
+   "file": "assets/audio/sfx/fail.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "win",
+   "file": "assets/audio/sfx/win.mp3",
+   "volume": 0.9
+  },
+  {
+   "id": "kpi",
+   "file": "assets/audio/sfx/kpi.mp3",
+   "volume": 0.9
+  }
+ ]
+}

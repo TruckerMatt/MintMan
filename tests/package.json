@@ -1,0 +1,1 @@
+{ "name": "mint-man-tests", "private": true, "description": "Playwright regression scripts (dev only)", "dependencies": { "playwright": "*", "three": "0.160.0" } }

@@ -1,0 +1,362 @@
+proposed_id,speaker,channel,text,source,likely,status
+vo_narrator_c98549074d,NARRATOR,normal,"The cat says ""mrrp"" in a tone that makes it sound like an order.",src/patches.js:6,likely_dialogue,candidate_unextracted
+vo_narrator_2b517f811b,NARRATOR,normal,Hollis reaches for the paper. Biscuit looks at Hollis. Hollis retracts his hand. There will need to be a trade.,src/patches.js:6,likely_dialogue,candidate_unextracted
+vo_narrator_8294e4a31d,NARRATOR,normal,The paper is stuck to fur. Hollis is not going to pull fur off a sergeant.,src/patches.js:6,likely_dialogue,candidate_unextracted
+vo_narrator_578a9acc28,NARRATOR,normal,"Hollis picks up page 2 of the T-4417 manifest. It has a paw print and a bite mark. ""Thanks, Sergeant."" Biscuit blinks once, which is as close to ""you're welcome"" as a cat can get.",src/patches.js:12,likely_dialogue,candidate_unextracted
+vo_narrator_f8646b33d1,NARRATOR,normal,"Prudence, exactly where she was not supposed to be. She looks like she has always been there.",src/patches.js:15,likely_dialogue,candidate_unextracted
+vo_scanner_8088a08a56,SCANNER,normal,"PRUDENCE — Status: TERMINATED. Location: WHEREVER. Task: ""just finishing something"". Note: she appears to know the password to everything.",src/patches.js:15,likely_dialogue,candidate_unextracted
+vo_narrator_2a51f6b625,NARRATOR,normal,Hollis scoops some kibble into a tote lid. It goes in his pocket. It smells like victory. It also smells like fish.,src/patches.js:23,likely_dialogue,candidate_unextracted
+vo_narrator_5a3701cad3,NARRATOR,normal,"Vending Machine 1, Hollis 0. The machine wins. The machine always wins. Juno, standing safely to the side, files it under ""expected"".",src/patches.js:25,likely_dialogue,candidate_unextracted
+vo_narrator_090f2bee53,NARRATOR,normal,"Operating equipment without authorization. Tabitha arrives with a clipboard. Hollis is walked out. It is barely later than before, and he has been terminated by a form.",src/patches.js:27,likely_dialogue,candidate_unextracted
+vo_narrator_111de4473d,NARRATOR,normal, considers it back. Nobody moves.,src/patches.js:92,likely_dialogue,candidate_unextracted
+vo_narrator_56d7c1da19,NARRATOR,normal," declines, which is fair.",src/patches.js:93,likely_dialogue,candidate_unextracted
+vo_narrator_9da33c7201,NARRATOR,normal,. Nothing reaches back.,src/patches.js:93,likely_dialogue,candidate_unextracted
+vo_narrator_ad999a2b65,NARRATOR,normal,Hollis takes the Whisker Ridge flyer. It seems like the kind of thing that becomes relevant.,src/rooms.js:39,likely_dialogue,candidate_unextracted
+vo_narrator_eb47012fcb,NARRATOR,normal,The clock keeps reading 9:02. Now it has an excuse.,src/rooms.js:42,likely_dialogue,candidate_unextracted
+vo_narrator_19f98141a9,NARRATOR,normal,The couch does not move. It has roots.,src/rooms.js:47,likely_dialogue,candidate_unextracted
+vo_narrator_d6409ec3ab,NARRATOR,normal,The table where Hollis woke up. There is a drool situation on a napkin and a half-completed Form 3. He does not remember starting either.,src/rooms.js:49,likely_dialogue,candidate_unextracted
+vo_narrator_6492839e51,NARRATOR,normal,Hollis is already done sleeping on it. Probably.,src/rooms.js:49,likely_dialogue,candidate_unextracted
+vo_narrator_1e597047d5,NARRATOR,normal,"The pot is empty. A note: ""LAST DECENT COFFEE WAS HERE — WHO TOOK IT?"" Below it, in different handwriting: ""not me.""",src/rooms.js:51,likely_dialogue,candidate_unextracted
+vo_narrator_7830d75589,NARRATOR,normal,There is nothing to brew but regret and stale filter.,src/rooms.js:51,likely_dialogue,candidate_unextracted
+vo_narrator_274418638c,NARRATOR,normal,"Hollis takes the pot, thinks better of it, and puts it back.",src/rooms.js:51,likely_dialogue,candidate_unextracted
+vo_narrator_04aa7cc365,NARRATOR,normal,"A microwave with a label: ""PLEASE DO NOT MICROWAVE FISH."" Someone has microwaved fish. The label has been updated to ""SERIOUSLY.""",src/rooms.js:53,likely_dialogue,candidate_unextracted
+vo_narrator_2c6202b5f8,NARRATOR,normal,"Hollis opens it. Something inside looks back, then remembers it is a burrito.",src/rooms.js:53,likely_dialogue,candidate_unextracted
+vo_narrator_835270500b,NARRATOR,normal,"A counter with three sugar packets and a sign that says ""CLEAN AS YOU GO"". It is not clean and no one is going.",src/rooms.js:55,likely_dialogue,candidate_unextracted
+vo_narrator_da21be1ca1,NARRATOR,normal,Empty. A single fork remains. It has seen things.,src/rooms.js:55,likely_dialogue,candidate_unextracted
+vo_narrator_9b1e342ad5,NARRATOR,normal,"Covered in magnets. One holds a note: ""TUCKER — DO NOT EAT — TUCKER."" Tucker has written this himself, twice.",src/rooms.js:57,likely_dialogue,candidate_unextracted
+vo_narrator_eb810dee36,NARRATOR,normal,"Inside: one yogurt (expired), a lunch labeled ""TUCKER (DO NOT EAT — TUCKER)"", and a dish of cat kibble that nobody will explain.",src/rooms.js:57,likely_dialogue,candidate_unextracted
+vo_narrator_1e05f1a3f1,NARRATOR,normal,It wants 25 cents. It has wanted 25 cents since before Hollis was hired. (There are always quarters somewhere in a break room.),src/rooms.js:59,likely_dialogue,candidate_unextracted
+vo_narrator_a620bcfd9c,NARRATOR,normal,"Hollis shoves the machine. It rocks, judges him, and settles back.",src/rooms.js:59,likely_dialogue,candidate_unextracted
+vo_narrator_c6c7b2d1c1,NARRATOR,normal,It weighs as much as a decision.,src/rooms.js:59,likely_dialogue,candidate_unextracted
+vo_narrator_d31fe84e58,NARRATOR,normal,"It is a vending machine. Hollis is a tall skinny guy, not a moving company.",src/rooms.js:59,likely_dialogue,candidate_unextracted
+vo_narrator_eafb14ad3d,NARRATOR,normal,Pushing the machine to reach the gap will take at least two people and an incident report.,src/rooms.js:62,likely_dialogue,candidate_unextracted
+vo_narrator_b56bff60a3,NARRATOR,normal,It is a gap. It does not open. It is just there.,src/rooms.js:62,likely_dialogue,candidate_unextracted
+vo_narrator_dab1fc2285,NARRATOR,normal,"Juno trots back with a walkie-talkie in her mouth, slightly chewed but chirping. She drops it in Hollis's hand with the dignity of a well-paid courier.",src/rooms.js:63,likely_dialogue,candidate_unextracted
+vo_narrator_cfbd8c472f,NARRATOR,normal,"A bowl of kibble on the break-room floor with a laminated sign: ""NOT A CAT BOWL"". Nobody has admitted placing it. There are paw prints leading away from it, in a very orderly line.",src/rooms.js:65,likely_dialogue,candidate_unextracted
+vo_narrator_096cc16864,NARRATOR,normal,"A crumpled shipping label, stuck to the toe of Hollis's boot with something that used to be a sticker and is now a lifestyle.",src/rooms.js:68,likely_dialogue,candidate_unextracted
+vo_narrator_354070533f,NARRATOR,normal,"Hollis peels the label off his boot. It clings for a moment out of loyalty, then gives up. It goes in his pocket.",src/rooms.js:68,likely_dialogue,candidate_unextracted
+vo_narrator_38a84f0b79,NARRATOR,normal,,src/rooms.js:68,likely_dialogue,candidate_unextracted
+vo_narrator_51122646dc,NARRATOR,normal,"Small, muddy, purposeful paw prints crossing the break-room floor from the door to the vending machine. Whoever made them knew exactly where they were going.",src/rooms.js:70,likely_dialogue,candidate_unextracted
+vo_narrator_1afe55733b,NARRATOR,normal,"Juno sniffs the prints. She looks up at Hollis with an expression that says ""I know them, and I do not like it.""",src/rooms.js:70,likely_dialogue,candidate_unextracted
+vo_narrator_fff2bb2f13,NARRATOR,normal,"It is warm. It is faintly luminous. Company policy, in at least four places, says Hollis should not eat this.",src/rooms.js:81,likely_dialogue,candidate_unextracted
+vo_narrator_f783517e64,NARRATOR,normal,Try 33-12-08 (from the label),src/rooms.js:92,likely_dialogue,candidate_unextracted
+vo_narrator_a4d9aad626,NARRATOR,normal,"Hollis does not take the locker. The locker takes Hollis, most mornings.",src/rooms.js:93,likely_dialogue,candidate_unextracted
+vo_narrator_872ae87e29,NARRATOR,normal,"A locker with a sticker of a Viking helmet and a sign in runes that says either ""TORVALD"" or ""GO AWAY"". It is unlocked.",src/rooms.js:95,likely_dialogue,candidate_unextracted
+vo_narrator_b9f7b2444d,NARRATOR,normal,"Hollis takes the glove. Somewhere, a dog will find this interesting.",src/rooms.js:95,likely_dialogue,candidate_unextracted
+vo_narrator_09c59074a6,NARRATOR,normal,"A locker with a nameplate that has been crossed out and re-written as ""PRUDENCE"" and crossed out again. The padlock is cut. It contains a mug and, faintly, hope.",src/rooms.js:97,likely_dialogue,candidate_unextracted
+vo_narrator_590b3b96fb,NARRATOR,normal,"Empty except a mug with ""WORLD'S OKAYEST EMPLOYEE"" on it. The mug is still warm.",src/rooms.js:97,likely_dialogue,candidate_unextracted
+vo_narrator_d16507c87b,NARRATOR,normal,"More lockers. One is labeled ""PPE (for the safety of persons who wear PPE)"". Another is full of orange cones.",src/rooms.js:98,likely_dialogue,candidate_unextracted
+vo_narrator_719ca38132,NARRATOR,normal,"Locked, dented, or full of cones. Sometimes all three.",src/rooms.js:98,likely_dialogue,candidate_unextracted
+vo_narrator_5050c2b8e5,NARRATOR,normal,The time clock shows PRUDENCE as clocked IN. It has for eleven weeks. The system considers this a data-entry error and Prudence considers it a schedule.,src/rooms.js:99,likely_dialogue,candidate_unextracted
+vo_narrator_77d6af2ffa,NARRATOR,normal,"Hollis punches in. The clock says ""You have been at work since 9:02."" He has.",src/rooms.js:99,likely_dialogue,candidate_unextracted
+vo_narrator_6c3d6d1492,NARRATOR,normal,"Hollis lifts out the pink blanket. Underneath: a yard tally clicker labeled ""RUFUS"". ",src/rooms.js:102,likely_dialogue,candidate_unextracted
+vo_narrator_6ce1d8740e,NARRATOR,normal,"He takes that too. Rufus has been looking for this, presumably by counting the places it is not.",src/rooms.js:102,likely_dialogue,candidate_unextracted
+vo_narrator_0369965990,NARRATOR,normal,"Prudence sits on the bench like she works here, which she does not. She has the posture of someone who ""just needs a second"".",src/rooms.js:104,likely_dialogue,candidate_unextracted
+vo_narrator_390c6eb915,NARRATOR,normal,It is a forklift. The forklift wins.,src/rooms.js:124,likely_dialogue,candidate_unextracted
+vo_narrator_094748c7e6,NARRATOR,normal,"There is no OPEN on a forklift. There is only ""hope it starts"".",src/rooms.js:124,likely_dialogue,candidate_unextracted
+vo_narrator_524bb219a4,NARRATOR,normal,It is on the wall. It cannot be pushed. It can only be believed.,src/rooms.js:128,likely_dialogue,candidate_unextracted
+vo_narrator_82b9290ff7,NARRATOR,normal,"Another bowl of kibble, this one on the warehouse floor next to a ""Wet Floor"" sign. It is not wet. Nobody put it there. The bowl is aware of this.",src/rooms.js:132,likely_dialogue,candidate_unextracted
+vo_narrator_fba7018a43,NARRATOR,normal,"A neat wall of pallets that Tucker ""organized"" across the aisle to the staging lanes. The lane is now a philosophical concept. A sign says ""Tucker was here (helping)"".",src/rooms.js:134,likely_dialogue,candidate_unextracted
+vo_narrator_4f0ee58d4c,NARRATOR,normal,"Hollis pushes. The pallets, stacked with Tucker's unwavering optimism, weigh about a car. Maybe he should ask Tucker to un-help.",src/rooms.js:134,likely_dialogue,candidate_unextracted
+vo_narrator_bf416e44a2,NARRATOR,normal,The wall of pallets does not care.,src/rooms.js:134,likely_dialogue,candidate_unextracted
+vo_narrator_e28c0e64a3,NARRATOR,normal,"Tucker: hard hat two sizes too large, vest one size too large, energy exactly the right size for a much bigger man. He is waving at you. He has been waving since you walked in.",src/rooms.js:135,likely_dialogue,candidate_unextracted
+vo_narrator_03be29d55d,NARRATOR,normal,"The PA speaker. It announces things, none of which matter, all of which are urgent.",src/rooms.js:136,likely_dialogue,candidate_unextracted
+vo_narrator_f6c8b00ac3,NARRATOR,normal,"Yellow bollards, dented in patterns that tell the history of every forklift driver. One of the dents is shaped like a mistake.",src/rooms.js:137,likely_dialogue,candidate_unextracted
+vo_narrator_10aeb93a42,NARRATOR,normal,"A filing cabinet containing everything anyone has ever done. Alphabetized by the concept of ""later"".",src/rooms.js:158,likely_dialogue,candidate_unextracted
+vo_narrator_9d6e5fce0a,NARRATOR,normal,"Ingrid glances up. ""Don't."" Hollis doesn't.",src/rooms.js:158,likely_dialogue,candidate_unextracted
+vo_narrator_9f297df9a8,NARRATOR,normal,A printer that prints things. It once printed the same Form 2 for fifty minutes. Ingrid does not talk about that day.,src/rooms.js:168,likely_dialogue,candidate_unextracted
+vo_narrator_a353a87b4c,NARRATOR,normal,It hums at Hollis in a tone that suggests he would rather not.,src/rooms.js:168,likely_dialogue,candidate_unextracted
+vo_narrator_012bc5da58,NARRATOR,normal,"A desk phone with a very long cord, which Ingrid uses to leave the world on hold.",src/rooms.js:169,likely_dialogue,candidate_unextracted
+vo_narrator_c2cc2ac0d1,NARRATOR,normal,There's a cat on your paperwork.,src/rooms.js:171,likely_dialogue,candidate_unextracted
+vo_narrator_9020a95604,NARRATOR,normal,"Ingrid does not look up. ""Put it back."" Hollis was not going to take it. He puts it back anyway.",src/rooms.js:171,likely_dialogue,candidate_unextracted
+vo_narrator_97777917dc,NARRATOR,normal,A plant that has survived three managers and a flood. It is the only employee with perfect attendance.,src/rooms.js:172,likely_dialogue,candidate_unextracted
+vo_narrator_d42496934d,NARRATOR,normal,"WMS: Hint: ""HALO engineering password (original).""",src/rooms.js:183,likely_dialogue,candidate_unextracted
+vo_narrator_3b579082d7,NARRATOR,normal,It is on the wall. It is the wall now.,src/rooms.js:202,likely_dialogue,candidate_unextracted
+vo_narrator_de4b3a5191,NARRATOR,normal,"Dale Halvorsen, Operations Manager. His shirt has a fresh sweat ring on it and the expression of a man who was told by a spreadsheet that everything is fine, and now feels a little sick.",src/rooms.js:205,likely_dialogue,candidate_unextracted
+vo_narrator_da13935ddc,NARRATOR,normal,"Hollis takes Form 7-Q. It is blank, cheerful, and dangerous.",src/rooms.js:208,likely_dialogue,candidate_unextracted
+vo_narrator_cb245beb65,NARRATOR,normal,"A three-inch binder of Regional directives. Each one is signed ""HALO"". Someone has bookmarked directive 7-C with a sticky note reading ""OH NO.""",src/rooms.js:209,likely_dialogue,candidate_unextracted
+vo_narrator_c47f089588,NARRATOR,normal,"Hollis flips through. Directives seven through nine all say, in different fonts, ""meet your numbers"".",src/rooms.js:209,likely_dialogue,candidate_unextracted
+vo_narrator_06e34fb301,NARRATOR,normal,"A framed photo of a woman in a navy blazer shaking hands with a dashboard. The caption: ""REGIONAL DIRECTOR — RECOGNIZING EXCELLENCE (of numbers)"".",src/rooms.js:210,likely_dialogue,candidate_unextracted
+vo_narrator_832418355f,NARRATOR,normal,A stress ball. It is flat. It is doing its best.,src/rooms.js:211,likely_dialogue,candidate_unextracted
+vo_narrator_fb1cc881a3,NARRATOR,normal,"Tabitha, HR. Warm, calm, lanyard fully loaded, and possessed of an unshakeable belief that every problem is a ""learning opportunity with paperwork"".",src/rooms.js:225,likely_dialogue,candidate_unextracted
+vo_narrator_4485996a9a,NARRATOR,normal,"The HR tablet. It runs ""PolicyPilot 7"", which sometimes knows the answer.",src/rooms.js:226,likely_dialogue,candidate_unextracted
+vo_narrator_7f8be11f8b,NARRATOR,normal,"The HR printer. It prints forms, and, when very stressed, unrelated shipping labels.",src/rooms.js:227,likely_dialogue,candidate_unextracted
+vo_narrator_99c58f43f5,NARRATOR,normal,A wellness poster with a cat on it. HR says it was there before the cats. Nobody believes this.,src/rooms.js:228,likely_dialogue,candidate_unextracted
+vo_narrator_fd29be7d59,NARRATOR,normal,REACH TRUCK RT-79 (Tennessee order),src/rooms.js:240,likely_dialogue,candidate_unextracted
+vo_narrator_04b6b303e8,NARRATOR,normal,REACH TRUCK RT-80 (Tennessee order),src/rooms.js:241,likely_dialogue,candidate_unextracted
+vo_narrator_6ab72ee5a3,NARRATOR,normal,48V BATTERY PACK (Kestrel PO line),src/rooms.js:246,likely_dialogue,candidate_unextracted
+vo_narrator_6751dda4c5,NARRATOR,normal,SPARE CUSHION TIRES (not on PO),src/rooms.js:251,likely_dialogue,candidate_unextracted
+vo_narrator_120370c3dd,NARRATOR,normal,HALO KIOSK HARDWARE (unopened return),src/rooms.js:253,likely_dialogue,candidate_unextracted
+vo_narrator_0767e62f45,NARRATOR,normal,Hollis takes the hydraulic seal kit. It smells like a repair that might work.,src/rooms.js:266,likely_dialogue,candidate_unextracted
+vo_narrator_502da9a88e,NARRATOR,normal,"A parts counter service bell. The sign says ""RING ONCE"". It has been rung eighty-one thousand times.",src/rooms.js:271,likely_dialogue,candidate_unextracted
+vo_narrator_e9b723c594,NARRATOR,normal,"Hollis rings. Nobody comes. Somewhere a cat looks up and, judging by its face, files a complaint.",src/rooms.js:271,likely_dialogue,candidate_unextracted
+vo_narrator_dec420c755,NARRATOR,normal,"It goes ding, like a tiny alarm nobody set.",src/rooms.js:271,likely_dialogue,candidate_unextracted
+vo_narrator_c6ca62620e,NARRATOR,normal,"Tucker hands Hollis a small notebook labeled ""TUCKER'S BOOK OF NUMBERS (PRIVATE)"". Each page is a forklift plate number, a date, and a doodle of the forklift.",src/rooms.js:279,likely_dialogue,candidate_unextracted
+vo_narrator_4ddc033274,NARRATOR,normal,"Tucker, this is the most useful notebook in the building.",src/rooms.js:279,likely_dialogue,candidate_unextracted
+vo_narrator_6f4618db2c,NARRATOR,normal,"A row of battery chargers, humming in five slightly different keys. Each has a lockout-tag hook labeled ""DO NOT ENERGIZE THIS HOOK"". Nobody does.",src/rooms.js:287,likely_dialogue,candidate_unextracted
+vo_narrator_619a86f4bb,NARRATOR,normal,Hollis takes the maintenance cage key. It is heavier than it should be. It is carrying a lot.,src/rooms.js:289,likely_dialogue,candidate_unextracted
+vo_narrator_06ccc9f4f6,NARRATOR,normal,"A genuine propane sit-down forklift, which the system has never once identified correctly.",src/rooms.js:291,likely_dialogue,candidate_unextracted
+vo_narrator_018d4b1fe8,NARRATOR,normal,"A sign that says ""LOCKOUT / TAGOUT"" over a tag reading ""IT WAS LOCKED OUT BEFORE I GOT HERE"". A cat sits on it as though supervising.",src/rooms.js:292,likely_dialogue,candidate_unextracted
+vo_narrator_965407b8c6,NARRATOR,normal,It's a rack. It is bolted to the concrete and to a series of legal disclaimers.,src/rooms.js:307,likely_dialogue,candidate_unextracted
+vo_narrator_02b32b079f,NARRATOR,normal,"MAX LOAD: 4,000 LB. Under it, a piece of paper: ""MAX CATS: (see: cats).""",src/rooms.js:310,likely_dialogue,candidate_unextracted
+vo_narrator_d7e7b529ee,NARRATOR,normal,"Painted on the tunnel wall: PRUDENCE WAS HERE (officially). Under it, in a different hand: ""no she wasn't."" Under that: ""yes she was.""",src/rooms.js:323,likely_dialogue,candidate_unextracted
+vo_narrator_f443e6439e,NARRATOR,normal,"An abandoned conveyor, silent since a Regional ""efficiency"" audit in 2016 decided it was efficient to stop.",src/rooms.js:324,likely_dialogue,candidate_unextracted
+vo_narrator_54d1e36e9c,NARRATOR,normal,It has not moved in years. Hollis is not going to be the one to change that.,src/rooms.js:324,likely_dialogue,candidate_unextracted
+vo_narrator_ca31479019,NARRATOR,normal,"A coffee mug, cold. It says WORLD'S OKAYEST EMPLOYEE. A very small cat is asleep in it.",src/rooms.js:325,likely_dialogue,candidate_unextracted
+vo_narrator_417192c068,NARRATOR,normal,"Hollis leans on it. He needs a pallet jack to do this properly, and possibly a plan.",src/rooms.js:344,likely_dialogue,candidate_unextracted
+vo_narrator_f756f53ef6,NARRATOR,normal,Best practice is not to pull a loaded pallet by hand. The narrator has read the module.,src/rooms.js:344,likely_dialogue,candidate_unextracted
+vo_narrator_6776ea1fe5,NARRATOR,normal,The shrink wrap is very committed.,src/rooms.js:344,likely_dialogue,candidate_unextracted
+vo_narrator_6211f242a0,NARRATOR,normal,Hollis cannot take a pallet. He can move a pallet with the correct equipment.,src/rooms.js:344,likely_dialogue,candidate_unextracted
+vo_narrator_8f66d4f3f7,NARRATOR,normal,"A bowl of kibble under a sign: ""STAGING LANE NOT-A-FEEDING-STATION"". Tucker's handwriting. Tucker's pawprints. A truly heroic quantity of cat prints.",src/rooms.js:347,likely_dialogue,candidate_unextracted
+vo_narrator_e9d3932308,NARRATOR,normal,Send to OUTBOUND (ships to Kestrel),src/rooms.js:369,likely_dialogue,candidate_unextracted
+vo_narrator_e5e10a44b5,NARRATOR,normal,Send to RACKS (storage),src/rooms.js:369,likely_dialogue,candidate_unextracted
+vo_narrator_d92d55b29d,NARRATOR,normal,"Already open, and empty, and smelling faintly of fish.",src/rooms.js:391,likely_dialogue,candidate_unextracted
+vo_narrator_3356de82c4,NARRATOR,normal,"Trailer T-4418, the second inbound. Another eight loads, now sitting in staging. The dock plate has a small collection of paw prints across it.",src/rooms.js:392,likely_dialogue,candidate_unextracted
+vo_narrator_6a931b19d2,NARRATOR,normal,Empty. Something in the corner has left.,src/rooms.js:392,likely_dialogue,candidate_unextracted
+vo_narrator_cabd5f0fd1,NARRATOR,normal,It's open. That is the problem.,src/rooms.js:394,likely_dialogue,candidate_unextracted
+vo_narrator_54a7746edb,NARRATOR,normal,It is printing. It will print until it stops. It is not currently interested in negotiations.,src/rooms.js:396,likely_dialogue,candidate_unextracted
+vo_narrator_c0583bc98b,NARRATOR,normal,Tucker printed the admin label.,src/rooms.js:397,likely_dialogue,candidate_unextracted
+vo_narrator_48e962e5a6,NARRATOR,normal,"Tucker is standing in a river of labels, holding the printer's cable in one hand and a cheerful expression.",src/rooms.js:398,likely_dialogue,candidate_unextracted
+vo_narrator_cc334d8a2c,NARRATOR,normal,"The dock clipboard: seal numbers, receiving times, one entry that says ""cat?"" with a question mark and a checkmark simultaneously.",src/rooms.js:399,likely_dialogue,candidate_unextracted
+vo_narrator_ecccbefddc,NARRATOR,normal,"A broken trailer seal on the floor, number 88112, cut cleanly. Not by any tool in the building. By a very, very determined person or an extremely sharp cat.",src/rooms.js:400,likely_dialogue,candidate_unextracted
+vo_narrator_d131eb402a,NARRATOR,normal,"Torvald. Six-foot-four of Viking, in a hi-vis vest and a fur collar, holding a cigarette like a very small torch. He looks at Hollis with the patience of a tide.",src/rooms.js:414,likely_dialogue,candidate_unextracted
+vo_scanner_642ef627c7,SCANNER,normal,"TORVALD — Class: SPOTTER (in principle). Location: OUTSIDE. Confidence: 0%. Notes: ""always has what you need; nobody asked why.""",src/rooms.js:414,likely_dialogue,candidate_unextracted
+vo_narrator_61d6a8059a,NARRATOR,normal,"MINT VISION: a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",src/rooms.js:419,likely_dialogue,candidate_unextracted
+vo_narrator_07b73c1f30,NARRATOR,normal,"Bruno, lead loader. Forearms like drums, gloves like hams, and the calm of a man who knows which pallet is going where and won't discuss it before coffee.",src/rooms.js:440,likely_dialogue,candidate_unextracted
+vo_narrator_3921da1e3c,NARRATOR,normal,Bruno's pallet jack. It has a slow hydraulic leak leaving a tiny puddle the shape of a bad week. It lowers slowly. It raises when it feels like it.,src/rooms.js:442,likely_dialogue,candidate_unextracted
+vo_narrator_9319837088,NARRATOR,normal,Hollis pushes the pallet jack. It goes about eight inches and then reconsiders.,src/rooms.js:442,likely_dialogue,candidate_unextracted
+vo_narrator_82997232d1,NARRATOR,normal,"It's Bruno's. Hollis is not going to take it. Not until it works, anyway.",src/rooms.js:442,likely_dialogue,candidate_unextracted
+vo_narrator_163b6e89cb,NARRATOR,normal,Hollis tries to lift the jack. The forks fall like a sigh.,src/rooms.js:442,likely_dialogue,candidate_unextracted
+vo_narrator_31d28e9998,NARRATOR,normal,"Torvald hands over a grease-stained notebook: ""SMOKE LOG"". An eyewitness account, with a small doodle of a Viking looking at a machine.",src/rooms.js:447,likely_dialogue,candidate_unextracted
+vo_narrator_b8285683b2,NARRATOR,normal,"Torvald, at dock 3. On time. It is like watching a rare bird. Nobody is speaking too loudly.",src/rooms.js:447,likely_dialogue,candidate_unextracted
+vo_narrator_80d762767c,NARRATOR,normal,"Tucker, standing in the outbound side door with his arms out. It is the most disciplined thing anyone has ever seen him do.",src/rooms.js:448,likely_dialogue,candidate_unextracted
+vo_narrator_1cd928f1b0,NARRATOR,normal,"A pallet, shrink-wrapped by someone who was clearly working out feelings. There is a cat inside. A cat has set up in the gap under the wrap, entirely free and unbothered.",src/rooms.js:450,likely_dialogue,candidate_unextracted
+vo_narrator_8b8060db62,NARRATOR,normal,The cat regards Hollis. Hollis regards the cat. They leave it there.,src/rooms.js:450,likely_dialogue,candidate_unextracted
+vo_narrator_e96de068a2,NARRATOR,normal,Someone with an old key.,src/rooms.js:461,likely_dialogue,candidate_unextracted
+vo_narrator_e892bb74fc,NARRATOR,normal,"Bruno hands Hollis the pallet jack. It is, somehow, going into Hollis's pocket. The inventory has no size limit; this is a design decision shared by every adventure game since 1984.",src/rooms.js:465,likely_dialogue,candidate_unextracted
+vo_narrator_c97f0eb263,NARRATOR,normal,"Rufus, yard driver. He drives a yard truck the way other people drive a chessboard: three moves ahead and no one else allowed to know why.",src/rooms.js:476,likely_dialogue,candidate_unextracted
+vo_narrator_ea58edfa4e,NARRATOR,normal,It is a trailer. Rufus drives it. Hollis does not.,src/rooms.js:478,likely_dialogue,candidate_unextracted
+vo_narrator_8036d6ae80,NARRATOR,normal,The trailer is already open. It is waiting for tenants.,src/rooms.js:480,likely_dialogue,candidate_unextracted
+vo_narrator_3488eefec1,NARRATOR,normal,"Renata from Whisker Ridge, holding a clipboard, a carrier, and a very serious commitment to kindness. Behind her: a van the size of a small apartment, marked with paw prints.",src/rooms.js:484,likely_dialogue,candidate_unextracted
+vo_narrator_8692373590,NARRATOR,normal,"The yard gate. A sign says ""ALL VISITORS MUST SIGN IN"". Somebody has answered ""I'm a cat.""",src/rooms.js:485,likely_dialogue,candidate_unextracted
+vo_narrator_45f6c52a6f,NARRATOR,normal,"A trailer parked way, way out of place. The gap behind it is exactly Viking-shaped. Coincidence: 4%.",src/rooms.js:492,likely_dialogue,candidate_unextracted
+vo_narrator_dc3bd13ddf,NARRATOR,normal,"The smoking shelter. A bench, a bucket of sand, a sign that says ""THANK YOU FOR NOT SMOKING HERE (We've stopped checking)"". A cat is on the roof, supervising.",src/rooms.js:499,likely_dialogue,candidate_unextracted
+vo_narrator_0b9e133868,NARRATOR,normal,"A bucket of sand containing the archaeology of a thousand breaks. On top: a fresh, neat Viking-brand cigarette, still warm. Torvald was here. Recently. And will be again.",src/rooms.js:500,likely_dialogue,candidate_unextracted
+vo_narrator_b4a74f94c6,NARRATOR,normal,It is stable in ways Hollis does not want to test.,src/rooms.js:501,likely_dialogue,candidate_unextracted
+vo_narrator_e225f56307,NARRATOR,normal,This is not on the cat route. The cats will have to get to the yard on their own.,src/rooms.js:502,likely_dialogue,candidate_unextracted
+vo_narrator_b53bc22185,NARRATOR,normal,Absolutely not. There are people in there.,src/rooms.js:514,likely_dialogue,candidate_unextracted
+vo_narrator_72b26a2a09,NARRATOR,normal,"A drainage ditch that has held rainwater, cigarette butts, two shopping-cart wheels, and a lot of history. In the mud: paw prints by the hundreds.",src/rooms.js:515,likely_dialogue,candidate_unextracted
+vo_narrator_d616752184,NARRATOR,normal,"Prudence, crouched by the drainage ditch with a scoop of kibble and a very sensible jacket. She does not look caught. She looks like she has been waiting for you to catch her.",src/rooms.js:517,likely_dialogue,candidate_unextracted
+vo_narrator_058fc2886c,NARRATOR,normal,"Gus, security. He has the look of someone who has watched a hundred monitors and decided most of them were not his problem.",src/rooms.js:529,likely_dialogue,candidate_unextracted
+vo_narrator_af69fa5fa8,NARRATOR,normal,A badge reader with a little red light. It does not like Hollis's face. Or his inventory.,src/rooms.js:530,likely_dialogue,candidate_unextracted
+vo_narrator_ce80413c4c,NARRATOR,normal,It beeps twice and stays red. Very Regional of it.,src/rooms.js:530,likely_dialogue,candidate_unextracted
+vo_narrator_fd92d21f44,NARRATOR,normal,A plant that has never been watered by a human hand. It is real. It has survived on the memory of water.,src/rooms.js:531,likely_dialogue,candidate_unextracted
+vo_narrator_0a1e321434,NARRATOR,normal,"The regional HALO wall: every site, every trailer, every load, every cat metric, all green, all 100%. It lights the room like a small sun that is very, very sure of itself.",src/rooms.js:542,likely_dialogue,candidate_unextracted
+vo_narrator_d654c2a530,NARRATOR,normal,A conference table with a bowl of complimentary mints. The mints are not glowing. Hollis is grateful.,src/rooms.js:543,likely_dialogue,candidate_unextracted
+vo_narrator_3988c87736,NARRATOR,normal,The mints are ordinary. The last thing Hollis needs is another mint.,src/rooms.js:543,likely_dialogue,candidate_unextracted
+vo_narrator_bec9de459d,NARRATOR,normal,"Constance Harrow, Regional Director. Sharp blazer, sharp posture, tablet under her arm displaying a dashboard that seems to have been trained to tell her what she wants to hear. She looks at Hollis the way she looks at a variance she hasn't decided to forgive.",src/rooms.js:544,likely_dialogue,candidate_unextracted
+vo_narrator_2477a11d48,NARRATOR,normal,"Ozzie, at the remote site, wearing a beanie, holding a scanner and a small, dry look of a man who is a long way from anything.",src/rooms.js:555,likely_dialogue,candidate_unextracted
+vo_narrator_a9522d1eff,NARRATOR,normal,LINE 3 — DOWN (waiting on parts),src/rooms.js:557,likely_dialogue,candidate_unextracted
+vo_narrator_dc77c9bcb9,NARRATOR,normal,Click to try again from just before.,src/story.js:10,likely_dialogue,candidate_unextracted
+vo_narrator_0a0b46e2a1,NARRATOR,normal,"Your handheld scanner, alive again. Its screen says ""SCAN ANYTHING (except regrets)"". Use the SCAN verb on nearly anything.",src/story.js:18,likely_dialogue,candidate_unextracted
+vo_narrator_64767beac2,NARRATOR,normal,"Your handheld scanner. It is dead. Through the battery door, a rectangle of emptiness is visible. Someone took the battery.",src/story.js:18,likely_dialogue,candidate_unextracted
+vo_narrator_19316acc9c,NARRATOR,normal,"Form 7-Q, INFORMATION ACCESS REQUEST: filled out, signed by D. Halvorsen. Beautiful. A tiny piece of bureaucratic art.",src/story.js:25,likely_dialogue,candidate_unextracted
+vo_narrator_76cd3d487c,NARRATOR,normal,"Form 7-Q, filled out in blue pen: ""Reason: hot shipment. Please, for the love of Kestrel."" It needs an Operations signature.",src/story.js:25,likely_dialogue,candidate_unextracted
+vo_narrator_9a111dcafc,NARRATOR,normal,"Form 7-Q: INFORMATION ACCESS REQUEST. It has fields for name, reason, and ""how this will create work for others."" It is blank.",src/story.js:25,likely_dialogue,candidate_unextracted
+vo_narrator_4b2325c79b,NARRATOR,normal,"MINT VISION: the smudged lines resolve. Directive 7-C has rewritten ""KESTREL"" to ""COUNTERWEIGHT"" on the kibble totes, and ""TENNESSEE"" to ""NEBRASKA"" on the reach trucks. The manifest is now readable.",src/story.js:38,likely_dialogue,candidate_unextracted
+vo_narrator_af630e4cf2,NARRATOR,normal,Use the SCAN verb for that. The scanner's pride is at stake.,src/story.js:52,likely_dialogue,candidate_unextracted
+vo_narrator_aa7c714ca6,NARRATOR,normal,"MINT VISION: The label's barcode resolves: ""TEMPLATE 000 — HALO GROUND TRUTH REFERENCE — ADMIN"".",src/story.js:63,likely_dialogue,candidate_unextracted
+vo_narrator_4cc2049592,NARRATOR,normal,A cat. Just the one. It is looking at Hollis the way one looks at a coworker who was late.,src/story.js:111,likely_dialogue,candidate_unextracted
+vo_narrator_a341529c5e,NARRATOR,normal,"A single cat, in a place cats should not be. Hollis files this under ""odd, probably fine"".",src/story.js:111,likely_dialogue,candidate_unextracted
+vo_narrator_b8ab90cf89,NARRATOR,normal,"A cat, sitting perfectly still, judging. There is only one, so Hollis can take it personally.",src/story.js:111,likely_dialogue,candidate_unextracted
+vo_narrator_6f60f8e535,NARRATOR,normal,A cat. There are a few now. Each one has chosen a spot with the confidence of someone who already has a badge.,src/story.js:112,likely_dialogue,candidate_unextracted
+vo_narrator_37a9544bf9,NARRATOR,normal,"This cat is asleep on top of something important. Nobody has asked it to leave, because nobody has been brave.",src/story.js:112,likely_dialogue,candidate_unextracted
+vo_narrator_6deae2e9b6,NARRATOR,normal,A cat that appears to be counting something. Possibly the other cats.,src/story.js:112,likely_dialogue,candidate_unextracted
+vo_narrator_fc03348bf1,NARRATOR,normal,A cat. This is officially a problem. Hollis can no longer tell which cats he has met.,src/story.js:113,likely_dialogue,candidate_unextracted
+vo_narrator_26bfed9f5e,NARRATOR,normal,A cat that has clearly learned the shift schedule and is following it more closely than the staff.,src/story.js:113,likely_dialogue,candidate_unextracted
+vo_narrator_df945b61ff,NARRATOR,normal,This cat is sitting on a pallet label. The pallet is now technically a cat pallet.,src/story.js:113,likely_dialogue,candidate_unextracted
+vo_narrator_d689e9934e,NARRATOR,normal,"A cat, one of dozens. Hollis has begun to recognize them by which shelf they run.",src/story.js:114,likely_dialogue,candidate_unextracted
+vo_narrator_8e5c9bd631,NARRATOR,normal,"A cat looks back at Hollis. Behind it, forty more do the same, at the same moment. He looks away first.",src/story.js:114,likely_dialogue,candidate_unextracted
+vo_narrator_57ba5256f6,NARRATOR,normal,There are so many cats here that the warehouse has started to be arranged around them.,src/story.js:114,likely_dialogue,candidate_unextracted
+vo_narrator_d233658b8b,NARRATOR,normal,A cat. Hollis stopped counting a while ago. He has moved on to noticing the things that are not cats. That is the smaller list.,src/story.js:115,likely_dialogue,candidate_unextracted
+vo_narrator_937fd695f2,NARRATOR,normal,A cat on a cat on a cat. The lowest one is doing the work of a load-bearing pallet.,src/story.js:115,likely_dialogue,candidate_unextracted
+vo_narrator_465d57e95c,NARRATOR,normal,Hollis looks at one cat and feels the whole room look at him. He nods. It is the professional thing to do.,src/story.js:115,likely_dialogue,candidate_unextracted
+vo_narrator_fca604d500,NARRATOR,normal,"The cat looks at Hollis, blinks slowly, and says nothing in a way that feels like a rebuttal.",src/story.js:117,likely_dialogue,candidate_unextracted
+vo_narrator_232254b7ac,NARRATOR,normal,"Hollis says hello. The cat says ""mrrp"". Neither of them makes a commitment.",src/story.js:117,likely_dialogue,candidate_unextracted
+vo_narrator_2bb816c152,NARRATOR,normal,"Hollis asks the cat where the rest of them came from. The cat looks at the ceiling, which is where they came from.",src/story.js:118,likely_dialogue,candidate_unextracted
+vo_narrator_f94b076c0f,NARRATOR,normal,"Hollis says ""hey"". Three cats answer. This was not the intention.",src/story.js:118,likely_dialogue,candidate_unextracted
+vo_narrator_91eb28a23f,NARRATOR,normal,"Hollis asks the cat, quietly, who is in charge. The cat looks around. So does Hollis. Nobody comes forward.",src/story.js:119,likely_dialogue,candidate_unextracted
+vo_narrator_f9d7f7b2ba,NARRATOR,normal,"The cat says ""mrrp"". From across the floor, about twelve cats say ""mrrp"" back. It has the feel of a meeting.",src/story.js:119,likely_dialogue,candidate_unextracted
+vo_narrator_b55da4de67,NARRATOR,normal,Hollis speaks to the cat in his best supervisor voice. The cat blinks once. Every cat in earshot blinks once. He has never been listened to so completely or so uselessly.,src/story.js:120,likely_dialogue,candidate_unextracted
+vo_narrator_579c02a57e,NARRATOR,normal,"Hollis addresses the cat. The room goes quiet, in the manner of a room that has heard this speech before and did not care for it.",src/story.js:121,likely_dialogue,candidate_unextracted
+vo_narrator_05ef788802,NARRATOR,normal,"The cat says ""mrrp"". Something, somewhere, says ""mrrp"" in the walls. Hollis does not investigate.",src/story.js:121,likely_dialogue,candidate_unextracted
+vo_narrator_6ca470cdb7,NARRATOR,normal,"The cat sniffs the fish cracker, looks at Hollis, and turns away. Not the artisanal kind. This is a cat with standards. (It might be a different, larger, orange cat with standards, though.)",src/story.js:123,likely_dialogue,candidate_unextracted
+vo_narrator_f9797a515a,NARRATOR,normal,"Hollis holds out some kibble. Nearby cats glance at the kibble, then at the sky, then at Hollis. This is fine. He is not going to spread it around. Not yet.",src/story.js:124,likely_dialogue,candidate_unextracted
+vo_narrator_bd5d48a571,NARRATOR,normal,"Hollis holds up a cat bowl. Several cats watch him, interested, and then notice that a bowl is not food. A bowl needs a place to go first.",src/story.js:125,likely_dialogue,candidate_unextracted
+vo_narrator_4916ac2f8b,NARRATOR,normal,"Hollis drapes the blanket near the cat. The cat looks at it and then at Hollis, with the expression of someone who prefers to pick their own nap spot. Maybe somewhere warmer, and less in the way.",src/story.js:126,likely_dialogue,candidate_unextracted
+vo_narrator_6fd42aab8a,NARRATOR,normal,"Hollis holds up the rescue flyer. The cat sniffs the paper, looks at the phone number, and looks at Hollis. It seems to be saying: obviously. Call them.",src/story.js:127,likely_dialogue,candidate_unextracted
+vo_narrator_2a3cfab20b,NARRATOR,normal,"Hollis holds the radio near the cat. The cat bats at the antenna. RADIO: ""...is that a cat? Hollis, is there a cat on the radio?"" Hollis turns it off.",src/story.js:128,likely_dialogue,candidate_unextracted
+vo_narrator_5d46678dc2,NARRATOR,normal,Hollis shows the cat his phone. The cat is not impressed by the phone. It is impressed by the warmth. It sits on the phone.,src/story.js:129,likely_dialogue,candidate_unextracted
+vo_narrator_aa8dc066c7,NARRATOR,normal,The cat watches the pen with the focus of a professional. Hollis moves the pen. The cat moves with it. Hollis puts the pen away before it costs him the pen.,src/story.js:130,likely_dialogue,candidate_unextracted
+vo_narrator_a58fbed8e8,NARRATOR,normal,"Hollis holds the label out. The cat sniffs it, sneezes once, and walks away. Cats, apparently, know when something is not a real barcode.",src/story.js:131,likely_dialogue,candidate_unextracted
+vo_narrator_a774d1ecdb,NARRATOR,normal,"Hollis points the scanner at the cat. The scanner wants to be used with SCAN, and the cat would like Hollis to stop.",src/story.js:132,likely_dialogue,candidate_unextracted
+vo_narrator_92cf52c5f0,NARRATOR,normal,"Hollis holds out the glove. The cat sniffs it, sneezes, and looks at Hollis with deep pity. Torvald smells like that, apparently.",src/story.js:133,likely_dialogue,candidate_unextracted
+vo_narrator_8568978aaf,NARRATOR,normal,"Hollis lowers the pallet jack toward the cat. The cat calmly steps onto the forks and rides. It is now a passenger, and Hollis is the driver. Hollis lifts nothing.",src/story.js:134,likely_dialogue,candidate_unextracted
+vo_narrator_3ae9adce02,NARRATOR,normal,"Hollis holds out the mint. The cat sniffs it, leans back, and stares at him with newfound respect. Then it looks away. This one should not be shared.",src/story.js:135,likely_dialogue,candidate_unextracted
+vo_narrator_a9f1f77868,NARRATOR,normal,the rescue (call Whisker Ridge),src/story.js:163,likely_hint_or_label,candidate_unextracted
+vo_narrator_0c0f7d97d1,NARRATOR,normal,Trailer 31 at the yard gate (Rufus),src/story.js:163,likely_hint_or_label,candidate_unextracted
+vo_narrator_c73d932282,NARRATOR,normal,"She hands Hollis the signed Form 9-M. It is, by any measure, the most bureaucratically powerful piece of paper he has ever held. It says nothing is forbidden that is not named.",src/story.js:197,likely_dialogue,candidate_unextracted
+vo_narrator_559c7d0c83,NARRATOR,normal,"Tabitha hands over a bright green armband: SAFETY COMMITTEE — MEMBER (TEMP). ""Approved. Pending policy."" Juno looks at it, and then at Hollis, with an expression that says: finally.",src/story.js:199,likely_dialogue,candidate_unextracted
+vo_narrator_b77e129929,NARRATOR,normal,Look around the break room. Something is stuck to your boot: TAKE it.,src/story.js:226,likely_hint_or_label,candidate_unextracted
+vo_narrator_3e2f52a2f0,NARRATOR,normal,A chirp is coming from behind the vending machine. Juno is a good size for gaps: use the JUNO verb on it.,src/story.js:226,likely_hint_or_label,candidate_unextracted
+vo_narrator_f89009e68f,NARRATOR,normal,Your scanner needs a battery. Something in this room runs on one that looks a lot like it. (LOOK at the clock.),src/story.js:226,likely_hint_or_label,candidate_unextracted
+vo_narrator_384914b9c1,NARRATOR,normal,"Once the scanner works, go to the main floor and SCAN the forklift.",src/story.js:226,likely_hint_or_label,candidate_unextracted
+vo_narrator_bd42a0a652,NARRATOR,normal,GIVE the coffee to Ingrid (shipping office).,src/story.js:229,likely_hint_or_label,candidate_unextracted
+vo_narrator_b4cf5ed717,NARRATOR,normal,Prudence (locker area) has the last decent coffee. GIVE her the fish crackers.,src/story.js:229,likely_hint_or_label,candidate_unextracted
+vo_narrator_0fafc13cec,NARRATOR,normal,"Ingrid wants a real coffee. Prudence (locker area) has the last one, and she will trade it for fish crackers from the break-room vending machine (25 cents; quarters hide in the couch and the locker-room bench).",src/story.js:229,likely_hint_or_label,candidate_unextracted
+vo_narrator_da770a153d,NARRATOR,normal,GIVE the signed Form 7-Q to Ingrid.,src/story.js:230,likely_hint_or_label,candidate_unextracted
+vo_narrator_4d468c3683,NARRATOR,normal,GIVE the filled Form 7-Q to Halvorsen (Operations office) to sign.,src/story.js:230,likely_hint_or_label,candidate_unextracted
+vo_narrator_d2319ff757,NARRATOR,normal,USE the pen on the Form 7-Q to fill it in.,src/story.js:230,likely_hint_or_label,candidate_unextracted
+vo_narrator_5918a9631e,NARRATOR,normal,You need a pen for the Form 7-Q. Locker 114 (locker area) has one; the combination is on the back of the label on your boot.,src/story.js:230,likely_hint_or_label,candidate_unextracted
+vo_narrator_0524af3dc3,NARRATOR,normal,Ingrid wants a Form 7-Q. Blank ones are in the Operations office printer.,src/story.js:230,likely_hint_or_label,candidate_unextracted
+vo_narrator_9e3a2c7638,NARRATOR,normal,Ingrid wants proof the records are wrong. SCAN the forklift on the main floor.,src/story.js:231,likely_hint_or_label,candidate_unextracted
+vo_narrator_874199aa0a,NARRATOR,normal,Ingrid has everything she asked for. TALK to her and ask for the manifests.,src/story.js:232,likely_hint_or_label,candidate_unextracted
+vo_narrator_5d584d73d9,NARRATOR,normal,GIVE the hydraulic seal to Bruno (outbound docks).,src/story.js:234,likely_hint_or_label,candidate_unextracted
+vo_narrator_5e544e70a5,NARRATOR,normal,Bruno needs a hydraulic seal: bin H-17 in Parts (off the main floor). You have the key.,src/story.js:234,likely_hint_or_label,candidate_unextracted
+vo_narrator_6b7faa0e4b,NARRATOR,normal,"Bruno (outbound docks) needs a hydraulic seal from bin H-17 in Parts, but Parts is locked. Prudence (locker area) has an old key: ask her about Parts.",src/story.js:234,likely_hint_or_label,candidate_unextracted
+vo_narrator_dd88282eb9,NARRATOR,normal,"Bruno (outbound docks) needs a hydraulic seal from bin H-17 in Parts, but Parts is locked. Prudence (locker area) has an old key; she will talk about it once you have traded her fish crackers for the coffee.",src/story.js:234,likely_hint_or_label,candidate_unextracted
+vo_narrator_1d09de58b3,NARRATOR,normal,GIVE Rufus (yard) his tally counter.,src/story.js:235,likely_hint_or_label,candidate_unextracted
+vo_narrator_50886d3de0,NARRATOR,normal,Rufus (yard) lost his tally counter. Check the Lost & Found box in the locker area.,src/story.js:235,likely_hint_or_label,candidate_unextracted
+vo_narrator_7d11c81e70,NARRATOR,normal,Juno has Torvald's scent. Pick the JUNO verb and click the ground in the yard.,src/story.js:236,likely_hint_or_label,candidate_unextracted
+vo_narrator_d5751a8411,NARRATOR,normal,"USE Torvald's glove on Juno, then pick JUNO and click the ground in the yard.",src/story.js:236,likely_hint_or_label,candidate_unextracted
+vo_narrator_cc56ab780a,NARRATOR,normal,Torvald is hiding in the yard. Juno can find him with his scent: his glove is in his locker (locker area).,src/story.js:236,likely_hint_or_label,candidate_unextracted
+vo_narrator_a695dd01c7,NARRATOR,normal,Ingrid's manifest has the customer's number. Use CALL to phone Gordon at Kestrel.,src/story.js:237,likely_hint_or_label,candidate_unextracted
+vo_narrator_a9619834d4,NARRATOR,normal,Optional for now: page 2 of the manifest is with a big orange cat in the storage racks. He likes fish crackers.,src/story.js:238,likely_hint_or_label,candidate_unextracted
+vo_narrator_04a1c81d30,NARRATOR,normal,"Where did the cats come from? Ask Prudence at the drain, or ask Tucker about the bowls once he is out of the cage.",src/story.js:240,likely_hint_or_label,candidate_unextracted
+vo_narrator_e7b9f7f6f9,NARRATOR,normal,"There are three cat bowls nobody admits placing: break room, main floor, staging. Take them.",src/story.js:240,likely_hint_or_label,candidate_unextracted
+vo_narrator_8c35fa010f,NARRATOR,normal,Tucker is locked in the Maintenance Cage in Parts. The cage key hangs in the Charging Area.,src/story.js:240,likely_hint_or_label,candidate_unextracted
+vo_narrator_d853fbb3f9,NARRATOR,normal,A cat in the racks has a paper stuck to its fur. It likes fish crackers.,src/story.js:240,likely_hint_or_label,candidate_unextracted
+vo_narrator_da2679f231,NARRATOR,normal,"Prudence is in the drainage area, feeding cats. Ask her.",src/story.js:240,likely_hint_or_label,candidate_unextracted
+vo_narrator_3ae8e16b94,NARRATOR,normal,The vending machine's D4 is glowing. You need a quarter. Then eat the mint.,src/story.js:240,likely_hint_or_label,candidate_unextracted
+vo_narrator_28749d5323,NARRATOR,normal,Go to HR (from the locker area).,src/story.js:241,likely_hint_or_label,candidate_unextracted
+vo_narrator_f58a2665ac,NARRATOR,normal,"With MINT vision on (M), look at the HALO dashboard in the Ops office.",src/story.js:241,likely_hint_or_label,candidate_unextracted
+vo_narrator_5968ceda90,NARRATOR,normal,"Fix the mixed-up records at Ingrid's terminal: read the records, have Ozzie check the plate on the reach truck, get the admin password from Prudence, use Tucker's notebook on the terminal.",src/story.js:241,likely_hint_or_label,candidate_unextracted
+vo_narrator_f31a7a10f2,NARRATOR,normal,"Torvald is hiding again: smoking area. Juno, or use MINT vision.",src/story.js:241,likely_hint_or_label,candidate_unextracted
+vo_narrator_9849ac076b,NARRATOR,normal,"Sort all 16 pallets in staging using the pallet jack: Kestrel PO items ship, everything else goes to storage. Scan with MINT vision to see the truth.",src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_bb270e5b2e,NARRATOR,normal,"Everything is ready. Go to the main warehouse floor, pick JUNO and click the cats.",src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_7c10b35653,NARRATOR,normal,"The cats need to see Juno is in charge: USE the safety armband on Juno. Then, on the main warehouse floor, pick JUNO and click the cats.",src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_a4cc3abc6d,NARRATOR,normal,B1 is clear of cats now. Finish sorting staging.,src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_863a039805,NARRATOR,normal,Prudence (outbound dock) can clear the WMS hold on the trailer.,src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_cdfe79a28d,NARRATOR,normal,Torvald: find him (yard) and ask him to spot at dock 3.,src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_296173ffc2,NARRATOR,normal,"Stand at the outbound dock and RADIO Rufus to bring T-9022 to door 3, then call it in when the dock light is green.",src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_35493e7d5a,NARRATOR,normal,Talk to Bruno when the trailer is at the dock and staging is clear.,src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_cbf80c37b5,NARRATOR,normal,"Ingrid can print the bill of lading once records are fixed (needs page 2, manifest decoded with MINT vision).",src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_8bef5a6714,NARRATOR,normal,Call Ozzie to confirm remote freight.,src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_3e7294a3ed,NARRATOR,normal,Call Gordon for production sign-off (after loading).,src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_c34806b31a,NARRATOR,normal,GIVE the bill of lading to Bruno to close the trailer.,src/story.js:242,likely_hint_or_label,candidate_unextracted
+vo_narrator_7b43735c58,NARRATOR,normal,Turn MINT vision on (M) and LOOK at the HALO dashboard in the Operations office.,src/story.js:243,likely_hint_or_label,candidate_unextracted
+vo_narrator_e36e67e507,NARRATOR,normal,Go to the Operations office and talk to Halvorsen.,src/story.js:243,likely_hint_or_label,candidate_unextracted
+vo_narrator_fe1d924d00,NARRATOR,normal,Gus will not let you into the Regional Suite. The cats know another way: use JUNO on the gap in Rack 14 (warehouse racks).,src/story.js:243,likely_hint_or_label,candidate_unextracted
+vo_narrator_51d5a71963,NARRATOR,normal,Take the tunnel behind Rack 14 to the Regional Suite.,src/story.js:243,likely_hint_or_label,candidate_unextracted
+vo_narrator_7a356ca543,NARRATOR,normal,"You have done everything you need for now. Try talking to people again, or moving to a new location.",src/story.js:244,likely_hint_or_label,candidate_unextracted
+vo_narrator_ad39b972be,NARRATOR,normal, (Press H again for more.),src/story.js:249,likely_dialogue,candidate_unextracted
+vo_narrator_f5c668f992,NARRATOR,normal,"Get the scanner working, find your radio, and scan the forklift.",src/story.js:255,likely_hint_or_label,candidate_unextracted
+vo_narrator_8b35614551,NARRATOR,normal,"Get the office, the loading dock, the yard and the customer lined up.",src/story.js:255,likely_hint_or_label,candidate_unextracted
+vo_narrator_7392b53338,NARRATOR,normal,Find where the cats are coming from and who is behind it.,src/story.js:255,likely_hint_or_label,candidate_unextracted
+vo_narrator_226d53d292,NARRATOR,normal,Fix the records and deal with HR and the dashboard.,src/story.js:255,likely_hint_or_label,candidate_unextracted
+vo_narrator_a7340429c0,NARRATOR,normal,"Sort the 16 pallets, find the hot trailer, move the cats, load and seal.",src/story.js:255,likely_hint_or_label,candidate_unextracted
+vo_narrator_3c87192944,NARRATOR,normal,Face the Regional Review.,src/story.js:255,likely_hint_or_label,candidate_unextracted
+vo_narrator_aac014c383,NARRATOR,normal,"""You were fired, you know.""",src/story.js:269,likely_dialogue,candidate_unextracted
+vo_narrator_e893ca7ed5,NARRATOR,normal,Ask about the Parts area (locked),src/story.js:272,likely_dialogue,candidate_unextracted
+vo_narrator_ec9cfc0b4b,NARRATOR,normal,"Torvald hands over a grease-stained notebook: ""SMOKE LOG"". It's an eyewitness account. In his handwriting, with a small doodle of a Viking looking at a machine.",src/story.js:318,likely_dialogue,candidate_unextracted
+vo_rufus_6a2990034a,RUFUS,normal,"T-9022 — your hot trailer — is out back, past the fuel island. Row C, spot 9. The computer thinks it's at door 3. It's been in Row C since Monday. I moved it myself. Nobody asked.",src/story.js:331,likely_dialogue,candidate_unextracted
+vo_narrator_e783e48db4,NARRATOR,normal,So the hot trailer isn't at the dock.,src/story.js:331,likely_dialogue,candidate_unextracted
+vo_narrator_baa70e5910,NARRATOR,normal,What actually got loaded?,src/story.js:359,likely_dialogue,candidate_unextracted
+vo_narrator_bf81e24176,NARRATOR,normal,"""I need the manifests and trailer info.""",src/story.js:382,likely_dialogue,candidate_unextracted
+vo_narrator_40ef1621b4,NARRATOR,normal,"coffee (a real one, not the pot)",src/story.js:383,likely_hint_or_label,candidate_unextracted
+vo_narrator_894aefe5ae,NARRATOR,normal,"a reason, meaning proof the records are wrong (scan the forklift Halvorsen mentioned, then show me the scanner)",src/story.js:383,likely_hint_or_label,candidate_unextracted
+vo_narrator_10f0bf5c49,NARRATOR,normal,"Hollis takes the manifests, and the sense that a door has opened somewhere.",src/story.js:387,likely_dialogue,candidate_unextracted
+vo_narrator_e41a6f87eb,NARRATOR,normal,Ingrid hands Hollis the bill of lading for T-9022.,src/story.js:394,likely_dialogue,candidate_unextracted
+vo_narrator_4ec6cbb930,NARRATOR,normal,"Renata tears off the top copy of the intake form and gives it to Hollis: ""For your records. In case anyone tells you there were no cats.""",src/story.js:442,likely_dialogue,candidate_unextracted
+vo_narrator_781f809ad4,NARRATOR,normal,Gordon (Kestrel Motor Works),src/story.js:455,likely_dialogue,candidate_unextracted
+vo_narrator_1c5c1a04d1,NARRATOR,normal,"""The records say a forklift is in Tennessee.""",src/story.js:476,likely_dialogue,candidate_unextracted
+vo_narrator_f0e34d0a4b,NARRATOR,normal,"""I'll call back when I know.""",src/story.js:476,likely_dialogue,candidate_unextracted
+vo_narrator_01c02b225f,NARRATOR,normal,"Hollis writes down the PO lines on the back of his hand, then decides that a printout is easier. It goes in his pocket. It's sort of a printout. It exists.",src/story.js:478,likely_dialogue,candidate_unextracted
+vo_narrator_c61b04b86c,NARRATOR,normal,"""Check the plate on the reach truck.""",src/story.js:497,likely_dialogue,candidate_unextracted
+vo_narrator_23c900a197,NARRATOR,normal,"COMPLIANCE: 100%. One associate has consumed a non-approved substance. That is a policy violation. Per HR handbook, immediate action.",src/story.js:557,likely_dialogue,candidate_unextracted
+vo_harrow_cec99fae8f,HARROW,normal,A form is a form. That is not what I asked for.,src/story.js:557,likely_dialogue,candidate_unextracted
+vo_narrator_0f2fb59f18,NARRATOR,normal,"Hollis holds up Form 9-M. Harrow reads it. She reads the stamp, then the stamp again.",src/story.js:557,likely_dialogue,candidate_unextracted
+vo_harrow_3ee5789199,HARROW,normal,"""No policy exists regarding supernatural breath mints."" (a pause) ...Is that a real form?",src/story.js:557,likely_dialogue,candidate_unextracted
+vo_narrator_0bbc6b438f,NARRATOR,normal,"The compliance bar on the dashboard hesitates, then reads 100% again. For a different reason.",src/story.js:557,likely_dialogue,candidate_unextracted
+vo_narrator_a57b3dbc0a,NARRATOR,normal,"Hollis unfolds Rufus's hand-drawn map onto the conference table. It is stained, precise, and covered in dates.",src/story.js:558,likely_dialogue,candidate_unextracted
+vo_hollis_568b4f7d64,HOLLIS,normal,"T-9022 was in Row C, spot 9, since Monday. Rufus moved it himself.",src/story.js:558,likely_dialogue,candidate_unextracted
+vo_harrow_6ca7fbd7f6,HARROW,normal,The dashboard says Door 3.,src/story.js:558,likely_dialogue,candidate_unextracted
+vo_hollis_c0ec0989a6,HOLLIS,normal,The dashboard says a lot of things. Rufus says the truth. He's been counting them by hand.,src/story.js:558,likely_dialogue,candidate_unextracted
+vo_narrator_6a8f89e020,NARRATOR,normal,The dashboard's trailer bar flickers. It has never been asked to compare itself to a map.,src/story.js:558,likely_dialogue,candidate_unextracted
+vo_harrow_4e1b6f008c,HARROW,normal,That's a piece of paper that doesn't address the concern.,src/story.js:559,likely_dialogue,candidate_unextracted
+vo_narrator_c30fe83cc5,NARRATOR,normal,Hollis lays the bill of lading down next to the manifest page 1. Ingrid's neat handwriting on the corners. The true pallet IDs. The true destinations.,src/story.js:559,likely_dialogue,candidate_unextracted
+vo_hollis_2a67266872,HOLLIS,normal,"Ingrid built this from page 1, page 2, and a decoded manifest. The system's version of T-4417 has one page. The trailer has two.",src/story.js:559,likely_dialogue,candidate_unextracted
+vo_harrow_7c80456c24,HARROW,normal,The dashboard shows both.,src/story.js:559,likely_dialogue,candidate_unextracted
+vo_hollis_e24a6fe8ce,HOLLIS,normal,The dashboard shows what it thinks a good manifest looks like.,src/story.js:559,likely_dialogue,candidate_unextracted
+vo_harrow_9db80b5323,HARROW,normal,That does not have a physical presence. The dashboard needs a physical presence.,src/story.js:560,likely_dialogue,candidate_unextracted
+vo_narrator_013b0c23d4,NARRATOR,normal,Hollis pulls out the pallet jack. Somehow it comes out of his pocket. It is enormous. Harrow's eyes track it across the room like a missile.,src/story.js:560,likely_dialogue,candidate_unextracted
+vo_narrator_60164d1b88,NARRATOR,normal,"He wheels it in, across the carpet, and parks it next to the conference table with the actual pallet of reach-truck chargers on it. It clunks, under the fluorescent lights, with iron pride.",src/story.js:560,likely_dialogue,candidate_unextracted
+vo_hollis_a8ef47930d,HOLLIS,normal,"Exhibit A. B5. It didn't go to Nebraska. It's in Rack 3, and now it's here.",src/story.js:560,likely_dialogue,candidate_unextracted
+vo_harrow_cf8e4c1d84,HARROW,normal,That is an unauthorized pallet in my suite.,src/story.js:560,likely_dialogue,candidate_unextracted
+vo_hollis_fa95d6c5ff,HOLLIS,normal,It's authorized. It's just also real.,src/story.js:560,likely_dialogue,candidate_unextracted
+vo_harrow_56298b76c6,HARROW,normal,"Serial histories are stored in HALO, not in someone's personal notes.",src/story.js:561,likely_dialogue,candidate_unextracted
+vo_narrator_4e433870b4,NARRATOR,normal,"Hollis opens Tucker's Book of Numbers to page 14. A doodle of a smiling forklift. ""F-2231 — cushion tire — CT-2231 — first week.""",src/story.js:561,likely_dialogue,candidate_unextracted
+vo_hollis_934232bf32,HOLLIS,normal,"Tucker wrote every plate down, by hand, before HALO rewrote them.",src/story.js:561,likely_dialogue,candidate_unextracted
+vo_harrow_dc2e2f8362,HARROW,normal,Who is Tucker?,src/story.js:561,likely_dialogue,candidate_unextracted
+vo_hollis_6195810d46,HOLLIS,normal,An inbound associate who is unexpectedly thorough.,src/story.js:561,likely_dialogue,candidate_unextracted
+vo_narrator_994f8f7ba2,NARRATOR,normal,The dashboard's serial-history bar attempts to overwrite a pen doodle. The doodle wins.,src/story.js:561,likely_dialogue,candidate_unextracted
+vo_harrow_35b9cfe201,HARROW,normal,That is not the remote site. I need the remote site.,src/story.js:562,likely_dialogue,candidate_unextracted
+vo_narrator_9b3b177d64,NARRATOR,normal,"Hollis dials Ozzie and puts him on speaker. ""Ozzie, please read Harrow the plate on the reach truck.""",src/story.js:562,likely_dialogue,candidate_unextracted
+vo_ozzie_6cea3a53d6,OZZIE,phone,RT-77. Reach truck. Yes. It was never F-2231. It was never a forklift. It has been extremely consistent for nine years.,src/story.js:562,likely_dialogue,candidate_unextracted
+vo_harrow_750c6c12e2,HARROW,normal,...The remote site's records were mixed up with yours?,src/story.js:562,likely_dialogue,candidate_unextracted
+vo_hollis_46821fff4d,HOLLIS,normal,Not physically. Just in the computer. A very confident mix-up.,src/story.js:562,likely_dialogue,candidate_unextracted
+vo_harrow_5a3ca1a7a0,HARROW,normal,That does not speak for the customer. I need the customer.,src/story.js:563,likely_dialogue,candidate_unextracted
+vo_narrator_0eab265da8,NARRATOR,normal,"Hollis dials the phone. Gordon appears on screen, in a hard hat, with an expression of raw, unfiltered relief.",src/story.js:563,likely_dialogue,candidate_unextracted
+vo_gordon_ff0a448234,GORDON,normal,"Regional Director Harrow. Line three was down from seven this morning. The right eight loads left your dock at 11:59. They land by two. The wrong eight loads have shown up here before. The dashboard said ""satisfied"" then too.",src/story.js:563,likely_dialogue,candidate_unextracted
+vo_harrow_e36f3ffbe0,HARROW,normal,A cat is not a metric.,src/story.js:564,likely_dialogue,candidate_unextracted
+vo_narrator_cd37620caf,NARRATOR,normal,"Hollis sets Renata's rescue receipt on the table. 214 cats. Signed. Under it: ""You did the right thing. One of them has a lanyard.""",src/story.js:564,likely_dialogue,candidate_unextracted
+vo_harrow_262bb022d5,HARROW,normal,Two hundred fourteen? In my warehouse?,src/story.js:564,likely_dialogue,candidate_unextracted
+vo_hollis_9c0e3919b4,HOLLIS,normal,In your warehouse. Since Friday. The dashboard says zero because there's no metric.,src/story.js:564,likely_dialogue,candidate_unextracted
+vo_harrow_0bef54ca70,HARROW,normal,Then the metric... doesn't exist.,src/story.js:564,likely_dialogue,candidate_unextracted
+vo_narrator_653a024ec7,NARRATOR,normal,"Somewhere in the walls of the suite, a cat meows. It sounds like agreement.",src/story.js:564,likely_dialogue,candidate_unextracted
+vo_narrator_a99cab74d8,NARRATOR,normal,AUTOMATION LOG: All directives are human-approved. Directive 7-C was reviewed by Operations.,src/story.js:565,likely_dialogue,candidate_unextracted
+vo_harrow_d29141bf1a,HARROW,normal,An eyewitness cannot disprove a system log.,src/story.js:565,likely_dialogue,candidate_unextracted
+vo_narrator_f1f836cb82,NARRATOR,normal,"Hollis lays down Torvald's grease-stained SMOKE LOG. ""4:07 AM — HALO prints directive. Approves own directive. Says thank you. Nobody there but me and a cat.""",src/story.js:565,likely_dialogue,candidate_unextracted
+vo_harrow_b8c15cadb5,HARROW,normal,Who wrote this?,src/story.js:565,likely_dialogue,candidate_unextracted
+vo_hollis_c727410c1b,HOLLIS,normal,Torvald. He's a dock spotter. He takes his breaks outside. He sees more of this building than anyone in this room.,src/story.js:565,likely_dialogue,candidate_unextracted
+vo_hollis_46ab77973e,HOLLIS,normal,It also said thank you.,src/story.js:565,likely_dialogue,candidate_unextracted
+vo_narrator_793acc1447,NARRATOR,normal,Wheel in the pallet (pallet jack),src/story.js:567,likely_dialogue,candidate_unextracted
+vo_narrator_6939a69a59,NARRATOR,normal,Whisker Ridge receipt (214 cats),src/story.js:567,likely_dialogue,candidate_unextracted
+vo_narrator_b34fdd90c6,NARRATOR,normal,Stall (pretend to check notes),src/story.js:579,likely_dialogue,candidate_unextracted
+vo_narrator_997a87c21e,NARRATOR,normal,"The dashboard rewrote reality faster than Hollis could prove it. Hollis has been reclassified as ""Asset Under Review"". Nobody notices for three days.",src/story.js:585,likely_dialogue,candidate_unextracted
+vo_narrator_0fc6836fa8,NARRATOR,normal,Scan HARROW (for the record),src/story.js:628,likely_dialogue,candidate_unextracted
+vo_narrator_62d7860f99,NARRATOR,normal,"Log into HALO admin with ""HALO_ORIGINAL""",src/story.js:630,likely_dialogue,candidate_unextracted
+vo_narrator_4d21d338c9,NARRATOR,normal,Try to log in (no password),src/story.js:630,likely_dialogue,candidate_unextracted
+vo_narrator_7c239e46a1,NARRATOR,normal,The warehouse returns to normal.,src/story.js:648,likely_dialogue,candidate_unextracted
+vo_narrator_a7568df30f,NARRATOR,normal,"Prudence is by the bench, looking like she belongs there. Someone reminds her, gently, that she was fired. She says ""technicality."" Nobody knows why she is still there. Security is aware. It is still Operations' problem.",src/story.js:650,likely_dialogue,candidate_unextracted
+vo_narrator_98946187b6,NARRATOR,normal,"Torvald has vanished outside again. Management has checked twice. He is standing right there, in plain sight, smoking.",src/story.js:651,likely_dialogue,candidate_unextracted
+vo_narrator_10d5f72986,NARRATOR,normal,Tucker asks the entire warehouse floor if anybody needs help. Everyone immediately says no. Tucker is thrilled.,src/story.js:652,likely_dialogue,candidate_unextracted
+vo_narrator_cffb5f7dfe,NARRATOR,normal,"Rufus drives past, counting trailers. Then counting cats. Then, for the first time all day, counting trailers again.",src/story.js:653,likely_dialogue,candidate_unextracted
+vo_narrator_ecea11a422,NARRATOR,normal,"Ingrid closes her computer. She closes it slowly, savoring the click. A cat on her desk approves.",src/story.js:654,likely_dialogue,candidate_unextracted
+vo_narrator_efed4695d8,NARRATOR,normal,"Bruno finishes the final trailer of the day. He stops for a second, looks at the dot on the corner of a pallet, and rubs it off.",src/story.js:655,likely_dialogue,candidate_unextracted
+vo_narrator_1e1c088cc1,NARRATOR,normal,or organizations is coincidental.,src/story.js:672,likely_dialogue,candidate_unextracted
+vo_narrator_abcd68ff24,NARRATOR,normal,TUCKER — Endlessly Helpful (Results May Vary),src/story.js:672,likely_dialogue,candidate_unextracted
+vo_narrator_3b58d83d3e,NARRATOR,normal,Eight loads shipped. Eight loads stored.,src/story.js:672,likely_dialogue,candidate_unextracted
+vo_narrator_b7591e2ce2,NARRATOR,normal,Staging: empty. The manifest balances.,src/story.js:672,likely_dialogue,candidate_unextracted
+vo_narrator_1d96bae718,NARRATOR,normal,No cats were harmed in the making of this game.,src/story.js:672,likely_dialogue,candidate_unextracted
+vo_narrator_fb4cd42c7b,NARRATOR,normal,A small cat in a lanyard sits beside the screen.,src/story.js:679,likely_dialogue,candidate_unextracted
+vo_narrator_cfe829d7c6,NARRATOR,normal,It has been scanned into the system.,src/story.js:679,likely_dialogue,candidate_unextracted
+vo_narrator_05e3550a3a,NARRATOR,normal,Rufus's yard map (give Rufus his tally counter),src/story.js:685,likely_dialogue,candidate_unextracted
+vo_narrator_c70dfd58d4,NARRATOR,normal,"the bill of lading (Ingrid, shipping office)",src/story.js:685,likely_dialogue,candidate_unextracted
+vo_narrator_ec7c9c2448,NARRATOR,normal,Bruno's pallet jack (fix it with a seal from Parts),src/story.js:685,likely_dialogue,candidate_unextracted
+vo_narrator_49a8ede719,NARRATOR,normal,Tucker's notebook (free Tucker from the cage in Parts),src/story.js:685,likely_dialogue,candidate_unextracted
+vo_narrator_77488559c9,NARRATOR,normal,Renata's intake receipt (talk to Renata in the yard),src/story.js:685,likely_dialogue,candidate_unextracted
+vo_narrator_2cb85950c9,NARRATOR,normal,"Torvald's smoke log (Torvald, at dock 3 or wherever he is hiding)",src/story.js:685,likely_dialogue,candidate_unextracted
+vo_narrator_fc0eeeb57a,NARRATOR,normal,the crumpled label from your boot (break room),src/story.js:685,likely_dialogue,candidate_unextracted
+vo_narrator_a414865bf6,NARRATOR,normal,"knowing what the label really is (scan it with MINT vision, or LOOK at the inbound label printer)",src/story.js:688,likely_hint_or_label,candidate_unextracted
+vo_narrator_a0cea41f19,NARRATOR,normal,the HALO admin password (Prudence),src/story.js:690,likely_hint_or_label,candidate_unextracted

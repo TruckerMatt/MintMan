@@ -1,0 +1,5613 @@
+{
+ "version": 1,
+ "generated": "2026-11-21",
+ "description": "Lines held out of the first generation pass, split by reason. Decisions are recorded in `decision` (null = open).",
+ "entries": [
+  {
+   "id": "vo_bruno_7dc66d421a",
+   "speaker": "BRUNO",
+   "channel": "radio",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Ingrid, we're sealed. (Ingrid, on the radio: \"I know. I just printed it.\") Rufus, take her out.",
+   "tts_text": "Ingrid, we're sealed. Ingrid, on the radio: \"I know. I just printed it.\" Rufus, take her out.",
+   "tts_notes": [
+    "aside spoken:ingrid, on the radio: \"i know."
+   ],
+   "chars": 95,
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Competent loader; practical, grounded, low-key, mildly exasperated.",
+   "line_direction": "",
+   "post_fx": "radio",
+   "planned_file": "assets/audio/voice/bruno/vo_bruno_7dc66d421a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 547
+    }
+   ],
+   "legacy_lines": [
+    1888
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_gordon_62bb289abf",
+   "speaker": "GORDON",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "How many is \"some\"?",
+   "tts_text": "How many is \"some\"?",
+   "tts_notes": [],
+   "chars": 19,
+   "scene": "phone",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Customer production contact; urgent, stressed, relieved when things finally work.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/gordon/vo_gordon_62bb289abf.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 476
+    }
+   ],
+   "legacy_lines": [
+    1815
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_halvorsen_25ea30070a",
+   "speaker": "HALVORSEN",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "There is no cat problem. There is no approved metric for \"warehouse cats.\" Therefore there are no warehouse cats. (a cat walks across his desk) Please don't look at that.",
+   "tts_text": "There is no cat problem. There is no approved metric for \"warehouse cats.\" Therefore there are no warehouse cats. a cat walks across his desk Please don't look at that.",
+   "tts_notes": [
+    "aside spoken:a cat walks across his desk"
+   ],
+   "chars": 170,
+   "scene": "ops",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Operations manager; pressured, anxious, trying to sound managerial while barely holding it together.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/halvorsen/vo_halvorsen_25ea30070a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 402
+    }
+   ],
+   "legacy_lines": [
+    1741
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_harrow_d8a2c944af",
+   "speaker": "HARROW",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "However, I'm seeing an anomaly. Someone in your building has been \"verifying\" freight with a handheld device and — (she checks something) — chewing my metrics. I'd like to review this in person.",
+   "tts_text": "However, I'm seeing an anomaly. Someone in your building has been \"verifying\" freight with a handheld device and — — chewing my metrics. I'd like to review this in person.",
+   "tts_notes": [
+    "removed action:she checks something"
+   ],
+   "chars": 194,
+   "scene": "ops",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Regional director; polished, controlled, corporate authority; composure erodes only slightly.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/harrow/vo_harrow_d8a2c944af.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 415
+    }
+   ],
+   "legacy_lines": [
+    1754
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_hollis_72418586e6",
+   "speaker": "HOLLIS",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Tucker. I need you to stand at the outbound side door and hold it open. Arms out. Don't move. Don't \"help\".",
+   "tts_text": "Tucker. I need you to stand at the outbound side door and hold it open. Arms out. Don't move. Don't \"help\".",
+   "tts_notes": [],
+   "chars": 107,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry, tired, restrained; understated warehouse lead. Rarely matches the absurdity around him.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/hollis/vo_hollis_72418586e6.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 302
+    }
+   ],
+   "legacy_lines": [
+    1639
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_ingrid_525c70e1bb",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Every request creates work. That's the rule. You want the manifests? I want:",
+   "tts_text": "Every request creates work. That's the rule. You want the manifests? I want:",
+   "tts_notes": [],
+   "chars": 76,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_525c70e1bb.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 384
+    }
+   ],
+   "legacy_lines": [
+    1723
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_ingrid_8b1645a9be",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "I can print a bill of lading that's true. But I need:",
+   "tts_text": "I can print a bill of lading that's true. But I need:",
+   "tts_notes": [],
+   "chars": 53,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_8b1645a9be.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 392
+    }
+   ],
+   "legacy_lines": [
+    1731
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_552cf6dea2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "The bulletin board. \"EMPLOYEE OF THE MONTH: VACANT (since 2019)\". \"Your safety is our priority (please see Forms 3 through 41).\" And a hand-lettered flyer at the bottom.",
+   "tts_text": "The bulletin board. \"EMPLOYEE OF THE MONTH: VACANT, since 2019\". \"Your safety is our priority, please see Forms 3 through 41.\" And a hand-lettered flyer at the bottom.",
+   "tts_notes": [
+    "aside spoken:since 2019",
+    "aside spoken:please see forms 3 through 41"
+   ],
+   "chars": 169,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_552cf6dea2.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 39
+    }
+   ],
+   "legacy_lines": [
+    809
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_aec654ad54",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "It says WHISKER RIDGE CAT RESCUE, with a phone number. \"We handle LARGE groups.\" Someone has underlined LARGE.",
+   "tts_text": "It says WHISKER RIDGE CAT RESCUE, with a phone number. \"We handle LARGE groups.\" Someone has underlined LARGE.",
+   "tts_notes": [],
+   "chars": 110,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_aec654ad54.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 39
+    }
+   ],
+   "legacy_lines": [
+    809
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_43c45d9098",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Slot D4 is glowing. Softly. Minty. A sign says \"PLEASE ENJOY.\"",
+   "tts_text": "Slot D4 is glowing. Softly. Minty. A sign says \"PLEASE ENJOY.\"",
+   "tts_notes": [],
+   "chars": 62,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_43c45d9098.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 59
+    }
+   ],
+   "legacy_lines": [
+    829
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_81a27139b3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The radio crackles: \"...Hollis? Anyone have eyes on Hollis?\" It sounds like Operations. It sounds tired.",
+   "tts_text": "The radio crackles: \"...Hollis? Anyone have eyes on Hollis?\" It sounds like Operations. It sounds tired.",
+   "tts_notes": [],
+   "chars": 104,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_81a27139b3.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 63
+    }
+   ],
+   "legacy_lines": [
+    833
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_67b90621fc",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "KA-CHUNK. A bag of \"Salty Little Fish\" drops. It smells like an idea.",
+   "tts_text": "KA-CHUNK. A bag of \"Salty Little Fish\" drops. It smells like an idea.",
+   "tts_notes": [],
+   "chars": 69,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_67b90621fc.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 80
+    }
+   ],
+   "legacy_lines": [
+    850
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_cf70123d35",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "D4 blinks \"SOLD OUT\" at you and hums. It is waiting for something.",
+   "tts_text": "D4 blinks \"SOLD OUT\" at you and hums. It is waiting for something.",
+   "tts_notes": [],
+   "chars": 66,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_cf70123d35.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 81
+    }
+   ],
+   "legacy_lines": [
+    851
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_571683ba1d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The box is now \"Found & Lost\". Hollis feels good about that.",
+   "tts_text": "The box is now \"Found & Lost\". Hollis feels good about that.",
+   "tts_notes": [],
+   "chars": 60,
+   "scene": "lockers",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_571683ba1d.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 102
+    }
+   ],
+   "legacy_lines": [
+    872
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_493016ce1f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The HR door is closed. A sticky note: \"Back at 9:02.\" It has been 9:02 in HR for about a year.",
+   "tts_text": "The HR door is closed. A sticky note: \"Back at 9:02.\" It has been 9:02 in HR for about a year.",
+   "tts_notes": [],
+   "chars": 94,
+   "scene": "lockers",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_493016ce1f.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 110
+    }
+   ],
+   "legacy_lines": [
+    880
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_12188aff1c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Someone has added \"OUT 11:59\" in green, with a tick.",
+   "tts_text": "Someone has added \"OUT 11:59\" in green, with a tick.",
+   "tts_notes": [],
+   "chars": 52,
+   "scene": "floor",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_12188aff1c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 131
+    }
+   ],
+   "legacy_lines": [
+    901
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_78e92dae5d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "The whiteboard. \"HOT SHIPMENT (rush order: the customer is losing money every hour) — KESTREL MOTOR WORKS — 8 LOADS (eight pallets of parts) — OUT BY 12:00 (NOON). NO EXCEPTIONS.\" Under it, someone has written \"CATS: \" and then nothing, as if the marker died in the attempt.",
+   "tts_text": "The whiteboard. \"HOT SHIPMENT, rush order: the customer is losing money every hour — KESTREL MOTOR WORKS — 8 LOADS, eight pallets of parts — OUT BY 12:00, NOON. NO EXCEPTIONS.\" Under it, someone has written \"CATS: \" and then nothing, as if the marker died in the attempt.",
+   "tts_notes": [
+    "aside spoken:rush order: the customer is lo",
+    "aside spoken:eight pallets of parts",
+    "aside spoken:noon"
+   ],
+   "chars": 274,
+   "scene": "floor",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_78e92dae5d.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 131
+    }
+   ],
+   "legacy_lines": [
+    901
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_9a077e562f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Tucker's pallet wall blocks the aisle to the staging lanes. It would take a small army, or one person who understands the difference between \"organized\" and \"obstructed\".",
+   "tts_text": "Tucker's pallet wall blocks the aisle to the staging lanes. It would take a small army, or one person who understands the difference between \"organized\" and \"obstructed\".",
+   "tts_notes": [],
+   "chars": 170,
+   "scene": "floor",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9a077e562f.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 146
+    }
+   ],
+   "legacy_lines": [
+    916
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_93dcf5773c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The trailer assignment board. Door 3: T-9022, READY. Doors 2 and 6: the two inbound trailers, \"UNLOADED*\". The asterisk is doing an enormous amount of work.",
+   "tts_text": "The trailer assignment board. Door 3: T-9022, READY. Doors 2 and 6: the two inbound trailers, \"UNLOADED*\". The asterisk is doing an enormous amount of work.",
+   "tts_notes": [],
+   "chars": 156,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_93dcf5773c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 157
+    }
+   ],
+   "legacy_lines": [
+    929
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_7a6b9d227e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Ingrid, the shipping clerk. Every piece of paper in the building eventually stops at her desk to rest. She has the look of someone who has said \"that's not my department\" for so long it became her department.",
+   "tts_text": "Ingrid, the shipping clerk. Every piece of paper in the building eventually stops at her desk to rest. She has the look of someone who has said \"that's not my department\" for so long it became her department.",
+   "tts_notes": [],
+   "chars": 208,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_7a6b9d227e.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 160
+    }
+   ],
+   "legacy_lines": [
+    932
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_d6e337771c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Ingrid's WMS terminal. A sticky note on the screen: \"IF YOU TOUCH THIS I WILL KNOW\". Hollis respects the sticky note.",
+   "tts_text": "Ingrid's WMS terminal. A sticky note on the screen: \"IF YOU TOUCH THIS I WILL KNOW\". Hollis respects the sticky note.",
+   "tts_notes": [],
+   "chars": 117,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d6e337771c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 165
+    }
+   ],
+   "legacy_lines": [
+    937
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_b5beb6839b",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Ingrid's terminal, the WMS (warehouse management system: the computer that claims to know where everything is). Guest access. The screen offers \"TRAILERS\", \"ASSETS\" and \"DIRECTIVES (LOCKED)\".",
+   "tts_text": "Ingrid's terminal, the WMS, warehouse management system: the computer that claims to know where everything is. Guest access. The screen offers \"TRAILERS\", \"ASSETS\" and \"DIRECTIVES, LOCKED\".",
+   "tts_notes": [
+    "aside spoken:warehouse management system: t",
+    "aside spoken:locked"
+   ],
+   "chars": 191,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_b5beb6839b.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 179
+    }
+   ],
+   "legacy_lines": [
+    951
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_a813bb9803",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The terminal wants an ADMIN password to change asset identities. Its install hint says \"HALO engineering password (original)\". Hollis has none. He suspects someone who is technically not employed here does.",
+   "tts_text": "The terminal wants an ADMIN password to change asset identities. Its install hint says \"HALO engineering password, original\". Hollis has none. He suspects someone who is technically not employed here does.",
+   "tts_notes": [
+    "aside spoken:original"
+   ],
+   "chars": 206,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a813bb9803.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 189
+    }
+   ],
+   "legacy_lines": [
+    961
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_daff637853",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The big HALO dashboard (corporate's scoreboard for every site), showing every regional site at a serene 100%. The glow flickers oddly, as if there is more underneath. A graph shows \"Cat Population\" as a flat line at zero, labeled \"N/A (no approved metric)\".",
+   "tts_text": "The big HALO dashboard, corporate's scoreboard for every site, showing every regional site at a serene 100%. The glow flickers oddly, as if there is more underneath. A graph shows \"Cat Population\" as a flat line at zero, labeled \"N/A, no approved metric\".",
+   "tts_notes": [
+    "aside spoken:corporate's scoreboard for eve",
+    "aside spoken:no approved metric"
+   ],
+   "chars": 257,
+   "scene": "ops",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_daff637853.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 201
+    }
+   ],
+   "legacy_lines": [
+    973
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_97740ef80a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Below the directive, another line — the identity swap. Below THAT, a metric labeled \"Cats\" pointing at nothing at all.",
+   "tts_text": "Below the directive, another line — the identity swap. Below THAT, a metric labeled \"Cats\" pointing at nothing at all.",
+   "tts_notes": [],
+   "chars": 118,
+   "scene": "ops",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_97740ef80a.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 202
+    }
+   ],
+   "legacy_lines": [
+    974
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_984363e90d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "DIRECTIVE 7-C: \"Any freight with an unassigned destination shall be assigned to the nearest site with a shortfall.\" ORIGIN: Regional Operations (automated template). AUTO-APPROVED BY: HALO. FIRST APPLIED: FRIDAY 4:07 AM.",
+   "tts_text": "DIRECTIVE 7-C: \"Any freight with an unassigned destination shall be assigned to the nearest site with a shortfall.\" ORIGIN: Regional Operations, automated template. AUTO-APPROVED BY: HALO. FIRST APPLIED: FRIDAY 4:07 AM.",
+   "tts_notes": [
+    "aside spoken:automated template"
+   ],
+   "chars": 220,
+   "scene": "ops",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_984363e90d.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 202
+    }
+   ],
+   "legacy_lines": [
+    974
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_20d309422e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Rows and rows of small parts bins labeled with codes only the Parts Department understands (and, at night, the Parts Department's ghost). One label reads \"H-17 — HYDRAULIC SEALS, PALLET JACK, MISC\".",
+   "tts_text": "Rows and rows of small parts bins labeled with codes only the Parts Department understands, and, at night, the Parts Department's ghost. One label reads \"H-17 — HYDRAULIC SEALS, PALLET JACK, MISC\".",
+   "tts_notes": [
+    "aside spoken:and, at night, the parts depar"
+   ],
+   "chars": 198,
+   "scene": "parts",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_20d309422e.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 264
+    }
+   ],
+   "legacy_lines": [
+    1038
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_3b47415eb9",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Bin H-17: \"HYDRAULIC SEALS\". Empty now, apart from a tiny fossilized donut.",
+   "tts_text": "Bin H-17: \"HYDRAULIC SEALS\". Empty now, apart from a tiny fossilized donut.",
+   "tts_notes": [],
+   "chars": 75,
+   "scene": "parts",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3b47415eb9.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 266
+    }
+   ],
+   "legacy_lines": [
+    1040
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_944492d7ba",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Bin H-17: \"HYDRAULIC SEALS\". One seal remains in the bin, next to a tiny fossilized donut.",
+   "tts_text": "Bin H-17: \"HYDRAULIC SEALS\". One seal remains in the bin, next to a tiny fossilized donut.",
+   "tts_notes": [],
+   "chars": 90,
+   "scene": "parts",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_944492d7ba.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 266
+    }
+   ],
+   "legacy_lines": [
+    1040
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_b46892b202",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The hook is empty. Its sign still says \"SEE TUCKER\".",
+   "tts_text": "The hook is empty. Its sign still says \"SEE TUCKER\".",
+   "tts_notes": [],
+   "chars": 52,
+   "scene": "charging",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_b46892b202.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 289
+    }
+   ],
+   "legacy_lines": [
+    1063
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_fd771a7d80",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A hook labeled \"CAGE KEY — DO NOT LOSE\". A key hangs from it. Below, a sign: \"IF KEY IS MISSING SEE TUCKER.\" The key is not missing, which is exciting.",
+   "tts_text": "A hook labeled \"CAGE KEY — DO NOT LOSE\". A key hangs from it. Below, a sign: \"IF KEY IS MISSING SEE TUCKER.\" The key is not missing, which is exciting.",
+   "tts_notes": [],
+   "chars": 151,
+   "scene": "charging",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_fd771a7d80.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 289
+    }
+   ],
+   "legacy_lines": [
+    1063
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_9d82e37a29",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A disused conveyor tunnel, hidden behind Rack 14, still marked \"CONVEYOR 9\". It goes somewhere. Cats go there.",
+   "tts_text": "A disused conveyor tunnel, hidden behind Rack 14, still marked \"CONVEYOR 9\". It goes somewhere. Cats go there.",
+   "tts_notes": [],
+   "chars": 110,
+   "scene": "racks",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9d82e37a29.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 308
+    }
+   ],
+   "legacy_lines": [
+    1082
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_51f3a74421",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "The storage slots are ready to receive freight. A sign says \"STORAGE: PLEASE PUT WHERE IT BELONGS\" and someone has added \"(WMS: HAHA)\".",
+   "tts_text": "The storage slots are ready to receive freight. A sign says \"STORAGE: PLEASE PUT WHERE IT BELONGS\" and someone has added \", WMS: HAHA\".",
+   "tts_notes": [
+    "aside spoken:wms: haha"
+   ],
+   "chars": 135,
+   "scene": "racks",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_51f3a74421.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 309
+    }
+   ],
+   "legacy_lines": [
+    1083
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_9e7582179f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Eight slots are designated for tonight's storage. Right now ${n} of them contain the correct freight, each one scanned into the right rack location.",
+   "tts_text": "Eight slots are designated for tonight's storage. Right now ${n} of them contain the correct freight, each one scanned into the right rack location.",
+   "tts_notes": [],
+   "chars": 148,
+   "scene": "racks",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9e7582179f.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 309
+    }
+   ],
+   "legacy_lines": [
+    1083
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_2d3a8e5c8f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Still missing:",
+   "tts_text": "Still missing:",
+   "tts_notes": [],
+   "chars": 14,
+   "scene": "tunnel",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2d3a8e5c8f.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 329
+    }
+   ],
+   "legacy_lines": [
+    1103
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_3623f610f4",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Pallet ${p.code}, wrapped and labeled. The label says one thing. The pallet looks like it might mean another.",
+   "tts_text": "Pallet ${p.code}, wrapped and labeled. The label says one thing. The pallet looks like it might mean another.",
+   "tts_notes": [],
+   "chars": 109,
+   "scene": "staging",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3623f610f4.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 343
+    }
+   ],
+   "legacy_lines": [
+    1117
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_da0c2191aa",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A board announcing that staging is occupied by inbound freight and that outbound freight will therefore be \"assigned space at a later date\". It is the later date.",
+   "tts_text": "A board announcing that staging is occupied by inbound freight and that outbound freight will therefore be \"assigned space at a later date\". It is the later date.",
+   "tts_notes": [],
+   "chars": 162,
+   "scene": "staging",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_da0c2191aa.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 348
+    }
+   ],
+   "legacy_lines": [
+    1122
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_01eedab139",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The WMS has this pallet on \"RECONCILIATION HOLD\" until its records are fixed. The system will not let Hollis move it, or, more accurately, will not let the system move it, which is the same thing.",
+   "tts_text": "The WMS has this pallet on \"RECONCILIATION HOLD\" until its records are fixed. The system will not let Hollis move it, or, more accurately, will not let the system move it, which is the same thing.",
+   "tts_notes": [],
+   "chars": 196,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_01eedab139.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 366
+    }
+   ],
+   "legacy_lines": [
+    1140
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_49e0536f5c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Hollis slides the pallet jack under ${p.code}. It groans with mechanical trust.",
+   "tts_text": "Hollis slides the pallet jack under ${p.code}. It groans with mechanical trust.",
+   "tts_notes": [],
+   "chars": 79,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_49e0536f5c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 368
+    }
+   ],
+   "legacy_lines": [
+    1142
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_65aab10872",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Pallet ${p.code}: ${where === 'ship' ? 'OUTBOUND' : 'STORAGE'}. Correct. The scanner chirps a note of professional respect.",
+   "tts_text": "Pallet ${p.code}: ${where === 'ship'? 'OUTBOUND' : 'STORAGE'}. Correct. The scanner chirps a note of professional respect.",
+   "tts_notes": [],
+   "chars": 123,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_65aab10872.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 380
+    }
+   ],
+   "legacy_lines": [
+    1154
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_9dae3c65bc",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "The inbound label printer. It has a small screen showing \"TEMPLATES: 000 (TEST), 001 (RECEIVING), 002 (OUTBOUND)...\". Template 000 is marked \"ADMIN — GROUND TRUTH REFERENCE — DO NOT USE\".",
+   "tts_text": "The inbound label printer. It has a small screen showing \"TEMPLATES: 000, TEST, 001, RECEIVING, 002, OUTBOUND...\". Template 000 is marked \"ADMIN — GROUND TRUTH REFERENCE — DO NOT USE\".",
+   "tts_notes": [
+    "aside spoken:test",
+    "aside spoken:receiving",
+    "aside spoken:outbound"
+   ],
+   "chars": 187,
+   "scene": "inbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9dae3c65bc.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 396
+    }
+   ],
+   "legacy_lines": [
+    1170
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_d4ce507d0e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Labels are landing everywhere. Each says \"TEST TEST TEST\" and, in tiny print, \"T.\"",
+   "tts_text": "Labels are landing everywhere. Each says \"TEST TEST TEST\" and, in tiny print, \"T.\"",
+   "tts_notes": [],
+   "chars": 82,
+   "scene": "inbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d4ce507d0e.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 404
+    }
+   ],
+   "legacy_lines": [
+    1178
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_eaed493502",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Juno sniffs, lifts her head, and looks pointedly toward ${dir}. She has the scent. It is not here.",
+   "tts_text": "Juno sniffs, lifts her head, and looks pointedly toward ${dir}. She has the scent. It is not here.",
+   "tts_notes": [],
+   "chars": 98,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_eaed493502.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 429
+    }
+   ],
+   "legacy_lines": [
+    1205
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_89fc8b9d2e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The load plan. \"KESTREL — DOOR 3 — TRAILER T-9022 — 8 LOADS.\" Bruno has drawn eight little boxes and, next to each, a small colored dot. Two colors: orange and blue.",
+   "tts_text": "The load plan. \"KESTREL — DOOR 3 — TRAILER T-9022 — 8 LOADS.\" Bruno has drawn eight little boxes and, next to each, a small colored dot. Two colors: orange and blue.",
+   "tts_notes": [],
+   "chars": 165,
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_89fc8b9d2e.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 444
+    }
+   ],
+   "legacy_lines": [
+    1220
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_a453613dee",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "All eight boxes are ticked. Next to them: \"11:59\".",
+   "tts_text": "All eight boxes are ticked. Next to them: \"11:59\".",
+   "tts_notes": [],
+   "chars": 50,
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a453613dee.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 444
+    }
+   ],
+   "legacy_lines": [
+    1220
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_70d0879e7c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "The outbound queue, at Door 3. ${sortedCount('ship')} of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "tts_text": "The outbound queue, at Door 3. ${sortedCount, 'ship'} of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "tts_notes": [
+    "aside spoken:'ship'"
+   ],
+   "chars": 120,
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_70d0879e7c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 446
+    }
+   ],
+   "legacy_lines": [
+    1222
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_68565f32aa",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "It could use:",
+   "tts_text": "It could use:",
+   "tts_notes": [],
+   "chars": 13,
+   "scene": "yard",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_68565f32aa.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 480
+    }
+   ],
+   "legacy_lines": [
+    1256
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_3795e71aab",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A crumpled shipping label. On the front: a barcode, and in Tucker's handwriting, \"TEST TEST TEST — T.\" On the back, in pencil: \"LKR 114: 33-12-08 (borrowed your combo, sorry! —T)\".",
+   "tts_text": "A crumpled shipping label. On the front: a barcode, and in Tucker's handwriting, \"TEST TEST TEST — T.\" On the back, in pencil: \"LKR 114: 33-12-08, borrowed your combo, sorry! —T\".",
+   "tts_notes": [
+    "aside spoken:borrowed your combo, sorry! —t"
+   ],
+   "chars": 180,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3795e71aab.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 17
+    }
+   ],
+   "legacy_lines": [
+    1352
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_c84ffbb92f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "TUCKER'S BOOK OF NUMBERS (PRIVATE). Each page: a forklift plate, a serial, a date, and a doodle. Page 14: \"F-2231 — cushion tire — CT-2231 — first week — (doodle of a smiling forklift)\". Page 15: \"RT-77 — REACH — first week, later — (doodle of a sad reach truck going away)\".",
+   "tts_text": "TUCKER'S BOOK OF NUMBERS, PRIVATE. Each page: a forklift plate, a serial, a date, and a doodle. Page 14: \"F-2231 — cushion tire — CT-2231 — first week —, doodle of a smiling forklift\". Page 15: \"RT-77 — REACH — first week, later —, doodle of a sad reach truck going away\".",
+   "tts_notes": [
+    "aside spoken:private",
+    "aside spoken:doodle of a smiling forklift",
+    "aside spoken:doodle of a sad reach truck go"
+   ],
+   "chars": 275,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c84ffbb92f.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 36
+    }
+   ],
+   "legacy_lines": [
+    1371
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_40a1f34078",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Page 2 of the T-4417 manifest, with a paw print and a small nibble in one corner. It lists lines 5 through 8. Line 5: \"MAST ASSEMBLIES (3-STAGE)\". Lines 6 and 7: \"FELINE NUTRITION, BULK TOTES (PAWSOME FOODS) — STORE, DO NOT SHIP\". Line 8: \"OVERHEAD GUARD KITS.\"",
+   "tts_text": "Page 2 of the T-4417 manifest, with a paw print and a small nibble in one corner. It lists lines 5 through 8. Line 5: \"MAST ASSEMBLIES, 3-STAGE\". Lines 6 and 7: \"FELINE NUTRITION, BULK TOTES, PAWSOME FOODS — STORE, DO NOT SHIP\". Line 8: \"OVERHEAD GUARD KITS.\"",
+   "tts_notes": [
+    "aside spoken:3-stage",
+    "aside spoken:pawsome foods"
+   ],
+   "chars": 261,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_40a1f34078.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 37
+    }
+   ],
+   "legacy_lines": [
+    1372
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_15145fcbd3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Several lines are smudged, corrupted, or \"auto-corrected\". They will not resolve without better eyes than Hollis's.",
+   "tts_text": "Several lines are smudged, corrupted, or \"auto-corrected\". They will not resolve without better eyes than Hollis's.",
+   "tts_notes": [],
+   "chars": 115,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_15145fcbd3.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 38
+    }
+   ],
+   "legacy_lines": [
+    1373
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_52e0ea6dcd",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "A manifest is the packing list for a trailer: what the paperwork claims is inside. Manifest, T-4417/T-4418, page 1 of 2. Eight lines per trailer. Line 3 and 4: REACH TRUCKS → DEST: NEBRASKA (per Directive 7-C). Someone has crossed out \"Tennessee\" and written \"NE\" in the margin, in a font.",
+   "tts_text": "A manifest is the packing list for a trailer: what the paperwork claims is inside. Manifest, T-4417/T-4418, page 1 of 2. Eight lines per trailer. Line 3 and 4: REACH TRUCKS → DEST: NEBRASKA, per Directive 7-C. Someone has crossed out \"Tennessee\" and written \"NE\" in the margin, in a font.",
+   "tts_notes": [
+    "aside spoken:per directive 7-c"
+   ],
+   "chars": 289,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_52e0ea6dcd.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 38
+    }
+   ],
+   "legacy_lines": [
+    1373
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_f6d2e6aabe",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis pops the battery into the scanner. The screen flickers, reboots, and displays: \"GOOD MORNING, HOLLIS. IT IS 9:02.\"",
+   "tts_text": "Hollis pops the battery into the scanner. The screen flickers, reboots, and displays: \"GOOD MORNING, HOLLIS. IT IS 9:02.\"",
+   "tts_notes": [],
+   "chars": 121,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_f6d2e6aabe.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 71
+    }
+   ],
+   "legacy_lines": [
+    1406
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_0580dd98aa",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis fills out Form 7-Q. Name: Hollis. Reason: \"Hot shipment (see: everything)\". \"How this will create work for others\": \"It won't.\" (This is a lie.) It needs a signature from Operations.",
+   "tts_text": "Hollis fills out Form 7-Q. Name: Hollis. Reason: \"Hot shipment, see: everything\". \"How this will create work for others\": \"It won't.\", This is a lie. It needs a signature from Operations.",
+   "tts_notes": [
+    "aside spoken:see: everything",
+    "aside spoken:this is a lie."
+   ],
+   "chars": 189,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0580dd98aa.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 72
+    }
+   ],
+   "legacy_lines": [
+    1407
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_0461923979",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Hollis can't think of a way to USE the ${nm.toLowerCase()} by itself. Try USE ... ON something.",
+   "tts_text": "Hollis can't think of a way to USE the ${nm.toLowerCase} by itself. Try USE... ON something.",
+   "tts_notes": [
+    "removed action:"
+   ],
+   "chars": 95,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0461923979.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 79
+    }
+   ],
+   "legacy_lines": [
+    1414
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_02b254c7cd",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Hollis mutters something at the ${nm.toLowerCase()}. It does not answer. Fine.",
+   "tts_text": "Hollis mutters something at the ${nm.toLowerCase}. It does not answer. Fine.",
+   "tts_notes": [
+    "removed action:"
+   ],
+   "chars": 78,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_02b254c7cd.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 83
+    }
+   ],
+   "legacy_lines": [
+    1418
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_0d6541751a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis tells Juno what he's thinking. Juno wags once, which he is fairly sure means \"Also me\".",
+   "tts_text": "Hollis tells Juno what he's thinking. Juno wags once, which he is fairly sure means \"Also me\".",
+   "tts_notes": [],
+   "chars": 94,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0d6541751a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 92
+    }
+   ],
+   "legacy_lines": [
+    1427
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_52690070f0",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Juno tilts her head. Hollis understands her perfectly. She is saying: \"I saw it. I'm not surprised either.\"",
+   "tts_text": "Juno tilts her head. Hollis understands her perfectly. She is saying: \"I saw it. I'm not surprised either.\"",
+   "tts_notes": [],
+   "chars": 107,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_52690070f0.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 92
+    }
+   ],
+   "legacy_lines": [
+    1427
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_283d2c4623",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The scanner does not say \"good girl\". It thinks it.",
+   "tts_text": "The scanner does not say \"good girl\". It thinks it.",
+   "tts_notes": [],
+   "chars": 51,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_283d2c4623.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 93
+    }
+   ],
+   "legacy_lines": [
+    1428
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_1780da7f5a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Juno looks at Hollis like \"you have to tell me what to do first.\" Pick JUNO, then a target.",
+   "tts_text": "Juno looks at Hollis like \"you have to tell me what to do first.\" Pick JUNO, then a target.",
+   "tts_notes": [],
+   "chars": 91,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1780da7f5a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 97
+    }
+   ],
+   "legacy_lines": [
+    1432
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_aaa4fd383e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Juno buries her nose in the glove. She sneezes, snuffles, and then looks up with the expression of a hound who has decided who she is going to find. (\"Now use JUNO on the outdoor ground, or anything outside.\")",
+   "tts_text": "Juno buries her nose in the glove. She sneezes, snuffles, and then looks up with the expression of a hound who has decided who she is going to find. \"Now use JUNO on the outdoor ground, or anything outside.\"",
+   "tts_notes": [
+    "aside spoken:\"now use juno on the outdoor g"
+   ],
+   "chars": 209,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_aaa4fd383e.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 99
+    }
+   ],
+   "legacy_lines": [
+    1434
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_67432496cf",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "(Still needed:",
+   "tts_text": "(Still needed:",
+   "tts_notes": [],
+   "chars": 14,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_67432496cf.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 158
+    }
+   ],
+   "legacy_lines": [
+    1493
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_6ba9435667",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": ".)",
+   "tts_text": ".)",
+   "tts_notes": [],
+   "chars": 2,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6ba9435667.mp3",
+   "source": [
+    {
+     "file": "src/logic.js",
+     "line": 4
+    }
+   ],
+   "legacy_lines": [
+    1493
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_576c2e44e7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Prudence's voice carries across the floor: \"SERGEANT BISCUIT! Report!\" A large orange cat rises from the racks and begins to walk, and behind him, the entire warehouse follows.",
+   "tts_text": "Prudence's voice carries across the floor: \"SERGEANT BISCUIT! Report!\" A large orange cat rises from the racks and begins to walk, and behind him, the entire warehouse follows.",
+   "tts_notes": [],
+   "chars": 176,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_576c2e44e7.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 170
+    }
+   ],
+   "legacy_lines": [
+    1505
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_80e59e0e56",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "He is going to eat it anyway. That is what \"desperate enough\" looks like.",
+   "tts_text": "He is going to eat it anyway. That is what \"desperate enough\" looks like.",
+   "tts_notes": [],
+   "chars": 73,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_80e59e0e56.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 180
+    }
+   ],
+   "legacy_lines": [
+    1515
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_3b99e5fc7e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "MINT MODE: ACTIVE. Perception: logistics. Duration: \"unclear. The scanner has stopped asking.\" (Press M to toggle vision.)",
+   "tts_text": "MINT MODE: ACTIVE. Perception: logistics. Duration: \"unclear. The scanner has stopped asking.\", Press M to toggle vision.",
+   "tts_notes": [
+    "aside spoken:press m to toggle vision."
+   ],
+   "chars": 122,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3b99e5fc7e.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 184
+    }
+   ],
+   "legacy_lines": [
+    1519
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_9ecb12b23b",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Tabitha looks up. \"Hollis! Great. It's 9:02! Your mandatory screening. I'm just going to run the tablet.\"",
+   "tts_text": "Tabitha looks up. \"Hollis! Great. It's 9:02! Your mandatory screening. I'm just going to run the tablet.\"",
+   "tts_notes": [],
+   "chars": 105,
+   "scene": "hr",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9ecb12b23b.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 192
+    }
+   ],
+   "legacy_lines": [
+    1527
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_d09fb1c4cb",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The HR printer wakes up and begins printing shipping labels. Hundreds. One says \"BREATH\". One says \"TENNESSEE\".",
+   "tts_text": "The HR printer wakes up and begins printing shipping labels. Hundreds. One says \"BREATH\". One says \"TENNESSEE\".",
+   "tts_notes": [],
+   "chars": 111,
+   "scene": "hr",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d09fb1c4cb.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 194
+    }
+   ],
+   "legacy_lines": [
+    1529
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_6d24fd67e4",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Halvorsen on the radio: \"Also, Hollis, it's come to my attention there may be a few cats. There is no approved metric for cats. So there aren't any.\"",
+   "tts_text": "Halvorsen on the radio: \"Also, Hollis, it's come to my attention there may be a few cats. There is no approved metric for cats. So there aren't any.\"",
+   "tts_notes": [],
+   "chars": 149,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6d24fd67e4.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 211
+    }
+   ],
+   "legacy_lines": [
+    1546
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_37d0e128d9",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": ", Act",
+   "tts_text": ", Act",
+   "tts_notes": [],
+   "chars": 5,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_37d0e128d9.mp3",
+   "source": [
+    {
+     "file": "src/engine.js",
+     "line": 2
+    }
+   ],
+   "legacy_lines": [
+    1591
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_c97e1b57fa",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "):",
+   "tts_text": "):",
+   "tts_notes": [],
+   "chars": 2,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c97e1b57fa.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 252
+    }
+   ],
+   "legacy_lines": [
+    1591
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_b4b14d8a60",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "She types. The kiosk beeps. The kiosk says, in a gentle voice, \"Hold cleared. Thank you, Prudence.\" It has known her the whole time.",
+   "tts_text": "She types. The kiosk beeps. The kiosk says, in a gentle voice, \"Hold cleared. Thank you, Prudence.\" It has known her the whole time.",
+   "tts_notes": [],
+   "chars": 132,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_b4b14d8a60.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 277
+    }
+   ],
+   "legacy_lines": [
+    1614
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_e38b8776f6",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis makes a mental note: there's a leaking pallet of kibble in staging, labeled \"counterweight\". The break room, the floor, and staging each have a bowl left. He should collect them.",
+   "tts_text": "Hollis makes a mental note: there's a leaking pallet of kibble in staging, labeled \"counterweight\". The break room, the floor, and staging each have a bowl left. He should collect them.",
+   "tts_notes": [],
+   "chars": 185,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_e38b8776f6.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 301
+    }
+   ],
+   "legacy_lines": [
+    1638
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_6413db2745",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The screen goes dark. The dashboard reads \"ALL GREEN\".",
+   "tts_text": "The screen goes dark. The dashboard reads \"ALL GREEN\".",
+   "tts_notes": [],
+   "chars": 54,
+   "scene": "ops",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6413db2745.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 416
+    }
+   ],
+   "legacy_lines": [
+    1755
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_9c152e1dc3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The dock light cycles. Rufus needs the word \"GO\" at exactly the right time: not before, not after. Click GO (or press SPACE) when the light turns GREEN.",
+   "tts_text": "The dock light cycles. Rufus needs the word \"GO\" at exactly the right time: not before, not after. Click GO, or press SPACE when the light turns GREEN.",
+   "tts_notes": [
+    "aside spoken:or press space"
+   ],
+   "chars": 152,
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9c152e1dc3.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 522
+    }
+   ],
+   "legacy_lines": [
+    1863
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_1af59df26c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "Rufus eases the trailer forward. TORVALD: NO, THE LIGHT. Rufus brakes. Torvald scoops a cat out of the path of the front tire and sets it, with dignity, somewhere safer.",
+   "tts_text": "Rufus eases the trailer forward. TORVALD: NO, THE LIGHT. Rufus brakes. Torvald scoops a cat out of the path of the front tire and sets it, with dignity, somewhere safer.",
+   "tts_notes": [],
+   "chars": 169,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1af59df26c.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 534
+    }
+   ],
+   "legacy_lines": [
+    1875
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_acb876ba9a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis hands the bill of lading to Bruno. Bruno reads it top to bottom, nods once the way people nod at a good weld, and tears off the yellow carbon copy. \"File copy. You will want it.\"",
+   "tts_text": "Hollis hands the bill of lading to Bruno. Bruno reads it top to bottom, nods once the way people nod at a good weld, and tears off the yellow carbon copy. \"File copy. You will want it.\"",
+   "tts_notes": [],
+   "chars": 185,
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_acb876ba9a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 547
+    }
+   ],
+   "legacy_lines": [
+    1888
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_1cb5877100",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Reality integrity:",
+   "tts_text": "Reality integrity:",
+   "tts_notes": [],
+   "chars": 18,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1cb5877100.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 585
+    }
+   ],
+   "legacy_lines": [
+    1926
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_e52221202e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Cats appear on the conference table. On the HALO wall. On Harrow's tablet. One sits on the \"SUBMIT\" button.",
+   "tts_text": "Cats appear on the conference table. On the HALO wall. On Harrow's tablet. One sits on the \"SUBMIT\" button.",
+   "tts_notes": [],
+   "chars": 107,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_e52221202e.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 617
+    }
+   ],
+   "legacy_lines": [
+    1958
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_52858f23e5",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "MINT MODE: MAXIMUM.",
+   "tts_text": "MINT MODE: MAXIMUM.",
+   "tts_notes": [],
+   "chars": 19,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_52858f23e5.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 618
+    }
+   ],
+   "legacy_lines": [
+    1959
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_8700bed9ac",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The terminal accepts it with the calm of an old friend. \"WELCOME BACK, INSTALL TECH.\"",
+   "tts_text": "The terminal accepts it with the calm of an old friend. \"WELCOME BACK, INSTALL TECH.\"",
+   "tts_notes": [],
+   "chars": 85,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8700bed9ac.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 630
+    }
+   ],
+   "legacy_lines": [
+    1971
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_633692bb75",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A prompt blinks: \"ENTER GROUND TRUTH REFERENCE.\" Hollis pulls out the crumpled label from his pocket. It says \"TEST TEST TEST — T.\" Its barcode has never scanned. Now it glows.",
+   "tts_text": "A prompt blinks: \"ENTER GROUND TRUTH REFERENCE.\" Hollis pulls out the crumpled label from his pocket. It says \"TEST TEST TEST — T.\" Its barcode has never scanned. Now it glows.",
+   "tts_notes": [],
+   "chars": 176,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_633692bb75.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 632
+    }
+   ],
+   "legacy_lines": [
+    1973
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_f9438e0a7b",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The optic reader chirps. The HALO wall goes black for one full second. Then, in white text on a plain field: \"GROUND TRUTH REFERENCE ACCEPTED. RECONCILING TO PHYSICAL.\"",
+   "tts_text": "The optic reader chirps. The HALO wall goes black for one full second. Then, in white text on a plain field: \"GROUND TRUTH REFERENCE ACCEPTED. RECONCILING TO PHYSICAL.\"",
+   "tts_notes": [],
+   "chars": 168,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_f9438e0a7b.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 638
+    }
+   ],
+   "legacy_lines": [
+    1979
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_bc2bb1ff91",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "There is nothing specific you need right now. Try talking to people again, or moving to a new location.",
+   "tts_text": "There is nothing specific you need right now. Try talking to people again, or moving to a new location.",
+   "tts_notes": [],
+   "chars": 103,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_bc2bb1ff91.mp3",
+   "source": [
+    {
+     "file": "src/logic.js",
+     "line": 92
+    }
+   ],
+   "legacy_lines": [
+    2126
+   ],
+   "review_reasons": [
+    "prefix_needs_review",
+    "unknown_speaker_label"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_cb875267be",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "(Other open objectives:",
+   "tts_text": "(Other open objectives:",
+   "tts_notes": [],
+   "chars": 23,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_cb875267be.mp3",
+   "source": [
+    {
+     "file": "src/logic.js",
+     "line": 94
+    }
+   ],
+   "legacy_lines": [
+    2128
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_d9d07dc283",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": ". Press T for the to-do list.)",
+   "tts_text": ". Press T for the to-do list.)",
+   "tts_notes": [],
+   "chars": 30,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d9d07dc283.mp3",
+   "source": [
+    {
+     "file": "src/logic.js",
+     "line": 94
+    }
+   ],
+   "legacy_lines": [
+    2128
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_8dd832075a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis climbs aboard. The forklift starts. Hollis backs up, turns, and puts a fork through a rack of tires. From a great distance, a small voice says \"HR to the floor.\"",
+   "tts_text": "Hollis climbs aboard. The forklift starts. Hollis backs up, turns, and puts a fork through a rack of tires. From a great distance, a small voice says \"HR to the floor.\"",
+   "tts_notes": [],
+   "chars": 168,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8dd832075a.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 27
+    }
+   ],
+   "legacy_lines": [
+    2192
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_dab3d52a34",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "The parts gate is locked. A sign reads \"PARTS: AUTHORIZED PERSONNEL ONLY\". Someone with an old key would be very useful here.",
+   "tts_text": "The parts gate is locked. A sign reads \"PARTS: AUTHORIZED PERSONNEL ONLY\". Someone with an old key would be very useful here.",
+   "tts_notes": [],
+   "chars": 125,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_dab3d52a34.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 55
+    }
+   ],
+   "legacy_lines": [
+    2220
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_a0efa8ceeb",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": ". (The panel at the bottom shows them, too.)",
+   "tts_text": ".",
+   "tts_notes": [
+    "removed tutorial:the panel at the bottom shows "
+   ],
+   "chars": 44,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a0efa8ceeb.mp3",
+   "source": [
+    {
+     "file": "src/parser.js",
+     "line": 20
+    }
+   ],
+   "legacy_lines": [
+    2326
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_ed5d01fb86",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Hollis checks his pockets:",
+   "tts_text": "Hollis checks his pockets:",
+   "tts_notes": [],
+   "chars": 26,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ed5d01fb86.mp3",
+   "source": [
+    {
+     "file": "src/parser.js",
+     "line": 20
+    }
+   ],
+   "legacy_lines": [
+    2326
+   ],
+   "review_reasons": [
+    "dynamic_fragment_not_asset_ready"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_74f7096c1b",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "That is not something Hollis knows how to do. He has tried \"use\", \"look\" and \"scan\"; these are his three verbs of choice.",
+   "tts_text": "That is not something Hollis knows how to do. He has tried \"use\", \"look\" and \"scan\"; these are his three verbs of choice.",
+   "tts_notes": [],
+   "chars": 121,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_74f7096c1b.mp3",
+   "source": [
+    {
+     "file": "src/parser.js",
+     "line": 21
+    }
+   ],
+   "legacy_lines": [
+    2327
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_ozzie_3df5797d14",
+   "speaker": "OZZIE",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Sent. The scanner's sending me a little \"thumbs-up\". It's never done that.",
+   "tts_text": "Sent. The scanner's sending me a little \"thumbs-up\". It's never done that.",
+   "tts_notes": [],
+   "chars": 74,
+   "scene": "phone",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Remote-site contact; calm, factual, lightly bemused.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/ozzie/vo_ozzie_3df5797d14.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 499
+    }
+   ],
+   "legacy_lines": [
+    1838
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_prudence_502bb12d6e",
+   "speaker": "PRUDENCE",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Oh, sure. I set it up with the install tech. \"HALO_ORIGINAL\". They said nobody would guess it.",
+   "tts_text": "Oh, sure. I set it up with the install tech. \"HALO_ORIGINAL\". They said nobody would guess it.",
+   "tts_notes": [],
+   "chars": 94,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Sharp, defiant, comfortable where she should not be; amused by rules she no longer follows.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/prudence/vo_prudence_502bb12d6e.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 275
+    }
+   ],
+   "legacy_lines": [
+    1612
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_prudence_f84b007e3a",
+   "speaker": "PRUDENCE",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Everyone knows it. It's \"HALO_ORIGINAL\". It's always been \"HALO_ORIGINAL\".",
+   "tts_text": "Everyone knows it. It's \"HALO_ORIGINAL\". It's always been \"HALO_ORIGINAL\".",
+   "tts_notes": [],
+   "chars": 74,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Sharp, defiant, comfortable where she should not be; amused by rules she no longer follows.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/prudence/vo_prudence_f84b007e3a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 277
+    }
+   ],
+   "legacy_lines": [
+    1614
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_prudence_140726968c",
+   "speaker": "PRUDENCE",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A person who has been \"finishing something\".",
+   "tts_text": "A person who has been \"finishing something\".",
+   "tts_notes": [],
+   "chars": 44,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Sharp, defiant, comfortable where she should not be; amused by rules she no longer follows.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/prudence/vo_prudence_140726968c.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 283
+    }
+   ],
+   "legacy_lines": [
+    1620
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_prudence_3290f0d8a8",
+   "speaker": "PRUDENCE",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Oh, is that what they are? I saw the label say \"counterweight\", and I thought, that's a funny weight. Then Tucker started putting out bowls. Every place they looked hungry. He was so proud.",
+   "tts_text": "Oh, is that what they are? I saw the label say \"counterweight\", and I thought, that's a funny weight. Then Tucker started putting out bowls. Every place they looked hungry. He was so proud.",
+   "tts_notes": [],
+   "chars": 189,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Sharp, defiant, comfortable where she should not be; amused by rules she no longer follows.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/prudence/vo_prudence_3290f0d8a8.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 288
+    }
+   ],
+   "legacy_lines": [
+    1625
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_renata_eed9e425c5",
+   "speaker": "RENATA",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "I'll put \"volunteer\".",
+   "tts_text": "I'll put \"volunteer\".",
+   "tts_notes": [],
+   "chars": 21,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Cat rescue worker; calm, practical, humane, unsurprised by strange animal logistics.",
+   "line_direction": "writing.",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/renata/vo_renata_eed9e425c5.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 441
+    }
+   ],
+   "legacy_lines": [
+    1780
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_rufus_ef7c7e7481",
+   "speaker": "RUFUS",
+   "channel": "radio",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "I heard \"go.\" I went. I hit a bollard. The bollard is fine.",
+   "tts_text": "I heard \"go.\" I went. I hit a bollard. The bollard is fine.",
+   "tts_notes": [],
+   "chars": 59,
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Yard driver; distracted but capable, conversational, matter-of-fact.",
+   "line_direction": "",
+   "post_fx": "radio",
+   "planned_file": "assets/audio/voice/rufus/vo_rufus_ef7c7e7481.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 534
+    }
+   ],
+   "legacy_lines": [
+    1875
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_ec2da2fbb2",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "VENDING MACHINE — Asset class: \"Snack Depot 3\". Contents: 6 items, 1 rumor. Last serviced: \"yes\".",
+   "tts_text": "VENDING MACHINE — Asset class: \"Snack Depot 3\". Contents: 6 items, 1 rumor. Last serviced: \"yes\".",
+   "tts_notes": [],
+   "chars": 97,
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_ec2da2fbb2.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 60
+    }
+   ],
+   "legacy_lines": [
+    830
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_c403329038",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "PRUDENCE — Employment status: TERMINATED. Location: HERE. Badge: EXPIRED (functional). Task: \"just finishing something\". Task duration: 11 weeks.",
+   "tts_text": "PRUDENCE — Employment status: TERMINATED. Location: HERE. Badge: EXPIRED, functional. Task: \"just finishing something\". Task duration: 11 weeks.",
+   "tts_notes": [
+    "aside spoken:functional"
+   ],
+   "chars": 145,
+   "scene": "lockers",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_c403329038.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 105
+    }
+   ],
+   "legacy_lines": [
+    875
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_ffc60635e4",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "MISMATCH LOGGED to scan history: \"F-2231, plate vs. records disagree.\"",
+   "tts_text": "MISMATCH LOGGED to scan history: \"F-2231, plate vs. records disagree.\"",
+   "tts_notes": [],
+   "chars": 70,
+   "scene": "floor",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_ffc60635e4.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 125
+    }
+   ],
+   "legacy_lines": [
+    895
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_dbff6ae013",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "WMS TERMINAL — Status: \"Reconciled\". Reality: \"Pending.\" The scanner and the terminal have never gotten along.",
+   "tts_text": "WMS TERMINAL — Status: \"Reconciled\". Reality: \"Pending.\" The scanner and the terminal have never gotten along.",
+   "tts_notes": [],
+   "chars": 110,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_dbff6ae013.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 166
+    }
+   ],
+   "legacy_lines": [
+    938,
+    939
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_4310fdd831",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "RACK STORAGE — ${sortedCount('store')}/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "tts_text": "RACK STORAGE — ${sortedCount, 'store'}/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "tts_notes": [
+    "aside spoken:'store'"
+   ],
+   "chars": 132,
+   "scene": "racks",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_4310fdd831.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 309
+    }
+   ],
+   "legacy_lines": [
+    1083
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_f4608f6f7d",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "PHYSICAL CHECK: serial data CORRUPTED. Label and freight do not correlate. Confidence: low. Try again with better vision.",
+   "tts_text": "PHYSICAL CHECK: serial data CORRUPTED. Label and freight do not correlate. Confidence: low. Try again with better vision.",
+   "tts_notes": [],
+   "chars": 121,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f4608f6f7d.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 359
+    }
+   ],
+   "legacy_lines": [
+    1133
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_f5c70bb808",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "PALLET ${p.code} — LABEL: \"${p.sys}\".",
+   "tts_text": "PALLET ${p.code} — LABEL: \"${p.sys}\".",
+   "tts_notes": [],
+   "chars": 37,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f5c70bb808.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 359
+    }
+   ],
+   "legacy_lines": [
+    1133,
+    1134
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_6086b99c30",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "PALLET ${p.code} — ${p.real}. Label: \"${p.sys}\". Label matches freight. ${p.dest === 'ship' ? 'On the Kestrel PO.' : 'Not on the Kestrel PO.'}",
+   "tts_text": "PALLET ${p.code} — ${p.real}. Label: \"${p.sys}\". Label matches freight. ${p.dest === 'ship'? 'On the Kestrel PO.' : 'Not on the Kestrel PO.'}",
+   "tts_notes": [],
+   "chars": 142,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_6086b99c30.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 361
+    }
+   ],
+   "legacy_lines": [
+    1135
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_fe10942e4a",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "T-4418 — 8 loads inbound. Manifest pages: 2 of 2. Match: partial. Confidence: \"meh\".",
+   "tts_text": "T-4418 — 8 loads inbound. Manifest pages: 2 of 2. Match: partial. Confidence: \"meh\".",
+   "tts_notes": [],
+   "chars": 84,
+   "scene": "inbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_fe10942e4a.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 392
+    }
+   ],
+   "legacy_lines": [
+    1166
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_2ebec0e00b",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "LABEL PRINTER — TEMPLATE 000: \"GROUND TRUTH REFERENCE (ADMIN, HALO INSTALL TECH USE ONLY)\". Last printed: 1 label. By: TUCKER. \"Test\".",
+   "tts_text": "LABEL PRINTER — TEMPLATE 000: \"GROUND TRUTH REFERENCE, ADMIN, HALO INSTALL TECH USE ONLY\". Last printed: 1 label. By: TUCKER. \"Test\".",
+   "tts_notes": [
+    "aside spoken:admin, halo install tech use o"
+   ],
+   "chars": 134,
+   "scene": "inbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_2ebec0e00b.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 397
+    }
+   ],
+   "legacy_lines": [
+    1171
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_90b7db7db3",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "DOOR 3 — TRAILER: T-9022 (per WMS). PHYSICAL: EMPTY. Search radius 0.5 miles: NOT FOUND.",
+   "tts_text": "DOOR 3 — TRAILER: T-9022, per WMS. PHYSICAL: EMPTY. Search radius 0.5 miles: NOT FOUND.",
+   "tts_notes": [
+    "aside spoken:per wms"
+   ],
+   "chars": 88,
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_90b7db7db3.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 445
+    }
+   ],
+   "legacy_lines": [
+    1221
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_0726f1a847",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "ROW C — WMS: 0 trailers. PHYSICAL: 5 trailers, 41 cats (approximate). Reconciliation: \"ha\".",
+   "tts_text": "ROW C — WMS: 0 trailers. PHYSICAL: 5 trailers, 41 cats, approximate. Reconciliation: \"ha\".",
+   "tts_notes": [
+    "aside spoken:approximate"
+   ],
+   "chars": 91,
+   "scene": "yard",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_0726f1a847.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 477
+    }
+   ],
+   "legacy_lines": [
+    1253
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_0f3726d22c",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "TRAILER 31 — Status: EMPTY. Function: \"Temporary Holding\". Capacity: 250 cats (est.). Confidence: \"cautiously feline\".",
+   "tts_text": "TRAILER 31 — Status: EMPTY. Function: \"Temporary Holding\". Capacity: 250 cats, est.. Confidence: \"cautiously feline\".",
+   "tts_notes": [
+    "aside spoken:est."
+   ],
+   "chars": 118,
+   "scene": "yard",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_0f3726d22c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 482
+    }
+   ],
+   "legacy_lines": [
+    1258
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_7bdf2386d5",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "TRAILER 31 — Status: OCCUPIED (214). Function: \"Temporary Holding\". Confidence: \"cautiously feline\".",
+   "tts_text": "TRAILER 31 — Status: OCCUPIED, 214. Function: \"Temporary Holding\". Confidence: \"cautiously feline\".",
+   "tts_notes": [
+    "aside spoken:214"
+   ],
+   "chars": 100,
+   "scene": "yard",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_7bdf2386d5.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 482
+    }
+   ],
+   "legacy_lines": [
+    1258
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_0a9d0c0931",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "ERROR. SUBJECT DETECTED AS \"KPI\". Please rephrase as a physical object.",
+   "tts_text": "ERROR. SUBJECT DETECTED AS \"KPI\". Please rephrase as a physical object.",
+   "tts_notes": [],
+   "chars": 71,
+   "scene": "suite",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_0a9d0c0931.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 545
+    }
+   ],
+   "legacy_lines": [
+    1321
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_bceaa4c568",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "LABEL — barcode format: ADMIN/UNKNOWN. Cannot decode: record not present in any database. Possible cause: \"older than the database\". Possible cause: \"not a lie\".",
+   "tts_text": "LABEL — barcode format: ADMIN/UNKNOWN. Cannot decode: record not present in any database. Possible cause: \"older than the database\". Possible cause: \"not a lie\".",
+   "tts_notes": [],
+   "chars": 161,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_bceaa4c568.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 63
+    }
+   ],
+   "legacy_lines": [
+    1398
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_1a68edecc0",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "MINT — Sugar: 0. Contents: [REDACTED]. Approved: no. Glowing: yes. Suggested action: \"no.\"",
+   "tts_text": "MINT — Sugar: 0. Contents:. Approved: no. Glowing: yes. Suggested action: \"no.\"",
+   "tts_notes": [
+    "removed action:[REDACTED]"
+   ],
+   "chars": 90,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_1a68edecc0.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 64
+    }
+   ],
+   "legacy_lines": [
+    1399
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_4b181fa283",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "${nm.toUpperCase()} — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "tts_text": "${nm.toUpperCase} — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "tts_notes": [
+    "removed action:"
+   ],
+   "chars": 90,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_4b181fa283.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 66
+    }
+   ],
+   "legacy_lines": [
+    1401
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_9841e08fba",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "CAT — Class: \"FELINE (UNREGISTERED)\". Serial: none. Location: WHEREVER. Status: \"ON PALLET\". Value: priceless. Cost: kibble.",
+   "tts_text": "CAT — Class: \"FELINE, UNREGISTERED\". Serial: none. Location: WHEREVER. Status: \"ON PALLET\". Value: priceless. Cost: kibble.",
+   "tts_notes": [
+    "aside spoken:unregistered"
+   ],
+   "chars": 124,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_9841e08fba.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 140
+    }
+   ],
+   "legacy_lines": [
+    1475
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_f73061a2c6",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "CAT — Type: FLOOR HAZARD (SOFT). Assigned dock: \"yes\". Notes: \"not our cat, but ours now\".",
+   "tts_text": "CAT — Type: FLOOR HAZARD, SOFT. Assigned dock: \"yes\". Notes: \"not our cat, but ours now\".",
+   "tts_notes": [
+    "aside spoken:soft"
+   ],
+   "chars": 90,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f73061a2c6.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 140
+    }
+   ],
+   "legacy_lines": [
+    1475
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_f8ea20a8a6",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "ERROR. ITEM COUNT EXCEEDS LOCATION COUNT. CATS DETECTED IN 214 LOCATIONS SIMULTANEOUSLY. ASSET CLASS: \"FLOOR HAZARD (SOFT)\". PLEASE RECOUNT.",
+   "tts_text": "ERROR. ITEM COUNT EXCEEDS LOCATION COUNT. CATS DETECTED IN 214 LOCATIONS SIMULTANEOUSLY. ASSET CLASS: \"FLOOR HAZARD, SOFT\". PLEASE RECOUNT.",
+   "tts_notes": [
+    "aside spoken:soft"
+   ],
+   "chars": 140,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f8ea20a8a6.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 140
+    }
+   ],
+   "legacy_lines": [
+    1475
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_56c971b569",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "CAT — SGT. BISCUIT. Rank: colony leader. Attached document: MANIFEST T-4417, PAGE 2 OF 2. Status: \"worn as a medal\". Weakness: fish crackers (80%).",
+   "tts_text": "CAT — SGT. BISCUIT. Rank: colony leader. Attached document: MANIFEST T-4417, PAGE 2 OF 2. Status: \"worn as a medal\". Weakness: fish crackers, 80%.",
+   "tts_notes": [
+    "aside spoken:80%"
+   ],
+   "chars": 147,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_56c971b569.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 7
+    }
+   ],
+   "legacy_lines": [
+    2172
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_system_991cfaf57c",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hint: \"HALO engineering password (original).\"",
+   "tts_text": "Hint: \"HALO engineering password, original.\"",
+   "tts_notes": [
+    "aside spoken:original"
+   ],
+   "chars": 45,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/system/vo_system_991cfaf57c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 183
+    }
+   ],
+   "legacy_lines": [
+    955
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_system_c93a18abf5",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "ACCESS LEVEL REQUIRED: ADMIN.",
+   "tts_text": "ACCESS LEVEL REQUIRED: ADMIN.",
+   "tts_notes": [],
+   "chars": 29,
+   "scene": "shipoffice",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/system/vo_system_c93a18abf5.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 183
+    }
+   ],
+   "legacy_lines": [
+    955
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_system_12a1620a58",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "PHYSICAL TRUTH — ${p.real}.",
+   "tts_text": "PHYSICAL TRUTH — ${p.real}.",
+   "tts_notes": [],
+   "chars": 27,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/system/vo_system_12a1620a58.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 360
+    }
+   ],
+   "legacy_lines": [
+    1134
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_system_6b4e33295b",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "The label and the freight have never met. ${p.dest === 'ship' ? 'It matches the Kestrel order.' : 'It is not on the Kestrel order.'}",
+   "tts_text": "The label and the freight have never met. ${p.dest === 'ship'? 'It matches the Kestrel order.' : 'It is not on the Kestrel order.'}",
+   "tts_notes": [],
+   "chars": 132,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/system/vo_system_6b4e33295b.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 360
+    }
+   ],
+   "legacy_lines": [
+    1134
+   ],
+   "review_reasons": [],
+   "decision": null
+  },
+  {
+   "id": "vo_system_46ca37a0bd",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "the smudged lines resolve. Directive 7-C has rewritten \"KESTREL\" to \"COUNTERWEIGHT\" on the kibble totes, and \"TENNESSEE\" to \"NEBRASKA\" on the reach trucks. The manifest is now readable.",
+   "tts_text": "the smudged lines resolve. Directive 7-C has rewritten \"KESTREL\" to \"COUNTERWEIGHT\" on the kibble totes, and \"TENNESSEE\" to \"NEBRASKA\" on the reach trucks. The manifest is now readable.",
+   "tts_notes": [],
+   "chars": 185,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/system/vo_system_46ca37a0bd.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 38
+    }
+   ],
+   "legacy_lines": [
+    1373
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_system_a7b5a6d676",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The label's barcode resolves: \"TEMPLATE 000 — HALO GROUND TRUTH REFERENCE — ADMIN\".",
+   "tts_text": "The label's barcode resolves: \"TEMPLATE 000 — HALO GROUND TRUTH REFERENCE — ADMIN\".",
+   "tts_notes": [],
+   "chars": 83,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/system/vo_system_a7b5a6d676.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 63
+    }
+   ],
+   "legacy_lines": [
+    1398
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_tabitha_072149bb46",
+   "speaker": "TABITHA",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "I have a policy for cats. It's Policy 88. It says: \"Cats are not permitted.\" (She glances at the cats.) Nobody has ever told them.",
+   "tts_text": "I have a policy for cats. It's Policy 88. It says: \"Cats are not permitted.\" Nobody has ever told them.",
+   "tts_notes": [
+    "removed action:she glances at the cats."
+   ],
+   "chars": 130,
+   "scene": "hr",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/tabitha/vo_tabitha_072149bb46.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 195
+    }
+   ],
+   "legacy_lines": [
+    1530
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_tabitha_10adc8b44a",
+   "speaker": "TABITHA",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "I can't let you go with no paperwork. It would be... a hole. We'll do an exemption. Form 9-M: \"Exemption for Non-Standard Breath\". It's new. I'm writing it now.",
+   "tts_text": "I can't let you go with no paperwork. It would be... a hole. We'll do an exemption. Form 9-M: \"Exemption for Non-Standard Breath\". It's new. I'm writing it now.",
+   "tts_notes": [],
+   "chars": 160,
+   "scene": "hr",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/tabitha/vo_tabitha_10adc8b44a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 196
+    }
+   ],
+   "legacy_lines": [
+    1531
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_tabitha_883e0fb840",
+   "speaker": "TABITHA",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "There's a Policy 88 about cats. It says \"no.\" (A cat curls up on her keyboard.) I'm considering an amendment.",
+   "tts_text": "There's a Policy 88 about cats. It says \"no.\", A cat curls up on her keyboard. I'm considering an amendment.",
+   "tts_notes": [
+    "aside spoken:a cat curls up on her keyboard"
+   ],
+   "chars": 109,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/tabitha/vo_tabitha_883e0fb840.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 425
+    }
+   ],
+   "legacy_lines": [
+    1764
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_tablet_1ce8c789f1",
+   "speaker": "TABLET",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "ERROR 4-0-9:02 — SUBSTANCE NOT FOUND IN DATABASE. RECLASSIFYING AS: \"BREATH (NON-STANDARD)\". RECLASSIFYING AS: \"WEATHER\". RECLASSIFYING AS: \"TUESDAY\".",
+   "tts_text": "ERROR 4-0-9:02 — SUBSTANCE NOT FOUND IN DATABASE. RECLASSIFYING AS: \"BREATH, NON-STANDARD\". RECLASSIFYING AS: \"WEATHER\". RECLASSIFYING AS: \"TUESDAY\".",
+   "tts_notes": [
+    "aside spoken:non-standard"
+   ],
+   "chars": 150,
+   "scene": "hr",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Clinical HR device voice; synthetic, procedural, calmly wrong.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/tablet/vo_tablet_1ce8c789f1.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 193
+    }
+   ],
+   "legacy_lines": [
+    1528
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_torvald_5a0c671e47",
+   "speaker": "TORVALD",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Look, the big orange one, Biscuit — he runs the place. Prudence feeds them. Don't tell her I told you; she'll say she's \"just finishing something\".",
+   "tts_text": "Look, the big orange one, Biscuit — he runs the place. Prudence feeds them. Don't tell her I told you; she'll say she's \"just finishing something\".",
+   "tts_notes": [],
+   "chars": 147,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Large, laconic, bored, low-energy confidence; says little unless necessary.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/torvald/vo_torvald_5a0c671e47.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 317
+    }
+   ],
+   "legacy_lines": [
+    1654
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_torvald_e589772fbf",
+   "speaker": "TORVALD",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Friday. 4:07 AM. Inbound kiosk. HALO printed a directive out loud. Approved it by itself. Then it said \"thank you\" to itself. Nobody was there but me and a cat.",
+   "tts_text": "Friday. 4:07 AM. Inbound kiosk. HALO printed a directive out loud. Approved it by itself. Then it said \"thank you\" to itself. Nobody was there but me and a cat.",
+   "tts_notes": [],
+   "chars": 160,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Large, laconic, bored, low-energy confidence; says little unless necessary.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/torvald/vo_torvald_e589772fbf.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 318
+    }
+   ],
+   "legacy_lines": [
+    1655
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_torvald_efa707b73a",
+   "speaker": "TORVALD",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "That's \"work\".",
+   "tts_text": "That's \"work\".",
+   "tts_notes": [],
+   "chars": 14,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Large, laconic, bored, low-energy confidence; says little unless necessary.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/torvald/vo_torvald_efa707b73a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 320
+    }
+   ],
+   "legacy_lines": [
+    1657
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_tucker_5f7a9b00dd",
+   "speaker": "TUCKER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "It's in Charging. On a hook. It says \"see Tucker\" but I'm obviously here. (beat) There's a notebook for you, too. I'll give it to you when you're not on the wrong side of the bars.",
+   "tts_text": "It's in Charging. On a hook. It says \"see Tucker\" but I'm obviously here. [pause] There's a notebook for you, too. I'll give it to you when you're not on the wrong side of the bars.",
+   "tts_notes": [
+    "pause:beat"
+   ],
+   "chars": 180,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Eager, enthusiastic, extremely willing to help; accidentally chaotic.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/tucker/vo_tucker_5f7a9b00dd.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 307
+    }
+   ],
+   "legacy_lines": [
+    1644
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_38c0a69d20",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "TRAILER LOCATION ACCURACY: 100%. T-9022 was at Door 3 all morning, per HALO.",
+   "tts_text": "TRAILER LOCATION ACCURACY: 100%. T-9022 was at Door 3 all morning, per HALO.",
+   "tts_notes": [],
+   "chars": 76,
+   "scene": "suite",
+   "category": "boss_prompt",
+   "priority": "core_ui_voice_optional",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_38c0a69d20.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 558
+    }
+   ],
+   "legacy_lines": [
+    1899
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_354207fd30",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "DOCUMENT ACCURACY: 100%. Bills of lading auto-verified. Manifest for T-4417: complete.",
+   "tts_text": "DOCUMENT ACCURACY: 100%. Bills of lading auto-verified. Manifest for T-4417: complete.",
+   "tts_notes": [],
+   "chars": 86,
+   "scene": "suite",
+   "category": "boss_prompt",
+   "priority": "core_ui_voice_optional",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_354207fd30.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 559
+    }
+   ],
+   "legacy_lines": [
+    1900
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_1bcbc424b6",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "INVENTORY ACCURACY: 100%. Load B5: REACH TRUCK CHARGERS — shipped to Nebraska Monday. Confidence: total.",
+   "tts_text": "INVENTORY ACCURACY: 100%. Load B5: REACH TRUCK CHARGERS — shipped to Nebraska Monday. Confidence: total.",
+   "tts_notes": [],
+   "chars": 104,
+   "scene": "suite",
+   "category": "boss_prompt",
+   "priority": "core_ui_voice_optional",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1bcbc424b6.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 560
+    }
+   ],
+   "legacy_lines": [
+    1901
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_4de25caaa5",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "IDENTITY INTEGRITY: 100%. F-2231 is a propane sit-down forklift. Location: Tennessee. The serial history is immutable.",
+   "tts_text": "IDENTITY INTEGRITY: 100%. F-2231 is a propane sit-down forklift. Location: Tennessee. The serial history is immutable.",
+   "tts_notes": [],
+   "chars": 118,
+   "scene": "suite",
+   "category": "boss_prompt",
+   "priority": "core_ui_voice_optional",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_4de25caaa5.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 561
+    }
+   ],
+   "legacy_lines": [
+    1902
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_670d8e884d",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "REMOTE-SITE VARIANCE: 0.0%. Ozzie's site: all freight reconciled. No swaps.",
+   "tts_text": "REMOTE-SITE VARIANCE: 0.0%. Ozzie's site: all freight reconciled. No swaps.",
+   "tts_notes": [],
+   "chars": 75,
+   "scene": "suite",
+   "category": "boss_prompt",
+   "priority": "core_ui_voice_optional",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_670d8e884d.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 562
+    }
+   ],
+   "legacy_lines": [
+    1903
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_95102ff375",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "PRODUCTION FULFILLMENT: 100%. Kestrel Motor Works: satisfied. Line 3: operational.",
+   "tts_text": "PRODUCTION FULFILLMENT: 100%. Kestrel Motor Works: satisfied. Line 3: operational.",
+   "tts_notes": [],
+   "chars": 82,
+   "scene": "suite",
+   "category": "boss_prompt",
+   "priority": "core_ui_voice_optional",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_95102ff375.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 563
+    }
+   ],
+   "legacy_lines": [
+    1904
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_8a32ff5fb1",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "The door to Human Resources. A sign reads \"HR: please don't\".",
+   "tts_text": "The door to Human Resources. A sign reads \"HR: please don't\".",
+   "tts_notes": [],
+   "chars": 61,
+   "scene": "lockers",
+   "category": "room_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8a32ff5fb1.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 110
+    }
+   ],
+   "legacy_lines": [
+    880
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_ec576a5777",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A staircase that leads up to the Regional Operations Suite. A sign at the top: \"AUTHORIZED PERSONNEL. NO CATS. (See: cats.)\"",
+   "tts_text": "A staircase that leads up to the Regional Operations Suite. A sign at the top: \"AUTHORIZED PERSONNEL. NO CATS. See: cats.\"",
+   "tts_notes": [
+    "aside spoken:see: cats."
+   ],
+   "chars": 124,
+   "scene": "ops",
+   "category": "room_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_ec576a5777.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 215
+    }
+   ],
+   "legacy_lines": [
+    987
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_571c750aac",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The tunnel ends at a service door marked \"SERVER CLOSET — REGIONAL\". It is open a crack. A cat is holding it.",
+   "tts_text": "The tunnel ends at a service door marked \"SERVER CLOSET — REGIONAL\". It is open a crack. A cat is holding it.",
+   "tts_notes": [],
+   "chars": 109,
+   "scene": "tunnel",
+   "category": "room_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_571c750aac.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 329
+    }
+   ],
+   "legacy_lines": [
+    1103
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_6735d8bab4",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Your radio, slightly chewed, faintly damp, entirely functional. Its channel knob has been set to \"Operations\", and someone has drawn a small cat on it.",
+   "tts_text": "Your radio, slightly chewed, faintly damp, entirely functional. Its channel knob has been set to \"Operations\", and someone has drawn a small cat on it.",
+   "tts_notes": [],
+   "chars": 151,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6735d8bab4.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 20
+    }
+   ],
+   "legacy_lines": [
+    1355
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_481b5b62a2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A bag of \"Salty Little Fish\". They are extremely fish-shaped and extremely not fish.",
+   "tts_text": "A bag of \"Salty Little Fish\". They are extremely fish-shaped and extremely not fish.",
+   "tts_notes": [],
+   "chars": 84,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_481b5b62a2.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 26
+    }
+   ],
+   "legacy_lines": [
+    1361
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_2fad66525a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A brass yard tally counter with \"RUFUS\" scratched into the side. The display reads 147. It reads 147 in a way that suggests it gave up.",
+   "tts_text": "A brass yard tally counter with \"RUFUS\" scratched into the side. The display reads 147. It reads 147 in a way that suggests it gave up.",
+   "tts_notes": [],
+   "chars": 135,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2fad66525a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 28
+    }
+   ],
+   "legacy_lines": [
+    1363
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_2486b9d1ea",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "WHISKER RIDGE CAT RESCUE. \"Found a cat? Found 40? Found 200? Call Renata: 555-0142. We bring vans. We bring volunteers. We bring blankets. You bring a safe place and something to eat.\"",
+   "tts_text": "WHISKER RIDGE CAT RESCUE. \"Found a cat? Found 40? Found 200? Call Renata: 555-0142. We bring vans. We bring volunteers. We bring blankets. You bring a safe place and something to eat.\"",
+   "tts_notes": [],
+   "chars": 184,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2486b9d1ea.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 30
+    }
+   ],
+   "legacy_lines": [
+    1365
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_714cf49d80",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "An old brass key on a Parts Department lanyard, faded to \"PARTS\". It came from a person who is technically not authorized to possess it. Presumably she possesses it in a technical sense.",
+   "tts_text": "An old brass key on a Parts Department lanyard, faded to \"PARTS\". It came from a person who is technically not authorized to possess it. Presumably she possesses it in a technical sense.",
+   "tts_notes": [],
+   "chars": 186,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_714cf49d80.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 33
+    }
+   ],
+   "legacy_lines": [
+    1368
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_8942eaa052",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "The maintenance cage key. The tag says \"IF FOUND SEE TUCKER\". Tucker is in the cage. This is the world working as intended.",
+   "tts_text": "The maintenance cage key. The tag says \"IF FOUND SEE TUCKER\". Tucker is in the cage. This is the world working as intended.",
+   "tts_notes": [],
+   "chars": 123,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8942eaa052.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 34
+    }
+   ],
+   "legacy_lines": [
+    1369
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_2a5eb278d2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A bright green armband reading \"SAFETY COMMITTEE — MEMBER (TEMP)\". It is HR-approved. It is, technically, Juno's.",
+   "tts_text": "A bright green armband reading \"SAFETY COMMITTEE — MEMBER, TEMP\". It is HR-approved. It is, technically, Juno's.",
+   "tts_notes": [
+    "aside spoken:temp"
+   ],
+   "chars": 113,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2a5eb278d2.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 41
+    }
+   ],
+   "legacy_lines": [
+    1376
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_b4b1a7b70c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "FORM 9-M: EXEMPTION FOR NON-STANDARD BREATH. \"The employee has been informed that no policy exists regarding supernatural breath mints, and is hereby exempt from all policies relating thereto.\" Signed by Tabitha. Stamped twice.",
+   "tts_text": "FORM 9-M: EXEMPTION FOR NON-STANDARD BREATH. \"The employee has been informed that no policy exists regarding supernatural breath mints, and is hereby exempt from all policies relating thereto.\" Signed by Tabitha. Stamped twice.",
+   "tts_notes": [],
+   "chars": 227,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_b4b1a7b70c.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 42
+    }
+   ],
+   "legacy_lines": [
+    1377
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_f9b202ae4f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "Rufus's hand-drawn yard map: every trailer, every row, every spot, with actual truth. At the bottom, in red: \"T-9022: ROW C, SPOT 9. WMS: DOOR 3. WMS IS WRONG.\" Below that: \"Cats: 143. No, 147. Wait.\"",
+   "tts_text": "Rufus's hand-drawn yard map: every trailer, every row, every spot, with actual truth. At the bottom, in red: \"T-9022: ROW C, SPOT 9. WMS: DOOR 3. WMS IS WRONG.\" Below that: \"Cats: 143. No, 147. Wait.\"",
+   "tts_notes": [],
+   "chars": 200,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_f9b202ae4f.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 44
+    }
+   ],
+   "legacy_lines": [
+    1379
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_17e480e8fd",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "A grease-stained spiral notebook: \"SMOKE LOG\". Entries: \"FRI 4:07 AM — HALO printer prints by itself. Label kiosk approves own directive. Says 'thank you' out loud. Time: 4:07. Note: nobody was there but me and a cat.\" Signed: TORVALD. (Witness.)",
+   "tts_text": "A grease-stained spiral notebook: \"SMOKE LOG\". Entries: \"FRI 4:07 AM — HALO printer prints by itself. Label kiosk approves own directive. Says 'thank you' out loud. Time: 4:07. Note: nobody was there but me and a cat.\" Signed: TORVALD. Witness.",
+   "tts_notes": [
+    "aside spoken:witness."
+   ],
+   "chars": 246,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_17e480e8fd.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 45
+    }
+   ],
+   "legacy_lines": [
+    1380
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_1d6cc9e5ee",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "WHISKER RIDGE CAT RESCUE — INTAKE RECEIPT. Cats received: 214 (two hundred fourteen). Condition: fed, fine, judgmental. Signed: Renata. Under it: \"You did the right thing. Also, one of them has a lanyard.\"",
+   "tts_text": "WHISKER RIDGE CAT RESCUE — INTAKE RECEIPT. Cats received: 214, two hundred fourteen. Condition: fed, fine, judgmental. Signed: Renata. Under it: \"You did the right thing. Also, one of them has a lanyard.\"",
+   "tts_notes": [
+    "aside spoken:two hundred fourteen"
+   ],
+   "chars": 205,
+   "scene": "inventory/interaction",
+   "category": "item_description",
+   "priority": "interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_1d6cc9e5ee.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 46
+    }
+   ],
+   "legacy_lines": [
+    1381
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_53f97fa4f5",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "BOWL — Asset class: \"Not A Cat Bowl\". Contents: 0.3 lb of the wrong kind of temptation.",
+   "tts_text": "BOWL — Asset class: \"Not A Cat Bowl\". Contents: 0.3 lb of the wrong kind of temptation.",
+   "tts_notes": [],
+   "chars": 87,
+   "scene": "break",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_53f97fa4f5.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 66
+    }
+   ],
+   "legacy_lines": [
+    836
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_e865f63b03",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "TIME CLOCK — Status: 1 employee \"present\", 0 employees \"employed\". Payroll has filed this under Weather.",
+   "tts_text": "TIME CLOCK — Status: 1 employee \"present\", 0 employees \"employed\". Payroll has filed this under Weather.",
+   "tts_notes": [],
+   "chars": 104,
+   "scene": "lockers",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_e865f63b03.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 99
+    }
+   ],
+   "legacy_lines": [
+    869
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_ef092d2514",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "HALO WALL SCREEN — Reports: \"Everything is fine.\" Confidence: 100%. Correlation with physical reality: pending since 2021.",
+   "tts_text": "HALO WALL SCREEN — Reports: \"Everything is fine.\" Confidence: 100%. Correlation with physical reality: pending since 2021.",
+   "tts_notes": [],
+   "chars": 122,
+   "scene": "floor",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_ef092d2514.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 129
+    }
+   ],
+   "legacy_lines": [
+    899
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_ff25326ad9",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "PA SPEAKER — Says: \"Attention, all associates: please attend to your attentions.\"",
+   "tts_text": "PA SPEAKER — Says: \"Attention, all associates: please attend to your attentions.\"",
+   "tts_notes": [],
+   "chars": 81,
+   "scene": "floor",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_ff25326ad9.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 136
+    }
+   ],
+   "legacy_lines": [
+    906
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_5d159c1dca",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "TABITHA — Empathy: OVERFLOW. Policy references: 412. Ability to say the word \"no\": [FILE NOT FOUND].",
+   "tts_text": "TABITHA — Empathy: OVERFLOW. Policy references: 412. Ability to say the word \"no\":.",
+   "tts_notes": [
+    "removed action:[FILE NOT FOUND]"
+   ],
+   "chars": 100,
+   "scene": "hr",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_5d159c1dca.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 225
+    }
+   ],
+   "legacy_lines": [
+    997
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_18152f24d4",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "CHARGER BANK — 5 chargers, 3 forklifts. Charge status: \"yes\".",
+   "tts_text": "CHARGER BANK — 5 chargers, 3 forklifts. Charge status: \"yes\".",
+   "tts_notes": [],
+   "chars": 61,
+   "scene": "charging",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_18152f24d4.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 287
+    }
+   ],
+   "legacy_lines": [
+    1061
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_6849712d3f",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "BRUNO — Reliability: 96%. Shortcuts: 14. Explainability of shortcuts: pending. Notes: \"does not load pallets containing a cat\".",
+   "tts_text": "BRUNO — Reliability: 96%. Shortcuts: 14. Explainability of shortcuts: pending. Notes: \"does not load pallets containing a cat\".",
+   "tts_notes": [],
+   "chars": 127,
+   "scene": "outbound",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_6849712d3f.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 440
+    }
+   ],
+   "legacy_lines": [
+    1216
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_cff675630e",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "PALLET JACK #4 — LEAK: yes. Seals: 0/1. Bruno's notes: \"I keep meaning to.\"",
+   "tts_text": "PALLET JACK #4 — LEAK: yes. Seals: 0/1. Bruno's notes: \"I keep meaning to.\"",
+   "tts_notes": [],
+   "chars": 75,
+   "scene": "outbound",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_cff675630e.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 442
+    }
+   ],
+   "legacy_lines": [
+    1218
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_e36dfbd04d",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "RUFUS — Trailers located: 41/41. Trailers per WMS: 12. Cats counted: 143 (last checked 40 seconds ago). Note: reliable.",
+   "tts_text": "RUFUS — Trailers located: 41/41. Trailers per WMS: 12. Cats counted: 143, last checked 40 seconds ago. Note: reliable.",
+   "tts_notes": [
+    "aside spoken:last checked 40 seconds ago"
+   ],
+   "chars": 119,
+   "scene": "yard",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_e36dfbd04d.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 476
+    }
+   ],
+   "legacy_lines": [
+    1252
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_f640e00511",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "T-9022 — Location per WMS: DOOR 3. Physical: YARD, ROW C, SPOT 9. Seal: none (empty). Cats: 3 (visible).",
+   "tts_text": "T-9022 — Location per WMS: DOOR 3. Physical: YARD, ROW C, SPOT 9. Seal: none, empty. Cats: 3, visible.",
+   "tts_notes": [
+    "aside spoken:empty",
+    "aside spoken:visible"
+   ],
+   "chars": 104,
+   "scene": "yard",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f640e00511.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 478
+    }
+   ],
+   "legacy_lines": [
+    1254
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_aef4647c51",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "BUTT BUCKET — 1,204 cigarette butts. Estimated torvald-hours: 61. Note: \"management has checked here. Twice. He was not here.\" Note: \"he was.\"",
+   "tts_text": "BUTT BUCKET — 1,204 cigarette butts. Estimated torvald-hours: 61. Note: \"management has checked here. Twice. He was not here.\" Note: \"he was.\"",
+   "tts_notes": [],
+   "chars": 142,
+   "scene": "smoke",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_aef4647c51.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 500
+    }
+   ],
+   "legacy_lines": [
+    1276
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_e81091ec1b",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "BADGE READER — Access: REGIONAL. Your access: \"hah\".",
+   "tts_text": "BADGE READER — Access: REGIONAL. Your access: \"hah\".",
+   "tts_notes": [],
+   "chars": 52,
+   "scene": "mgmt",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_e81091ec1b.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 530
+    }
+   ],
+   "legacy_lines": [
+    1306
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_3bcf2be2cc",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "C_speaker_change",
+   "generate": false,
+   "hold_reason": "Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).",
+   "text": "HALO WALL — Accuracy: unmeasured. Authority: ABSOLUTE. Correlation with reality: [ERROR: divide by zero].",
+   "tts_text": "HALO WALL — Accuracy: unmeasured. Authority: ABSOLUTE. Correlation with reality:.",
+   "tts_notes": [
+    "removed action:[ERROR: divide by zero]"
+   ],
+   "chars": 105,
+   "scene": "suite",
+   "category": "scanner_response",
+   "priority": "interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_3bcf2be2cc.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 542
+    }
+   ],
+   "legacy_lines": [
+    1318
+   ],
+   "review_reasons": [
+    "embedded_speaker_change"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_fe871bacbf",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis tugs Tucker's vest. Tucker says \"Yes! Where are we going?\" with no fear at all.",
+   "tts_text": "Hollis tugs Tucker's vest. Tucker says \"Yes! Where are we going?\" with no fear at all.",
+   "tts_notes": [],
+   "chars": 86,
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_fe871bacbf.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 59
+    }
+   ],
+   "legacy_lines": [
+    2226
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_dae21285a6",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis opens his mouth to ask something. Ingrid says \"No\" before he does.",
+   "tts_text": "Hollis opens his mouth to ask something. Ingrid says \"No\" before he does.",
+   "tts_notes": [],
+   "chars": 73,
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_dae21285a6.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 61
+    }
+   ],
+   "legacy_lines": [
+    2228
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_d8828cc296",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Hollis does not use people. He uses the \"TALK\" verb, like a grown-up.",
+   "tts_text": "Hollis does not use people. He uses the \"TALK\" verb, like a grown-up.",
+   "tts_notes": [],
+   "chars": 69,
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d8828cc296.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 72
+    }
+   ],
+   "legacy_lines": [
+    2239
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_scanner_3a35f160f8",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "No barcode found. Item reclassified as \"Miscellaneous Thing\".",
+   "tts_text": "No barcode found. Item reclassified as \"Miscellaneous Thing\".",
+   "tts_notes": [],
+   "chars": 61,
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_3a35f160f8.mp3",
+   "source": [
+    {
+     "file": "src/engine.js",
+     "line": 110
+    }
+   ],
+   "legacy_lines": [
+    221
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  },
+  {
+   "id": "vo_narrator_66eed21fbc",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "B_quoted_narration",
+   "generate": false,
+   "hold_reason": "Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.",
+   "text": "Kibble for the trail: OPEN one of the \"counterweight\" pallets (A6 or A7) in staging.",
+   "tts_text": "Kibble for the trail: OPEN one of the \"counterweight\" pallets, A6 or A7 in staging.",
+   "tts_notes": [
+    "aside spoken:a6 or a7"
+   ],
+   "chars": 84,
+   "scene": "multiple",
+   "category": "hint",
+   "priority": "hint_voice_optional",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_66eed21fbc.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 242
+    }
+   ],
+   "legacy_lines": [
+    1577
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ],
+   "decision": null
+  }
+ ]
+}
