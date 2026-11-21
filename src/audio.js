@@ -33,7 +33,7 @@ const Snd = {
     }
   },
   startMusic() { if (this.mtimer || !this.ac) return; const bass = [55, 55, 82, 55, 73, 73, 82, 65], mel = [0, 330, 0, 392, 440, 0, 392, 330, 0, 294, 0, 330, 392, 0, 330, 0];
-    this.mtimer = setInterval(() => { if (!this.music || !this.ac) return; const i = this.step++ % 16; if (i % 2 === 0) this.tone(bass[(i / 2) % 8], .22, 'triangle', .13); if (mel[i]) this.tone(mel[i] * (G.S && G.S.mintOn ? 1.5 : 1), .16, 'square', .04); if (i % 4 === 0) this.noise(.03, .05, 0, 6000); }, 210); },
+    this.mtimer = setInterval(() => { if (!this.music || !this.ac || (typeof MMAudio !== 'undefined' && MMAudio.musOn)) return; const i = this.step++ % 16; if (i % 2 === 0) this.tone(bass[(i / 2) % 8], .22, 'triangle', .13); if (mel[i]) this.tone(mel[i] * (G.S && G.S.mintOn ? 1.5 : 1), .16, 'square', .04); if (i % 4 === 0) this.noise(.03, .05, 0, 6000); }, 210); },
   toggleMusic() { this.music = !this.music; if (this.music) this.startMusic(); }
 };
 
@@ -48,7 +48,7 @@ const MMAudio = (function () {
   const ROOM_AMBIENCE = { break: 'breakroom_hum', floor: 'warehouse_floor', lockers: 'locker_room', shipoffice: 'shipping_office', ops: 'operations_office', hr: 'hr_office', parts: 'warehouse_parts', charging: 'charging_bay',
     racks: 'warehouse_racks', tunnel: 'tunnel_drone', staging: 'warehouse_staging', inbound: 'loading_dock', outbound: 'loading_dock', yard: 'yard_exterior', smoke: 'yard_exterior', drain: 'yard_exterior',
     mgmt: 'regional_lobby', suite: 'regional_suite', remote: 'yard_exterior', gordoncall: 'phone_line' };
-  const M = { manifests: { voice: { entries: [] }, sfx: { entries: [] }, ambience: { entries: [] } }, ready: false, loading: null,
+  const M = { manifests: { voice: { entries: [] }, sfx: { entries: [] }, ambience: { entries: [] }, music: { entries: [] } }, ready: false, loading: null,
     vol: { master: 1, voice: 1, sfx: 1, ambience: .6, music: 1 }, muted: { master: false, voice: false, sfx: false, ambience: false, music: false },
     byVoiceId: new Map(), byVoiceText: new Map(), bySfx: new Map(), byAmb: new Map(), cache: new Map(), stats: { voicePlayed: 0, sfxPlayed: 0, missing: 0 },
     mix: null, voiceNode: null, voiceToken: 0, amb: null, ambRoom: null };
@@ -60,7 +60,8 @@ const MMAudio = (function () {
     if (M.loading) return M.loading;
     if (!/^https?:$/.test(location.protocol)) { M.ready = true; M.loading = Promise.resolve(M); return M.loading; }   // file:// cannot fetch: run without external audio, silently
     const get = (name) => fetch(ROOT + 'manifests/' + name + '_manifest.json', { cache: 'no-cache' }).then(r => (r.ok ? r.json() : null)).catch(() => null);
-    M.loading = Promise.all([get('voice'), get('sfx'), get('ambience')]).then(([v, s, a]) => {
+    M.loading = Promise.all([get('voice'), get('sfx'), get('ambience'), get('music')]).then(([v, s, a, mu]) => {
+      if (mu && Array.isArray(mu.entries)) { M.manifests.music = mu; M.musicMap = mu.scenes || {}; }
       if (v && Array.isArray(v.entries)) M.manifests.voice = v; if (s && Array.isArray(s.entries)) M.manifests.sfx = s; if (a && Array.isArray(a.entries)) M.manifests.ambience = a;
       indexManifests();
       M.ready = true; if (M.manifests.sfx.entries.length) M.preload('sfx'); return M;
@@ -72,14 +73,15 @@ const MMAudio = (function () {
     for (const e of M.manifests.voice.entries) { if (!e || !e.id) continue; M.byVoiceId.set(e.id, e); if (e.text && (e.file || (e.segments && e.segments.length && e.segments.every(sg => sg.file)))) M.byVoiceText.set(norm(e.speaker) + '|' + norm(e.text), e); }   // playable = has a clip, or all segment clips exist
     for (const e of M.manifests.sfx.entries) if (e && e.id) M.bySfx.set(e.id, e);
     for (const e of M.manifests.ambience.entries) if (e && e.id) M.byAmb.set(e.id, e);
+    M.byMusic = new Map(); for (const e of M.manifests.music.entries) if (e && e.id) M.byMusic.set(e.id, e);
   }
   // ---- WebAudio plumbing (reuses the synth's AudioContext after the first user gesture)
   function mixer() {
     const a = Snd.ac; if (!a) return null; if (M.mix && M.mix.ctx === a) return M.mix;
     const mk = (n) => { const g = a.createGain(); g.connect(a.destination); return g; };
-    M.mix = { ctx: a, voice: mk(), sfx: mk(), ambience: mk() }; M.applyVolumes(); return M.mix;
+    M.mix = { ctx: a, voice: mk(), sfx: mk(), ambience: mk(), music: mk() }; M.applyVolumes(); return M.mix;
   }
-  M.applyVolumes = function () { const x = M.mix; if (!x) return; for (const c of ['voice', 'sfx', 'ambience']) x[c].gain.value = (M.muted.master || M.muted[c]) ? 0 : M.vol.master * M.vol[c]; if (Snd.master && Snd.master.gain) Snd.master.gain.value = (M.muted.master || M.muted.sfx) ? 0 : Snd.master.gain.value; };
+  M.applyVolumes = function () { const x = M.mix; if (!x) return; for (const c of ['voice', 'sfx', 'ambience', 'music']) x[c].gain.value = (M.muted.master || M.muted[c] || (c === 'music' && !Snd.music)) ? 0 : M.vol.master * M.vol[c]; if (Snd.master && Snd.master.gain) Snd.master.gain.value = (M.muted.master || M.muted.sfx) ? 0 : Snd.master.gain.value; };
   M.setVolume = (cat, v) => { M.vol[cat] = Math.max(0, Math.min(1, +v)); M.applyVolumes(); safe(() => localStorage.setItem('mintman_vol', JSON.stringify(M.vol))); };
   M.mute = (cat, b) => { M.muted[cat === undefined ? 'master' : cat] = b === undefined ? true : !!b; M.applyVolumes(); };
   safe(() => { const v = JSON.parse(localStorage.getItem('mintman_vol') || 'null'); if (v) Object.assign(M.vol, v); });
@@ -136,10 +138,31 @@ const MMAudio = (function () {
   M.roomAmbienceId = (roomId) => ROOM_AMBIENCE[roomId] || null;
   M.ROOM_AMBIENCE = ROOM_AMBIENCE;
 
+  // ---- MUSIC: generated lo-fi tracks (assets/audio/music), one looping track per mood, crossfaded; the synth chiptune stays as the fallback.
+  // scene -> track id comes from music_manifest.json ("scenes"); the track follows the room, Mint Mode / the HALO boss (tension) and the ending.
+  M.musicMap = {}; M.mus = null; M.musOn = false; M.musWant = null;
+  M.musicScene = function () {
+    if (!G.started) return 'title'; const S = G.S; if (!S || !S.room) return 'title'; const f = S.f || {};
+    if (G.endMint || G.postcredit || G.gameComplete || f.end_vend) return 'ending';
+    if (S.mintOn || (f.boss_started && !f.boss_done)) return 'tension';
+    return S.room;
+  };
+  M.setMusic = function (scene, fadeSec) {
+    safe(() => {
+      const id = M.musicMap[scene] || M.musicMap.default; const e = id && M.byMusic && M.byMusic.get(id); const a = Snd.ac; if (!a || !e || !e.file) return; mixer(); const f = fadeSec === undefined ? 2.5 : fadeSec;
+      if (M.musWant === e.id) return; M.musWant = e.id;
+      load(e.file).then((buf) => { if (!buf) { M.musWant = null; if (!M.mus) M.musOn = false; return; } if (M.musWant !== e.id) return;
+        const old = M.mus; M.mus = null;   // the previous track keeps playing until the next one is decoded (no silent gap), then they cross-fade
+        if (old) { const t0 = a.currentTime; old.g.gain.cancelScheduledValues(t0); old.g.gain.setValueAtTime(old.g.gain.value, t0); old.g.gain.linearRampToValueAtTime(0, t0 + f); setTimeout(() => safe(() => old.s.stop()), f * 1000 + 100); }
+        const n = playBuf(buf, 'music', 0, true); if (!n) return; const t = a.currentTime; n.g.gain.setValueAtTime(0, t); n.g.gain.linearRampToValueAtTime(e.volume === undefined ? .5 : e.volume, t + f); M.mus = { id: e.id, s: n.s, g: n.g }; M.musOn = true; });
+    });
+  };
+  M.stopMusic = function (fade) { safe(() => { const o = M.mus; M.mus = null; M.musWant = null; if (o) { const a = Snd.ac, t = a.currentTime; o.g.gain.linearRampToValueAtTime(0, t + (fade || .5)); setTimeout(() => safe(() => o.s.stop()), (fade || .5) * 1000 + 100); } }); };
+
   // ---- wiring (no engine edits needed): wrap Snd.unlock / Snd.play, watch the current room
-  const _unlock = Snd.unlock.bind(Snd); Snd.unlock = function () { _unlock(); safe(() => { if (Snd.ac) { mixer(); M.loadManifests().then(() => { M.preload('sfx'); M.setRoomAmbience(M.ambRoom); }); } }); };
+  const _unlock = Snd.unlock.bind(Snd); Snd.unlock = function () { _unlock(); safe(() => { if (Snd.ac) { mixer(); M.loadManifests().then(() => { M.preload('sfx'); M.setRoomAmbience(M.ambRoom); M.setMusic(M.musicScene(), 1); }); } }); };
   const _play = Snd.play.bind(Snd); Snd.play = function (name) { if (!G.fast && M.sfx(name)) return; return _play(name); };
-  setInterval(() => safe(() => { if (!G.started || !G.S || !G.S.room) return; if (G.S.room !== M.ambRoom) { M.ambRoom = G.S.room; M.setRoomAmbience(G.S.room); } }), 300);
+  setInterval(() => safe(() => { if (Snd.ac && M.ready) M.setMusic(M.musicScene()); M.applyVolumes(); if (!G.started || !G.S || !G.S.room) return; if (G.S.room !== M.ambRoom) { M.ambRoom = G.S.room; M.setRoomAmbience(G.S.room); } }), 300);
   M.loadManifests();
   return M;
 })();

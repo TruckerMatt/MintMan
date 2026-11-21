@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "description": "Generated lo-fi music (ElevenLabs eleven_music_v2_5, instrumental prompts), loudness-matched seamless loops. The runtime picks one track per scene; unknown scenes use 'default'. The WebAudio chiptune remains the fallback when these files are missing.",
+  "entries": [
+    { "id": "mus_theme", "file": "assets/audio/music/theme.mp3", "volume": 0.5, "loop": true, "mood": "title / main theme: mellow warehouse ambient" },
+    { "id": "mus_office", "file": "assets/audio/music/office.mp3", "volume": 0.5, "loop": true, "mood": "break room, offices: cozy Rhodes lo-fi" },
+    { "id": "mus_floor", "file": "assets/audio/music/floor.mp3", "volume": 0.5, "loop": true, "mood": "warehouse floor and docks: dub pulse" },
+    { "id": "mus_yard", "file": "assets/audio/music/yard.mp3", "volume": 0.5, "loop": true, "mood": "yard, smoke shelter, drain: airy dusk" },
+    { "id": "mus_tension", "file": "assets/audio/music/tension.mp3", "volume": 0.5, "loop": true, "mood": "Mint Mode, tunnel, suite, HALO boss" },
+    { "id": "mus_ending", "file": "assets/audio/music/ending.mp3", "volume": 0.5, "loop": true, "mood": "ending / credits" }
+  ],
+  "scenes": {
+    "default": "mus_floor", "title": "mus_theme", "ending": "mus_ending", "tension": "mus_tension",
+    "break": "mus_office", "lockers": "mus_office", "shipoffice": "mus_office", "ops": "mus_office", "hr": "mus_office", "mgmt": "mus_office", "gordoncall": "mus_office",
+    "floor": "mus_floor", "staging": "mus_floor", "parts": "mus_floor", "charging": "mus_floor", "racks": "mus_floor", "inbound": "mus_floor", "outbound": "mus_floor",
+    "yard": "mus_yard", "smoke": "mus_yard", "drain": "mus_yard", "remote": "mus_yard",
+    "tunnel": "mus_tension", "suite": "mus_tension"
+  }
+}

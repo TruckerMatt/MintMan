@@ -72,3 +72,6 @@ Tiers: **A ready 911** (generate=true) · **B quoted narration 118** (pending ap
 * Audition everything in `listen.html` (voices + SFX).
 
 > Note: the remaining-rooms graphics pass (GRAPHICS_MIGRATION_NOTES.md §13) did not touch the audio system, assets, manifests or ledgers.
+
+## Music (generated tracks replace the chiptune)
+`assets/audio/music/*.mp3` + `assets/audio/manifests/music_manifest.json`: six instrumental lo-fi loops generated with ElevenLabs `eleven_music_v2_5` (theme, office, floor, yard, tension, ending), loudness-matched to -23 LUFS and cross-faded so the loop has no seam (`tools/audio/process_music.sh`). `MMAudio.musicScene()` picks the scene (title, room, `tension` for Mint Mode / HALO boss, `ending`), `music_manifest.json` `scenes` maps it to a track, tracks cross-fade over 2.5 s and the old track keeps playing until the new one is decoded. A dedicated `music` bus honours `MMAudio.setVolume('music', v)`, `mute('music')` and the N key. The WebAudio chiptune in `audio.js` stays as the fallback (no manifest, file:// or failed load). Test: `tests/music.js`. The raw generator downloads are not kept; re-generate from the prompts in the commit message / flow if a track needs replacing.
