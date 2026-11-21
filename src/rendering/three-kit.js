@@ -90,7 +90,7 @@ MM3.envKit = function (K) {
     for (const dx of [-9, 6]) for (const dz of [-6.6, 6.6]) { [a, b] = X(dx - 3, dx + 3); box(g, a, b, z + dz - 1.2, z + dz + 1.2, 0, 6, dk); }   // wheels
     [a, b] = X(10, 12); box(g, a, b, z - 5, z + 5, 4, 26, st);                    // mast
     for (const dz of [-3, 3]) { [a, b] = X(10, 24); box(g, a, b, z + dz - 1, z + dz + 1, 2, 3.4, st); }   // forks
-    [a, b] = X(-12, -9); K.keep(true); const bl = box(g, a, b, z - 1.2, z + 1.2, 31.6, 33, emi('#ff9a20', 1.4), { cast: false }); K.keep(false); if (o.ctx) o.ctx.anim.push((t) => { bl.visible = Math.sin(t * 6) > 0; });   // beacon
+    [a, b] = X(-12, -9); K.keep(true); const bl = box(g, a, b, z - 1.2, z + 1.2, 31.6, 33, emi('#ff9a20', 1.4), { cast: false }); K.keep(false); if (o.ctx) o.ctx.anim.push((t) => { bl.scale.setScalar(Math.sin(t * 6) > 0 ? 1 : .001); });   // scale (not visible) so the geometry is always uploaded: stable GPU resource counts   // beacon
     return;
   };
   E.palletJack = (g, o) => { const d = o.dir || 1, x = o.x, z = o.z, m = M(C.red), dk = M(C.dark); const X = (a, b) => d > 0 ? [x + a, x + b] : [x - b, x - a]; let [a, b] = X(0, 18); for (const dz of [-3.4, 1.8]) box(g, a, b, z + dz, z + dz + 1.6, 1, 3, m); [a, b] = X(-2, 2); box(g, a, b, z - 3.4, z + 3.4, 2, 5, m); [a, b] = X(-2, 0); box(g, a, b, z - .5, z + .5, 5, 20, dk); [a, b] = X(-5, 0); box(g, a, b, z - 2.4, z + 2.4, 18, 20.4, dk); };

@@ -26,19 +26,26 @@ MM3.makeKit = function (T) {
   // ---- static batch merge (draw-call budget)
     function mergeStatic(parent) {
       const list = STATIC.splice(0); parent.updateMatrixWorld(true); const buckets = new Map();
-      for (const m of list) { if (!m.parent) continue; const k = m.material.uuid + '|' + m.castShadow + '|' + m.receiveShadow; if (!buckets.has(k)) buckets.set(k, []); buckets.get(k).push(m); }
+      for (const m of list) { if (!m.parent) continue; const mt = m.material; const plain = !mt.map && !mt.emissiveMap && !(mt.emissiveIntensity > 0 && mt.emissive && mt.emissive.getHex() !== 0) && !mt.vertexColors && !mt.alphaTest;
+        // plain-colour materials share ONE vertex-coloured material per (roughness, metalness, transparency): colours are baked into the vertices (fewer buckets -> fewer draw calls, both passes)
+        const k = plain ? ['vc', mt.roughness, mt.metalness, mt.transparent, mt.opacity, mt.flatShading, m.castShadow, m.receiveShadow].join('|') : mt.uuid + '|' + m.castShadow + '|' + m.receiveShadow;
+        if (!buckets.has(k)) buckets.set(k, []); buckets.get(k).push(m); }
       let before = 0, after = 0;
       for (const arr of buckets.values()) {
         before += arr.length; if (arr.length < 2) { after += arr.length; continue; }
         let nv = 0, ni = 0; for (const m of arr) { nv += m.geometry.attributes.position.count; ni += m.geometry.index.count; }
         const pos = new Float32Array(nv * 3), nor = new Float32Array(nv * 3), uv = new Float32Array(nv * 2), idx = new Uint32Array(ni); let vo = 0, io = 0; const v = new T.Vector3(), nm = new T.Matrix3();
+        const vcol = arr[0].material.vertexColors || arr[0].material.map || arr[0].material.emissiveMap || arr[0].material.alphaTest ? false : (arr[0].material.emissiveIntensity > 0 && arr[0].material.emissive && arr[0].material.emissive.getHex() !== 0 ? false : true);
+        const col = vcol ? new Float32Array(nv * 3) : null;
         for (const m of arr) {
+          if (col) { const c = m.material.color; for (let i = 0, n = m.geometry.attributes.position.count; i < n; i++) col.set([c.r, c.g, c.b], (vo + i) * 3); }
           nm.getNormalMatrix(m.matrixWorld); const g = m.geometry, p = g.attributes.position, n = g.attributes.normal, u = g.attributes.uv;
           for (let i = 0; i < p.count; i++) { v.fromBufferAttribute(p, i).applyMatrix4(m.matrixWorld); pos.set([v.x, v.y, v.z], (vo + i) * 3); v.fromBufferAttribute(n, i).applyMatrix3(nm).normalize(); nor.set([v.x, v.y, v.z], (vo + i) * 3); uv.set([u.getX(i), u.getY(i)], (vo + i) * 2); }
           for (let j = 0; j < g.index.count; j++) idx[io + j] = g.index.getX(j) + vo; vo += p.count; io += g.index.count; m.parent.remove(m); g.dispose();
         }
         const geo = new T.BufferGeometry(); geo.setAttribute('position', new T.BufferAttribute(pos, 3)); geo.setAttribute('normal', new T.BufferAttribute(nor, 3)); geo.setAttribute('uv', new T.BufferAttribute(uv, 2)); geo.setIndex(new T.BufferAttribute(idx, 1));
-        const mesh = new T.Mesh(geo, arr[0].material); mesh.castShadow = arr[0].castShadow; mesh.receiveShadow = arr[0].receiveShadow; parent.add(mesh); after++;
+        if (col) geo.setAttribute('color', new T.BufferAttribute(col, 3));
+        const m0 = arr[0].material; const mesh = new T.Mesh(geo, col ? vcBucketMat(m0) : m0); mesh.castShadow = arr[0].castShadow; mesh.receiveShadow = arr[0].receiveShadow; parent.add(mesh); after++;
       }
       return { before, after };
     }
@@ -53,7 +60,9 @@ MM3.makeKit = function (T) {
     });
     if (g.parent) g.parent.remove(g);
   }
-  function matCache_has(m) { return m === vcMat || Object.values(matCache).includes(m) || Object.values(catMats).includes(m); }
+  const vcBuckets = {};
+  function vcBucketMat(m0) { const k = [m0.roughness, m0.metalness, m0.transparent, m0.opacity, m0.flatShading].join('|'); return vcBuckets[k] || (vcBuckets[k] = new T.MeshStandardMaterial({ color: '#ffffff', vertexColors: true, roughness: m0.roughness, metalness: m0.metalness, flatShading: m0.flatShading, transparent: m0.transparent, opacity: m0.opacity })); }
+  function matCache_has(m) { return m === vcMat || Object.values(vcBuckets).includes(m) || Object.values(matCache).includes(m) || Object.values(catMats).includes(m); }
   // ---- characters
     const lerpAng = (a, b, k) => { let d = ((b - a + Math.PI) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI) - Math.PI; return a + d * k; };
     // bake a bone's static boxes into ONE vertex-coloured mesh (characters have ~40 tiny boxes; this keeps draw calls low). Parts flagged keep stay separate.
@@ -147,12 +156,23 @@ MM3.makeKit = function (T) {
       const stripes = [lbox(g, -1.4, -.8, 0, 1, -1, 1, cmat('#a85a10'), { noCast: true }), lbox(g, .4, 1, 0, 1, -1, 1, cmat('#a85a10'), { noCast: true })];
       return { root, g, head, tail, segs, legs, stripes, P, pose: null, seedKey: null, ang: 0 };
     }
+    // draw-call budget: the static head boxes (skull, ears, nose) are merged into ONE vertex-coloured mesh at (re)style time; the source boxes stay hidden (never drawn)
+    function bakeCatHead(c) {
+      if (c.headBake) { c.head.remove(c.headBake); c.headBake.geometry.dispose(); c.headBake = null; }
+      const parts = [c.P.head, c.P.earL, c.P.earR, c.P.nose]; let nv = 0, ni = 0; for (const m of parts) { nv += m.geometry.attributes.position.count; ni += m.geometry.index.count; }
+      const pos = new Float32Array(nv * 3), nor = new Float32Array(nv * 3), col = new Float32Array(nv * 3), idx = new Uint32Array(ni); let vo = 0, io = 0; const v = new T.Vector3(), nm = new T.Matrix3();
+      for (const m of parts) { m.updateMatrix(); nm.getNormalMatrix(m.matrix); const g = m.geometry, p = g.attributes.position, n = g.attributes.normal, cc = m.material.color;
+        for (let i = 0; i < p.count; i++) { v.fromBufferAttribute(p, i).applyMatrix4(m.matrix); pos.set([v.x, v.y, v.z], (vo + i) * 3); v.fromBufferAttribute(n, i).applyMatrix3(nm).normalize(); nor.set([v.x, v.y, v.z], (vo + i) * 3); col.set([cc.r, cc.g, cc.b], (vo + i) * 3); }
+        for (let j = 0; j < g.index.count; j++) idx[io + j] = g.index.getX(j) + vo; vo += p.count; io += g.index.count; m.visible = false; }
+      const geo = new T.BufferGeometry(); geo.setAttribute('position', new T.BufferAttribute(pos, 3)); geo.setAttribute('normal', new T.BufferAttribute(nor, 3)); geo.setAttribute('color', new T.BufferAttribute(col, 3)); geo.setIndex(new T.BufferAttribute(idx, 1));
+      const mesh = new T.Mesh(geo, vcMat); mesh.castShadow = true; mesh.receiveShadow = true; c.head.add(mesh); c.headBake = mesh;
+    }
     function styleCat(c, seed) {
       const cc = CAT_COLS[Math.floor(rnd(seed + 1) * CAT_COLS.length)]; const eye = ['#ffe040', '#60ff60', '#ffffff'][Math.floor(rnd(seed + 4) * 3)];
       const a = cmat(cc[0]), b = cmat(cc[1]);
       for (const k of ['body', 'head', 'earL', 'earR', 't0', 't1', 't2']) c.P[k].material = a;
       c.P.t2.material = rnd(seed + 5) > .5 ? b : a; c.P.lidL.material = b; c.P.lidR.material = b; for (const l of c.legs) l.material = a;
-      c.stripes.forEach(s => { s.visible = rnd(seed + 5) > .6; s.material = b; });
+      c.stripeOn = rnd(seed + 5) > .6; c.stripes.forEach(s => { s.visible = c.stripeOn; s.material = b; }); bakeCatHead(c);
       for (const e of [c.P.eyeL, c.P.eyeR]) { e.material = e.material.clone(); e.material.color.set(eye); e.material.emissive.set(eye); }
       c.face = rnd(seed + 3) > .5 ? 1 : -1; c.seedKey = seed;
     }

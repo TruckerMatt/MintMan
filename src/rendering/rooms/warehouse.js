@@ -93,7 +93,7 @@ window.MM3 = window.MM3 || { rooms: {} };
         K.keep(true); leds.push([box(g, x + 6, x + 10, WY + 9.5, WY + 10.1, 28, 34, emi(i % 2 ? '#3aff6a' : '#ff3a2a', 1.3), { cast: false }), box(g, x + 12, x + 16, WY + 9.5, WY + 10.1, 28, 34, emi('#e2bd24', 1.3), { cast: false })]); K.keep(false);
         box(g, x + 4, x + 7, WY + 9, WY + 16, 0, 12, mat('#2a2c32'));   // cable stub
       }
-      ctx.anim.push((t) => { leds.forEach(([a, b], i) => { a.visible = Math.sin(t * 2 + i) > -.6; b.visible = Math.sin(t * 3 + i * 2) > 0; }); });
+      ctx.anim.push((t) => { leds.forEach(([a, b], i) => { a.scale.setScalar(Math.sin(t * 2 + i) > -.6 ? 1 : .001); b.scale.setScalar(Math.sin(t * 3 + i * 2) > 0 ? 1 : .001); }); });
       for (const x of [14, 296]) E.bollard(g, x, 134, 14);
     },
     props: {
@@ -155,7 +155,7 @@ window.MM3 = window.MM3 || { rooms: {} };
       graffiti(K) { const E = MM3.envKit(K), g = new K.T.Group(); E.sign(g, { x: 105, z: 105, h: 66, w: 90, hh: 22, text: ['PRUDENCE WAS HERE', '(officially)'], bg: '#1a1a22', fg: '#c08040', border: false, size: 12, off: 0 }); return g; },
       conv9(K, p, ctx) {   // conveyor 9: belt with rollers, running when its flag says so (visual only)
         const { T, mat, box } = K, g = new T.Group(); box(g, 0, 320, 106, 124, 3, 5, mat('#2a2a30'));
-        K.keep(true); const rolls = []; for (let x = 4; x < 320; x += 8) rolls.push(box(g, x, x + 3, 106.5, 123.5, 5, 6.4, mat(x % 16 ? '#5a5e66' : '#3a3e46'))); K.keep(false);
+        for (let x = 4; x < 320; x += 8) box(g, x, x + 3, 106.5, 123.5, 5, 6.4, mat(x % 16 ? '#5a5e66' : '#3a3e46'));   // static rollers (merged)
         for (let x = 0; x < 320; x += 40) box(g, x, x + 2, 106, 124, 0, 3, mat('#3a3a44')); box(g, 0, 320, 106, 107, 5, 9, mat('#c8a820')); box(g, 0, 320, 123, 124, 5, 8, mat('#c8a820'));
         return g;
       },

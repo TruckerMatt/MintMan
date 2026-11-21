@@ -69,7 +69,8 @@ window.MM3 = window.MM3 || { rooms: {} };
   MM3.loadThreeRoom = function (id) {
     MM3.disposeThreeRoom();
     const group = new T.Group(); X.scene.add(group);
-    let def = MM3.rooms[id]; if (typeof def === 'function') def = def(); else if (!def) def = MM3.autoRoom(id);   // rooms[id] may be a hand-built module or a factory
+    let def = MM3.rooms[id]; if (MM3.forceGeneric && id !== 'break') def = null;   // ?generic=1: bypass hand-modelled rooms (measurement / regression comparison)
+    if (typeof def === 'function') def = def(); else if (!def) def = MM3.autoRoom(id);   // rooms[id] may be a hand-built module or a factory
     applyLights(def.lights);
     def.build(K, group, X);
     cur = { id, group, def }; perf.rooms++;
@@ -141,7 +142,9 @@ window.MM3 = window.MM3 || { rooms: {} };
       const dx = S.jx - cd.x; const toward = (dx * c.face) < 0 ? 1 : 0; const yaw = pose === 'sleep' ? 0 : (Math.sin(t * .4 + cd.seed) > .55 ? (toward ? .9 : -.6) : 0);
       c.head.rotation.y += (yaw - c.head.rotation.y) * .08;
       const flick = Math.sin(t * 1.6 + cd.seed * 2.1) > .8 ? 1 : 0.1; c.segs.forEach((sg, k) => { sg.rotation.y = Math.sin(t * (2.2 + flick * 6) + k * .8 + cd.seed) * (.18 + flick * .35) * (k + 1) * .6; });
-      const lid = pose === 'sleep' ? 1 : (.35 + .3 * (Math.sin(t * .23 + cd.seed) > .93 ? 1 : 0)); c.P.lidL.scale.y = c.P.lidR.scale.y = lid + .01; c.P.eyeL.visible = c.P.eyeR.visible = c.P.pupL.visible = c.P.pupR.visible = pose !== 'sleep';
+      const lid = pose === 'sleep' ? 1 : (.35 + .3 * (Math.sin(t * .23 + cd.seed) > .93 ? 1 : 0)); c.P.lidL.scale.y = c.P.lidR.scale.y = lid + .01;
+      const near = i < 8;   // cat LOD (draw-call budget): only the 8 first cats keep eyes / lids / stripes; the rest are body + merged head + tail + legs
+      c.P.eyeL.visible = c.P.eyeR.visible = c.P.pupL.visible = c.P.pupR.visible = near && pose !== 'sleep'; c.P.lidL.visible = c.P.lidR.visible = near; for (const s of c.stripes) s.visible = near && c.stripeOn;
     }
     // --- Mint Mode (visual only; driven by S.mintOn / S.mint). Time-based ramp.
     const dtv = Math.min(.1, Math.max(0, t - (X.lastT === undefined ? t : X.lastT))); X.lastT = t;

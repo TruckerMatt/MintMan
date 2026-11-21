@@ -8,6 +8,7 @@
   const THREE_URL = window.MM3_THREE_URL || ('https://cdn.jsdelivr.net/npm/three@' + THREE_VERSION + '/build/three.module.js');   // pinned; point at a local copy for offline/itch.io builds
   const qs = new URLSearchParams(location.search);
   window.MM_RENDERER = qs.get('renderer') === 'classic' ? 'classic' : 'three';            // 'three' | 'classic'  (dev toggle: F8)
+  MM3.forceGeneric = qs.get('generic') === '1';
   window.MM_HOTSPOTS = qs.get('hotspots') === '1';                                        // hotspot debug overlay (dev toggle: F9)
   window.MM_CLASSIC_ROOMS = new Set((qs.get('classicrooms') || '').split(',').filter(Boolean));   // rooms forced to the classic renderer
   for (const [alias, real] of [['BREAKROOM_RENDERER', 'MM_RENDERER'], ['BREAKROOM_HOTSPOTS', 'MM_HOTSPOTS']]) Object.defineProperty(window, alias, { get: () => window[real], set: (v) => { window[real] = v; } });   // names used by the first prototype
