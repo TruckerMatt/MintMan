@@ -15,6 +15,9 @@ for e in E:
 sl = json.load(open(MAN / 'sfx_generation_log.json'))['entries']
 for name, x in sorted(sl.items()):
     if x.get('status') == 'QA_REQUIRED': rows.append({'id': name, 's': 'SFX', 'v': 'clean set (gain-matched)', 'sc': x['id'], 't': x['prompt'].split('. ')[0], 'tt': '', 'f': x['file'], 'd': round(x.get('duration_secs') or 0, 1), 'fl': [], 'q': 20000, 'ch': 'normal', 'p': '', 'si': 0})
+al = json.load(open(MAN / 'ambience_generation_log.json'))['entries']
+for name, x in sorted(al.items()):
+    if x.get('status') == 'QA_REQUIRED': rows.append({'id': name, 's': 'AMBIENCE', 'v': 'looping bed (level-matched)' + (' - LOW SOURCE LEVEL, boosted %s dB' % x['gain_db'] if x.get('boosted_low_source') else ''), 'sc': name, 't': x['prompt'].split('. ')[0], 'tt': '', 'f': x['file'], 'd': round(x.get('duration_secs') or 0, 1), 'fl': ['boosted from a very quiet source: check for hiss'] if x.get('boosted_low_source') else [], 'q': 21000, 'ch': 'normal', 'p': '', 'si': 0})
 rows.sort(key=lambda r: (r['q'], r['si']))
 page = r'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>MINT MAN voice audition</title><meta name="viewport" content="width=device-width,initial-scale=1">
 <style>

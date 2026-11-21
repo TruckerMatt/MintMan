@@ -11,7 +11,7 @@ const registry = JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/audio/id_regi
 const speakers = new Set(Object.keys(fs.readdirSync(path.join(ROOT, 'assets/audio/voice')).reduce((o, d) => (o[d.toUpperCase()] = 1, o), {})));
 for (const kind of ['voice', 'sfx', 'ambience']) {
   const m = read(kind + '_manifest.json'); const seen = new Set(); let withFile = 0, textMiss = 0;
-  if (m.version !== 1 && !((kind === 'voice' || kind === 'sfx') && m.version === 2)) warn(kind + ': unexpected manifest version ' + m.version);
+  if (m.version !== 1 && m.version !== 2) warn(kind + ': unexpected manifest version ' + m.version);
   for (const e of m.entries) {
     if (!e.id) { err(kind + ': entry without id'); continue; } if (seen.has(e.id)) err(kind + ': duplicate id ' + e.id); seen.add(e.id);
     if (e.file) { withFile++; if (!fs.existsSync(path.join(ROOT, e.file))) (strict ? err : warn)(kind + ': file not found for ' + e.id + ' -> ' + e.file); }

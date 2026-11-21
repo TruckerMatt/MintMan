@@ -1,0 +1,22 @@
+{
+ "style": "clean steady room tone, seamless loop, no music, no intelligible speech, no sudden loud events, low-key background bed; recorded at a normal, clearly audible level, not near-silent",
+ "duration": 20,
+ "items": {
+  "breakroom_hum": "Quiet office break room: steady fluorescent light hum with a faint refrigerator compressor hum underneath, very subtle",
+  "warehouse_floor": "Large warehouse interior: distant forklift engines, faint far-off reversing beeps, low HVAC rumble, big echoing space",
+  "locker_room": "Steady ventilation fan hum and faint reverberant room tone in a tiled locker room, audible and constant",
+  "shipping_office": "Small shipping office: quiet computer fan hum, faint distant keyboard tapping, air conditioning",
+  "operations_office": "Steady computer-fan and air-conditioning hum in a control office with a faint muffled radio static underneath, audible and constant",
+  "hr_office": "Continuous soft air-conditioning airflow hiss and a low steady hum in a carpeted corporate office, audible and constant, with a faint wall clock ticking",
+  "warehouse_parts": "Parts storage area in a warehouse: faint hum of lights, distant forklift, low room rumble",
+  "charging_bay": "Forklift battery charging bay: electrical transformer hum, soft relay clicks, low electric buzz",
+  "warehouse_racks": "Tall warehouse racking aisle: big quiet space room tone, far-off metallic clank, low ventilation",
+  "tunnel_drone": "Underground service tunnel: low dark drone, far-off dripping water, faint conveyor ticking, subtly eerie",
+  "warehouse_staging": "Warehouse staging area: distant pallet jack wheels, soft plastic wrap crinkle, low rumble",
+  "loading_dock": "Loading dock: distant truck engines idling, soft air brake hiss, metal dock plate rattle, steady",
+  "yard_exterior": "Outdoor industrial truck yard: steady wind, distant truck engines, distant reversing beepers, a few birds",
+  "regional_lobby": "Steady soft ventilation airflow and a low constant hum in a large marble corporate lobby",
+  "regional_suite": "Executive suite: near-silent room tone with the subtle electronic hum of a very large screen and faint data blips",
+  "phone_line": "Telephone call line: faint steady line hiss with a low hum"
+ }
+}
