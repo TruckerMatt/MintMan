@@ -65,9 +65,9 @@
    "chars": 2559
   },
   "TUCKER": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "OwEAPhTFInN6VSRT9QXm",
+   "voice_name": "Jordan - Warm & Gritty",
+   "status": "locked",
    "settings_override": null,
    "jobs": 27,
    "chars": 2236

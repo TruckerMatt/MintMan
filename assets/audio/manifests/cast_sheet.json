@@ -353,8 +353,8 @@
    "voice_direction": "Eager, enthusiastic, extremely willing to help; accidentally chaotic.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "round 2: Liam/Charlie rejected; candidates Sheldon, Ben Young Man, Jordan",
+   "elevenlabs_voice_id": "OwEAPhTFInN6VSRT9QXm",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_tucker_96f5cb8f77",
@@ -398,7 +398,8 @@
      "name": "Jordan",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Jordan - Warm & Gritty"
   },
   {
    "speaker": "HALVORSEN",

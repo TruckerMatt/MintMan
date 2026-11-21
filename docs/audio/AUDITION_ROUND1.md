@@ -29,3 +29,4 @@ Hollis = **James** (cloned, voice_id EOuQOMUPQiYCUjY028Ro) — locked.
 Locked: NARRATOR=Daniel - Steady Broadcaster, SCANNER=Vector - Tec Voice, PRUDENCE=Jessica, BRUNO=Rich - Southern US, INGRID=Matilda, HALVORSEN=Will, RUFUS=Callum, TORVALD=Brian, HARROW=Lily, GORDON=Adam, TABITHA=Hollie Sue, OZZIE=Topher, RENATA=Hollie - Kind, Enthusiastic, SYSTEM=The Curator, TABLET=AGEIS-7 4/10, RADIO=Eric, GUS=Bill, HOLLIS=James (cloned).
 Tucker: Liam and Charlie rejected -> round 2 (Sheldon, Ben Young Man, Jordan).
 Note: Daniel, Callum... each used once; Lily is Harrow only (Matilda is Ingrid).
+Tucker = Jordan (OwEAPhTFInN6VSRT9QXm), locked. All 19 speakers now have voices.
