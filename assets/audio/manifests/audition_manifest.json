@@ -8,8 +8,8 @@
    "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
    "lines": [
     {
-     "id": "vo_narrator_a6814eb32c",
-     "text": "The trailer is seated. Pushing it would be a strange way to celebrate.",
+     "id": "vo_narrator_966368e222",
+     "text": "Gus is bigger than the door he guards. Hollis leaves him where he is.",
      "line_direction": ""
     },
     {
@@ -393,8 +393,8 @@
      "line_direction": ""
     },
     {
-     "id": "vo_system_6b4e33295b",
-     "text": "The label and the freight have never met. ${p.dest === 'ship' ? 'It matches the Kestrel order.' : 'It is not on the Kestrel order.'}",
+     "id": "vo_system_5b443afe90",
+     "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
      "line_direction": ""
     }
    ]

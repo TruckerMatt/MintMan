@@ -1,11 +1,11 @@
 # Cast sheet (voice audition brief)
 
-Generated 2026-11-21. 19 speakers, 1058 recordable lines (911 tier-A ready), 91,043 characters. **No voices assigned yet.**
+Generated 2026-11-21. 19 speakers, 1040 recordable lines (896 tier-A ready), 89,552 characters. **No voices assigned yet.**
 
 | speaker | role | lines (ready) | characters (ready) | channels | device voice |
 |---|---|---|---|---|---|
-| NARRATOR | Omniscient narrator (most lines) | 545 (457) | 52,833 (40,912) | normal 545 |  |
-| SCANNER | Handheld scanner device | 62 (27) | 6,163 (2,573) | normal 62 | yes |
+| NARRATOR | Omniscient narrator (most lines) | 533 (445) | 51,902 (39,981) | normal 533 |  |
+| SCANNER | Handheld scanner device | 58 (26) | 5,762 (2,441) | normal 58 | yes |
 | HOLLIS | Protagonist, warehouse lead | 109 (108) | 3,802 (3,695) | normal 109 |  |
 | PRUDENCE | Terminated employee who never left | 36 (32) | 3,148 (2,747) | normal 36 |  |
 | BRUNO | Lead loader, outbound docks | 32 (31) | 2,945 (2,850) | radio 6, normal 26 |  |
@@ -19,7 +19,7 @@ Generated 2026-11-21. 19 speakers, 1058 recordable lines (911 tier-A ready), 91,
 | TABITHA | HR | 19 (16) | 1,435 (1,036) | normal 19 |  |
 | OZZIE | Remote-site contact | 14 (13) | 1,296 (1,222) | normal 14 |  |
 | RENATA | Whisker Ridge cat rescue | 17 (16) | 1,276 (1,255) | normal 15, phone 2 |  |
-| SYSTEM | Corporate system voice | 18 (14) | 1,182 (840) | normal 18 | yes |
+| SYSTEM | Corporate system voice | 16 (12) | 1,023 (681) | normal 16 | yes |
 | RADIO | Anonymous radio voice (Operations) | 4 (4) | 1,007 (1,007) | radio 4 | yes |
 | GUS | Security | 13 (13) | 909 (909) | normal 13 |  |
 | TABLET | HR tablet device | 1 (0) | 150 (0) | normal 1 | yes |
@@ -27,19 +27,19 @@ Generated 2026-11-21. 19 speakers, 1058 recordable lines (911 tier-A ready), 91,
 Radio/phone clips are recorded clean; the radio/phone filter is applied in-game later.
 
 ## NARRATOR
-*Omniscient narrator (most lines)* — 545 lines, 52,833 chars. Scenes: break, charging, drain, finale/multiple, floor, hr, inbound, inventory/interaction
+*Omniscient narrator (most lines)* — 533 lines, 51,902 chars. Scenes: break, charging, drain, finale/multiple, floor, hr, inbound, inventory/interaction
 
 **Direction:** Deadpan omniscient narrator; dry, observant, never sells the joke too hard.
 
 **Audition lines:**
-* `vo_narrator_a6814eb32c` — “The trailer is seated. Pushing it would be a strange way to celebrate.”
+* `vo_narrator_966368e222` — “Gus is bigger than the door he guards. Hollis leaves him where he is.”
 * `vo_narrator_656b9de08d` — “The dashboard begins to change. 100% becomes 8 of 8 shipped. 100% becomes 8 of 8 stored. Staging: 0. Cats: 214 (fed, safe, judgmental). T-9022: departed 11:59. F-2231: cushion-tire, here. RT-77: reach truck, remote. Every number is small, specific, and true.”
 * `vo_narrator_614bff3581` — “Click! The numbers on the back of that label were right.”
 
 **Voice:** _unassigned_
 
 ## SCANNER
-*Handheld scanner device* — 62 lines, 6,163 chars. Scenes: break, charging, drain, floor, hr, inbound, inventory/interaction, lockers
+*Handheld scanner device* — 58 lines, 5,762 chars. Scenes: break, charging, drain, floor, hr, inbound, inventory/interaction, lockers
 
 **Direction:** Dry handheld-device system voice; crisp, synthetic, mildly judgmental.
 
@@ -220,13 +220,13 @@ Radio/phone clips are recorded clean; the radio/phone filter is applied in-game 
 **Voice:** _unassigned_
 
 ## SYSTEM
-*Corporate system voice* — 18 lines, 1,182 chars. Scenes: inventory/interaction, multiple, shipoffice
+*Corporate system voice* — 16 lines, 1,023 chars. Scenes: inventory/interaction, multiple, shipoffice
 
 **Direction:** Neutral corporate system voice; precise, impersonal.
 
 **Audition lines:**
 * `vo_system_2fc181409e` — “F-2231 — PROPANE SIT-DOWN — location: TENNESSEE.”
-* `vo_system_6b4e33295b` — “The label and the freight have never met. ${p.dest === 'ship' ? 'It matches the Kestrel order.' : 'It is not on the Kestrel order.'}”
+* `vo_system_5b443afe90` — “a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.”
 
 **Voice:** _unassigned_
 

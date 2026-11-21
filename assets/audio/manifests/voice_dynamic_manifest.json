@@ -911,8 +911,10 @@
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "Every request creates work. That's the rule. You want the manifests? I want:",
+   "tts_text": "Every request creates work. That's the rule. You want the manifests? I want:",
+   "tts_notes": [],
    "chars": 76,
    "scene": "shipoffice",
    "category": "direct_say",
@@ -940,8 +942,10 @@
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "I can print a bill of lading that's true. But I need:",
+   "tts_text": "I can print a bill of lading that's true. But I need:",
+   "tts_notes": [],
    "chars": 53,
    "scene": "shipoffice",
    "category": "direct_say",
@@ -964,13 +968,44 @@
    ]
   },
   {
+   "id": "vo_narrator_9e7582179f",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Eight slots are designated for tonight's storage. Right now ${n} of them contain the correct freight, each one scanned into the right rack location.",
+   "tts_text": "Eight slots are designated for tonight's storage. Right now ${n} of them contain the correct freight, each one scanned into the right rack location.",
+   "tts_notes": [],
+   "chars": 148,
+   "scene": "racks",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_9e7582179f.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 309
+    }
+   ],
+   "legacy_lines": [
+    1083
+   ],
+   "review_reasons": []
+  },
+  {
    "id": "vo_narrator_2d3a8e5c8f",
    "speaker": "NARRATOR",
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "Still missing:",
+   "tts_text": "Still missing:",
+   "tts_notes": [],
    "chars": 14,
    "scene": "tunnel",
    "category": "direct_say",
@@ -993,13 +1028,162 @@
    ]
   },
   {
+   "id": "vo_narrator_3623f610f4",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Pallet ${p.code}, wrapped and labeled. The label says one thing. The pallet looks like it might mean another.",
+   "tts_text": "Pallet ${p.code}, wrapped and labeled. The label says one thing. The pallet looks like it might mean another.",
+   "tts_notes": [],
+   "chars": 109,
+   "scene": "staging",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_3623f610f4.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 343
+    }
+   ],
+   "legacy_lines": [
+    1117
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_narrator_49e0536f5c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Hollis slides the pallet jack under ${p.code}. It groans with mechanical trust.",
+   "tts_text": "Hollis slides the pallet jack under ${p.code}. It groans with mechanical trust.",
+   "tts_notes": [],
+   "chars": 79,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_49e0536f5c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 368
+    }
+   ],
+   "legacy_lines": [
+    1142
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_narrator_65aab10872",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Pallet ${p.code}: ${where === 'ship' ? 'OUTBOUND' : 'STORAGE'}. Correct. The scanner chirps a note of professional respect.",
+   "tts_text": "Pallet ${p.code}: ${where === 'ship'? 'OUTBOUND' : 'STORAGE'}. Correct. The scanner chirps a note of professional respect.",
+   "tts_notes": [],
+   "chars": 123,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_65aab10872.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 380
+    }
+   ],
+   "legacy_lines": [
+    1154
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_narrator_eaed493502",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Juno sniffs, lifts her head, and looks pointedly toward ${dir}. She has the scent. It is not here.",
+   "tts_text": "Juno sniffs, lifts her head, and looks pointedly toward ${dir}. She has the scent. It is not here.",
+   "tts_notes": [],
+   "chars": 98,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_eaed493502.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 429
+    }
+   ],
+   "legacy_lines": [
+    1205
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_narrator_70d0879e7c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "The outbound queue, at Door 3. ${sortedCount('ship')} of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "tts_text": "The outbound queue, at Door 3. ${sortedCount, 'ship'} of 8 Kestrel loads are lined up and waiting for a trailer to land.",
+   "tts_notes": [
+    "aside spoken:'ship'"
+   ],
+   "chars": 120,
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_70d0879e7c.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 446
+    }
+   ],
+   "legacy_lines": [
+    1222
+   ],
+   "review_reasons": []
+  },
+  {
    "id": "vo_narrator_68565f32aa",
    "speaker": "NARRATOR",
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "It could use:",
+   "tts_text": "It could use:",
+   "tts_notes": [],
    "chars": 13,
    "scene": "yard",
    "category": "direct_say",
@@ -1022,13 +1206,77 @@
    ]
   },
   {
+   "id": "vo_narrator_0461923979",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Hollis can't think of a way to USE the ${nm.toLowerCase()} by itself. Try USE ... ON something.",
+   "tts_text": "Hollis can't think of a way to USE the ${nm.toLowerCase} by itself. Try USE... ON something.",
+   "tts_notes": [
+    "removed action:"
+   ],
+   "chars": 95,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_0461923979.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 79
+    }
+   ],
+   "legacy_lines": [
+    1414
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_narrator_02b254c7cd",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "Hollis mutters something at the ${nm.toLowerCase()}. It does not answer. Fine.",
+   "tts_text": "Hollis mutters something at the ${nm.toLowerCase}. It does not answer. Fine.",
+   "tts_notes": [
+    "removed action:"
+   ],
+   "chars": 78,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_02b254c7cd.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 83
+    }
+   ],
+   "legacy_lines": [
+    1418
+   ],
+   "review_reasons": []
+  },
+  {
    "id": "vo_narrator_67432496cf",
    "speaker": "NARRATOR",
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "(Still needed:",
+   "tts_text": "(Still needed:",
+   "tts_notes": [],
    "chars": 14,
    "scene": "multiple",
    "category": "direct_say",
@@ -1051,13 +1299,73 @@
    ]
   },
   {
+   "id": "vo_narrator_6ba9435667",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": ".)",
+   "tts_text": ".)",
+   "tts_notes": [],
+   "chars": 2,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_6ba9435667.mp3",
+   "source": [
+    {
+     "file": "src/logic.js",
+     "line": 4
+    }
+   ],
+   "legacy_lines": [
+    1493
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_narrator_37d0e128d9",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": ", Act",
+   "tts_text": ", Act",
+   "tts_notes": [],
+   "chars": 5,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_37d0e128d9.mp3",
+   "source": [
+    {
+     "file": "src/engine.js",
+     "line": 2
+    }
+   ],
+   "legacy_lines": [
+    1591
+   ],
+   "review_reasons": []
+  },
+  {
    "id": "vo_narrator_c97e1b57fa",
    "speaker": "NARRATOR",
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "):",
+   "tts_text": "):",
+   "tts_notes": [],
    "chars": 2,
    "scene": "multiple",
    "category": "direct_say",
@@ -1085,8 +1393,10 @@
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "Reality integrity:",
+   "tts_text": "Reality integrity:",
+   "tts_notes": [],
    "chars": 18,
    "scene": "finale/multiple",
    "category": "direct_say",
@@ -1114,8 +1424,10 @@
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "There is nothing specific you need right now. Try talking to people again, or moving to a new location.",
+   "tts_text": "There is nothing specific you need right now. Try talking to people again, or moving to a new location.",
+   "tts_notes": [],
    "chars": 103,
    "scene": "multiple",
    "category": "direct_say",
@@ -1144,8 +1456,10 @@
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "(Other open objectives:",
+   "tts_text": "(Other open objectives:",
+   "tts_notes": [],
    "chars": 23,
    "scene": "multiple",
    "category": "direct_say",
@@ -1168,13 +1482,75 @@
    ]
   },
   {
+   "id": "vo_narrator_d9d07dc283",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": ". Press T for the to-do list.)",
+   "tts_text": ". Press T for the to-do list.)",
+   "tts_notes": [],
+   "chars": 30,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_d9d07dc283.mp3",
+   "source": [
+    {
+     "file": "src/logic.js",
+     "line": 94
+    }
+   ],
+   "legacy_lines": [
+    2128
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_narrator_a0efa8ceeb",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": ". (The panel at the bottom shows them, too.)",
+   "tts_text": ". The panel at the bottom shows them, too.",
+   "tts_notes": [
+    "aside spoken:the panel at the bottom shows "
+   ],
+   "chars": 44,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a0efa8ceeb.mp3",
+   "source": [
+    {
+     "file": "src/parser.js",
+     "line": 20
+    }
+   ],
+   "legacy_lines": [
+    2326
+   ],
+   "review_reasons": []
+  },
+  {
    "id": "vo_narrator_ed5d01fb86",
    "speaker": "NARRATOR",
    "channel": "normal",
    "tier": "D_blocked_dynamic",
    "generate": false,
-   "hold_reason": "Fragment of a runtime-assembled string; refactor first.",
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": "Hollis checks his pockets:",
+   "tts_text": "Hollis checks his pockets:",
+   "tts_notes": [],
    "chars": 26,
    "scene": "multiple",
    "category": "direct_say",
@@ -1195,6 +1571,192 @@
    "review_reasons": [
     "dynamic_fragment_not_asset_ready"
    ]
+  },
+  {
+   "id": "vo_scanner_4310fdd831",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "RACK STORAGE — ${sortedCount('store')}/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "tts_text": "RACK STORAGE — ${sortedCount, 'store'}/8 loads stored correctly. The scanner agrees with the rack. This is the first time this week.",
+   "tts_notes": [
+    "aside spoken:'store'"
+   ],
+   "chars": 132,
+   "scene": "racks",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_4310fdd831.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 309
+    }
+   ],
+   "legacy_lines": [
+    1083
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_scanner_f5c70bb808",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "PALLET ${p.code} — LABEL: \"${p.sys}\".",
+   "tts_text": "PALLET ${p.code} — LABEL: \"${p.sys}\".",
+   "tts_notes": [],
+   "chars": 37,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_f5c70bb808.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 359
+    }
+   ],
+   "legacy_lines": [
+    1133,
+    1134
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue",
+    "embedded_speaker_change"
+   ]
+  },
+  {
+   "id": "vo_scanner_6086b99c30",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "PALLET ${p.code} — ${p.real}. Label: \"${p.sys}\". Label matches freight. ${p.dest === 'ship' ? 'On the Kestrel PO.' : 'Not on the Kestrel PO.'}",
+   "tts_text": "PALLET ${p.code} — ${p.real}. Label: \"${p.sys}\". Label matches freight. ${p.dest === 'ship'? 'On the Kestrel PO.' : 'Not on the Kestrel PO.'}",
+   "tts_notes": [],
+   "chars": 142,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_6086b99c30.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 361
+    }
+   ],
+   "legacy_lines": [
+    1135
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ]
+  },
+  {
+   "id": "vo_scanner_4b181fa283",
+   "speaker": "SCANNER",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "${nm.toUpperCase()} — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "tts_text": "${nm.toUpperCase} — Asset: \"Item I Own\". Barcode: not applicable. Confidence: emotional.",
+   "tts_notes": [
+    "removed action:"
+   ],
+   "chars": 90,
+   "scene": "inventory/interaction",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/scanner/vo_scanner_4b181fa283.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 66
+    }
+   ],
+   "legacy_lines": [
+    1401
+   ],
+   "review_reasons": [
+    "embedded_quoted_dialogue"
+   ]
+  },
+  {
+   "id": "vo_system_12a1620a58",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "PHYSICAL TRUTH — ${p.real}.",
+   "tts_text": "PHYSICAL TRUTH — ${p.real}.",
+   "tts_notes": [],
+   "chars": 27,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/system/vo_system_12a1620a58.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 360
+    }
+   ],
+   "legacy_lines": [
+    1134
+   ],
+   "review_reasons": []
+  },
+  {
+   "id": "vo_system_6b4e33295b",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "tier": "D_blocked_dynamic",
+   "generate": false,
+   "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
+   "text": "The label and the freight have never met. ${p.dest === 'ship' ? 'It matches the Kestrel order.' : 'It is not on the Kestrel order.'}",
+   "tts_text": "The label and the freight have never met. ${p.dest === 'ship'? 'It matches the Kestrel order.' : 'It is not on the Kestrel order.'}",
+   "tts_notes": [],
+   "chars": 132,
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "voice_direction": "Neutral corporate system voice; precise, impersonal.",
+   "line_direction": "",
+   "post_fx": null,
+   "planned_file": "assets/audio/voice/system/vo_system_6b4e33295b.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 360
+    }
+   ],
+   "legacy_lines": [
+    1134
+   ],
+   "review_reasons": []
   }
  ],
  "candidates_file": "docs/audio/uncovered_candidates.csv"
