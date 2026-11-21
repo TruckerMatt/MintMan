@@ -10,17 +10,13 @@ Generated 2026-11-21 by `tools/audio/reconcile_package.py` from `tools/audio/pac
 
 ## Dynamic dialogue (75 expressions)
 
-* `finite_conditional/not_covered`: 2
-* `finite_conditional/ok`: 24
-* `finite_conditional/partial`: 3
+* `finite_conditional/not_covered`: 1
+* `finite_conditional/ok`: 28
 * `finite_other/not_covered`: 3
 * `finite_other/ok`: 2
-* `finite_random/not_covered`: 1
-* `finite_random/ok`: 10
-* `finite_random/partial`: 1
+* `finite_random/ok`: 12
 * `runtime_assembled/not_covered`: 4
-* `runtime_assembled/ok`: 24
-* `runtime_assembled/partial`: 1
+* `runtime_assembled/ok`: 25
 
 See `dynamic_resolution.csv` for every line and its required action.
 

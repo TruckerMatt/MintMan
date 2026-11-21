@@ -72,7 +72,7 @@ def is_flag(f): return bool(re.fullmatch(r'[a-z][a-z0-9_]*', f)) and ('_' in f o
 dyn_out = []
 for d in dyn:
     expr = d['expression']; frags = [x.strip() for x in d['literal_fragments'].split(' | ')]; lit = [f for f in frags if not is_flag(f) and len(f) > 14]
-    covered = [f for f in lit if norm(re.sub(r'^[A-Z][A-Z ]{1,10}: ', '', re.sub(r'^\([^)]*\) ?', '', f))) in pkg_texts or any(norm(f) in t for t in pkg_texts)]
+    covered = [f for f in lit if norm(re.sub(r'^\([^)]*\) ?', '', re.sub(r'^[A-Z][A-Z ]{1,10}: ', '', f))) in pkg_texts or any(norm(f) in t for t in pkg_texts)]
     templated = '${' in expr; assembled = bool(re.search(r"\+\s*(?!\()[A-Za-z_(]", expr.replace("' + '", ''))) and not re.search(r"\+ \(F\(", expr)
     has_rand = 'RAND(' in expr; has_cond = bool(re.search(r"F\('|G\.S\.inv|\? ", expr)); runtime_vars = bool(re.search(r"\b(join|sortedCount|fmtTime|\.code|\.real|\.sys|nm\b|\bn\b|miss|need\b|dir\b|m\.join|integrity|R0\.)", expr))
     if templated or runtime_vars: cls = 'runtime_assembled'; action = 'Refactor: split into fixed sentence IDs (with the variable part voiced separately or the line rephrased) before VO; do not record the whole string.'

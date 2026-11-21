@@ -44,15 +44,11 @@
  "dynamic": {
   "finite_other/not_covered": 3,
   "finite_other/ok": 2,
-  "finite_conditional/ok": 24,
-  "runtime_assembled/ok": 24,
+  "finite_conditional/ok": 28,
+  "runtime_assembled/ok": 25,
   "runtime_assembled/not_covered": 4,
-  "finite_random/ok": 10,
-  "finite_conditional/not_covered": 2,
-  "finite_random/partial": 1,
-  "runtime_assembled/partial": 1,
-  "finite_random/not_covered": 1,
-  "finite_conditional/partial": 3
+  "finite_random/ok": 12,
+  "finite_conditional/not_covered": 1
  },
  "uncovered_candidates": 361,
  "uncovered_likely": {
