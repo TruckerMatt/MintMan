@@ -16,12 +16,14 @@ def tier(e):
 HOLD = {'B_quoted_narration': 'Narration containing quoted speech. Recommended: record as one NARRATOR take (as written). Needs approval.', 'C_speaker_change': 'Line embeds another speaker. Decide: one NARRATOR take, or split into narrator + character clips (needs new ids).', 'D_blocked_dynamic': 'Fragment or template placeholder of a runtime-assembled string; refactor first.'}
 
 # ---- tts_text: what is actually SENT to the TTS model (the on-screen `text` stays untouched: it is the runtime match key)
+TUT = re.compile(r"controls:|\bF5\b|pick a verb|press h\b|press t\b|click give|right-click|click the floor|yellow arrows|menus:|use the scan verb|scan works on|call = phone|panel at the bottom|keys 1-9|enter types a command|saves itself as you go", re.I)
 PAUSE = {'beat': '[pause]', 'a pause': '[pause]', 'a pause.': '[pause]', 'a long pause': '[long pause]', 'a breath': '[pause]'}
 DELIVERY = {'nervously': '[nervous]'}
 def to_tts(text):
     notes = []
     def sub(m):
         inner = m.group(1).strip(); k = inner.lower()
+        if TUT.search(inner): notes.append('removed tutorial:' + k[:30]); return ''
         if k in PAUSE: notes.append('pause:' + k); return PAUSE[k]
         if k in DELIVERY: notes.append('delivery:' + k); return DELIVERY[k]
         if re.match(r"^(he|she|they|it)\b|^(glanc|click|using)", k) or not k or k in ('bruno','rufus','tucker','torvald','ingrid','prudence','halvorsen','tabitha','harrow','gordon','ozzie','renata','gus','hollis'): notes.append('removed action:' + k[:30]); return ''
@@ -82,4 +84,13 @@ jobs = [{'id': p['id'], 'speaker': p['speaker'], 'text': p['text'], 'tts_text': 
 json.dump({'version': 1, 'generated': today, 'description': 'ElevenLabs generation job list. NOT executed. Assign `voices[<speaker>].voice_id` after auditioning, then run the generator against `jobs`. Tier B/C/D lines are excluded (see voice_manual_review_manifest.json).',
            'defaults': {'model_id': 'DECIDE_AT_AUDITION', 'output_format': 'mp3_44100_128', 'voice_settings': {'stability': None, 'similarity_boost': None, 'style': None, 'use_speaker_boost': None}, 'generations_per_line': 1, 'rule': 'one take per job; never auto-retry (each generation spends credits)', 'send': 'tts_text (NOT text). text is the on-screen line = runtime match key; tts_text converts inline stage directions: pauses -> [pause]/[long pause], delivery words -> tags, actions removed, spoken asides keep their words'},
            'voices': {c['speaker']: {'voice_id': None, 'voice_name': None, 'status': 'unassigned', 'settings_override': None, 'jobs': c['lines_ready'], 'chars': c['characters_ready']} for c in cast}, 'totals': {'jobs': len(jobs), 'characters': sum(j['chars'] for j in jobs)}, 'jobs': jobs}, open(MAN / 'elevenlabs_generation_manifest.json', 'w'), indent=1, ensure_ascii=False)
+# apply the approved cast (never lose locks again)
+LOCK = json.load(open(MAN / 'voice_cast_locked.json'))['voices']
+g = json.load(open(MAN / 'elevenlabs_generation_manifest.json')); cs = json.load(open(MAN / 'cast_sheet.json'))
+for sp, l in LOCK.items():
+    if sp in g['voices']: g['voices'][sp].update({'voice_id': l['voice_id'], 'voice_name': l['voice_name'], 'status': 'locked'})
+for c in cs['cast']:
+    if c['speaker'] in LOCK: c['elevenlabs_voice_id'], c['voice_name'], c['voice_status'] = LOCK[c['speaker']]['voice_id'], LOCK[c['speaker']]['voice_name'], 'locked'
+g['defaults']['model_id'] = 'eleven_v4'
+json.dump(g, open(MAN / 'elevenlabs_generation_manifest.json', 'w'), indent=1, ensure_ascii=False); json.dump(cs, open(MAN / 'cast_sheet.json', 'w'), indent=1, ensure_ascii=False)
 print(dict(cnt), dict(chars), len(jobs), sum(j['chars'] for j in jobs), len(cast))

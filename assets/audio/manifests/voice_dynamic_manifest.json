@@ -1518,9 +1518,9 @@
    "generate": false,
    "hold_reason": "Fragment or template placeholder of a runtime-assembled string; refactor first.",
    "text": ". (The panel at the bottom shows them, too.)",
-   "tts_text": ". The panel at the bottom shows them, too.",
+   "tts_text": ".",
    "tts_notes": [
-    "aside spoken:the panel at the bottom shows "
+    "removed tutorial:the panel at the bottom shows "
    ],
    "chars": 44,
    "scene": "multiple",

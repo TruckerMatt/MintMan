@@ -3,7 +3,7 @@
  "generated": "2026-11-21",
  "description": "ElevenLabs generation job list. NOT executed. Assign `voices[<speaker>].voice_id` after auditioning, then run the generator against `jobs`. Tier B/C/D lines are excluded (see voice_manual_review_manifest.json).",
  "defaults": {
-  "model_id": "DECIDE_AT_AUDITION",
+  "model_id": "eleven_v4",
   "output_format": "mp3_44100_128",
   "voice_settings": {
    "stability": null,
@@ -17,153 +17,153 @@
  },
  "voices": {
   "NARRATOR": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "status": "locked",
    "settings_override": null,
    "jobs": 445,
    "chars": 39981
   },
   "SCANNER": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "NoiYxL9g25M4orC8Q0ls",
+   "voice_name": "Vector - Tec Voice",
+   "status": "locked",
    "settings_override": null,
    "jobs": 26,
    "chars": 2441
   },
   "HOLLIS": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "EOuQOMUPQiYCUjY028Ro",
+   "voice_name": "James (cloned)",
+   "status": "locked",
    "settings_override": null,
    "jobs": 108,
    "chars": 3695
   },
   "PRUDENCE": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "cgSgspJ2msm6clMCkdW9",
+   "voice_name": "Jessica",
+   "status": "locked",
    "settings_override": null,
    "jobs": 32,
    "chars": 2747
   },
   "BRUNO": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "hT1MsRBLaHSXGeWzW6xF",
+   "voice_name": "Rich - Southern US",
+   "status": "locked",
    "settings_override": null,
    "jobs": 31,
    "chars": 2850
   },
   "INGRID": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "voice_name": "Matilda",
+   "status": "locked",
    "settings_override": null,
    "jobs": 33,
    "chars": 2559
   },
   "TUCKER": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "OwEAPhTFInN6VSRT9QXm",
+   "voice_name": "Jordan - Warm & Gritty",
+   "status": "locked",
    "settings_override": null,
    "jobs": 27,
    "chars": 2236
   },
   "HALVORSEN": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "bIHbv24MWmeRgasZH58o",
+   "voice_name": "Will",
+   "status": "locked",
    "settings_override": null,
    "jobs": 24,
    "chars": 2080
   },
   "RUFUS": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "voice_name": "Callum",
+   "status": "locked",
    "settings_override": null,
    "jobs": 31,
    "chars": 2120
   },
   "TORVALD": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "voice_name": "Brian",
+   "status": "locked",
    "settings_override": null,
    "jobs": 26,
    "chars": 1734
   },
   "HARROW": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+   "voice_name": "Lily",
+   "status": "locked",
    "settings_override": null,
    "jobs": 22,
    "chars": 1786
   },
   "GORDON": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "voice_name": "Adam",
+   "status": "locked",
    "settings_override": null,
    "jobs": 17,
    "chars": 1439
   },
   "TABITHA": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "QgAHZCKeKxsZTcp84rgh",
+   "voice_name": "Hollie Sue",
+   "status": "locked",
    "settings_override": null,
    "jobs": 16,
    "chars": 1036
   },
   "OZZIE": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "4ekZwrbiRoxmeg5thP3K",
+   "voice_name": "Topher",
+   "status": "locked",
    "settings_override": null,
    "jobs": 13,
    "chars": 1222
   },
   "RENATA": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "mjQhGi3uUtUVynWMuscb",
+   "voice_name": "Hollie - Kind, Enthusiastic",
+   "status": "locked",
    "settings_override": null,
    "jobs": 16,
    "chars": 1255
   },
   "SYSTEM": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+   "voice_name": "The Curator",
+   "status": "locked",
    "settings_override": null,
    "jobs": 12,
    "chars": 681
   },
   "RADIO": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "cjVigY5qzO86Huf0OWal",
+   "voice_name": "Eric",
+   "status": "locked",
    "settings_override": null,
    "jobs": 4,
    "chars": 1007
   },
   "GUS": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "pqHfZKP75CvOlQylNhV4",
+   "voice_name": "Bill",
+   "status": "locked",
    "settings_override": null,
    "jobs": 13,
    "chars": 909
   },
   "TABLET": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "Q8ZbQAANLFvLw8uPBR8d",
+   "voice_name": "AGEIS-7 4/10",
+   "status": "locked",
    "settings_override": null,
    "jobs": 0,
    "chars": 0
@@ -171,7 +171,7 @@
  },
  "totals": {
   "jobs": 896,
-  "characters": 70931
+  "characters": 70750
  },
  "jobs": [
   {
@@ -7315,13 +7315,13 @@
    "id": "vo_narrator_89434f98c0",
    "speaker": "NARRATOR",
    "text": "The game saves itself as you go. (F5 also saves.) The warehouse does not.",
-   "tts_text": "The game saves itself as you go. F5 also saves. The warehouse does not.",
+   "tts_text": "The game saves itself as you go. The warehouse does not.",
    "voice_slot": "NARRATOR",
    "output_file": "assets/audio/voice/narrator/vo_narrator_89434f98c0.mp3",
    "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
    "post_fx": null,
    "priority": "core_or_triggered_dialogue",
-   "chars": 71,
+   "chars": 56,
    "status": "pending"
   },
   {
@@ -7549,13 +7549,13 @@
    "id": "vo_narrator_c0a80ef2c1",
    "speaker": "NARRATOR",
    "text": "It is a Tuesday. It is humid. It is going to get worse. (Controls: pick a verb, then click a thing. Right-click LOOKs. Enter types a command. Press H for a hint. Juno is your dog; the JUNO verb sends her to sniff or fetch.)",
-   "tts_text": "It is a Tuesday. It is humid. It is going to get worse. Controls: pick a verb, then click a thing. Right-click LOOKs. Enter types a command. Press H for a hint. Juno is your dog; the JUNO verb sends her to sniff or fetch.",
+   "tts_text": "It is a Tuesday. It is humid. It is going to get worse.",
    "voice_slot": "NARRATOR",
    "output_file": "assets/audio/voice/narrator/vo_narrator_c0a80ef2c1.mp3",
    "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
    "post_fx": null,
    "priority": "core_or_triggered_dialogue",
-   "chars": 221,
+   "chars": 55,
    "status": "pending"
   },
   {

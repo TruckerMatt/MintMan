@@ -25,8 +25,8 @@
    "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_narrator_966368e222",
@@ -43,7 +43,8 @@
      "text": "Click! The numbers on the back of that label were right.",
      "line_direction": ""
     }
-   ]
+   ],
+   "voice_name": "Daniel - Steady Broadcaster"
   },
   {
    "speaker": "SCANNER",
@@ -68,8 +69,8 @@
    "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
    "post_fx": null,
    "device_voice": true,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "NoiYxL9g25M4orC8Q0ls",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_scanner_3415fd7e3d",
@@ -81,7 +82,8 @@
      "text": "SEAL 88112 — Status: BROKEN. Trailer: T-4417. Time cut: Friday, 4:07 AM. Wait... that's the time the label printer was also printing. Coincidence: rated 3%.",
      "line_direction": ""
     }
-   ]
+   ],
+   "voice_name": "Vector - Tec Voice"
   },
   {
    "speaker": "HOLLIS",
@@ -106,8 +108,8 @@
    "voice_direction": "Dry, tired, restrained; understated warehouse lead. Rarely matches the absurdity around him.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "EOuQOMUPQiYCUjY028Ro",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_hollis_571e81b2f5",
@@ -129,7 +131,8 @@
      "text": "Don't start.",
      "line_direction": "to the scanner."
     }
-   ]
+   ],
+   "voice_name": "James (cloned)"
   },
   {
    "speaker": "PRUDENCE",
@@ -150,8 +153,8 @@
    "voice_direction": "Sharp, defiant, comfortable where she should not be; amused by rules she no longer follows.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "cgSgspJ2msm6clMCkdW9",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_prudence_e3f2e1d642",
@@ -173,7 +176,8 @@
      "text": "Technicality.",
      "line_direction": "a breezy wave."
     }
-   ]
+   ],
+   "voice_name": "Jessica"
   },
   {
    "speaker": "BRUNO",
@@ -193,8 +197,8 @@
    "voice_direction": "Competent loader; practical, grounded, low-key, mildly exasperated.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "hT1MsRBLaHSXGeWzW6xF",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_bruno_4fbc82c5da",
@@ -216,7 +220,8 @@
      "text": "Everyone needs the hot shipment. I need a jack that works. It leaks. Ask me about it, then we'll talk.",
      "line_direction": "folding arms."
     }
-   ]
+   ],
+   "voice_name": "Rich - Southern US"
   },
   {
    "speaker": "INGRID",
@@ -236,8 +241,8 @@
    "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_ingrid_245aa68ef2",
@@ -264,7 +269,8 @@
      "text": "The WMS just released the reconciliation hold on staging. Every pallet is now movable. It's the first thing the WMS has done all week.",
      "line_direction": ""
     }
-   ]
+   ],
+   "voice_name": "Matilda"
   },
   {
    "speaker": "TUCKER",
@@ -287,8 +293,8 @@
    "voice_direction": "Eager, enthusiastic, extremely willing to help; accidentally chaotic.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "OwEAPhTFInN6VSRT9QXm",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_tucker_96f5cb8f77",
@@ -315,7 +321,8 @@
      "text": "Hollis! You're calling ME? I'm great! What can I help with? I'm holding a pallet. A different one. I'm fine.",
      "line_direction": "radio, delighted. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
     }
-   ]
+   ],
+   "voice_name": "Jordan - Warm & Gritty"
   },
   {
    "speaker": "HALVORSEN",
@@ -338,8 +345,8 @@
    "voice_direction": "Operations manager; pressured, anxious, trying to sound managerial while barely holding it together.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "bIHbv24MWmeRgasZH58o",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_halvorsen_2c573dc194",
@@ -361,7 +368,8 @@
      "text": "There's no cat problem, I'm told. Please disregard the cat on the forklift.",
      "line_direction": "faintly. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
     }
-   ]
+   ],
+   "voice_name": "Will"
   },
   {
    "speaker": "RUFUS",
@@ -383,8 +391,8 @@
    "voice_direction": "Yard driver; distracted but capable, conversational, matter-of-fact.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_rufus_590b61b5f6",
@@ -411,7 +419,8 @@
      "text": "I'd love to talk, but I'm off count without my clicker. It's... somewhere lost.",
      "line_direction": ""
     }
-   ]
+   ],
+   "voice_name": "Callum"
   },
   {
    "speaker": "TORVALD",
@@ -432,8 +441,8 @@
    "voice_direction": "Large, laconic, bored, low-energy confidence; says little unless necessary.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "nPczCjzI2devNBz1zQrb",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_torvald_ba722687b8",
@@ -460,7 +469,8 @@
      "text": "I'll be there. I'll be the guy standing exactly where I'm supposed to be. Don't make it weird.",
      "line_direction": "sighs; puts out cigarette; picks up a radio he has apparently had this whole time. Deliver as radio communication; apply radio filtering in-game rather than baking it into the master when possible."
     }
-   ]
+   ],
+   "voice_name": "Brian"
   },
   {
    "speaker": "HARROW",
@@ -481,8 +491,8 @@
    "voice_direction": "Regional director; polished, controlled, corporate authority; composure erodes only slightly.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "pFZP5JQG7iQjIQuC4Bku",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_harrow_8d6cd17045",
@@ -494,7 +504,8 @@
      "text": "This is a Regional Operational Review. I'd like to begin by saying: everything is functioning at a hundred percent. The dashboard tells me so. I would ask you to demonstrate otherwise. Take your time. (glances at the clock) Not too much.",
      "line_direction": "flatly."
     }
-   ]
+   ],
+   "voice_name": "Lily"
   },
   {
    "speaker": "GORDON",
@@ -514,8 +525,8 @@
    "voice_direction": "Customer production contact; urgent, stressed, relieved when things finally work.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "pNInz6obpgDQGcFmaJgB",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_gordon_820a5a3b73",
@@ -537,7 +548,8 @@
      "text": "Hollis! Gordon, Kestrel Motor Works, production manager. Your customer. Finally. Are we shipping? Line three has been down since 7. I have forty guys standing around holding air.",
      "line_direction": "video, frustrated."
     }
-   ]
+   ],
+   "voice_name": "Adam"
   },
   {
    "speaker": "TABITHA",
@@ -556,8 +568,8 @@
    "voice_direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "QgAHZCKeKxsZTcp84rgh",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_tabitha_cf1e3a0770",
@@ -579,7 +591,8 @@
      "text": "That's... that's new.",
      "line_direction": "deep breath."
     }
-   ]
+   ],
+   "voice_name": "Hollie Sue"
   },
   {
    "speaker": "OZZIE",
@@ -597,8 +610,8 @@
    "voice_direction": "Remote-site contact; calm, factual, lightly bemused.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "4ekZwrbiRoxmeg5thP3K",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_ozzie_b2139fe401",
@@ -615,7 +628,8 @@
      "text": "Hollis! It's Ozzie, remote site. That is the little overflow yard we lease, two hundred miles from anything. What do you need?",
      "line_direction": "scanner message, then voice."
     }
-   ]
+   ],
+   "voice_name": "Topher"
   },
   {
    "speaker": "RENATA",
@@ -635,8 +649,8 @@
    "voice_direction": "Cat rescue worker; calm, practical, humane, unsurprised by strange animal logistics.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "mjQhGi3uUtUVynWMuscb",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_renata_37948788ce",
@@ -658,7 +672,8 @@
      "text": "Still coming. I'll be at the yard gate when you're ready. Text me when they're moving. Or don't. I'll know.",
      "line_direction": ""
     }
-   ]
+   ],
+   "voice_name": "Hollie - Kind, Enthusiastic"
   },
   {
    "speaker": "SYSTEM",
@@ -678,8 +693,8 @@
    "voice_direction": "Neutral corporate system voice; precise, impersonal.",
    "post_fx": null,
    "device_voice": true,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_system_2fc181409e",
@@ -691,7 +706,8 @@
      "text": "a warm, tall, cigarette-shaped heat signature resolves into Torvald, who is standing exactly where he was standing.",
      "line_direction": ""
     }
-   ]
+   ],
+   "voice_name": "The Curator"
   },
   {
    "speaker": "RADIO",
@@ -709,8 +725,8 @@
    "voice_direction": "Radio channel voice; use named speaker when known.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": true,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "cjVigY5qzO86Huf0OWal",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_radio_bd20c42f1c",
@@ -722,7 +738,8 @@
      "text": "Hollis, Operations. HR just called. Your mandatory drug screening is scheduled for 9:02. It is now— (a long pause) — it's always 9:02 in HR. Report to HR immediately.",
      "line_direction": ""
     }
-   ]
+   ],
+   "voice_name": "Eric"
   },
   {
    "speaker": "GUS",
@@ -741,8 +758,8 @@
    "voice_direction": "Straightforward coworker; natural workplace delivery.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "pqHfZKP75CvOlQylNhV4",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_gus_636cb68f22",
@@ -764,7 +781,8 @@
      "text": "Badge.",
      "line_direction": "without looking up."
     }
-   ]
+   ],
+   "voice_name": "Bill"
   },
   {
    "speaker": "TABLET",
@@ -782,15 +800,16 @@
    "voice_direction": "Clinical HR device voice; synthetic, procedural, calmly wrong.",
    "post_fx": null,
    "device_voice": true,
-   "elevenlabs_voice_id": null,
-   "voice_status": "unassigned (audition pending)",
+   "elevenlabs_voice_id": "Q8ZbQAANLFvLw8uPBR8d",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_tablet_1ce8c789f1",
      "text": "ERROR 4-0-9:02 — SUBSTANCE NOT FOUND IN DATABASE. RECLASSIFYING AS: \"BREATH (NON-STANDARD)\". RECLASSIFYING AS: \"WEATHER\". RECLASSIFYING AS: \"TUESDAY\".",
      "line_direction": ""
     }
-   ]
+   ],
+   "voice_name": "AGEIS-7 4/10"
   }
  ]
 }
