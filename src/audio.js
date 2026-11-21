@@ -62,14 +62,17 @@ const MMAudio = (function () {
     const get = (name) => fetch(ROOT + 'manifests/' + name + '_manifest.json', { cache: 'no-cache' }).then(r => (r.ok ? r.json() : null)).catch(() => null);
     M.loading = Promise.all([get('voice'), get('sfx'), get('ambience')]).then(([v, s, a]) => {
       if (v && Array.isArray(v.entries)) M.manifests.voice = v; if (s && Array.isArray(s.entries)) M.manifests.sfx = s; if (a && Array.isArray(a.entries)) M.manifests.ambience = a;
-      M.byVoiceId.clear(); M.byVoiceText.clear(); M.bySfx.clear(); M.byAmb.clear();
-      for (const e of M.manifests.voice.entries) { if (!e || !e.id) continue; M.byVoiceId.set(e.id, e); if (e.text) M.byVoiceText.set(norm(e.speaker) + '|' + norm(e.text), e); }
-      for (const e of M.manifests.sfx.entries) if (e && e.id) M.bySfx.set(e.id, e);
-      for (const e of M.manifests.ambience.entries) if (e && e.id) M.byAmb.set(e.id, e);
+      indexManifests();
       M.ready = true; if (M.manifests.sfx.entries.length) M.preload('sfx'); return M;
     }).catch(() => { M.ready = true; return M; });
     return M.loading;
   };
+  function indexManifests() {
+    M.byVoiceId.clear(); M.byVoiceText.clear(); M.bySfx.clear(); M.byAmb.clear();
+    for (const e of M.manifests.voice.entries) { if (!e || !e.id) continue; M.byVoiceId.set(e.id, e); if (e.text && e.file) M.byVoiceText.set(norm(e.speaker) + '|' + norm(e.text), e); }   // only entries WITH audio are playable
+    for (const e of M.manifests.sfx.entries) if (e && e.id) M.bySfx.set(e.id, e);
+    for (const e of M.manifests.ambience.entries) if (e && e.id) M.byAmb.set(e.id, e);
+  }
   // ---- WebAudio plumbing (reuses the synth's AudioContext after the first user gesture)
   function mixer() {
     const a = Snd.ac; if (!a) return null; if (M.mix && M.mix.ctx === a) return M.mix;
@@ -102,8 +105,11 @@ const MMAudio = (function () {
   };
   M.stopVoice = function () { M.voiceToken++; const n = M.voiceNode; M.voiceNode = null; if (n) safe(() => { n.s.onended = null; n.s.stop(); }); };
   // dialogue seam: called by sayImpl when a dialogue page appears (page 0 starts the line's clip) and when the player advances
-  M.onSayPage = function (who, text, pageIndex) { if (pageIndex !== 0 || !M.byVoiceText.size) return; const e = M.byVoiceText.get(norm(who) + '|' + norm(text)); if (e) M.voice(e); };
-  M.lookupVoice = (who, text) => M.byVoiceText.get(norm(who) + '|' + norm(text)) || null;
+  // the package stores the spoken text WITHOUT the leading stage direction, e.g. "BRUNO: (radio) I don't ..." -> speaker BRUNO, text "I don't ..."
+  const spoken = (text) => String(text).replace(/^\s*\([^)]*\)\s*/, '');
+  M.onSayPage = function (who, text, pageIndex) { if (pageIndex !== 0 || !M.byVoiceText.size) return; const e = M.lookupVoice(who, text); if (e) M.voice(e); };
+  M.lookupVoice = (who, text) => { const e = M.byVoiceText.get(norm(who) + '|' + norm(spoken(text))) || M.byVoiceText.get(norm(who) + '|' + norm(text)); return e && e.status !== 'blocked_dynamic' && e.status !== 'stale_text' ? e : null; };
+  M.setManifest = function (kind, json) { M.manifests[kind] = json; indexManifests(); };   // tests / hot-swap
 
   // ---- SFX: returns true when an external asset was played; false => caller (Snd.play) uses the synth
   M.sfx = function (id) {

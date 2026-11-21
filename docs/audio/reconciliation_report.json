@@ -1,0 +1,68 @@
+{
+ "rows_read": 1220,
+ "unique_ids": 1068,
+ "duplicate_rows_merged": 152,
+ "duplicate_conflicts": [],
+ "id_hash_mismatches": [],
+ "status": {
+  "active": 1058,
+  "blocked_dynamic": 10
+ },
+ "channels": {
+  "normal": 1036,
+  "radio": 29,
+  "phone": 3
+ },
+ "active_by_speaker": {
+  "NARRATOR": 545,
+  "SCANNER": 62,
+  "PRUDENCE": 36,
+  "HOLLIS": 109,
+  "TUCKER": 28,
+  "INGRID": 33,
+  "SYSTEM": 18,
+  "HALVORSEN": 25,
+  "TABITHA": 19,
+  "BRUNO": 32,
+  "TORVALD": 29,
+  "RUFUS": 32,
+  "GUS": 13,
+  "HARROW": 23,
+  "TABLET": 1,
+  "RADIO": 4,
+  "RENATA": 17,
+  "GORDON": 18,
+  "OZZIE": 14
+ },
+ "text_not_found_in_current_source": [],
+ "ambiguous_short_texts": 31,
+ "same_text_multiple_speakers": [
+  "How many?",
+  "No.",
+  "Yes."
+ ],
+ "dynamic": {
+  "finite_other/not_covered": 3,
+  "finite_other/ok": 2,
+  "finite_conditional/ok": 24,
+  "runtime_assembled/ok": 24,
+  "runtime_assembled/not_covered": 4,
+  "finite_random/ok": 10,
+  "finite_conditional/not_covered": 2,
+  "finite_random/partial": 1,
+  "runtime_assembled/partial": 1,
+  "finite_random/not_covered": 1,
+  "finite_conditional/partial": 3
+ },
+ "uncovered_candidates": 361,
+ "uncovered_likely": {
+  "likely_dialogue": 297,
+  "likely_hint_or_label": 64
+ },
+ "uncovered_by_file": {
+  "src/patches.js": 12,
+  "src/rooms.js": 146,
+  "src/story.js": 203
+ },
+ "manual_review_entries": 157
+}
