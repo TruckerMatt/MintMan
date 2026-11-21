@@ -25,8 +25,8 @@
    "voice_direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_narrator_a6814eb32c",
@@ -55,7 +55,8 @@
      "name": "George - Warm, Captivating Storyteller",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Daniel - Steady Broadcaster"
   },
   {
    "speaker": "SCANNER",
@@ -80,8 +81,8 @@
    "voice_direction": "Dry handheld-device system voice; crisp, synthetic, mildly judgmental.",
    "post_fx": null,
    "device_voice": true,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "NoiYxL9g25M4orC8Q0ls",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_scanner_3415fd7e3d",
@@ -105,7 +106,8 @@
      "name": "Retro Robot",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Vector - Tec Voice"
   },
   {
    "speaker": "HOLLIS",
@@ -175,8 +177,8 @@
    "voice_direction": "Sharp, defiant, comfortable where she should not be; amused by rules she no longer follows.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "cgSgspJ2msm6clMCkdW9",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_prudence_e3f2e1d642",
@@ -210,7 +212,8 @@
      "name": "Jessica",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Jessica"
   },
   {
    "speaker": "BRUNO",
@@ -230,8 +233,8 @@
    "voice_direction": "Competent loader; practical, grounded, low-key, mildly exasperated.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "hT1MsRBLaHSXGeWzW6xF",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_bruno_4fbc82c5da",
@@ -265,7 +268,8 @@
      "name": "Rich - Southern US",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Rich - Southern US"
   },
   {
    "speaker": "INGRID",
@@ -285,8 +289,8 @@
    "voice_direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_ingrid_245aa68ef2",
@@ -325,7 +329,8 @@
      "name": "Lily",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Matilda"
   },
   {
    "speaker": "TUCKER",
@@ -349,7 +354,7 @@
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
    "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "voice_status": "round 2: Liam/Charlie rejected; candidates Sheldon, Ben Young Man, Jordan",
    "audition_lines": [
     {
      "id": "vo_tucker_96f5cb8f77",
@@ -379,13 +384,18 @@
    ],
    "audition_candidates": [
     {
-     "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
-     "name": "Liam",
+     "voice_id": "ujcXHLWtGPYXnqBoMBgg",
+     "name": "Sheldon",
      "verdict": null
     },
     {
-     "voice_id": "IKne3meq5aSn9XLyUdCD",
-     "name": "Charlie",
+     "voice_id": "lKwD8tN2jdXnBKugh4YP",
+     "name": "Ben Young Man",
+     "verdict": null
+    },
+    {
+     "voice_id": "OwEAPhTFInN6VSRT9QXm",
+     "name": "Jordan",
      "verdict": null
     }
    ]
@@ -411,8 +421,8 @@
    "voice_direction": "Operations manager; pressured, anxious, trying to sound managerial while barely holding it together.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "bIHbv24MWmeRgasZH58o",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_halvorsen_2c573dc194",
@@ -446,7 +456,8 @@
      "name": "Will",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Will"
   },
   {
    "speaker": "RUFUS",
@@ -468,8 +479,8 @@
    "voice_direction": "Yard driver; distracted but capable, conversational, matter-of-fact.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_rufus_590b61b5f6",
@@ -508,7 +519,8 @@
      "name": "Callum",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Callum"
   },
   {
    "speaker": "TORVALD",
@@ -529,8 +541,8 @@
    "voice_direction": "Large, laconic, bored, low-energy confidence; says little unless necessary.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "nPczCjzI2devNBz1zQrb",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_torvald_ba722687b8",
@@ -569,7 +581,8 @@
      "name": "Harry",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Brian"
   },
   {
    "speaker": "HARROW",
@@ -590,8 +603,8 @@
    "voice_direction": "Regional director; polished, controlled, corporate authority; composure erodes only slightly.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "pFZP5JQG7iQjIQuC4Bku",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_harrow_8d6cd17045",
@@ -615,7 +628,8 @@
      "name": "Lily",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Lily"
   },
   {
    "speaker": "GORDON",
@@ -635,8 +649,8 @@
    "voice_direction": "Customer production contact; urgent, stressed, relieved when things finally work.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "pNInz6obpgDQGcFmaJgB",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_gordon_820a5a3b73",
@@ -670,7 +684,8 @@
      "name": "Patrick - Clear & Engaging",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Adam"
   },
   {
    "speaker": "TABITHA",
@@ -689,8 +704,8 @@
    "voice_direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "QgAHZCKeKxsZTcp84rgh",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_tabitha_cf1e3a0770",
@@ -724,7 +739,8 @@
      "name": "Bella",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Hollie Sue"
   },
   {
    "speaker": "OZZIE",
@@ -742,8 +758,8 @@
    "voice_direction": "Remote-site contact; calm, factual, lightly bemused.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "4ekZwrbiRoxmeg5thP3K",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_ozzie_b2139fe401",
@@ -772,7 +788,8 @@
      "name": "Topher",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Topher"
   },
   {
    "speaker": "RENATA",
@@ -792,8 +809,8 @@
    "voice_direction": "Cat rescue worker; calm, practical, humane, unsurprised by strange animal logistics.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "mjQhGi3uUtUVynWMuscb",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_renata_37948788ce",
@@ -827,7 +844,8 @@
      "name": "Hollie - Kind, Enthusiastic",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Hollie - Kind, Enthusiastic"
   },
   {
    "speaker": "SYSTEM",
@@ -847,8 +865,8 @@
    "voice_direction": "Neutral corporate system voice; precise, impersonal.",
    "post_fx": null,
    "device_voice": true,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_system_2fc181409e",
@@ -872,7 +890,8 @@
      "name": "River",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "The Curator"
   },
   {
    "speaker": "RADIO",
@@ -890,8 +909,8 @@
    "voice_direction": "Radio channel voice; use named speaker when known.",
    "post_fx": "radio/phone filtering applied in-game, not baked in",
    "device_voice": true,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "cjVigY5qzO86Huf0OWal",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_radio_bd20c42f1c",
@@ -915,7 +934,8 @@
      "name": "Paul",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Eric"
   },
   {
    "speaker": "GUS",
@@ -934,8 +954,8 @@
    "voice_direction": "Straightforward coworker; natural workplace delivery.",
    "post_fx": null,
    "device_voice": false,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "pqHfZKP75CvOlQylNhV4",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_gus_636cb68f22",
@@ -969,7 +989,8 @@
      "name": "Timber",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "Bill"
   },
   {
    "speaker": "TABLET",
@@ -987,8 +1008,8 @@
    "voice_direction": "Clinical HR device voice; synthetic, procedural, calmly wrong.",
    "post_fx": null,
    "device_voice": true,
-   "elevenlabs_voice_id": null,
-   "voice_status": "auditioning (round 1 generated)",
+   "elevenlabs_voice_id": "Q8ZbQAANLFvLw8uPBR8d",
+   "voice_status": "locked",
    "audition_lines": [
     {
      "id": "vo_tablet_1ce8c789f1",
@@ -1007,7 +1028,8 @@
      "name": "Retro Robot",
      "verdict": null
     }
-   ]
+   ],
+   "voice_name": "AGEIS-7 4/10"
   }
  ]
 }

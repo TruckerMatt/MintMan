@@ -17,17 +17,17 @@
  },
  "voices": {
   "NARRATOR": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice_name": "Daniel - Steady Broadcaster",
+   "status": "locked",
    "settings_override": null,
    "jobs": 457,
    "chars": 40912
   },
   "SCANNER": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "NoiYxL9g25M4orC8Q0ls",
+   "voice_name": "Vector - Tec Voice",
+   "status": "locked",
    "settings_override": null,
    "jobs": 27,
    "chars": 2573
@@ -41,25 +41,25 @@
    "chars": 3695
   },
   "PRUDENCE": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "cgSgspJ2msm6clMCkdW9",
+   "voice_name": "Jessica",
+   "status": "locked",
    "settings_override": null,
    "jobs": 32,
    "chars": 2747
   },
   "BRUNO": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "hT1MsRBLaHSXGeWzW6xF",
+   "voice_name": "Rich - Southern US",
+   "status": "locked",
    "settings_override": null,
    "jobs": 31,
    "chars": 2850
   },
   "INGRID": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "voice_name": "Matilda",
+   "status": "locked",
    "settings_override": null,
    "jobs": 33,
    "chars": 2559
@@ -73,97 +73,97 @@
    "chars": 2236
   },
   "HALVORSEN": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "bIHbv24MWmeRgasZH58o",
+   "voice_name": "Will",
+   "status": "locked",
    "settings_override": null,
    "jobs": 24,
    "chars": 2080
   },
   "RUFUS": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "voice_name": "Callum",
+   "status": "locked",
    "settings_override": null,
    "jobs": 31,
    "chars": 2120
   },
   "TORVALD": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "voice_name": "Brian",
+   "status": "locked",
    "settings_override": null,
    "jobs": 26,
    "chars": 1734
   },
   "HARROW": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+   "voice_name": "Lily",
+   "status": "locked",
    "settings_override": null,
    "jobs": 22,
    "chars": 1786
   },
   "GORDON": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "voice_name": "Adam",
+   "status": "locked",
    "settings_override": null,
    "jobs": 17,
    "chars": 1439
   },
   "TABITHA": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "QgAHZCKeKxsZTcp84rgh",
+   "voice_name": "Hollie Sue",
+   "status": "locked",
    "settings_override": null,
    "jobs": 16,
    "chars": 1036
   },
   "OZZIE": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "4ekZwrbiRoxmeg5thP3K",
+   "voice_name": "Topher",
+   "status": "locked",
    "settings_override": null,
    "jobs": 13,
    "chars": 1222
   },
   "RENATA": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "mjQhGi3uUtUVynWMuscb",
+   "voice_name": "Hollie - Kind, Enthusiastic",
+   "status": "locked",
    "settings_override": null,
    "jobs": 16,
    "chars": 1255
   },
   "SYSTEM": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "gJ4a5qWqzRc6NDQT0dIz",
+   "voice_name": "The Curator",
+   "status": "locked",
    "settings_override": null,
    "jobs": 14,
    "chars": 840
   },
   "RADIO": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "cjVigY5qzO86Huf0OWal",
+   "voice_name": "Eric",
+   "status": "locked",
    "settings_override": null,
    "jobs": 4,
    "chars": 1007
   },
   "GUS": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "pqHfZKP75CvOlQylNhV4",
+   "voice_name": "Bill",
+   "status": "locked",
    "settings_override": null,
    "jobs": 13,
    "chars": 909
   },
   "TABLET": {
-   "voice_id": null,
-   "voice_name": null,
-   "status": "unassigned",
+   "voice_id": "Q8ZbQAANLFvLw8uPBR8d",
+   "voice_name": "AGEIS-7 4/10",
+   "status": "locked",
    "settings_override": null,
    "jobs": 0,
    "chars": 0
