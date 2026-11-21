@@ -12,6 +12,9 @@ for e in E:
     if e['production_status'] not in ('QA_REQUIRED', 'GENERATED') or not (ROOT / e['output_path']).exists(): continue
     g = e.get('generation') or {}
     rows.append({'id': e['id'], 's': e['speaker'], 'v': cast.get(e['speaker'], {}).get('voice_name', ''), 'sc': e['scene'].split('/')[0], 't': e['text'], 'tt': e['tts_text'] if e['tts_text'] != e['text'] else '', 'f': e['output_path'], 'd': round(g.get('duration_secs') or 0, 1), 'fl': g.get('tech_flags') or [], 'q': rank.get(e['id'], 9999), 'ch': e.get('channel', 'normal'), 'p': par[e['parent']]['text'] if e.get('parent') else '', 'si': e.get('segment_index', 0)})
+sl = json.load(open(MAN / 'sfx_generation_log.json'))['entries']
+for name, x in sorted(sl.items()):
+    if x.get('status') == 'QA_REQUIRED': rows.append({'id': name, 's': 'SFX', 'v': 'clean set (gain-matched)', 'sc': x['id'], 't': x['prompt'].split('. ')[0], 'tt': '', 'f': x['file'], 'd': round(x.get('duration_secs') or 0, 1), 'fl': [], 'q': 20000, 'ch': 'normal', 'p': '', 'si': 0})
 rows.sort(key=lambda r: (r['q'], r['si']))
 page = r'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>MINT MAN voice audition</title><meta name="viewport" content="width=device-width,initial-scale=1">
 <style>

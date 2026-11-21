@@ -1,0 +1,26 @@
+{
+  "style": "clean: dry, close-mic'd, crisp, no reverb, no background noise, no music, game-ready one-shot",
+  "items": {
+    "click":   {"d": 0.5, "p": "Short soft UI button click for a retro adventure game, crisp and dry"},
+    "beep":    {"d": 0.5, "p": "A single clean high-pitched electronic beep, dry"},
+    "scan":    {"d": 0.8, "p": "Handheld barcode scanner successful scan: two quick ascending beeps, dry"},
+    "scanfail":{"d": 1.0, "p": "Handheld scanner error: two descending low buzzy tones, dry"},
+    "pickup":  {"d": 0.8, "p": "Item pickup chime: two quick rising bright notes, dry"},
+    "reverse": {"d": 3.0, "p": "Forklift reverse warning beeper: four evenly spaced loud beeps, nothing else"},
+    "dock":    {"d": 1.5, "p": "A trailer backing into a loading dock: heavy thud against rubber bumper and a short metallic clank"},
+    "bump":    {"d": 1.0, "p": "Dull heavy bump of a large object hitting a wall, low thud"},
+    "pallet":  {"d": 0.8, "p": "A wooden pallet set down on a concrete floor, short wooden clunk"},
+    "printer": {"d": 1.5, "p": "Dot matrix office printer printing a short burst, quick mechanical zipping"},
+    "radio":   {"d": 0.8, "p": "Walkie-talkie squelch click then two quick chirps"},
+    "buzz":    {"d": 1.2, "p": "Low flat electrical error buzzer, one sustained tone"},
+    "vend":    {"d": 2.5, "p": "Vending machine dispensing: coin clunk, mechanical whirr, snack dropping into the tray"},
+    "bark":    {"d": 0.8, "p": "A single bark from a medium-sized dog, close microphone"},
+    "meow":    {"d": 1.0, "p": "A single short domestic cat meow", "variants": 3},
+    "meows":   {"d": 4.0, "p": "A chorus of many cats meowing together"},
+    "card":    {"d": 1.8, "p": "Short bright title-card fanfare: four rising retro synth notes"},
+    "mint":    {"d": 2.5, "p": "A magical shimmering ascending glissando with a soft glow tone ending in a bright ping, sci-fi"},
+    "fail":    {"d": 1.8, "p": "Sad game-over descending four-note synth fall"},
+    "win":     {"d": 2.0, "p": "Cheerful short victory fanfare of ascending synth notes"},
+    "kpi":     {"d": 0.6, "p": "Two quick soft computer data blips, dry"}
+  }
+}

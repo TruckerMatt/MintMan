@@ -90,7 +90,7 @@ const MMAudio = (function () {
     const p = fetch(file).then(r => { if (!r.ok) throw new Error(r.status); return r.arrayBuffer(); }).then(b => new Promise((res, rej) => a.decodeAudioData(b, res, rej))).then(buf => { M._sync.set(file, buf); return buf; }).catch(() => { M.stats.missing++; return null; });
     M.cache.set(file, p); return p;
   }
-  M.preload = function (kind) { const list = kind === 'sfx' ? M.manifests.sfx.entries : kind === 'voice' ? M.manifests.voice.entries : M.manifests.ambience.entries; if (!Snd.ac) return; for (const e of list) if (e && e.file) load(e.file); };
+  M.preload = function (kind) { const list = kind === 'sfx' ? M.manifests.sfx.entries : kind === 'voice' ? M.manifests.voice.entries : M.manifests.ambience.entries; if (!Snd.ac) return; for (const e of list) { if (!e) continue; if (e.file) load(e.file); if (e.files) e.files.forEach(f => load(f)); } };
   function playBuf(buf, bus, vol, loop) { const x = mixer(); if (!x || !buf) return null; const s = x.ctx.createBufferSource(); s.buffer = buf; s.loop = !!loop; const g = x.ctx.createGain(); g.gain.value = vol === undefined ? 1 : vol; s.connect(g); g.connect(x[bus]); s.start(); return { s, g }; }
 
   // ---- VOICE: fire-and-forget; resolves when the clip ends / is stopped / is missing. Dialogue never awaits it.
@@ -118,7 +118,7 @@ const MMAudio = (function () {
 
   // ---- SFX: returns true when an external asset was played; false => caller (Snd.play) uses the synth
   M.sfx = function (id) {
-    return !!safe(() => { const e = M.bySfx.get(id); if (!e || !e.file || !Snd.ac) return false; const buf = M._sync.get(e.file); if (!buf) { load(e.file); return false; } const n = playBuf(buf, 'sfx', e.volume); if (n) M.stats.sfxPlayed++; return !!n; });
+    return !!safe(() => { const e = M.bySfx.get(id); const f = e && (e.files && e.files.length ? e.files[(Math.random() * e.files.length) | 0] : e.file); if (!f || !Snd.ac) return false; const buf = M._sync.get(f); if (!buf) { load(f); return false; } const n = playBuf(buf, 'sfx', e.volume); if (n) M.stats.sfxPlayed++; return !!n; });
   };
 
   // ---- AMBIENCE: one looping bed per room, cross-faded; absent file => silence for that room
