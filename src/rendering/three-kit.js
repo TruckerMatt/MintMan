@@ -17,6 +17,7 @@ MM3.envKit = function (K) {
     if (o.tile) { const t = o.tile; for (let j = 0; j < h / t; j++) for (let i = 0; i < w / t; i++) { g.fillStyle = (i + j) & 1 ? (o.c2 || '#808286') : (o.c1 || '#94969a'); g.fillRect(i * t * sx, j * t * sy, t * sx, t * sy); } g.strokeStyle = 'rgba(30,30,34,.45)'; g.lineWidth = 1.5; for (let i = 0; i <= w / t; i++) { g.beginPath(); g.moveTo(i * t * sx, 0); g.lineTo(i * t * sx, H); g.stroke(); } for (let j = 0; j <= h / t; j++) { g.beginPath(); g.moveTo(0, j * t * sy); g.lineTo(W, j * t * sy); g.stroke(); } }
     if (o.joints) { g.strokeStyle = 'rgba(25,25,30,.4)'; g.lineWidth = 1.5; for (let x = 0; x < w; x += o.joints) { g.beginPath(); g.moveTo(x * sx, 0); g.lineTo(x * sx, H); g.stroke(); } for (let z = 0; z < h; z += o.joints * .8) { g.beginPath(); g.moveTo(0, z * sy); g.lineTo(W, z * sy); g.stroke(); } }
     for (const s of o.stripes || []) { g.fillStyle = s.color || '#e2bd24'; if (s.dash) { for (let x = 0; x < w; x += s.dash * 2) g.fillRect(x * sx, (s.z - s.w / 2) * sy, s.dash * sx, s.w * sy); } else g.fillRect(0, (s.z - s.w / 2) * sy, W, s.w * sy); }
+    if (o.scan) { g.fillStyle = 'rgba(0,0,0,.2)'; for (let y = 0; y < H; y += 3) g.fillRect(0, y, W, 1); }
     for (const b of o.blots || []) { const gr = g.createRadialGradient(b[0] * sx, b[1] * sy, 0, b[0] * sx, b[1] * sy, b[2] * sx); gr.addColorStop(0, 'rgba(' + (b[4] || '30,26,18') + ',' + (b[3] || .25) + ')'); gr.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = gr; g.fillRect((b[0] - b[2]) * sx, (b[1] - b[2]) * sy, b[2] * 2 * sx, b[2] * 2 * sy); }
   });
   E.wallTex = (w, h, o) => ctex(Math.round(w * 2), Math.round(h * 2), (g, W, H) => {
@@ -25,6 +26,7 @@ MM3.envKit = function (K) {
     if (o.panels) { g.strokeStyle = 'rgba(0,0,0,.18)'; g.lineWidth = 1; for (let x = 0; x < w; x += o.panels) { g.beginPath(); g.moveTo(x * sx, 0); g.lineTo(x * sx, H); g.stroke(); } }
     const gr = g.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, 'rgba(0,0,0,' + (o.topDark || 0) + ')'); gr.addColorStop(.5, 'rgba(0,0,0,0)'); gr.addColorStop(1, 'rgba(60,50,30,' + (o.botDirt || .2) + ')'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
     for (let i = 0; i < (o.noise === undefined ? 160 : o.noise); i++) { g.fillStyle = 'rgba(40,36,28,' + (.03 + r() * .06) + ')'; g.fillRect(r() * W, H * .35 + r() * H * .65, 2 + r() * 16, 1 + r() * 2); }
+    if (o.scan) { g.fillStyle = 'rgba(0,0,0,.2)'; for (let y = 0; y < H; y += 3) g.fillRect(0, y, W, 1); }
     if (o.wain) { g.fillStyle = o.wain.color; g.fillRect(0, (h - o.wain.h) * sy, W, o.wain.h * sy); g.fillStyle = 'rgba(0,0,0,.25)'; g.fillRect(0, (h - o.wain.h) * sy, W, 1.5); }
   });
   // ---- shell pieces ----------------------------------------------------------------------------------------------------

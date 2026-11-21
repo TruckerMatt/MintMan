@@ -4,7 +4,7 @@
 // FALSE RECORDS -> ghosted, offset, flickering copies of the HALO wall; SYSTEM/REALITY CONFLICT -> chromatic split + light flicker. Reveals nothing new.
 window.MM3 = window.MM3 || { rooms: {} };
 MM3.rooms.suite = function () {
-  const d = MM3.autoRoom('suite'); const build = d.build, sync = d.sync;
+  const d = MM3.autoRoom('suite', MM3.suiteSpec); const build = d.build, sync = d.sync;
   d.build = function (K, group, X) {
     build.call(this, K, group, X); const T = K.T; const g = this.halo = new T.Group(); group.add(g);
     const z = this.wallY + 7, hc = z - 40;                       // HALO wall occupies screen x 60..260, y 8..68 -> centre (160, 38)

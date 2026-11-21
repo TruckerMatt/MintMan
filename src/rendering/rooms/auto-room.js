@@ -46,14 +46,14 @@ MM3.THEMES = {
       build(K, group) { this.K = K; this.group = group; this.T = K.T; this.bg = new K.T.Group(); this.props = new K.T.Group(); group.add(this.bg, this.props);
         this.sideMat = new K.T.MeshStandardMaterial({ color: 0xffffff, vertexColors: true, side: K.T.DoubleSide, roughness: .9 });
         this.ctx = { anim: [], flicker: [], dyn: {}, perch: [] };
-        if (spec && spec.shell) { spec.shell(K, this.bg, this.ctx, this); K.mergeStatic(this.bg); }   // hand-modelled room shell: built ONCE per room visit
+        if (spec && spec.shell) { spec.shell(K, this.bg, this.ctx, this); K.mergeStatic(this.bg); this.shellAnim = this.ctx.anim.slice(); this.shellFlick = this.ctx.flicker.slice(); }   // hand-modelled room shell: built ONCE per room visit
         this.rebuild(); },
       dispose(K) { for (const p of this.persons) p.rig = null; if (this.sideMat) this.sideMat.dispose(); },
       rebuild() {
         const K = this.K, T = this.T, r = G.rooms[id], S = G.S;
         const shell = spec && spec.shell; K.disposeGroup(this.props); this.props = new T.Group(); this.group.add(this.props);
         if (!shell) { K.disposeGroup(this.bg); this.bg = new T.Group(); this.group.add(this.bg); }
-        this.ctx.anim.length = 0; this.ctx.flicker.length = 0; if (spec && spec.shell) { this.ctx.anim = this.shellAnim || this.ctx.anim; }
+        this.ctx.anim = (this.shellAnim || []).slice(); this.ctx.flicker = (this.shellFlick || []).slice();   // shell animations (built once) survive prop rebuilds
         MM3_clearCages();
         this.stateKey = stateKey(); this.persons = []; this.extraCats = []; this.npcProps = [];
         // background
