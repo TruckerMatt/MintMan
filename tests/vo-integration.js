@@ -10,7 +10,7 @@ const MT = { '.js': 'text/javascript', '.json': 'application/json', '.html': 'te
   const picks = Object.entries(by).map(([s, l]) => l[0]);                       // first generated clip of every speaker that has audio
   const { browser, page, logs } = await open({ seed: false }); await page.goto('http://localhost:' + srv.address().port + '/index.html'); await page.waitForTimeout(1200);
   await page.evaluate(() => { startGame(false); }); await page.waitForTimeout(1900); await page.mouse.click(640, 300); await page.waitForTimeout(800);
-  const st = () => page.evaluate(() => ({ say: !!G.say, who: G.say && G.say.who, vp: MMAudio.stats.voicePlayed, node: !!MMAudio.voiceNode, entries: MMAudio.manifests.voice.entries.filter(e => e.file).length, indexed: MMAudio.byVoiceText.size }));
+  const st = () => page.evaluate(() => ({ say: !!G.say, who: G.say && G.say.who, vp: MMAudio.stats.voicePlayed, node: !!MMAudio.voiceNode, entries: MMAudio.manifests.voice.entries.filter(e => e.file || (e.segments && e.segments.length)).length, indexed: MMAudio.byVoiceText.size }));
   let s = await st(); ok('MANIFEST: runtime loaded voice manifest with linked files (' + s.entries + ' with audio, ' + s.indexed + ' indexed)', s.entries > 0 && s.indexed === s.entries);
   // clear opening dialogue so we control the sequence
   for (let i = 0; i < 80; i++) { const a = await page.evaluate(() => ({ say: !!G.say, busy: G.busy })); if (!a.busy && !a.say) break; if (a.say) await page.mouse.click(640, 100); await page.waitForTimeout(80); }
@@ -30,6 +30,10 @@ const MT = { '.js': 'text/javascript', '.json': 'application/json', '.html': 'te
   const two = man.filter(e => e.speaker === 'NARRATOR').slice(1, 3);
   const ov = await page.evaluate(async (L) => { const out = []; for (const e of L) { say(e.text); await new Promise(r => setTimeout(r, 700)); out.push(!!MMAudio.voiceNode); const id = (MMAudio.lookupVoice(e.speaker, e.text) || {}).id; out.push(id === e.id); G.say && G.say.res(); await new Promise(r => setTimeout(r, 200)); } return out; }, two);
   ok('SEQUENCE: next line starts its own clip with no leftover from the previous', ov.every(Boolean));
+  // multi-segment passage: one displayed line, several clips in order (narrator -> character -> narrator)
+  const multi = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets/audio/manifests/voice_manifest.json'), 'utf8')).entries.find(e => e.segments && e.segments.length === 3 && e.speaker === 'NARRATOR' && e.segments.every(sg => sg.file));
+  const mm = await page.evaluate(async (m) => { const nodes = new Set(); const p = say(m.text); let max = 0; const t0 = performance.now(); while (performance.now() - t0 < 22000) { if (MMAudio.voiceNode) nodes.add(MMAudio.voiceNode); if (nodes.size >= 3) break; await new Promise(r => setTimeout(r, 60)); } const shown = !!G.say; const n = nodes.size; G.say && G.say.res(); await p; await new Promise(r => setTimeout(r, 100)); return { n, shown, after: !!MMAudio.voiceNode }; }, multi);
+  ok('MULTI-SEGMENT: one subtitle, ' + multi.segments.length + ' clips play in sequence (' + mm.n + ' clips heard), advance stops all', mm.n === multi.segments.length && mm.shown && !mm.after, JSON.stringify(mm));
   // missing optional VO must not block
   const miss = await page.evaluate(async () => { const t0 = performance.now(); const p = say('HOLLIS: This line has no recorded audio anywhere.'); await new Promise(r => setTimeout(r, 500)); const shown = !!G.say; G.say.res(); await p; return { shown, node: !!MMAudio.voiceNode }; });
   ok('MISSING VO: subtitle shown, nothing blocks, no clip', miss.shown && !miss.node);

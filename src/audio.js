@@ -69,7 +69,7 @@ const MMAudio = (function () {
   };
   function indexManifests() {
     M.byVoiceId.clear(); M.byVoiceText.clear(); M.bySfx.clear(); M.byAmb.clear();
-    for (const e of M.manifests.voice.entries) { if (!e || !e.id) continue; M.byVoiceId.set(e.id, e); if (e.text && e.file) M.byVoiceText.set(norm(e.speaker) + '|' + norm(e.text), e); }   // only entries WITH audio are playable
+    for (const e of M.manifests.voice.entries) { if (!e || !e.id) continue; M.byVoiceId.set(e.id, e); if (e.text && (e.file || (e.segments && e.segments.length && e.segments.every(sg => sg.file)))) M.byVoiceText.set(norm(e.speaker) + '|' + norm(e.text), e); }   // playable = has a clip, or all segment clips exist
     for (const e of M.manifests.sfx.entries) if (e && e.id) M.bySfx.set(e.id, e);
     for (const e of M.manifests.ambience.entries) if (e && e.id) M.byAmb.set(e.id, e);
   }
@@ -97,9 +97,14 @@ const MMAudio = (function () {
   M.voice = function (idOrEntry) {
     return new Promise((resolve) => {
       try {
-        const e = typeof idOrEntry === 'string' ? M.byVoiceId.get(idOrEntry) : idOrEntry; if (!e || !e.file || !Snd.ac) return resolve(false);
+        const e = typeof idOrEntry === 'string' ? M.byVoiceId.get(idOrEntry) : idOrEntry; if (!e || !Snd.ac) return resolve(false);
+        const files = e.segments && e.segments.length ? e.segments.map(sg => sg.file) : [e.file]; if (files.some(f => !f)) return resolve(false);
         M.stopVoice(); const tok = ++M.voiceToken;
-        load(e.file).then((buf) => { if (!buf || tok !== M.voiceToken) return resolve(false); const n = playBuf(buf, 'voice', e.volume); if (!n) return resolve(false); M.voiceNode = n; M.stats.voicePlayed++; n.s.onended = () => { if (M.voiceNode === n) M.voiceNode = null; resolve(true); }; }).catch(() => resolve(false));
+        const playAt = (i) => {                                   // one displayed passage may be several clips (narrator -> character -> narrator)
+          if (i >= files.length) return resolve(true);
+          load(files[i]).then((buf) => { if (!buf || tok !== M.voiceToken) return resolve(false); const n = playBuf(buf, 'voice', e.volume); if (!n) return resolve(false); M.voiceNode = n; if (i === 0) M.stats.voicePlayed++; n.s.onended = () => { if (M.voiceNode === n) M.voiceNode = null; if (tok === M.voiceToken) playAt(i + 1); else resolve(false); }; }).catch(() => resolve(false));
+        };
+        playAt(0);
       } catch (err) { resolve(false); }
     });
   };

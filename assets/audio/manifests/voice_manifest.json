@@ -197,7 +197,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_552cf6dea2.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_552cf6dea2.mp3",
    "source": [
     {
@@ -229,7 +229,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_aec654ad54.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_aec654ad54.mp3",
    "source": [
     {
@@ -670,7 +670,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_ec2da2fbb2.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_ec2da2fbb2.mp3",
    "source": [
     {
@@ -832,6 +832,26 @@
    "package_files": [
     "core",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_7a149ebcc3",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_7a149ebcc3.mp3"
+    },
+    {
+     "id": "vo_radio_6531c84a25",
+     "speaker": "RADIO",
+     "channel": "radio",
+     "file": "assets/audio/voice/radio/vo_radio_6531c84a25.mp3"
+    },
+    {
+     "id": "vo_narrator_8bd524f6f2",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_8bd524f6f2.mp3"
+    }
    ]
   },
   {
@@ -879,7 +899,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_67b90621fc.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_67b90621fc.mp3",
    "source": [
     {
@@ -1003,7 +1023,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_cf70123d35.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_cf70123d35.mp3",
    "source": [
     {
@@ -1499,7 +1519,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_571683ba1d.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_571683ba1d.mp3",
    "source": [
     {
@@ -1885,7 +1905,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_ffc60635e4.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_ffc60635e4.mp3",
    "source": [
     {
@@ -1975,7 +1995,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_12188aff1c.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_12188aff1c.mp3",
    "source": [
     {
@@ -2008,7 +2028,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_78e92dae5d.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_78e92dae5d.mp3",
    "source": [
     {
@@ -2127,7 +2147,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_9a077e562f.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_9a077e562f.mp3",
    "source": [
     {
@@ -2249,7 +2269,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_7a6b9d227e.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_7a6b9d227e.mp3",
    "source": [
     {
@@ -2795,7 +2815,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_dbff6ae013.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_dbff6ae013.mp3",
    "source": [
     {
@@ -3357,7 +3377,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/system/vo_system_991cfaf57c.mp3",
    "planned_file": "assets/audio/voice/system/vo_system_991cfaf57c.mp3",
    "source": [
     {
@@ -3389,7 +3409,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/system/vo_system_c93a18abf5.mp3",
    "planned_file": "assets/audio/voice/system/vo_system_c93a18abf5.mp3",
    "source": [
     {
@@ -3479,7 +3499,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_a813bb9803.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_a813bb9803.mp3",
    "source": [
     {
@@ -3772,7 +3792,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_daff637853.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_daff637853.mp3",
    "source": [
     {
@@ -3924,7 +3944,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_984363e90d.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_984363e90d.mp3",
    "source": [
     {
@@ -4421,7 +4441,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_3b47415eb9.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_3b47415eb9.mp3",
    "source": [
     {
@@ -4453,7 +4473,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_944492d7ba.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_944492d7ba.mp3",
    "source": [
     {
@@ -5071,7 +5091,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_9d82e37a29.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_9d82e37a29.mp3",
    "source": [
     {
@@ -5104,7 +5124,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_51f3a74421.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_51f3a74421.mp3",
    "source": [
     {
@@ -5458,7 +5478,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_da0c2191aa.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_da0c2191aa.mp3",
    "source": [
     {
@@ -5519,7 +5539,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_f4608f6f7d.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_f4608f6f7d.mp3",
    "source": [
     {
@@ -5795,7 +5815,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_01eedab139.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_01eedab139.mp3",
    "source": [
     {
@@ -6556,7 +6576,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_9dae3c65bc.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_9dae3c65bc.mp3",
    "source": [
     {
@@ -6678,7 +6698,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_d4ce507d0e.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_d4ce507d0e.mp3",
    "source": [
     {
@@ -7045,7 +7065,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_89fc8b9d2e.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_89fc8b9d2e.mp3",
    "source": [
     {
@@ -7077,7 +7097,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_a453613dee.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_a453613dee.mp3",
    "source": [
     {
@@ -7254,7 +7274,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_90b7db7db3.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_90b7db7db3.mp3",
    "source": [
     {
@@ -7819,7 +7839,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_0726f1a847.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_0726f1a847.mp3",
    "source": [
     {
@@ -8260,7 +8280,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_0f3726d22c.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_0f3726d22c.mp3",
    "source": [
     {
@@ -8321,7 +8341,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_7bdf2386d5.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_7bdf2386d5.mp3",
    "source": [
     {
@@ -8889,7 +8909,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_0a9d0c0931.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_0a9d0c0931.mp3",
    "source": [
     {
@@ -9037,7 +9057,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_3795e71aab.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_3795e71aab.mp3",
    "source": [
     {
@@ -9156,7 +9176,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_c84ffbb92f.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_c84ffbb92f.mp3",
    "source": [
     {
@@ -9188,7 +9208,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_40a1f34078.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_40a1f34078.mp3",
    "source": [
     {
@@ -9249,7 +9269,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_15145fcbd3.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_15145fcbd3.mp3",
    "source": [
     {
@@ -9282,7 +9302,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_52e0ea6dcd.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_52e0ea6dcd.mp3",
    "source": [
     {
@@ -9314,7 +9334,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/system/vo_system_46ca37a0bd.mp3",
    "planned_file": "assets/audio/voice/system/vo_system_46ca37a0bd.mp3",
    "source": [
     {
@@ -9433,7 +9453,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_bceaa4c568.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_bceaa4c568.mp3",
    "source": [
     {
@@ -9497,7 +9517,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_1a68edecc0.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_1a68edecc0.mp3",
    "source": [
     {
@@ -9709,7 +9729,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_0580dd98aa.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_0580dd98aa.mp3",
    "source": [
     {
@@ -10118,7 +10138,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_0d6541751a.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_0d6541751a.mp3",
    "source": [
     {
@@ -10150,7 +10170,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_52690070f0.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_52690070f0.mp3",
    "source": [
     {
@@ -10211,7 +10231,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_283d2c4623.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_283d2c4623.mp3",
    "source": [
     {
@@ -10359,7 +10379,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_1780da7f5a.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_1780da7f5a.mp3",
    "source": [
     {
@@ -10391,7 +10411,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_aaa4fd383e.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_aaa4fd383e.mp3",
    "source": [
     {
@@ -10684,7 +10704,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_9841e08fba.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_9841e08fba.mp3",
    "source": [
     {
@@ -10745,7 +10765,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_f73061a2c6.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_f73061a2c6.mp3",
    "source": [
     {
@@ -10778,7 +10798,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_f8ea20a8a6.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_f8ea20a8a6.mp3",
    "source": [
     {
@@ -11365,6 +11385,26 @@
    "package_files": [
     "core",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_adddb44522",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_adddb44522.mp3"
+    },
+    {
+     "id": "vo_prudence_d1f5b59b29",
+     "speaker": "PRUDENCE",
+     "channel": "normal",
+     "file": "assets/audio/voice/prudence/vo_prudence_d1f5b59b29.mp3"
+    },
+    {
+     "id": "vo_narrator_c389b3cadd",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_c389b3cadd.mp3"
+    }
    ]
   },
   {
@@ -11711,7 +11751,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_80e59e0e56.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_80e59e0e56.mp3",
    "source": [
     {
@@ -11860,7 +11900,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_3b99e5fc7e.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_3b99e5fc7e.mp3",
    "source": [
     {
@@ -11964,6 +12004,20 @@
    "package_files": [
     "core",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_a2cb09c7b7",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_a2cb09c7b7.mp3"
+    },
+    {
+     "id": "vo_tabitha_d08bb7753a",
+     "speaker": "TABITHA",
+     "channel": "normal",
+     "file": "assets/audio/voice/tabitha/vo_tabitha_d08bb7753a.mp3"
+    }
    ]
   },
   {
@@ -12041,7 +12095,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/tablet/vo_tablet_1ce8c789f1.mp3",
    "planned_file": "assets/audio/voice/tablet/vo_tablet_1ce8c789f1.mp3",
    "source": [
     {
@@ -12073,7 +12127,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_d09fb1c4cb.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_d09fb1c4cb.mp3",
    "source": [
     {
@@ -12192,7 +12246,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/tabitha/vo_tabitha_072149bb46.mp3",
    "planned_file": "assets/audio/voice/tabitha/vo_tabitha_072149bb46.mp3",
    "source": [
     {
@@ -12531,6 +12585,20 @@
    "package_files": [
     "core",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_8cb55f1a2c",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_8cb55f1a2c.mp3"
+    },
+    {
+     "id": "vo_halvorsen_6bac8d4c3c",
+     "speaker": "HALVORSEN",
+     "channel": "radio",
+     "file": "assets/audio/voice/halvorsen/vo_halvorsen_6bac8d4c3c.mp3"
+    }
    ]
   },
   {
@@ -13607,7 +13675,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/prudence/vo_prudence_502bb12d6e.mp3",
    "planned_file": "assets/audio/voice/prudence/vo_prudence_502bb12d6e.mp3",
    "source": [
     {
@@ -13798,6 +13866,26 @@
    "package_files": [
     "core",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_7ec512ef8e",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_7ec512ef8e.mp3"
+    },
+    {
+     "id": "vo_system_e97a37253d",
+     "speaker": "SYSTEM",
+     "channel": "normal",
+     "file": "assets/audio/voice/system/vo_system_e97a37253d.mp3"
+    },
+    {
+     "id": "vo_narrator_c52b081454",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_c52b081454.mp3"
+    }
    ]
   },
   {
@@ -13845,7 +13933,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/prudence/vo_prudence_f84b007e3a.mp3",
    "planned_file": "assets/audio/voice/prudence/vo_prudence_f84b007e3a.mp3",
    "source": [
     {
@@ -13964,7 +14052,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/prudence/vo_prudence_140726968c.mp3",
    "planned_file": "assets/audio/voice/prudence/vo_prudence_140726968c.mp3",
    "source": [
     {
@@ -15177,7 +15265,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/tucker/vo_tucker_5f7a9b00dd.mp3",
    "planned_file": "assets/audio/voice/tucker/vo_tucker_5f7a9b00dd.mp3",
    "source": [
     {
@@ -15499,7 +15587,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/torvald/vo_torvald_5a0c671e47.mp3",
    "planned_file": "assets/audio/voice/torvald/vo_torvald_5a0c671e47.mp3",
    "source": [
     {
@@ -15779,7 +15867,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/torvald/vo_torvald_e589772fbf.mp3",
    "planned_file": "assets/audio/voice/torvald/vo_torvald_e589772fbf.mp3",
    "source": [
     {
@@ -15956,7 +16044,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/torvald/vo_torvald_efa707b73a.mp3",
    "planned_file": "assets/audio/voice/torvald/vo_torvald_efa707b73a.mp3",
    "source": [
     {
@@ -18143,7 +18231,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/halvorsen/vo_halvorsen_25ea30070a.mp3",
    "planned_file": "assets/audio/voice/halvorsen/vo_halvorsen_25ea30070a.mp3",
    "source": [
     {
@@ -18726,7 +18814,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/harrow/vo_harrow_d8a2c944af.mp3",
    "planned_file": "assets/audio/voice/harrow/vo_harrow_d8a2c944af.mp3",
    "source": [
     {
@@ -18993,7 +19081,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/tabitha/vo_tabitha_883e0fb840.mp3",
    "planned_file": "assets/audio/voice/tabitha/vo_tabitha_883e0fb840.mp3",
    "source": [
     {
@@ -19518,7 +19606,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/renata/vo_renata_eed9e425c5.mp3",
    "planned_file": "assets/audio/voice/renata/vo_renata_eed9e425c5.mp3",
    "source": [
     {
@@ -20407,7 +20495,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/gordon/vo_gordon_62bb289abf.mp3",
    "planned_file": "assets/audio/voice/gordon/vo_gordon_62bb289abf.mp3",
    "source": [
     {
@@ -21553,7 +21641,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/ozzie/vo_ozzie_3df5797d14.mp3",
    "planned_file": "assets/audio/voice/ozzie/vo_ozzie_3df5797d14.mp3",
    "source": [
     {
@@ -21966,7 +22054,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_9c152e1dc3.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_9c152e1dc3.mp3",
    "source": [
     {
@@ -22070,6 +22158,26 @@
    "package_files": [
     "core",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_aba07fb8b0",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_aba07fb8b0.mp3"
+    },
+    {
+     "id": "vo_torvald_a205c010a8",
+     "speaker": "TORVALD",
+     "channel": "normal",
+     "file": "assets/audio/voice/torvald/vo_torvald_a205c010a8.mp3"
+    },
+    {
+     "id": "vo_narrator_c625acebdc",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_c625acebdc.mp3"
+    }
    ]
   },
   {
@@ -22162,7 +22270,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/rufus/vo_rufus_ef7c7e7481.mp3",
    "planned_file": "assets/audio/voice/rufus/vo_rufus_ef7c7e7481.mp3",
    "source": [
     {
@@ -22398,6 +22506,26 @@
    "package_files": [
     "core",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_bruno_bb25e399da",
+     "speaker": "BRUNO",
+     "channel": "normal",
+     "file": "assets/audio/voice/bruno/vo_bruno_bb25e399da.mp3"
+    },
+    {
+     "id": "vo_ingrid_c294887d26",
+     "speaker": "INGRID",
+     "channel": "radio",
+     "file": "assets/audio/voice/ingrid/vo_ingrid_c294887d26.mp3"
+    },
+    {
+     "id": "vo_bruno_fe2ebe9070",
+     "speaker": "BRUNO",
+     "channel": "normal",
+     "file": "assets/audio/voice/bruno/vo_bruno_fe2ebe9070.mp3"
+    }
    ]
   },
   {
@@ -22430,6 +22558,20 @@
    "package_files": [
     "core",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_977ea1bde5",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_977ea1bde5.mp3"
+    },
+    {
+     "id": "vo_bruno_87dd8b856b",
+     "speaker": "BRUNO",
+     "channel": "normal",
+     "file": "assets/audio/voice/bruno/vo_bruno_87dd8b856b.mp3"
+    }
    ]
   },
   {
@@ -23298,7 +23440,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_52858f23e5.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_52858f23e5.mp3",
    "source": [
     {
@@ -23678,7 +23820,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_8700bed9ac.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_8700bed9ac.mp3",
    "source": [
     {
@@ -23739,7 +23881,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_633692bb75.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_633692bb75.mp3",
    "source": [
     {
@@ -23887,7 +24029,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_f9438e0a7b.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_f9438e0a7b.mp3",
    "source": [
     {
@@ -24758,7 +24900,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_8dd832075a.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_8dd832075a.mp3",
    "source": [
     {
@@ -24878,7 +25020,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_dab3d52a34.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_dab3d52a34.mp3",
    "source": [
     {
@@ -25609,7 +25751,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_74f7096c1b.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_74f7096c1b.mp3",
    "source": [
     {
@@ -26550,7 +26692,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_3a35f160f8.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_3a35f160f8.mp3",
    "source": [
     {
@@ -26843,7 +26985,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_53f97fa4f5.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_53f97fa4f5.mp3",
    "source": [
     {
@@ -26904,7 +27046,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_e865f63b03.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_e865f63b03.mp3",
    "source": [
     {
@@ -26995,7 +27137,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_8a32ff5fb1.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_8a32ff5fb1.mp3",
    "source": [
     {
@@ -27059,7 +27201,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_ff25326ad9.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_ff25326ad9.mp3",
    "source": [
     {
@@ -27210,7 +27352,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_5d159c1dca.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_5d159c1dca.mp3",
    "source": [
     {
@@ -27300,7 +27442,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_18152f24d4.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_18152f24d4.mp3",
    "source": [
     {
@@ -27451,7 +27593,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_6849712d3f.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_6849712d3f.mp3",
    "source": [
     {
@@ -27484,7 +27626,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_cff675630e.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_cff675630e.mp3",
    "source": [
     {
@@ -27516,7 +27658,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_e36dfbd04d.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_e36dfbd04d.mp3",
    "source": [
     {
@@ -27548,7 +27690,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_f640e00511.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_f640e00511.mp3",
    "source": [
     {
@@ -27702,7 +27844,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/scanner/vo_scanner_3bcf2be2cc.mp3",
    "planned_file": "assets/audio/voice/scanner/vo_scanner_3bcf2be2cc.mp3",
    "source": [
     {
@@ -27763,7 +27905,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_6735d8bab4.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_6735d8bab4.mp3",
    "source": [
     {
@@ -27882,7 +28024,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_481b5b62a2.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_481b5b62a2.mp3",
    "source": [
     {
@@ -27943,7 +28085,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_2fad66525a.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_2fad66525a.mp3",
    "source": [
     {
@@ -28004,7 +28146,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_2486b9d1ea.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_2486b9d1ea.mp3",
    "source": [
     {
@@ -28216,7 +28358,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_2a5eb278d2.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_2a5eb278d2.mp3",
    "source": [
     {
@@ -28310,7 +28452,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_f9b202ae4f.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_f9b202ae4f.mp3",
    "source": [
     {
@@ -28374,7 +28516,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_1d6cc9e5ee.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_1d6cc9e5ee.mp3",
    "source": [
     {
@@ -28565,6 +28707,26 @@
    "package_files": [
     "interactions",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_c4fb068c2a",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_c4fb068c2a.mp3"
+    },
+    {
+     "id": "vo_tucker_8e1f13ea94",
+     "speaker": "TUCKER",
+     "channel": "normal",
+     "file": "assets/audio/voice/tucker/vo_tucker_8e1f13ea94.mp3"
+    },
+    {
+     "id": "vo_narrator_2f699dc8c4",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_2f699dc8c4.mp3"
+    }
    ]
   },
   {
@@ -28916,6 +29078,26 @@
    "package_files": [
     "interactions",
     "manual_review"
+   ],
+   "segments": [
+    {
+     "id": "vo_narrator_5c7e9c7b56",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_5c7e9c7b56.mp3"
+    },
+    {
+     "id": "vo_ingrid_5a326fc077",
+     "speaker": "INGRID",
+     "channel": "normal",
+     "file": "assets/audio/voice/ingrid/vo_ingrid_5a326fc077.mp3"
+    },
+    {
+     "id": "vo_narrator_2f50672280",
+     "speaker": "NARRATOR",
+     "channel": "normal",
+     "file": "assets/audio/voice/narrator/vo_narrator_2f50672280.mp3"
+    }
    ]
   },
   {
@@ -30392,7 +30574,7 @@
      "embedded_quoted_dialogue"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_d8828cc296.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_d8828cc296.mp3",
    "source": [
     {
@@ -31673,7 +31855,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_38c0a69d20.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_38c0a69d20.mp3",
    "source": [
     {
@@ -31704,7 +31886,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_354207fd30.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_354207fd30.mp3",
    "source": [
     {
@@ -31735,7 +31917,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_1bcbc424b6.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_1bcbc424b6.mp3",
    "source": [
     {
@@ -31766,7 +31948,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_4de25caaa5.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_4de25caaa5.mp3",
    "source": [
     {
@@ -31797,7 +31979,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_670d8e884d.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_670d8e884d.mp3",
    "source": [
     {
@@ -31828,7 +32010,7 @@
      "embedded_speaker_change"
     ]
    },
-   "file": null,
+   "file": "assets/audio/voice/narrator/vo_narrator_95102ff375.mp3",
    "planned_file": "assets/audio/voice/narrator/vo_narrator_95102ff375.mp3",
    "source": [
     {
@@ -31842,6 +32024,816 @@
    "package_files": [
     "manual_review"
    ]
+  },
+  {
+   "id": "vo_narrator_7a149ebcc3",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "The radio crackles:",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_7a149ebcc3.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_7a149ebcc3.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 63
+    }
+   ],
+   "legacy_lines": [
+    833
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_81a27139b3"
+  },
+  {
+   "id": "vo_radio_6531c84a25",
+   "speaker": "RADIO",
+   "channel": "radio",
+   "text": "...Hollis? Anyone have eyes on Hollis?",
+   "direction": "Radio channel voice; use named speaker when known.",
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/radio/vo_radio_6531c84a25.mp3",
+   "planned_file": "assets/audio/voice/radio/vo_radio_6531c84a25.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 63
+    }
+   ],
+   "legacy_lines": [
+    833
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_81a27139b3"
+  },
+  {
+   "id": "vo_narrator_8bd524f6f2",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "It sounds like Operations. It sounds tired.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "break",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_8bd524f6f2.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8bd524f6f2.mp3",
+   "source": [
+    {
+     "file": "src/rooms.js",
+     "line": 63
+    }
+   ],
+   "legacy_lines": [
+    833
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_81a27139b3"
+  },
+  {
+   "id": "vo_narrator_a2cb09c7b7",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Tabitha looks up.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "hr",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_a2cb09c7b7.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_a2cb09c7b7.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 192
+    }
+   ],
+   "legacy_lines": [
+    1527
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_9ecb12b23b"
+  },
+  {
+   "id": "vo_tabitha_d08bb7753a",
+   "speaker": "TABITHA",
+   "channel": "normal",
+   "text": "Hollis! Great. It's 9:02! Your mandatory screening. I'm just going to run the tablet.",
+   "direction": "HR professional; upbeat, procedural, sincere, treats impossible events as policy questions.",
+   "scene": "hr",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/tabitha/vo_tabitha_d08bb7753a.mp3",
+   "planned_file": "assets/audio/voice/tabitha/vo_tabitha_d08bb7753a.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 192
+    }
+   ],
+   "legacy_lines": [
+    1527
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_9ecb12b23b"
+  },
+  {
+   "id": "vo_bruno_bb25e399da",
+   "speaker": "BRUNO",
+   "channel": "normal",
+   "text": "Ingrid, we're sealed.",
+   "direction": "Competent loader; practical, grounded, low-key, mildly exasperated.",
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/bruno/vo_bruno_bb25e399da.mp3",
+   "planned_file": "assets/audio/voice/bruno/vo_bruno_bb25e399da.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 547
+    }
+   ],
+   "legacy_lines": [
+    1888
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_bruno_7dc66d421a"
+  },
+  {
+   "id": "vo_narrator_977ea1bde5",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis hands the bill of lading to Bruno. Bruno reads it top to bottom, nods once the way people nod at a good weld, and tears off the yellow carbon copy.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_977ea1bde5.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_977ea1bde5.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 547
+    }
+   ],
+   "legacy_lines": [
+    1888
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_acb876ba9a"
+  },
+  {
+   "id": "vo_ingrid_c294887d26",
+   "speaker": "INGRID",
+   "channel": "radio",
+   "text": "I know. I just printed it.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/ingrid/vo_ingrid_c294887d26.mp3",
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_c294887d26.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 547
+    }
+   ],
+   "legacy_lines": [
+    1888
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_bruno_7dc66d421a"
+  },
+  {
+   "id": "vo_bruno_87dd8b856b",
+   "speaker": "BRUNO",
+   "channel": "normal",
+   "text": "File copy. You will want it.",
+   "direction": "Competent loader; practical, grounded, low-key, mildly exasperated.",
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/bruno/vo_bruno_87dd8b856b.mp3",
+   "planned_file": "assets/audio/voice/bruno/vo_bruno_87dd8b856b.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 547
+    }
+   ],
+   "legacy_lines": [
+    1888
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_acb876ba9a"
+  },
+  {
+   "id": "vo_bruno_fe2ebe9070",
+   "speaker": "BRUNO",
+   "channel": "normal",
+   "text": "Rufus, take her out.",
+   "direction": "Competent loader; practical, grounded, low-key, mildly exasperated.",
+   "scene": "outbound",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/bruno/vo_bruno_fe2ebe9070.mp3",
+   "planned_file": "assets/audio/voice/bruno/vo_bruno_fe2ebe9070.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 547
+    }
+   ],
+   "legacy_lines": [
+    1888
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_bruno_7dc66d421a"
+  },
+  {
+   "id": "vo_narrator_aba07fb8b0",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Rufus eases the trailer forward.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_aba07fb8b0.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_aba07fb8b0.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 534
+    }
+   ],
+   "legacy_lines": [
+    1875
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_1af59df26c"
+  },
+  {
+   "id": "vo_torvald_a205c010a8",
+   "speaker": "TORVALD",
+   "channel": "normal",
+   "text": "NO, THE LIGHT.",
+   "direction": "Large, laconic, bored, low-energy confidence; says little unless necessary.",
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/torvald/vo_torvald_a205c010a8.mp3",
+   "planned_file": "assets/audio/voice/torvald/vo_torvald_a205c010a8.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 534
+    }
+   ],
+   "legacy_lines": [
+    1875
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_1af59df26c"
+  },
+  {
+   "id": "vo_narrator_c625acebdc",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Rufus brakes. Torvald scoops a cat out of the path of the front tire and sets it, with dignity, somewhere safer.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "finale/multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_c625acebdc.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c625acebdc.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 534
+    }
+   ],
+   "legacy_lines": [
+    1875
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_1af59df26c"
+  },
+  {
+   "id": "vo_narrator_adddb44522",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Prudence's voice carries across the floor:",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_adddb44522.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_adddb44522.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 170
+    }
+   ],
+   "legacy_lines": [
+    1505
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_576c2e44e7"
+  },
+  {
+   "id": "vo_prudence_d1f5b59b29",
+   "speaker": "PRUDENCE",
+   "channel": "normal",
+   "text": "SERGEANT BISCUIT! Report!",
+   "direction": "Sharp, defiant, comfortable where she should not be; amused by rules she no longer follows.",
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/prudence/vo_prudence_d1f5b59b29.mp3",
+   "planned_file": "assets/audio/voice/prudence/vo_prudence_d1f5b59b29.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 170
+    }
+   ],
+   "legacy_lines": [
+    1505
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_576c2e44e7"
+  },
+  {
+   "id": "vo_narrator_c389b3cadd",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "A large orange cat rises from the racks and begins to walk, and behind him, the entire warehouse follows.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_c389b3cadd.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c389b3cadd.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 170
+    }
+   ],
+   "legacy_lines": [
+    1505
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_576c2e44e7"
+  },
+  {
+   "id": "vo_narrator_8cb55f1a2c",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Halvorsen on the radio:",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_8cb55f1a2c.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_8cb55f1a2c.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 211
+    }
+   ],
+   "legacy_lines": [
+    1546
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_6d24fd67e4"
+  },
+  {
+   "id": "vo_halvorsen_6bac8d4c3c",
+   "speaker": "HALVORSEN",
+   "channel": "radio",
+   "text": "Also, Hollis, it's come to my attention there may be a few cats. There is no approved metric for cats. So there aren't any.",
+   "direction": "Operations manager; pressured, anxious, trying to sound managerial while barely holding it together.",
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/halvorsen/vo_halvorsen_6bac8d4c3c.mp3",
+   "planned_file": "assets/audio/voice/halvorsen/vo_halvorsen_6bac8d4c3c.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 211
+    }
+   ],
+   "legacy_lines": [
+    1546
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_6d24fd67e4"
+  },
+  {
+   "id": "vo_narrator_7ec512ef8e",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "She types. The kiosk beeps. The kiosk says, in a gentle voice,",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_7ec512ef8e.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_7ec512ef8e.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 277
+    }
+   ],
+   "legacy_lines": [
+    1614
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_b4b14d8a60"
+  },
+  {
+   "id": "vo_system_e97a37253d",
+   "speaker": "SYSTEM",
+   "channel": "normal",
+   "text": "Hold cleared. Thank you, Prudence.",
+   "direction": "Neutral corporate system voice; precise, impersonal.",
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/system/vo_system_e97a37253d.mp3",
+   "planned_file": "assets/audio/voice/system/vo_system_e97a37253d.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 277
+    }
+   ],
+   "legacy_lines": [
+    1614
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_b4b14d8a60"
+  },
+  {
+   "id": "vo_narrator_c52b081454",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "It has known her the whole time.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "direct_say",
+   "priority": "core_or_triggered_dialogue",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_c52b081454.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c52b081454.mp3",
+   "source": [
+    {
+     "file": "src/story.js",
+     "line": 277
+    }
+   ],
+   "legacy_lines": [
+    1614
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_b4b14d8a60"
+  },
+  {
+   "id": "vo_narrator_c4fb068c2a",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis tugs Tucker's vest. Tucker says",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_c4fb068c2a.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_c4fb068c2a.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 59
+    }
+   ],
+   "legacy_lines": [
+    2226
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_fe871bacbf"
+  },
+  {
+   "id": "vo_tucker_8e1f13ea94",
+   "speaker": "TUCKER",
+   "channel": "normal",
+   "text": "Yes! Where are we going?",
+   "direction": "Eager, enthusiastic, extremely willing to help; accidentally chaotic.",
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/tucker/vo_tucker_8e1f13ea94.mp3",
+   "planned_file": "assets/audio/voice/tucker/vo_tucker_8e1f13ea94.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 59
+    }
+   ],
+   "legacy_lines": [
+    2226
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_fe871bacbf"
+  },
+  {
+   "id": "vo_narrator_2f699dc8c4",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "with no fear at all.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_2f699dc8c4.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2f699dc8c4.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 59
+    }
+   ],
+   "legacy_lines": [
+    2226
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_fe871bacbf"
+  },
+  {
+   "id": "vo_narrator_5c7e9c7b56",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "Hollis opens his mouth to ask something. Ingrid says",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_5c7e9c7b56.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_5c7e9c7b56.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 61
+    }
+   ],
+   "legacy_lines": [
+    2228
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_dae21285a6"
+  },
+  {
+   "id": "vo_ingrid_5a326fc077",
+   "speaker": "INGRID",
+   "channel": "normal",
+   "text": "No.",
+   "direction": "Efficient shipping clerk; weary, precise, paperwork-hardened, dry.",
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/ingrid/vo_ingrid_5a326fc077.mp3",
+   "planned_file": "assets/audio/voice/ingrid/vo_ingrid_5a326fc077.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 61
+    }
+   ],
+   "legacy_lines": [
+    2228
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_dae21285a6"
+  },
+  {
+   "id": "vo_narrator_2f50672280",
+   "speaker": "NARRATOR",
+   "channel": "normal",
+   "text": "before he does.",
+   "direction": "Deadpan omniscient narrator; dry, observant, never sells the joke too hard.",
+   "scene": "multiple",
+   "category": "fallback",
+   "priority": "optional_interaction_voice",
+   "status": "active",
+   "review": {
+    "manual": false,
+    "reasons": []
+   },
+   "file": "assets/audio/voice/narrator/vo_narrator_2f50672280.mp3",
+   "planned_file": "assets/audio/voice/narrator/vo_narrator_2f50672280.mp3",
+   "source": [
+    {
+     "file": "src/patches.js",
+     "line": 61
+    }
+   ],
+   "legacy_lines": [
+    2228
+   ],
+   "package_files": [
+    "split"
+   ],
+   "parent": "vo_narrator_dae21285a6"
   }
  ]
 }

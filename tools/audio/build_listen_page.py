@@ -6,12 +6,13 @@ E = json.load(open(MAN / 'voice_production_manifest.json', encoding='utf-8'))['e
 cast = json.load(open(MAN / 'voice_cast_locked.json'))['voices']
 rank = {}
 for i, r in enumerate(csv.DictReader(open(ROOT / 'docs/VOICE_QA_QUEUE.csv', encoding='utf-8')), 1): rank[r['id']] = i
+par = {e['id']: e for e in E}
 rows = []
 for e in E:
     if e['production_status'] not in ('QA_REQUIRED', 'GENERATED') or not (ROOT / e['output_path']).exists(): continue
     g = e.get('generation') or {}
-    rows.append({'id': e['id'], 's': e['speaker'], 'v': cast.get(e['speaker'], {}).get('voice_name', ''), 'sc': e['scene'].split('/')[0], 't': e['text'], 'tt': e['tts_text'] if e['tts_text'] != e['text'] else '', 'f': e['output_path'], 'd': round(g.get('duration_secs') or 0, 1), 'fl': g.get('tech_flags') or [], 'q': rank.get(e['id'], 9999), 'ch': e.get('channel', 'normal')})
-rows.sort(key=lambda r: r['q'])
+    rows.append({'id': e['id'], 's': e['speaker'], 'v': cast.get(e['speaker'], {}).get('voice_name', ''), 'sc': e['scene'].split('/')[0], 't': e['text'], 'tt': e['tts_text'] if e['tts_text'] != e['text'] else '', 'f': e['output_path'], 'd': round(g.get('duration_secs') or 0, 1), 'fl': g.get('tech_flags') or [], 'q': rank.get(e['id'], 9999), 'ch': e.get('channel', 'normal'), 'p': par[e['parent']]['text'] if e.get('parent') else '', 'si': e.get('segment_index', 0)})
+rows.sort(key=lambda r: (r['q'], r['si']))
 page = r'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>MINT MAN voice audition</title><meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 :root{--bg:#fff;--fg:#1c1f26;--mut:#6b7280;--card:#f4f5f7;--line:#dfe2e8;--acc:#2f5fd0;--ok:#1f8a4c;--bad:#c0392b}
@@ -43,7 +44,7 @@ function render(){const q=document.getElementById('q').value.toLowerCase(),so=do
 shown=DATA.filter(d=>(!sel||d.s==sel)&&(!q||(d.t+d.id+d.s+d.v).toLowerCase().includes(q))&&(!fl||d.fl.length)&&(!un||!R[d.id]||!R[d.id].r));
 if(so=='sp')shown.sort((a,b)=>a.s.localeCompare(b.s)||a.q-b.q);else if(so=='story')shown.sort((a,b)=>DATA.indexOf(a)-DATA.indexOf(b)&&0||a.id.localeCompare(b.id));
 document.getElementById('count').textContent=shown.length+' of '+DATA.length+' lines · '+Object.values(R).filter(x=>x.r).length+' rated';
-document.getElementById('list').innerHTML=shown.map((d,i)=>{const r=R[d.id]||{};return `<div class="line${cur==d.id?' playing':''}" data-id="${d.id}"><button class="play" data-i="${i}">${cur==d.id&&!audio.paused?'❚❚':'▶'}</button><div><div class="meta"><b>${d.s}</b> · ${E(d.v)} · ${d.sc}${d.ch!='normal'?' · '+d.ch:''} · ${d.d}s · <code>${d.id}</code></div><div class="text">${E(d.t)}</div>${d.tt?`<div class="tts">sent as: ${E(d.tt)}</div>`:''}${d.fl.length?`<div class="flag">⚠ ${E(d.fl.join(', '))}</div>`:''}</div><div class="marks"><button class="ok${r.r=='ok'?' on':''}" data-m="ok" title="Good">👍</button><button class="bad${r.r=='bad'?' on':''}" data-m="bad" title="Redo">👎</button><input class="note" placeholder="note" value="${E(r.n||'')}"></div></div>`}).join('')}
+document.getElementById('list').innerHTML=shown.map((d,i)=>{const r=R[d.id]||{};return `<div class="line${cur==d.id?' playing':''}" data-id="${d.id}"><button class="play" data-i="${i}">${cur==d.id&&!audio.paused?'❚❚':'▶'}</button><div><div class="meta"><b>${d.s}</b> · ${E(d.v)} · ${d.sc}${d.ch!='normal'?' · '+d.ch:''} · ${d.d}s · <code>${d.id}</code></div><div class="text">${E(d.t)}</div>${d.tt?`<div class="tts">sent as: ${E(d.tt)}</div>`:''}${d.p?`<div class="tts">part ${d.si} of: ${E(d.p)}</div>`:''}${d.fl.length?`<div class="flag">⚠ ${E(d.fl.join(', '))}</div>`:''}</div><div class="marks"><button class="ok${r.r=='ok'?' on':''}" data-m="ok" title="Good">👍</button><button class="bad${r.r=='bad'?' on':''}" data-m="bad" title="Redo">👎</button><input class="note" placeholder="note" value="${E(r.n||'')}"></div></div>`}).join('')}
 function play(d){if(cur==d.id&&!audio.paused){audio.pause();render();return}cur=d.id;audio.src=d.f;audio.play().catch(()=>{});render()}
 audio.onended=()=>{const i=shown.findIndex(d=>d.id==cur);if(document.getElementById('auto').checked&&shown[i+1]){play(shown[i+1]);document.querySelector(`[data-id="${shown[i+1].id}"]`)?.scrollIntoView({block:'center'})}else{cur=null;render()}};
 document.getElementById('list').onclick=e=>{const l=e.target.closest('.line');if(!l)return;const id=l.dataset.id,d=DATA.find(x=>x.id==id);if(e.target.closest('.play'))play(d);const m=e.target.closest('[data-m]');if(m){R[id]=R[id]||{};R[id].r=R[id].r==m.dataset.m?'':m.dataset.m;save();render()}};

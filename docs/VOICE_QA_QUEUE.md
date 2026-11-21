@@ -1,6 +1,6 @@
 # Listening QA queue
 
-Prioritised list of generated clips for human listening (see `VOICE_QA_QUEUE.csv` for all 923, with a qa_result column). **No listening QA has been performed by the pipeline; only technical checks.**
+Prioritised list of generated clips for human listening (see `VOICE_QA_QUEUE.csv` for all 1053, with a qa_result column). **No listening QA has been performed by the pipeline; only technical checks.**
 
 | # | id | speaker | why | file |
 |---|---|---|---|---|
@@ -28,39 +28,39 @@ Prioritised list of generated clips for human listening (see `VOICE_QA_QUEUE.csv
 | 22 | `vo_halvorsen_41baa45d64` | HALVORSEN | ['pause/tag', 'long'] | `assets/audio/voice/halvorsen/vo_halvorsen_41baa45d64.mp3` |
 | 23 | `vo_tucker_273bd5f145` | TUCKER | ['first-12'] | `assets/audio/voice/tucker/vo_tucker_273bd5f145.mp3` |
 | 24 | `vo_ingrid_b5d1acbc2e` | INGRID | ['first-12'] | `assets/audio/voice/ingrid/vo_ingrid_b5d1acbc2e.mp3` |
-| 25 | `vo_prudence_c0b03bd721` | PRUDENCE | ['first-12'] | `assets/audio/voice/prudence/vo_prudence_c0b03bd721.mp3` |
-| 26 | `vo_gus_8dad8ce878` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_8dad8ce878.mp3` |
-| 27 | `vo_harrow_377f253eb0` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_377f253eb0.mp3` |
-| 28 | `vo_harrow_a309c2b979` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_a309c2b979.mp3` |
-| 29 | `vo_harrow_917aa67517` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_917aa67517.mp3` |
-| 30 | `vo_rufus_a61b414989` | RUFUS | [] | `assets/audio/voice/rufus/vo_rufus_a61b414989.mp3` |
-| 31 | `vo_gordon_c663c5271e` | GORDON | ['pause/tag'] | `assets/audio/voice/gordon/vo_gordon_c663c5271e.mp3` |
-| 32 | `vo_tucker_858f84e6b3` | TUCKER | [] | `assets/audio/voice/tucker/vo_tucker_858f84e6b3.mp3` |
-| 33 | `vo_halvorsen_41f59664eb` | HALVORSEN | ['first-12'] | `assets/audio/voice/halvorsen/vo_halvorsen_41f59664eb.mp3` |
-| 34 | `vo_halvorsen_abc99a345f` | HALVORSEN | ['first-12'] | `assets/audio/voice/halvorsen/vo_halvorsen_abc99a345f.mp3` |
-| 35 | `vo_halvorsen_9bfc788df0` | HALVORSEN | ['first-12'] | `assets/audio/voice/halvorsen/vo_halvorsen_9bfc788df0.mp3` |
-| 36 | `vo_tabitha_77c517ae85` | TABITHA | ['first-12'] | `assets/audio/voice/tabitha/vo_tabitha_77c517ae85.mp3` |
-| 37 | `vo_harrow_944c0d360f` | HARROW | ['climax'] | `assets/audio/voice/harrow/vo_harrow_944c0d360f.mp3` |
-| 38 | `vo_gus_fbed812b6c` | GUS | ['first-12'] | `assets/audio/voice/gus/vo_gus_fbed812b6c.mp3` |
-| 39 | `vo_rufus_05ff38263b` | RUFUS | ['first-12', 'radio/phone'] | `assets/audio/voice/rufus/vo_rufus_05ff38263b.mp3` |
-| 40 | `vo_torvald_3a59a691ff` | TORVALD | ['first-12', 'radio/phone'] | `assets/audio/voice/torvald/vo_torvald_3a59a691ff.mp3` |
-| 41 | `vo_gordon_820a5a3b73` | GORDON | ['first-12', 'radio/phone'] | `assets/audio/voice/gordon/vo_gordon_820a5a3b73.mp3` |
-| 42 | `vo_gus_51ce81abd4` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_51ce81abd4.mp3` |
-| 43 | `vo_gus_c49e000737` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_c49e000737.mp3` |
-| 44 | `vo_gus_f85bdc7ab0` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_f85bdc7ab0.mp3` |
-| 45 | `vo_gus_7343ce0452` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_7343ce0452.mp3` |
-| 46 | `vo_harrow_c483dcb0d6` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_c483dcb0d6.mp3` |
-| 47 | `vo_harrow_3e2c2a1d74` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_3e2c2a1d74.mp3` |
-| 48 | `vo_harrow_fc3e1b623f` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_fc3e1b623f.mp3` |
-| 49 | `vo_harrow_1ea49e0e19` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_1ea49e0e19.mp3` |
-| 50 | `vo_harrow_558a0fdf1d` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_558a0fdf1d.mp3` |
-| 51 | `vo_harrow_8d6cd17045` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_8d6cd17045.mp3` |
-| 52 | `vo_renata_7ee802033c` | RENATA | ['first-12', 'radio/phone'] | `assets/audio/voice/renata/vo_renata_7ee802033c.mp3` |
-| 53 | `vo_renata_fdfcfc9fa6` | RENATA | ['first-12', 'radio/phone'] | `assets/audio/voice/renata/vo_renata_fdfcfc9fa6.mp3` |
-| 54 | `vo_halvorsen_e43f309e9c` | HALVORSEN | ['pause/tag'] | `assets/audio/voice/halvorsen/vo_halvorsen_e43f309e9c.mp3` |
-| 55 | `vo_tucker_1555652737` | TUCKER | ['first-12'] | `assets/audio/voice/tucker/vo_tucker_1555652737.mp3` |
-| 56 | `vo_tucker_1a8fb354cf` | TUCKER | ['first-12'] | `assets/audio/voice/tucker/vo_tucker_1a8fb354cf.mp3` |
-| 57 | `vo_tucker_8c83de9dd2` | TUCKER | ['first-12'] | `assets/audio/voice/tucker/vo_tucker_8c83de9dd2.mp3` |
-| 58 | `vo_tucker_9236d91136` | TUCKER | ['first-12'] | `assets/audio/voice/tucker/vo_tucker_9236d91136.mp3` |
-| 59 | `vo_tucker_b533dcbc59` | TUCKER | ['pause/tag'] | `assets/audio/voice/tucker/vo_tucker_b533dcbc59.mp3` |
-| 60 | `vo_scanner_c403329038` | SCANNER | ['first-12'] | `assets/audio/voice/scanner/vo_scanner_c403329038.mp3` |
+| 25 | `vo_harrow_d8a2c944af` | HARROW | ['first-12'] | `assets/audio/voice/harrow/vo_harrow_d8a2c944af.mp3` |
+| 26 | `vo_radio_6531c84a25` | RADIO | ['first-12', 'radio/phone'] | `assets/audio/voice/radio/vo_radio_6531c84a25.mp3` |
+| 27 | `vo_gus_8dad8ce878` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_8dad8ce878.mp3` |
+| 28 | `vo_harrow_377f253eb0` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_377f253eb0.mp3` |
+| 29 | `vo_harrow_a309c2b979` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_a309c2b979.mp3` |
+| 30 | `vo_ingrid_5a326fc077` | INGRID | [] | `assets/audio/voice/ingrid/vo_ingrid_5a326fc077.mp3` |
+| 31 | `vo_rufus_a61b414989` | RUFUS | [] | `assets/audio/voice/rufus/vo_rufus_a61b414989.mp3` |
+| 32 | `vo_gordon_c663c5271e` | GORDON | ['pause/tag'] | `assets/audio/voice/gordon/vo_gordon_c663c5271e.mp3` |
+| 33 | `vo_tucker_858f84e6b3` | TUCKER | [] | `assets/audio/voice/tucker/vo_tucker_858f84e6b3.mp3` |
+| 34 | `vo_halvorsen_41f59664eb` | HALVORSEN | ['first-12'] | `assets/audio/voice/halvorsen/vo_halvorsen_41f59664eb.mp3` |
+| 35 | `vo_halvorsen_abc99a345f` | HALVORSEN | ['first-12'] | `assets/audio/voice/halvorsen/vo_halvorsen_abc99a345f.mp3` |
+| 36 | `vo_halvorsen_9bfc788df0` | HALVORSEN | ['first-12'] | `assets/audio/voice/halvorsen/vo_halvorsen_9bfc788df0.mp3` |
+| 37 | `vo_tabitha_77c517ae85` | TABITHA | ['first-12'] | `assets/audio/voice/tabitha/vo_tabitha_77c517ae85.mp3` |
+| 38 | `vo_tabitha_072149bb46` | TABITHA | ['first-12'] | `assets/audio/voice/tabitha/vo_tabitha_072149bb46.mp3` |
+| 39 | `vo_harrow_944c0d360f` | HARROW | ['climax'] | `assets/audio/voice/harrow/vo_harrow_944c0d360f.mp3` |
+| 40 | `vo_gus_fbed812b6c` | GUS | ['first-12'] | `assets/audio/voice/gus/vo_gus_fbed812b6c.mp3` |
+| 41 | `vo_scanner_3bcf2be2cc` | SCANNER | ['climax'] | `assets/audio/voice/scanner/vo_scanner_3bcf2be2cc.mp3` |
+| 42 | `vo_rufus_05ff38263b` | RUFUS | ['first-12', 'radio/phone'] | `assets/audio/voice/rufus/vo_rufus_05ff38263b.mp3` |
+| 43 | `vo_torvald_3a59a691ff` | TORVALD | ['first-12', 'radio/phone'] | `assets/audio/voice/torvald/vo_torvald_3a59a691ff.mp3` |
+| 44 | `vo_gordon_820a5a3b73` | GORDON | ['first-12', 'radio/phone'] | `assets/audio/voice/gordon/vo_gordon_820a5a3b73.mp3` |
+| 45 | `vo_gus_51ce81abd4` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_51ce81abd4.mp3` |
+| 46 | `vo_gus_c49e000737` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_c49e000737.mp3` |
+| 47 | `vo_gus_f85bdc7ab0` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_f85bdc7ab0.mp3` |
+| 48 | `vo_gus_7343ce0452` | GUS | ['first-12', 'climax'] | `assets/audio/voice/gus/vo_gus_7343ce0452.mp3` |
+| 49 | `vo_harrow_c483dcb0d6` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_c483dcb0d6.mp3` |
+| 50 | `vo_harrow_3e2c2a1d74` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_3e2c2a1d74.mp3` |
+| 51 | `vo_torvald_a205c010a8` | TORVALD | ['first-12', 'climax'] | `assets/audio/voice/torvald/vo_torvald_a205c010a8.mp3` |
+| 52 | `vo_harrow_fc3e1b623f` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_fc3e1b623f.mp3` |
+| 53 | `vo_harrow_1ea49e0e19` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_1ea49e0e19.mp3` |
+| 54 | `vo_harrow_558a0fdf1d` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_558a0fdf1d.mp3` |
+| 55 | `vo_harrow_8d6cd17045` | HARROW | ['first-12', 'climax'] | `assets/audio/voice/harrow/vo_harrow_8d6cd17045.mp3` |
+| 56 | `vo_renata_7ee802033c` | RENATA | ['first-12', 'radio/phone'] | `assets/audio/voice/renata/vo_renata_7ee802033c.mp3` |
+| 57 | `vo_renata_fdfcfc9fa6` | RENATA | ['first-12', 'radio/phone'] | `assets/audio/voice/renata/vo_renata_fdfcfc9fa6.mp3` |
+| 58 | `vo_halvorsen_e43f309e9c` | HALVORSEN | ['pause/tag'] | `assets/audio/voice/halvorsen/vo_halvorsen_e43f309e9c.mp3` |
+| 59 | `vo_tucker_1555652737` | TUCKER | ['first-12'] | `assets/audio/voice/tucker/vo_tucker_1555652737.mp3` |
+| 60 | `vo_tucker_1a8fb354cf` | TUCKER | ['first-12'] | `assets/audio/voice/tucker/vo_tucker_1a8fb354cf.mp3` |

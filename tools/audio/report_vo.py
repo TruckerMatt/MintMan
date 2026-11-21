@@ -10,10 +10,21 @@ for e in E:
     l = LOG.get(e['id'])
     if l and l['status'] in ('QA_REQUIRED', 'GENERATED') and (ROOT / e['output_path']).exists():
         e['production_status'] = 'QA_REQUIRED' if l.get('qa') != 'approved' else 'GENERATED'; e['generation'] = {k: l.get(k) for k in ('history_id', 'credits', 'duration_secs', 'tech_qa', 'tech_flags', 'generated_at', 'model_id', 'voice_id')}
-        vmi[e['id']]['file'] = e['output_path']
+        if e['id'] in vmi: vmi[e['id']]['file'] = e['output_path']
     elif l and l['status'] == 'FAILED': e['production_status'] = 'FAILED'; e['generation'] = {'error': l.get('error')}
+# multi-segment parents + their segment entries in voice_manifest.json
+Eid = {e['id']: e for e in E}
+for e in E:
+    if e.get('parent'):
+        if e['id'] not in vmi: vm['entries'].append({'id': e['id'], 'speaker': e['speaker'], 'channel': e['channel'], 'text': e['text'], 'direction': e['voice_direction'], 'scene': e['scene'], 'category': e['category'], 'priority': e['priority'], 'status': 'active', 'review': {'manual': False, 'reasons': []}, 'file': None, 'planned_file': e['planned_file'], 'source': e['source'], 'legacy_lines': e['legacy_lines'], 'package_files': ['split'], 'parent': e['parent']}); vmi[e['id']] = vm['entries'][-1]
+        if (ROOT / e['output_path']).exists(): vmi[e['id']]['file'] = e['output_path']
+for e in E:
+    if e.get('segments'):
+        segs = [Eid[i] for i in e['segments']]; ok = all((ROOT / x['output_path']).exists() for x in segs)
+        vmi[e['id']]['segments'] = [{'id': x['id'], 'speaker': x['speaker'], 'channel': x['channel'], 'file': x['output_path'] if (ROOT / x['output_path']).exists() else None} for x in segs]; vmi[e['id']]['file'] = None
+        e['production_status'] = 'QA_REQUIRED' if ok else 'READY'
 json.dump(prod, open(MAN / 'voice_production_manifest.json', 'w'), indent=1, ensure_ascii=False); json.dump(vm, open(MAN / 'voice_manifest.json', 'w'), indent=1, ensure_ascii=False)
-C = collections.Counter(e['production_status'] for e in E); gen = [e for e in E if e['production_status'] in ('QA_REQUIRED', 'GENERATED')]
+C = collections.Counter(e['production_status'] for e in E); gen = [e for e in E if e['production_status'] in ('QA_REQUIRED', 'GENERATED') and not e.get('segments')]
 gchars = sum(len(e['tts_text']) for e in gen); gcred = sum((e['generation'].get('credits') or 0) for e in gen)
 pending = [e for e in E if e['production_status'] == 'READY']
 # ---- QA queue
